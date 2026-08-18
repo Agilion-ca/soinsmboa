@@ -1,0 +1,209 @@
+---
+export const prerender = true;
+import Layout from '../layouts/Layout.astro';
+
+const PHONE = import.meta.env.PUBLIC_PHONE || '+237 6XX XXX XXX';
+const WHATSAPP = import.meta.env.PUBLIC_WHATSAPP || '237600000000';
+const SMS = import.meta.env.PUBLIC_SMS || '+237 6XX XXX XXX';
+const msg = encodeURIComponent("Bonjour, j'ai besoin d'un soignant pour un proche au Cameroun.");
+---
+
+<Layout
+  title="Nous contacter | GardeMalade Cameroun"
+  description="Contactez GardeMalade Cameroun par téléphone, WhatsApp, SMS ou formulaire. Évaluation gratuite pour vos besoins de soins à domicile à Douala et Yaoundé."
+>
+  <section class="py-14 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-3">Contactez-nous</h1>
+      <p class="text-green-100 text-lg">
+        Évaluation gratuite · Réponse en moins d'une heure · Depuis n'importe où dans le monde
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 py-14">
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+
+      <!-- Formulaire -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-6">Envoyer une demande</h2>
+
+        <form id="contact-form" action="/api/contact" method="POST" class="space-y-4" novalidate>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-semibold text-gray-700 mb-1">Nom complet *</label>
+              <input name="nom" type="text" required placeholder="Jean Dupont"
+                class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition" />
+            </div>
+            <div>
+              <label class="block text-sm font-semibold text-gray-700 mb-1">Téléphone *</label>
+              <input name="telephone" type="tel" required placeholder="+237 6XX XXX XXX"
+                class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Email (optionnel)</label>
+            <input name="email" type="email" placeholder="vous@exemple.com"
+              class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition" />
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-semibold text-gray-700 mb-1">Ville *</label>
+              <select name="ville" required
+                class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition bg-white">
+                <option value="">Sélectionner…</option>
+                <option value="Douala">Douala</option>
+                <option value="Yaoundé">Yaoundé</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-semibold text-gray-700 mb-1">Service souhaité *</label>
+              <select name="service" required
+                class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition bg-white">
+                <option value="">Sélectionner…</option>
+                <option value="auxiliaire-vie">Auxiliaire de vie</option>
+                <option value="garde-malade">Garde-malade</option>
+                <option value="medecin">Médecin à domicile</option>
+                <option value="autre">Autre / Je ne sais pas</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-1">Décrivez votre besoin *</label>
+            <textarea name="message" rows="4" required
+              placeholder="Ex: Ma mère sort de l'hôpital lundi, j'ai besoin d'une auxiliaire de vie pour 3 semaines à Douala-Makepe…"
+              class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition resize-none"></textarea>
+          </div>
+
+          <div id="form-error" class="hidden text-sm text-red-600 bg-red-50 px-4 py-2.5 rounded-xl"></div>
+          <div id="form-success" class="hidden text-sm text-green-700 bg-green-50 px-4 py-3 rounded-xl font-medium"></div>
+
+          <button type="submit" id="submit-btn"
+            class="w-full flex items-center justify-center gap-2 text-white font-bold py-3.5 rounded-full transition hover:opacity-90 disabled:opacity-60"
+            style="background:#1A6B4A">
+            <span id="btn-label">Envoyer ma demande</span>
+            <svg id="btn-spinner" class="hidden animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <!-- Canaux directs -->
+      <div>
+        <h2 class="text-xl font-extrabold text-gray-900 mb-6">Nous joindre directement</h2>
+
+        <div class="space-y-3">
+          <a href={`tel:${PHONE}`}
+            class="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:shadow-md transition group"
+            style="background:#F0FAF5">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 text-white" style="background:#1A6B4A">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+            </div>
+            <div class="flex-1">
+              <p class="font-bold text-gray-900">Appel direct</p>
+              <p class="text-sm font-semibold" style="color:#1A6B4A">{PHONE}</p>
+              <p class="text-xs text-gray-400">Réponse immédiate Lun–Sam 7h–21h</p>
+            </div>
+            <svg class="w-5 h-5 text-gray-300 group-hover:text-gray-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+          </a>
+
+          <a href={`https://wa.me/${WHATSAPP}?text=${msg}`} target="_blank" rel="noopener noreferrer"
+            class="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:shadow-md transition group"
+            style="background:#f0fff4">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 text-white" style="background:#25D366">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="flex-1">
+              <p class="font-bold text-gray-900">WhatsApp</p>
+              <p class="text-sm font-semibold" style="color:#25D366">Message instantané</p>
+              <p class="text-xs text-gray-400">Réponse rapide, 7j/7</p>
+            </div>
+            <svg class="w-5 h-5 text-gray-300 group-hover:text-gray-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+          </a>
+
+          <a href={`sms:${SMS}`}
+            class="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:shadow-md transition group"
+            style="background:#FFF5F0">
+            <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 text-white" style="background:#FF6B35">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>
+            </div>
+            <div class="flex-1">
+              <p class="font-bold text-gray-900">SMS</p>
+              <p class="text-sm font-semibold" style="color:#FF6B35">{SMS}</p>
+              <p class="text-xs text-gray-400">Envoyez votre nom et votre besoin</p>
+            </div>
+            <svg class="w-5 h-5 text-gray-300 group-hover:text-gray-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Horaires -->
+        <div class="mt-6 p-4 rounded-xl bg-amber-50 border border-amber-100 flex gap-3">
+          <span class="text-xl">🕐</span>
+          <div>
+            <p class="font-bold text-amber-800 text-sm">Disponibilité</p>
+            <p class="text-amber-700 text-sm">Lun–Sam : 7h00 – 21h00<br/>Dim &amp; Urgences : WhatsApp uniquement</p>
+          </div>
+        </div>
+
+        <!-- Pourquoi nous -->
+        <div class="mt-6 p-5 rounded-2xl" style="background:#F0FAF5">
+          <h3 class="font-extrabold text-gray-900 mb-3">Pourquoi nous faire confiance ?</h3>
+          <ul class="space-y-2">
+            {['Personnel vérifié et formé', 'Évaluation gratuite sans engagement', 'Intervention rapide (moins de 24h)', 'Compte-rendu quotidien à la famille', 'Tarifs transparents, devis écrit'].map(item => (
+              <li class="flex items-center gap-2 text-sm text-gray-600">
+                <span class="w-5 h-5 rounded-full text-white text-xs flex items-center justify-center shrink-0" style="background:#1A6B4A">✓</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const errorDiv = document.getElementById('form-error')!;
+  const successDiv = document.getElementById('form-success')!;
+  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+  const btnLabel = document.getElementById('btn-label')!;
+  const spinner = document.getElementById('btn-spinner')!;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    errorDiv.classList.add('hidden');
+    successDiv.classList.add('hidden');
+
+    const data = Object.fromEntries(new FormData(form));
+    submitBtn.disabled = true;
+    btnLabel.textContent = 'Envoi en cours…';
+    spinner.classList.remove('hidden');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error || 'Erreur serveur');
+      successDiv.textContent = '✅ Message envoyé ! Nous vous contacterons très bientôt.';
+      successDiv.classList.remove('hidden');
+      form.reset();
+    } catch (err: unknown) {
+      errorDiv.textContent = err instanceof Error ? err.message : 'Une erreur est survenue. Contactez-nous par téléphone.';
+      errorDiv.classList.remove('hidden');
+    } finally {
+      submitBtn.disabled = false;
+      btnLabel.textContent = 'Envoyer ma demande';
+      spinner.classList.add('hidden');
+    }
+  });
+</script>

@@ -1,0 +1,67 @@
+---
+const faqs = [
+  {
+    q: "Combien coûte une garde-malade à Douala ou Yaoundé ?",
+    a: "Les tarifs varient selon la durée, le type de soin et les horaires (jour/nuit). Nous proposons un devis gratuit et personnalisé après une évaluation téléphonique. Aucune surprise : tout est fixé à l'avance.",
+  },
+  {
+    q: "Comment organiser les soins de mes parents au Cameroun depuis la France ?",
+    a: "Tout se fait à distance. Un appel ou un message WhatsApp suffit pour lancer l'évaluation. Ensuite vous recevez un compte-rendu quotidien et pouvez joindre votre coordinateur à tout moment. Beaucoup de nos clients sont à Paris, Lyon, Bruxelles ou Montréal.",
+  },
+  {
+    q: "Vos soignants peuvent-ils intervenir à l'hôpital ou en clinique ?",
+    a: "Oui, absolument. Nos gardes-malades interviennent aussi bien à domicile qu'en structure hospitalière (hôpital général, cliniques privées de Douala et Yaoundé). Ils travaillent en coordination avec le personnel soignant.",
+  },
+  {
+    q: "Quelle est la différence entre une auxiliaire de vie et une garde-malade ?",
+    a: "L'auxiliaire de vie accompagne les personnes en perte d'autonomie dans les gestes du quotidien (toilette, repas, sorties). La garde-malade assure une surveillance médicale et une présence continue, notamment pour des personnes malades ou post-opératoires.",
+  },
+  {
+    q: "Intervenez-vous la nuit et le week-end ?",
+    a: "Oui. Notre service est disponible 7j/7, y compris les nuits, week-ends et jours fériés. Des suppléments peuvent s'appliquer pour les plages horaires nocturnes.",
+  },
+  {
+    q: "Comment se passe le paiement depuis l'étranger ?",
+    a: "Nous acceptons les virements bancaires internationaux, ainsi que les Mobile Money (Orange Money, MTN MoMo) pour faciliter les paiements depuis le Cameroun. Devis et facturation transparents.",
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(({ q, a }) => ({
+    "@type": "Question",
+    "name": q,
+    "acceptedAnswer": { "@type": "Answer", "text": a },
+  })),
+};
+---
+
+<section id="faq" class="py-20" style="background:#F0FAF5">
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <span class="text-sm font-bold uppercase tracking-wider" style="color:#1A6B4A">Questions fréquentes</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 text-gray-900">
+        Tout ce que vous devez savoir
+      </h2>
+    </div>
+
+    <div class="space-y-3">
+      {faqs.map(({ q, a }) => (
+        <details class="group bg-white rounded-xl border border-gray-100 overflow-hidden shadow-sm">
+          <summary class="flex items-center justify-between px-5 py-4 cursor-pointer font-semibold text-gray-800 hover:text-[#1A6B4A] list-none gap-3">
+            <span>{q}</span>
+            <svg class="shrink-0 w-5 h-5 text-gray-400 group-open:rotate-45 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+            </svg>
+          </summary>
+          <div class="px-5 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-3">
+            {a}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

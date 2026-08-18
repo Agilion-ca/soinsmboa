@@ -1,0 +1,71 @@
+---
+const zones = [
+  {
+    city: 'Douala',
+    flag: '🏙️',
+    sub: 'Capitale économique',
+    hoods: ['Akwa','Bonanjo','Bonapriso','Makepe','Logbessou','Kotto','Deido','New Bell','Bassa','Bonabéri','Ndokoti','Bépanda'],
+  },
+  {
+    city: 'Yaoundé',
+    flag: '🏛️',
+    sub: 'Capitale politique',
+    hoods: ['Bastos','Centre-ville','Nlongkak','Melen','Omnisport','Mimboman','Mvog-Mbi','Tsinga','Obili','Ngousso','Essos','Biyem-Assi'],
+  },
+];
+---
+
+<section id="zones" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <span class="text-sm font-bold uppercase tracking-wider" style="color:#1A6B4A">Zones d'intervention</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 mb-3 text-gray-900">
+        Nous sommes à Douala et Yaoundé
+      </h2>
+      <p class="text-gray-500 max-w-lg mx-auto">
+        Contactez-nous pour vérifier la disponibilité dans le quartier de votre proche.
+        Nouvelles zones en cours d'expansion.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {zones.map(({ city, flag, sub, hoods }) => (
+        <div class="rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+          <div class="px-6 py-5 flex items-center gap-4" style="background:#F0FAF5">
+            <span class="text-4xl">{flag}</span>
+            <div>
+              <h3 class="text-2xl font-extrabold text-gray-900">{city}</h3>
+              <p class="text-sm text-gray-500">{sub}</p>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex flex-wrap gap-2">
+              {hoods.map(n => (
+                <span class="flex items-center gap-1 text-xs font-semibold px-3 py-1 rounded-full" style="background:#F0FAF5;color:#1A6B4A">
+                  <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor"><circle cx="4" cy="4" r="3"/></svg>
+                  {n}
+                </span>
+              ))}
+            </div>
+            <p class="text-xs text-gray-400 mt-4">+ autres quartiers · <a href="/contact" class="underline hover:text-gray-600">Nous contacter</a> pour confirmer</p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Diaspora callout -->
+    <div class="mt-8 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4" style="background:#1A6B4A">
+      <div class="text-3xl shrink-0">✈️</div>
+      <div class="text-white flex-1">
+        <p class="font-bold text-lg">Vous êtes à l'étranger ?</p>
+        <p class="text-green-100 text-sm mt-1">
+          Pas besoin de rentrer au Cameroun. Gérez tout par téléphone ou WhatsApp depuis la France, la Belgique, le Canada ou ailleurs.
+          Nous vous tenons informé à chaque étape.
+        </p>
+      </div>
+      <a href="/contact" class="shrink-0 bg-white font-bold text-sm px-5 py-2.5 rounded-full hover:opacity-90 transition whitespace-nowrap" style="color:#1A6B4A">
+        Nous contacter
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1A6B4A;
+  --color-brand-dark: #0f4a33;
+  --color-brand-light: #F0FAF5;
+  --color-cta: #FF6B35;
+  --color-text: #1a1a2e;
+  --font-sans: 'Nunito', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-text);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "categories": {
+    "couts": {
+      "label": "Coûts et tarifs",
+      "topics": [
+        {
+          "id": "cout-garde-malade-douala-2025",
+          "fr": "Combien coûte un garde-malade à Douala en 2025 : tarifs et ce qui les influence",
+          "en": "How much does a caregiver cost in Douala in 2025: rates and what affects them",
+          "focus_keyword_fr": "coût garde-malade Douala",
+          "focus_keyword_en": "caregiver cost Douala",
+          "unsplash_queries": [
+            "african nurse caregiver black woman",
+            "african elderly care family",
+            "black healthcare worker patient"
+          ]
+        },
+        {
+          "id": "tarifs-auxiliaire-vie-yaounde",
+          "fr": "Tarifs d'une auxiliaire de vie à Yaoundé : guide complet pour les familles",
+          "en": "Home aide rates in Yaoundé: a complete guide for families",
+          "focus_keyword_fr": "auxiliaire de vie Yaoundé tarifs",
+          "focus_keyword_en": "home aide Yaoundé rates",
+          "unsplash_queries": [
+            "african elderly care family",
+            "african nurse caregiver black woman",
+            "black healthcare worker patient"
+          ]
+        },
+        {
+          "id": "cout-soins-domicile-cameroun",
+          "fr": "Soins à domicile au Cameroun : combien prévoir pour une semaine de soins post-opératoires",
+          "en": "Home care in Cameroon: how much to budget for a week of post-operative care",
+          "focus_keyword_fr": "soins domicile Cameroun coût",
+          "focus_keyword_en": "home care Cameroon cost",
+          "unsplash_queries": [
+            "black healthcare worker patient",
+            "african doctor home visit",
+            "african nurse caregiver black woman"
+          ]
+        },
+        {
+          "id": "mobile-money-payer-soins-domicile",
+          "fr": "Payer les soins à domicile au Cameroun depuis l'étranger : Mobile Money, Orange Money et virement",
+          "en": "Paying for home care in Cameroon from abroad: Mobile Money, Orange Money and bank transfer",
+          "focus_keyword_fr": "payer soins domicile Cameroun diaspora",
+          "focus_keyword_en": "pay home care Cameroon abroad",
+          "unsplash_queries": [
+            "mobile money africa payment",
+            "african family phone payment",
+            "african elderly care family"
+          ]
+        }
+      ]
+    },
+    "guide_pratique": {
+      "label": "Guide pratique",
+      "topics": [
+        {
+          "id": "choisir-garde-malade-cameroun",
+          "fr": "Comment choisir un garde-malade fiable au Cameroun : 7 critères essentiels",
+          "en": "How to choose a reliable caregiver in Cameroon: 7 essential criteria",
+          "focus_keyword_fr": "choisir garde-malade Cameroun",
+          "focus_keyword_en": "choose reliable caregiver Cameroon",
+          "unsplash_queries": [
+            "african nurse caregiver black woman",
+            "black healthcare worker patient",
+            "african elderly care family"
+          ]
+        },
+        {
+          "id": "organiser-soins-depuis-etranger",
+          "fr": "Organiser les soins d'un parent malade au Cameroun depuis la France ou le Canada : guide pas à pas",
+          "en": "Organizing care for a sick parent in Cameroon from France or Canada: step-by-step guide",
+          "focus_keyword_fr": "soins parent malade Cameroun diaspora",
+          "focus_keyword_en": "care sick parent Cameroon diaspora",
+          "unsplash_queries": [
+            "african family video call elderly",
+            "diaspora africa phone call family",
+            "african elderly care family"
+          ]
+        },
+        {
+          "id": "garde-malade-nuit-douala",
+          "fr": "Garde-malade de nuit à Douala : tout ce qu'il faut savoir avant de réserver",
+          "en": "Overnight caregiver in Douala: everything you need to know before booking",
+          "focus_keyword_fr": "garde-malade nuit Douala",
+          "focus_keyword_en": "overnight caregiver Douala",
+          "unsplash_queries": [
+            "african nurse caregiver black woman",
+            "black healthcare worker patient",
+            "healthcare caregiver"
+          ]
+        },
+        {
+          "id": "soins-post-operatoires-domicile-cameroun",
+          "fr": "Soins post-opératoires à domicile au Cameroun : ce que votre garde-malade doit savoir faire",
+          "en": "Post-operative home care in Cameroon: what your caregiver must know how to do",
+          "focus_keyword_fr": "soins post-opératoires domicile Cameroun",
+          "focus_keyword_en": "post-operative home care Cameroon",
+          "unsplash_queries": [
+            "black healthcare worker patient",
+            "african nurse caregiver black woman",
+            "african doctor home visit"
+          ]
+        },
+        {
+          "id": "liste-questions-poser-garde-malade",
+          "fr": "15 questions à poser à un garde-malade avant de le recruter au Cameroun",
+          "en": "15 questions to ask a caregiver before hiring them in Cameroon",
+          "focus_keyword_fr": "recruter garde-malade Cameroun questions",
+          "focus_keyword_en": "hire caregiver Cameroon interview",
+          "unsplash_queries": [
+            "african nurse caregiver black woman",
+            "job interview africa professional",
+            "african elderly care family"
+          ]
+        }
+      ]
+    },
+    "sante_personnes_agees": {
+      "label": "Santé personnes âgées",
+      "topics": [
+        {
+          "id": "maladies-chroniques-personnes-agees-cameroun",
+          "fr": "Diabète, hypertension, AVC : prendre en charge les maladies chroniques d'un parent âgé au Cameroun",
+          "en": "Diabetes, hypertension, stroke: managing chronic illness in an elderly parent in Cameroon",
+          "focus_keyword_fr": "maladies chroniques personnes âgées Cameroun",
+          "focus_keyword_en": "chronic illness elderly care Cameroon",
+          "unsplash_queries": [
+            "african elderly care family",
+            "black healthcare worker patient",
+            "african nurse caregiver black woman"
+          ]
+        },
+        {
+          "id": "prevention-chutes-personnes-agees",
+          "fr": "Prévenir les chutes des personnes âgées à domicile au Cameroun : conseils pratiques",
+          "en": "Preventing falls in elderly people at home in Cameroon: practical advice",
+          "focus_keyword_fr": "prévention chutes personnes âgées domicile",
+          "focus_keyword_en": "fall prevention elderly home care Cameroon",
+          "unsplash_queries": [
+            "african elderly care family",
+            "elderly person care home assistance",
+            "black healthcare worker patient"
+          ]
+        },
+        {
+          "id": "demence-alzheimer-accompagnement-domicile",
+          "fr": "Accompagner un parent atteint de démence à domicile au Cameroun : rôle du garde-malade",
+          "en": "Supporting a parent with dementia at home in Cameroon: the caregiver's role",
+          "focus_keyword_fr": "démence alzheimer accompagnement domicile Cameroun",
+          "focus_keyword_en": "dementia alzheimer home care Cameroon",
+          "unsplash_queries": [
+            "african elderly care family",
+            "african nurse caregiver black woman",
+            "elderly person dementia care"
+          ]
+        },
+        {
+          "id": "nutrition-personnes-agees-cameroun",
+          "fr": "Alimentation et nutrition des personnes âgées malades au Cameroun : guide pour les aidants",
+          "en": "Nutrition for sick elderly people in Cameroon: a guide for caregivers",
+          "focus_keyword_fr": "nutrition personnes âgées Cameroun aidants",
+          "focus_keyword_en": "elderly nutrition Cameroon caregiver",
+          "unsplash_queries": [
+            "african elderly care family",
+            "african food nutrition healthy",
+            "black healthcare worker patient"
+          ]
+        }
+      ]
+    },
+    "diaspora": {
+      "label": "Diaspora et soins à distance",
+      "topics": [
+        {
+          "id": "diaspora-africaine-soins-parents-cameroun",
+          "fr": "Diaspora africaine : comment veiller sur vos parents malades au Cameroun depuis l'Europe",
+          "en": "African diaspora: how to look after sick parents in Cameroon from Europe",
+          "focus_keyword_fr": "diaspora africaine soins parents Cameroun",
+          "focus_keyword_en": "african diaspora care parents Cameroon Europe",
+          "unsplash_queries": [
+            "african family video call elderly",
+            "diaspora africa phone call family",
+            "african elderly care family"
+          ]
+        },
+        {
+          "id": "envoyer-argent-soins-cameroun-france",
+          "fr": "Financer les soins de santé d'un parent au Cameroun depuis la France : options et comparatif",
+          "en": "Financing healthcare for a relative in Cameroon from France: options compared",
+          "focus_keyword_fr": "financer soins santé Cameroun France",
+          "focus_keyword_en": "finance healthcare Cameroon from France",
+          "unsplash_queries": [
+            "mobile money africa payment",
+            "bank transfer international family",
+            "african family phone payment"
+          ]
+        },
+        {
+          "id": "urgence-medicale-parent-cameroun",
+          "fr": "Mon parent est hospitalisé au Cameroun : que faire depuis l'étranger ? Guide d'urgence",
+          "en": "My parent is hospitalized in Cameroon: what to do from abroad? Emergency guide",
+          "focus_keyword_fr": "parent hospitalisé Cameroun que faire diaspora",
+          "focus_keyword_en": "parent hospitalized Cameroon what to do abroad",
+          "unsplash_queries": [
+            "african doctor home visit",
+            "hospital africa emergency",
+            "african elderly care family"
+          ]
+        },
+        {
+          "id": "retour-cameroun-soin-parent-conseils",
+          "fr": "Rentrer au Cameroun pour s'occuper d'un parent malade : conseils pour préparer votre retour",
+          "en": "Returning to Cameroon to care for a sick parent: tips to prepare your visit",
+          "focus_keyword_fr": "retour Cameroun soins parent malade",
+          "focus_keyword_en": "return Cameroon care sick parent",
+          "unsplash_queries": [
+            "african family reunion home",
+            "african elderly care family",
+            "cameroon healthcare"
+          ]
+        }
+      ]
+    },
+    "juridique_administratif": {
+      "label": "Juridique et administratif",
+      "topics": [
+        {
+          "id": "droits-patients-cameroun",
+          "fr": "Droits des patients au Cameroun : ce que vous devez savoir pour défendre votre proche",
+          "en": "Patient rights in Cameroon: what you need to know to advocate for your relative",
+          "focus_keyword_fr": "droits patients Cameroun",
+          "focus_keyword_en": "patient rights Cameroon",
+          "unsplash_queries": [
+            "african doctor home visit",
+            "black healthcare worker patient",
+            "legal document africa professional"
+          ]
+        },
+        {
+          "id": "systeme-sante-cameroun-guide",
+          "fr": "Système de santé au Cameroun : hôpitaux, cliniques privées et soins à domicile — ce qu'il faut savoir",
+          "en": "Healthcare system in Cameroon: hospitals, private clinics and home care — what you need to know",
+          "focus_keyword_fr": "système santé Cameroun guide",
+          "focus_keyword_en": "healthcare system Cameroon guide",
+          "unsplash_queries": [
+            "cameroon healthcare",
+            "african doctor home visit",
+            "black healthcare worker patient"
+          ]
+        },
+        {
+          "id": "assurance-maladie-cameroun",
+          "fr": "Assurance maladie et couverture santé au Cameroun : tout comprendre pour votre famille",
+          "en": "Health insurance and coverage in Cameroon: understanding it all for your family",
+          "focus_keyword_fr": "assurance maladie Cameroun couverture",
+          "focus_keyword_en": "health insurance Cameroon coverage",
+          "unsplash_queries": [
+            "african doctor home visit",
+            "black healthcare worker patient",
+            "healthcare document insurance"
+          ]
+        },
+        {
+          "id": "contrat-garde-malade-cameroun",
+          "fr": "Contrat de garde-malade au Cameroun : pourquoi c'est important et que doit-il contenir",
+          "en": "Caregiver contract in Cameroon: why it matters and what it should include",
+          "focus_keyword_fr": "contrat garde-malade Cameroun",
+          "focus_keyword_en": "caregiver contract Cameroon",
+          "unsplash_queries": [
+            "contract signing professional africa",
+            "african nurse caregiver black woman",
+            "legal document africa professional"
+          ]
+        }
+      ]
+    }
+  }
+}

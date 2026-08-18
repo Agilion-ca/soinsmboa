@@ -1,0 +1,114 @@
+{
+  "domains": [
+    "who.int",
+    "afro.who.int",
+    "minsante.cm",
+    "panafrican-med-journal.com",
+    "msf.org",
+    "msf.fr",
+    "vidal.fr",
+    "passeportsante.net",
+    "ameli.fr",
+    "has-sante.fr",
+    "ncbi.nlm.nih.gov",
+    "pubmed.ncbi.nlm.nih.gov",
+    "nih.gov",
+    "medecineafrique.com",
+    "cameroon-info.net",
+    "investiraucameroun.com",
+    "sante.gouv.fr",
+    "info-radiologie.ch"
+  ],
+  "sources": [
+    {
+      "name": "Organisation Mondiale de la Santé (OMS/WHO) — Bureau Afrique",
+      "url": "https://afro.who.int",
+      "org": "OMS / WHO",
+      "description": "Statistiques santé Afrique, maladies chroniques, soins primaires"
+    },
+    {
+      "name": "Ministère de la Santé Publique du Cameroun",
+      "url": "https://minsante.cm",
+      "org": "Ministère Santé CM",
+      "description": "Politique de santé nationale, statistiques, programmes de soins"
+    },
+    {
+      "name": "OMS — Données mondiales sur la santé",
+      "url": "https://who.int",
+      "org": "OMS / WHO",
+      "description": "Données épidémiologiques mondiales, recommandations cliniques"
+    },
+    {
+      "name": "Pan African Medical Journal",
+      "url": "https://panafrican-med-journal.com",
+      "org": "Pan African Medical Journal",
+      "description": "Études médicales africaines, recherche clinique en Afrique subsaharienne"
+    },
+    {
+      "name": "Médecins Sans Frontières",
+      "url": "https://msf.fr",
+      "org": "MSF",
+      "description": "Soins humanitaires en Afrique, contexte santé terrain"
+    },
+    {
+      "name": "Vidal — Base médicamenteuse française",
+      "url": "https://vidal.fr",
+      "org": "Vidal",
+      "description": "Référence médicale et pharmaceutique pour les professionnels"
+    },
+    {
+      "name": "Passeport Santé",
+      "url": "https://passeportsante.net",
+      "org": "Passeport Santé",
+      "description": "Informations santé grand public, maladies chroniques, prévention"
+    },
+    {
+      "name": "Ameli — Assurance Maladie France",
+      "url": "https://ameli.fr",
+      "org": "Ameli / CPAM",
+      "description": "Référence soins à domicile, prise en charge, remboursements (contexte diaspora France)"
+    },
+    {
+      "name": "Haute Autorité de Santé (HAS)",
+      "url": "https://has-sante.fr",
+      "org": "HAS France",
+      "description": "Recommandations cliniques, guides soins, protocoles médicaux"
+    },
+    {
+      "name": "PubMed / NCBI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov",
+      "org": "NCBI / NLM",
+      "description": "Littérature médicale scientifique internationale"
+    },
+    {
+      "name": "NIH — National Institutes of Health",
+      "url": "https://nih.gov",
+      "org": "NIH",
+      "description": "Recherche médicale, maladies chroniques, soins aux personnes âgées"
+    },
+    {
+      "name": "Investir au Cameroun",
+      "url": "https://investiraucameroun.com",
+      "org": "Investir au Cameroun",
+      "description": "Données économiques Cameroun, coûts, infrastructure"
+    }
+  ],
+  "tavily_search_templates": {
+    "costs": [
+      "coût garde malade domicile {city} Cameroun FCFA",
+      "tarif auxiliaire vie domicile {city} Cameroun 2024 2025"
+    ],
+    "health": [
+      "soins domicile personnes âgées Cameroun recommandations OMS",
+      "maladies chroniques Cameroun statistiques prévalence"
+    ],
+    "diaspora": [
+      "diaspora africaine soins parents Cameroun étranger",
+      "mobile money paiement santé Cameroun Orange MTN"
+    ],
+    "legal": [
+      "droits patients Cameroun ministère santé",
+      "système santé Cameroun hôpitaux privés cliniques"
+    ]
+  }
+}

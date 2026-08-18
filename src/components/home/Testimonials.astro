@@ -1,0 +1,73 @@
+---
+const testimonials = [
+  {
+    name: 'Marie-Claire N.',
+    location: 'Paris, France',
+    relation: 'Pour sa mère à Douala',
+    text: "Ma mère a subi une opération et je ne pouvais pas rentrer immédiatement du fait de mon travail. GardeMalade a pris en charge tout le suivi post-opératoire. Je recevais un message chaque soir. Un soulagement immense.",
+    service: 'Garde-malade',
+    stars: 5,
+  },
+  {
+    name: 'Emmanuel T.',
+    location: 'Bruxelles, Belgique',
+    relation: 'Pour son père à Yaoundé',
+    text: "Mon père de 78 ans vivait seul à Yaoundé. Grâce à l'auxiliaire de vie, il reçoit de l'aide chaque matin. Le personnel est digne de confiance, professionnel et vraiment attentionné. Ça change tout.",
+    service: 'Auxiliaire de vie',
+    stars: 5,
+  },
+  {
+    name: 'Sandrine M.',
+    location: 'Montréal, Canada',
+    relation: 'Pour sa grand-mère à Douala',
+    text: "Le médecin est venu le dimanche soir. Ma grand-mère avait de la fièvre et personne pour l'emmener en clinique. Diagnostic rapide, ordonnance, médicaments achetés pour elle. Un vrai service complet.",
+    service: 'Médecin à domicile',
+    stars: 5,
+  },
+];
+---
+
+<section id="temoignages" class="py-20 relative overflow-hidden">
+  <!-- Photo de fond avec overlay -->
+  <div class="absolute inset-0">
+    <img src="/images/testimonials.jpg" alt="" class="w-full h-full object-cover" loading="lazy" />
+    <div class="absolute inset-0" style="background:rgba(10,40,25,0.85)"></div>
+  </div>
+
+  <div class="relative max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <span class="text-sm font-bold uppercase tracking-wider" style="color:#86efac">Témoignages</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 text-white">
+        Des familles de la diaspora nous font confiance
+      </h2>
+      <p class="text-green-200 mt-3 max-w-xl mx-auto">
+        Des centaines de familles vivant à l'étranger confient leurs proches à notre équipe chaque mois.
+      </p>
+      <p class="text-xs text-white/40 mt-1">Photo : Soweto Graphics / Unsplash</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      {testimonials.map(({ name, location, relation, text, service, stars }) => (
+        <div class="bg-white rounded-2xl p-6 flex flex-col">
+          <!-- Stars -->
+          <div class="flex gap-0.5 mb-3">
+            {Array.from({length: stars}).map(() => (
+              <svg width="16" height="16" fill="#FF6B35" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            ))}
+          </div>
+          <p class="text-gray-700 text-sm leading-relaxed flex-1 italic mb-4">"{text}"</p>
+          <div class="border-t border-gray-100 pt-4 flex items-center justify-between">
+            <div>
+              <p class="font-bold text-gray-900 text-sm">{name}</p>
+              <p class="text-xs text-gray-400">{location}</p>
+              <p class="text-xs" style="color:#1A6B4A">{relation}</p>
+            </div>
+            <span class="text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap" style="background:#F0FAF5;color:#1A6B4A">
+              {service}
+            </span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

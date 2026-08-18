@@ -1,0 +1,26 @@
+---
+export const prerender = true;
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/home/Hero.astro';
+import TrustBar from '../components/home/TrustBar.astro';
+import Services from '../components/home/Services.astro';
+import HowItWorks from '../components/home/HowItWorks.astro';
+import Zones from '../components/home/Zones.astro';
+import Testimonials from '../components/home/Testimonials.astro';
+import Faq from '../components/home/Faq.astro';
+import CtaBanner from '../components/home/CtaBanner.astro';
+---
+
+<Layout
+  title="Garde-malade à Douala et Yaoundé | GardeMalade Cameroun"
+  description="Auxiliaires de vie, gardes-malades et médecins à domicile à Douala et Yaoundé. Service professionnel pour familles au Cameroun et diaspora. Disponible 24h/24, intervention en moins de 24h."
+>
+  <Hero />
+  <TrustBar />
+  <Services />
+  <HowItWorks />
+  <Zones />
+  <Testimonials />
+  <Faq />
+  <CtaBanner />
+</Layout>

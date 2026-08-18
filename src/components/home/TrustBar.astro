@@ -1,0 +1,21 @@
+---
+const items = [
+  { icon: '🛡️', label: 'Personnel vérifié & formé' },
+  { icon: '⚡', label: 'Intervention en moins de 24h' },
+  { icon: '📱', label: 'Compte-rendu quotidien à la famille' },
+  { icon: '💰', label: 'Devis gratuit, sans engagement' },
+];
+---
+
+<div style="background:#1A6B4A" class="py-4">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex flex-wrap justify-center md:justify-between gap-4 md:gap-0">
+      {items.map(({ icon, label }) => (
+        <div class="flex items-center gap-2 text-white text-sm font-medium">
+          <span class="text-lg">{icon}</span>
+          {label}
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
