@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="624" viewBox="0 0 1640 624" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#062818"/>
+      <stop offset="60%" style="stop-color:#1A6B4A"/>
+      <stop offset="100%" style="stop-color:#2d8f65"/>
+    </linearGradient>
+    <linearGradient id="oC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#ff9a70"/>
+    </linearGradient>
+    <radialGradient id="glC" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#4ade80;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="dC">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1640" height="624" fill="url(#bgC)"/>
+  <ellipse cx="1200" cy="200" rx="600" ry="400" fill="url(#glC)"/>
+  <circle cx="100" cy="550" r="200" fill="#FF6B35" fill-opacity="0.06"/>
+  <circle cx="1600" cy="600" r="150" fill="#ffffff" fill-opacity="0.03"/>
+
+  <!-- Motif dots -->
+  <g fill="#ffffff" fill-opacity="0.04">
+    <circle cx="60" cy="60" r="4"/><circle cx="120" cy="60" r="4"/><circle cx="180" cy="60" r="4"/>
+    <circle cx="60" cy="120" r="4"/><circle cx="120" cy="120" r="4"/>
+    <circle cx="1560" cy="500" r="4"/><circle cx="1500" cy="500" r="4"/><circle cx="1440" cy="500" r="4"/>
+  </g>
+
+  <!-- ── LOGO ── -->
+  <rect x="60" y="60" width="56" height="56" rx="14" fill="#FF6B35" filter="url(#dC)"/>
+  <rect x="79" y="70" width="18" height="36" rx="5" fill="white"/>
+  <rect x="68" y="81" width="40" height="14" rx="5" fill="white"/>
+  <text x="134" y="88" font-size="36" font-weight="900" fill="white">SoinsMboa</text>
+  <text x="134" y="113" font-size="14" fill="#86efac" letter-spacing="2" font-weight="600">CAMEROUN · DOUALA &amp; YAOUNDÉ</text>
+
+  <!-- Badge -->
+  <rect x="60" y="135" width="220" height="32" rx="16" fill="#FF6B35"/>
+  <circle cx="84" cy="151" r="6" fill="#fbbf24"/>
+  <text x="100" y="156" font-size="14" fill="white" font-weight="700">Disponible 24h/24 · 7j/7</text>
+
+  <!-- ── HERO TEXT ── -->
+  <text x="60" y="250" font-size="78" font-weight="900" fill="white" letter-spacing="-2">Soins à domicile</text>
+  <text x="60" y="338" font-size="78" font-weight="900" letter-spacing="-2">
+    <tspan fill="#86efac">professionnels</tspan>
+    <tspan fill="white"> au pays.</tspan>
+  </text>
+  <text x="60" y="408" font-size="26" fill="#d1fae5">Personnel qualifié · Intervention &lt;24h · Compte-rendu famille quotidien</text>
+
+  <!-- Séparateur vertical -->
+  <rect x="780" y="50" width="2" height="524" fill="#ffffff" fill-opacity="0.12"/>
+
+  <!-- ── PARTIE DROITE : CONTACT ── -->
+  <!-- Fond contact -->
+  <rect x="810" y="50" width="790" height="524" rx="0" fill="#ffffff" fill-opacity="0.04"/>
+
+  <text x="1205" y="130" font-size="26" font-weight="800" fill="#86efac" text-anchor="middle" letter-spacing="1">CONTACTEZ-NOUS</text>
+
+  <!-- Phone boxes -->
+  <rect x="830" y="155" width="750" height="90" rx="16" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="1205" y="192" font-size="16" fill="#d1fae5" text-anchor="middle">📞 Téléphone · WhatsApp</text>
+  <text x="1205" y="228" font-size="40" font-weight="900" fill="white" text-anchor="middle">+237 6 99 77 48 82</text>
+
+  <rect x="830" y="260" width="750" height="90" rx="16" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="1205" y="297" font-size="16" fill="#d1fae5" text-anchor="middle">📱 Téléphone · WhatsApp</text>
+  <text x="1205" y="333" font-size="40" font-weight="900" fill="white" text-anchor="middle">+237 7 55 30 42 49</text>
+
+  <!-- Services rapides -->
+  <text x="1205" y="390" font-size="18" fill="#86efac" text-anchor="middle" font-weight="700" letter-spacing="1">NOS SERVICES</text>
+  <text x="1205" y="425" font-size="20" fill="#d1fae5" text-anchor="middle">🤝 Auxiliaire de vie  ·  👁️ Garde-malade  ·  🩺 Médecin</text>
+
+  <!-- Badges bas -->
+  <rect x="830" y="452" width="230" height="44" rx="22" fill="#25D366"/>
+  <text x="945" y="478" font-size="17" font-weight="800" fill="white" text-anchor="middle">💬 WhatsApp</text>
+
+  <rect x="1080" y="452" width="230" height="44" rx="22" fill="#ffffff" fill-opacity="0.2"/>
+  <text x="1195" y="478" font-size="16" fill="white" text-anchor="middle">✅ Devis gratuit</text>
+
+  <rect x="1330" y="452" width="250" height="44" rx="22" fill="#FF6B35"/>
+  <text x="1455" y="478" font-size="16" font-weight="700" fill="white" text-anchor="middle">🌍 Diaspora welcome</text>
+
+  <!-- ── SERVICES ICONS (gauche) ── -->
+  <g transform="translate(0, 430)">
+    <rect x="60" y="0" width="280" height="130" rx="16" fill="#ffffff" fill-opacity="0.07"/>
+    <text x="100" y="52" font-size="34">🤝</text>
+    <text x="150" y="44" font-size="18" font-weight="800" fill="white">Auxiliaire de vie</text>
+    <text x="150" y="67" font-size="14" fill="#d1fae5">Aide quotidienne</text>
+
+    <rect x="360" y="0" width="280" height="130" rx="16" fill="#ffffff" fill-opacity="0.07"/>
+    <text x="400" y="52" font-size="34">👁️</text>
+    <text x="450" y="44" font-size="18" font-weight="800" fill="white">Garde-malade</text>
+    <text x="450" y="67" font-size="14" fill="#d1fae5">24h/24 · Clinique</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="820" y="595" font-size="13" fill="#86efac" fill-opacity="0.7">
+    SoinsMboa.com • Évaluation gratuite • Orange Money &amp; MTN MoMo acceptés
+  </text>
+</svg>
