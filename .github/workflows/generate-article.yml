@@ -1,0 +1,73 @@
+name: Generate Blog Article
+
+on:
+  schedule:
+    # Every 2 days at 9:00 UTC
+    - cron: '0 9 */2 * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate and publish article
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_FROM_EMAIL: ${{ secrets.BREVO_FROM_EMAIL }}
+          BREVO_TO_EMAIL: ${{ secrets.BREVO_TO_EMAIL }}
+        run: node scripts/generate-article.mjs
+
+      - name: Check for new files
+        id: check_changes
+        run: |
+          git add src/content/blog/ public/blog/images/ || true
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No new article generated (no file changes)."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "New article detected."
+          fi
+
+      - name: Commit and push new article
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "GardeMalade Bot"
+          git config user.email "bot@gardemalade-cm.com"
+          git commit -m "blog: auto-generate article [skip ci]"
+          git push
+
+      - name: Trigger Cloudflare Pages deploy
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          CF_DEPLOY_HOOK: ${{ secrets.CF_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$CF_DEPLOY_HOOK" ]; then
+            curl -X POST "$CF_DEPLOY_HOOK"
+            echo "Cloudflare Pages deploy triggered."
+          else
+            echo "CF_DEPLOY_HOOK not set — skipping deploy trigger."
+          fi

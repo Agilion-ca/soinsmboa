@@ -1,0 +1,253 @@
+#!/usr/bin/env node
+/**
+ * test-generator.mjs — Test the blog article renderer with mock data.
+ * No API calls are made. Writes files to disk to verify the full pipeline.
+ *
+ * Usage: node scripts/test-generator.mjs
+ */
+
+import { writeFileSync, mkdirSync, existsSync } from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, '..');
+
+const CONTENT_DIR = path.join(ROOT, 'src/content/blog');
+const INDEX_PATH  = path.join(CONTENT_DIR, '_index.json');
+
+function log(msg) {
+  const ts = new Date().toISOString().replace('T', ' ').slice(0, 19);
+  console.log(`[${ts}] ${msg}`);
+}
+
+// ── Mock article data ─────────────────────────────────────────────────────────
+
+const MOCK_ARTICLE = {
+  meta: {
+    slug: 'cout-garde-malade-douala-2025',
+    date: '2025-08-18',
+    title: {
+      fr: 'Combien coûte un garde-malade à Douala en 2025 ?',
+      en: 'How Much Does a Caregiver Cost in Douala in 2025?',
+    },
+    description: {
+      fr: 'Tarifs complets d\'un garde-malade à Douala en 2025 : coût journalier, hebdomadaire, nuit. Ce qui influence le prix en FCFA.',
+      en: 'Complete caregiver rates in Douala 2025: daily, weekly, overnight costs in CFA francs. What affects the price.',
+    },
+    focus_keyword: {
+      fr: 'coût garde-malade Douala',
+      en: 'caregiver cost Douala',
+    },
+    reading_time: 6,
+    category: 'couts',
+    tags: ['garde-malade', 'douala', 'cout', 'tarifs'],
+    internal_links: [
+      {
+        href: '/services#garde',
+        text: { fr: 'notre service garde-malade', en: 'our caregiver service' },
+      },
+    ],
+  },
+  hero: {
+    src: '/blog/images/cout-garde-malade-douala-2025.jpg',
+    alt: {
+      fr: 'Infirmière africaine prenant soin d\'une personne âgée à domicile à Douala',
+      en: 'African nurse caring for an elderly person at home in Douala',
+    },
+    photographer: 'Test Photographer',
+    photographer_url: 'https://unsplash.com/@testphotographer?utm_source=gardemalade&utm_medium=referral',
+    photo_url: 'https://unsplash.com/photos/test-id?utm_source=gardemalade&utm_medium=referral',
+    unsplash_id: 'test-id',
+  },
+  body_images: [],
+  content: {
+    chapeau: {
+      fr: 'Vous cherchez un garde-malade à Douala pour un parent ou un proche ? Avant de prendre une décision, il est essentiel de comprendre les tarifs pratiqués sur le marché camerounais. Dans cet article, nous détaillons les coûts réels, ce qui les influence, et comment obtenir le meilleur service au juste prix.',
+      en: 'Looking for a caregiver in Douala for a loved one? Before making a decision, it\'s essential to understand the rates on the Cameroonian market. In this article, we break down real costs, what influences them, and how to get the best service at a fair price.',
+    },
+    sections: [
+      {
+        heading: {
+          fr: 'Les tarifs d\'un garde-malade à Douala : fourchettes réalistes',
+          en: 'Caregiver rates in Douala: realistic price ranges',
+        },
+        body: {
+          fr: '<p>Le coût d\'un garde-malade à Douala varie selon plusieurs facteurs : le niveau de qualification, les horaires de travail (de jour, de nuit, ou en 24h/24), et la nature des soins requis. Pour une garde de jour standard (8 heures), comptez généralement entre <strong>15 000 et 35 000 FCFA</strong> par jour selon l\'expérience du soignant.</p><p>Marie-Claire Essomba, infirmière qualifiée de Bonapriso avec 12 ans d\'expérience, explique : <em>«&nbsp;Les familles qui cherchent depuis l\'étranger ont souvent du mal à évaluer le juste prix. Un soignant trop bon marché peut manquer de formation, ce qui risque d\'aggraver l\'état du patient.&nbsp;»</em></p><p>Pour une prise en charge complète, notamment pour les personnes atteintes de maladies chroniques comme le diabète ou l\'hypertension artérielle, le tarif peut atteindre <strong>45 000 à 70 000 FCFA</strong> par jour lorsque des compétences infirmières spécialisées sont requises. Consultez notre page <a href="/services#garde">service garde-malade</a> pour connaître nos tarifs actuels.</p>',
+          en: '<p>The cost of a caregiver in Douala varies based on several factors: the level of qualification, working hours (daytime, overnight, or 24/7), and the nature of care required. For a standard daytime shift (8 hours), expect to pay between <strong>15,000 and 35,000 CFA francs</strong> per day depending on the caregiver\'s experience.</p><p>For families in the diaspora coordinating care from Europe or North America, understanding local pricing is crucial. What might seem inexpensive by Western standards can represent a significant investment for Cameroonian households.</p><p>For comprehensive care — particularly for patients with chronic conditions like diabetes or hypertension — rates can reach <strong>45,000 to 70,000 CFA francs</strong> per day when specialized nursing skills are needed. Visit our <a href="/services#garde">caregiver service page</a> for current pricing.</p>',
+        },
+        image: null,
+      },
+      {
+        heading: {
+          fr: 'Facteurs qui influencent le prix : ce qu\'il faut savoir',
+          en: 'Factors that affect the price: what you need to know',
+        },
+        body: {
+          fr: '<p>Plusieurs éléments font varier le coût d\'un garde-malade à Douala :</p><ul><li><strong>La qualification</strong> : un aide-soignant de base coûte moins cher qu\'une infirmière diplômée d\'État ou un infirmier spécialisé en gériatrie.</li><li><strong>Les horaires</strong> : la garde de nuit (20h-6h) est généralement majorée de 30 à 50% par rapport au tarif de jour.</li><li><strong>La durée de l\'engagement</strong> : un contrat mensuel permet souvent de négocier un tarif plus avantageux qu\'une garde ponctuelle.</li><li><strong>Le quartier</strong> : les soignants qui interviennent à Bonanjo ou Bonapriso peuvent facturer des frais de déplacement supplémentaires si leur domicile est éloigné.</li><li><strong>La complexité des soins</strong> : gestion des pansements, des perfusions ou de la kinésithérapie augmente le tarif.</li></ul><p>Hervé Tchamba, 68 ans, qui réside à Akwa (Douala) après une opération de la hanche, a bénéficié d\'une garde post-opératoire pendant trois semaines. <em>«&nbsp;On a négocié un forfait hebdomadaire, ce qui nous a permis d\'économiser environ 20% sur le tarif journalier.&nbsp;»</em></p>',
+          en: '<p>Several elements affect the cost of a caregiver in Douala:</p><ul><li><strong>Qualification level</strong>: a basic nursing aide costs less than a state-certified nurse or a specialist in geriatric care.</li><li><strong>Working hours</strong>: overnight shifts (8pm-6am) are typically 30 to 50% more expensive than daytime rates.</li><li><strong>Length of engagement</strong>: a monthly contract often allows for better negotiated rates than one-off bookings.</li><li><strong>Location</strong>: caregivers working in Bonanjo or Bonapriso may charge additional travel fees if they live far away.</li><li><strong>Complexity of care</strong>: wound dressing, IV management, or physiotherapy assistance increases the rate.</li></ul><p>For diaspora families coordinating from abroad, it\'s worth asking for a weekly or monthly package rate rather than paying per day — this typically saves 15-25%.</p>',
+        },
+        image: null,
+      },
+      {
+        heading: {
+          fr: 'Comment payer un garde-malade depuis l\'étranger',
+          en: 'How to pay for a caregiver from abroad',
+        },
+        body: {
+          fr: '<p>Pour les familles de la diaspora, le paiement à distance est souvent le principal obstacle logistique. Voici les options les plus utilisées au Cameroun :</p><ul><li><strong>Mobile Money MTN</strong> ou <strong>Orange Money</strong> : rapide, sécurisé, avec des frais de transfert raisonnables depuis certains pays.</li><li><strong>Western Union / MoneyGram</strong> : largement disponible mais avec des frais plus élevés.</li><li><strong>Virement bancaire international</strong> : adapté aux montants importants (honoraires mensuels), mais plus lent (3 à 5 jours ouvrables).</li></ul><p>Emmanuel Nkodo, ingénieur vivant à Lyon, prend en charge les soins de sa mère à Yaoundé depuis deux ans. <em>«&nbsp;J\'utilise Orange Money pour les paiements réguliers — c\'est reçu immédiatement et le soignant peut retirer en quelques minutes.&nbsp;»</em></p><p>Avec GardeMalade Cameroun, vous pouvez nous contacter via notre page <a href="/contact">formulaire de contact</a> pour discuter des modalités de paiement adaptées à votre situation.</p>',
+          en: '<p>For diaspora families, remote payment is often the main logistical hurdle. Here are the most commonly used options in Cameroon:</p><ul><li><strong>MTN Mobile Money</strong> or <strong>Orange Money</strong>: fast, secure, with reasonable transfer fees from certain countries.</li><li><strong>Western Union / MoneyGram</strong>: widely available but with higher fees.</li><li><strong>International bank transfer</strong>: suitable for larger amounts (monthly fees) but slower (3-5 business days).</li></ul><p>Emmanuel Nkodo, an engineer living in Lyon, has been managing his mother\'s care in Yaoundé for two years. <em>"I use Orange Money for regular payments — it\'s received immediately and the caregiver can withdraw within minutes."</em></p><p>Contact us via our <a href="/contact">contact form</a> to discuss payment arrangements suited to your situation.</p>',
+        },
+        image: null,
+      },
+    ],
+    faq: [
+      {
+        question: {
+          fr: 'Quel est le tarif minimum d\'un garde-malade à Douala ?',
+          en: 'What is the minimum rate for a caregiver in Douala?',
+        },
+        answer: {
+          fr: 'Le tarif minimum pour une garde de jour (8 heures) se situe généralement autour de 12 000 à 15 000 FCFA. En dessous de ce seuil, il est difficile de garantir un soignant qualifié et fiable. Pour la nuit, prévoyez au moins 18 000 FCFA.',
+          en: 'The minimum rate for a daytime shift (8 hours) is generally around 12,000 to 15,000 CFA francs. Below this threshold, it\'s difficult to guarantee a qualified and reliable caregiver. For overnight care, budget at least 18,000 CFA francs.',
+        },
+      },
+      {
+        question: {
+          fr: 'Est-il possible de négocier un forfait mensuel ?',
+          en: 'Is it possible to negotiate a monthly package?',
+        },
+        answer: {
+          fr: 'Oui, absolument. Les contrats de longue durée permettent généralement d\'obtenir une réduction de 15 à 25% par rapport au tarif journalier. GardeMalade Cameroun propose des forfaits hebdomadaires et mensuels adaptés aux besoins de chaque famille.',
+          en: 'Yes, absolutely. Long-term contracts typically allow for a discount of 15 to 25% compared to the daily rate. GardeMalade Cameroun offers weekly and monthly packages tailored to each family\'s needs.',
+        },
+      },
+      {
+        question: {
+          fr: 'Le tarif de nuit est-il différent du tarif de jour ?',
+          en: 'Is the overnight rate different from the daytime rate?',
+        },
+        answer: {
+          fr: 'Oui, la garde de nuit (généralement de 20h à 6h) est majorée de 30 à 50% par rapport au tarif de jour, en raison des contraintes spécifiques de la garde nocturne (vigilance continue, interventions imprévues). Cette majoration est standard au Cameroun.',
+          en: 'Yes, overnight care (typically 8pm to 6am) is priced 30 to 50% higher than daytime rates, due to the specific demands of nighttime care (constant vigilance, unexpected interventions). This surcharge is standard practice in Cameroon.',
+        },
+      },
+      {
+        question: {
+          fr: 'Comment vérifier les qualifications d\'un garde-malade avant de l\'embaucher ?',
+          en: 'How do I verify a caregiver\'s qualifications before hiring?',
+        },
+        answer: {
+          fr: 'Demandez toujours à voir le diplôme d\'infirmier ou d\'aide-soignant, les références professionnelles (anciens employeurs ou agences), et si possible une attestation de bonne conduite. GardeMalade Cameroun vérifie ces documents pour chaque soignant de notre réseau.',
+          en: 'Always ask to see the nursing or care assistant diploma, professional references (former employers or agencies), and if possible a certificate of good conduct. GardeMalade Cameroun verifies these documents for every caregiver in our network.',
+        },
+      },
+      {
+        question: {
+          fr: 'Puis-je organiser les soins depuis la France ou le Canada ?',
+          en: 'Can I arrange care from France or Canada?',
+        },
+        answer: {
+          fr: 'Oui, c\'est précisément notre spécialité. Vous pouvez nous contacter par WhatsApp, email ou formulaire depuis n\'importe quel pays. Nous organisons l\'évaluation des besoins, la sélection du soignant et le suivi à votre place, avec des rapports réguliers.',
+          en: 'Yes, that\'s precisely our specialty. You can contact us via WhatsApp, email, or the contact form from any country. We organize the needs assessment, caregiver selection, and ongoing monitoring on your behalf, with regular updates.',
+        },
+      },
+    ],
+    conclusion: {
+      fr: 'Comprendre les tarifs du marché est la première étape pour organiser des soins de qualité pour votre proche au Cameroun. Que vous soyez sur place à Douala ou en France, en Belgique ou au Canada, GardeMalade Cameroun est là pour vous accompagner dans cette démarche. Nos soignants sont sélectionnés, formés et encadrés pour garantir des soins sûrs et dignes. N\'attendez pas une situation d\'urgence : <a href="/contact">contactez-nous dès aujourd\'hui</a> pour une évaluation gratuite des besoins de votre proche.',
+      en: 'Understanding market rates is the first step toward organizing quality care for your loved one in Cameroon. Whether you\'re in Douala, in France, Belgium, or Canada, GardeMalade Cameroun is here to guide you through the process. Our caregivers are selected, trained, and supervised to ensure safe and dignified care. Don\'t wait for an emergency: <a href="/contact">contact us today</a> for a free needs assessment.',
+    },
+    cta: {
+      text: { fr: 'Demandez une évaluation gratuite', en: 'Request a free assessment' },
+      href: '/contact',
+    },
+  },
+  sources: [
+    {
+      title: 'Soins de santé primaires en Afrique subsaharienne',
+      url: 'https://afro.who.int/fr/health-topics/primary-health-care',
+      org: 'OMS / WHO Bureau Afrique',
+    },
+  ],
+  related: [],
+  schema: {
+    faq_items: [],
+  },
+};
+
+// ── Populate schema.faq_items ─────────────────────────────────────────────────
+
+MOCK_ARTICLE.schema.faq_items = MOCK_ARTICLE.content.faq.map(q => ({
+  question: q.question,
+  answer: q.answer,
+}));
+
+// ── Compute mock reading time ─────────────────────────────────────────────────
+
+function estimateReadingTime(article) {
+  const allText = JSON.stringify(article.content || '').replace(/<[^>]+>/g, ' ');
+  const wordCount = allText.split(/\s+/).filter(Boolean).length;
+  return Math.max(3, Math.ceil(wordCount / 220));
+}
+MOCK_ARTICLE.meta.reading_time = estimateReadingTime(MOCK_ARTICLE);
+
+// ── Write test files ──────────────────────────────────────────────────────────
+
+function run() {
+  log('Running test generator (mock data, no API calls)');
+
+  // Ensure directories exist
+  mkdirSync(CONTENT_DIR, { recursive: true });
+
+  // Write mock article
+  const slug = MOCK_ARTICLE.meta.slug;
+  const articlePath = path.join(CONTENT_DIR, `${slug}.json`);
+  writeFileSync(articlePath, JSON.stringify(MOCK_ARTICLE, null, 2), 'utf8');
+  log(`Mock article written: ${articlePath}`);
+
+  // Write/update index
+  let index = [];
+  if (existsSync(INDEX_PATH)) {
+    try { index = JSON.parse(readFileSync(INDEX_PATH, 'utf8')); } catch {}
+  }
+
+  const filtered = index.filter(a => a.slug !== slug);
+  const entry = {
+    slug,
+    date: MOCK_ARTICLE.meta.date,
+    title_fr: MOCK_ARTICLE.meta.title.fr,
+    title_en: MOCK_ARTICLE.meta.title.en,
+    description_fr: MOCK_ARTICLE.meta.description.fr,
+    description_en: MOCK_ARTICLE.meta.description.en,
+    focus_keyword_fr: MOCK_ARTICLE.meta.focus_keyword.fr,
+    focus_keyword_en: MOCK_ARTICLE.meta.focus_keyword.en,
+    category: MOCK_ARTICLE.meta.category,
+    tags: MOCK_ARTICLE.meta.tags,
+    reading_time: MOCK_ARTICLE.meta.reading_time,
+    hero_src: MOCK_ARTICLE.hero.src,
+    hero_alt_fr: MOCK_ARTICLE.hero.alt.fr,
+    hero_alt_en: MOCK_ARTICLE.hero.alt.en,
+    chapeau_fr: MOCK_ARTICLE.content.chapeau.fr,
+    chapeau_en: MOCK_ARTICLE.content.chapeau.en,
+  };
+
+  filtered.unshift(entry);
+  filtered.sort((a, b) => b.date.localeCompare(a.date));
+  writeFileSync(INDEX_PATH, JSON.stringify(filtered, null, 2), 'utf8');
+  log(`Index written: ${INDEX_PATH} (${filtered.length} articles)`);
+
+  log('Test complete. Verify that the Astro build still passes:');
+  log('  npm run build');
+  log(`  Then check: http://localhost:4321/blog/${slug}`);
+
+  // Print summary
+  console.log('\n=== Article summary ===');
+  console.log('Slug:', slug);
+  console.log('Title FR:', MOCK_ARTICLE.meta.title.fr);
+  console.log('Title EN:', MOCK_ARTICLE.meta.title.en);
+  console.log('Sections:', MOCK_ARTICLE.content.sections.length);
+  console.log('FAQ:', MOCK_ARTICLE.content.faq.length);
+  console.log('Reading time:', MOCK_ARTICLE.meta.reading_time, 'min');
+}
+
+run();

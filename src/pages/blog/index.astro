@@ -1,44 +1,241 @@
 ---
-export const prerender = true;
+import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+
+// Fetch all blog articles sorted by date (most recent first)
+const allArticles = await getCollection('blog', ({ id }) => id !== '_index');
+allArticles.sort((a, b) => b.data.meta.date.localeCompare(a.data.meta.date));
+
+// All unique categories and tags
+const categories = [...new Set(allArticles.map((a) => a.data.meta.category))];
+
+// Read query params for filtering (SSR-style via URL)
+const url = Astro.url;
+const filterCategory = url.searchParams.get('category') ?? '';
+const filterTag = url.searchParams.get('tag') ?? '';
+
+const filtered = allArticles.filter((a) => {
+  if (filterCategory && a.data.meta.category !== filterCategory) return false;
+  if (filterTag && !a.data.meta.tags.includes(filterTag)) return false;
+  return true;
+});
+
+const categoryLabels: Record<string, { fr: string; en: string }> = {
+  couts:                  { fr: 'Coûts et tarifs',              en: 'Costs & rates' },
+  guide_pratique:         { fr: 'Guide pratique',               en: 'Practical guide' },
+  sante_personnes_agees:  { fr: 'Santé personnes âgées',        en: 'Elderly health care' },
+  diaspora:               { fr: 'Diaspora',                     en: 'Diaspora' },
+  juridique_administratif:{ fr: 'Juridique & administratif',    en: 'Legal & admin' },
+};
 ---
 
 <Layout
-  title="Blog Santé Cameroun | GardeMalade Cameroun"
-  description="Conseils santé, guides sur les soins à domicile au Cameroun, et ressources pour les familles de la diaspora. Articles publiés régulièrement."
+  title="Blog Garde-Malade Cameroun — Conseils soins à domicile"
+  description="Conseils, guides pratiques et informations sur les soins à domicile au Cameroun (Douala, Yaoundé). Pour les familles et la diaspora africaine."
+  canonical="https://gardemalade-cm.com/blog"
 >
-  <section class="py-16 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Blog Santé</h1>
-      <p class="text-green-100 text-lg">
-        Conseils, guides et ressources pour prendre soin de vos proches au Cameroun
-      </p>
-    </div>
-  </section>
+  <div class="min-h-screen bg-gray-50">
 
-  <section class="max-w-4xl mx-auto px-4 py-16 text-center">
-    <div class="bg-[#F0FAF5] rounded-2xl p-12">
-      <div class="text-5xl mb-4">📝</div>
-      <h2 class="text-2xl font-extrabold text-gray-900 mb-3">Articles bientôt disponibles</h2>
-      <p class="text-gray-600 max-w-md mx-auto mb-6">
-        Notre blog avec des guides pratiques sur les soins à domicile au Cameroun arrive très bientôt.
-        Des articles utiles pour les familles de la diaspora.
-      </p>
-      <p class="text-sm text-gray-400">Sujets prévus :</p>
-      <div class="flex flex-wrap gap-2 justify-center mt-3">
-        {[
-          'Coût garde-malade Douala',
-          'Organiser soins depuis l\'étranger',
-          'Auxiliaire de vie vs garde-malade',
-          'Signes d\'alerte personne âgée',
-          'Soins post-opératoires Cameroun',
-        ].map(t => (
-          <span class="text-xs font-medium px-3 py-1.5 rounded-full" style="background:white;color:#1A6B4A;border:1px solid #d1fae5">{t}</span>
-        ))}
+    <!-- Hero banner -->
+    <section class="py-14 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-3">
+          <span class="i18n" data-fr="Blog & Guides" data-en="Blog & Guides">Blog & Guides</span>
+        </h1>
+        <p class="text-green-100 text-lg">
+          <span class="i18n"
+            data-fr="Conseils pratiques sur les soins à domicile au Cameroun — pour les familles et la diaspora"
+            data-en="Practical advice on home care in Cameroon — for families and the diaspora">
+            Conseils pratiques sur les soins à domicile au Cameroun — pour les familles et la diaspora
+          </span>
+        </p>
+        <!-- Language toggle -->
+        <div class="flex justify-center mt-6">
+          <div class="inline-flex items-center rounded-full border border-white/30 bg-white/10 p-1 gap-1">
+            <button id="btn-fr-list" class="lang-btn-list px-4 py-1.5 text-sm font-bold rounded-full transition-colors active" aria-pressed="true">FR</button>
+            <button id="btn-en-list" class="lang-btn-list px-4 py-1.5 text-sm font-bold rounded-full transition-colors" aria-pressed="false">EN</button>
+          </div>
+        </div>
       </div>
-      <a href="/contact" class="inline-flex items-center gap-2 mt-8 text-white font-bold px-6 py-3 rounded-full" style="background:#1A6B4A">
-        Nous contacter en attendant
-      </a>
+    </section>
+
+    <!-- Filters -->
+    <div class="max-w-6xl mx-auto px-4 py-6">
+      <div class="flex flex-wrap items-center gap-3">
+        <a
+          href="/blog"
+          class={`text-sm px-3 py-1.5 rounded-full border font-medium transition-colors ${!filterCategory && !filterTag ? 'text-white border-green-700' : 'bg-white text-gray-600 border-gray-200 hover:border-green-400'}`}
+          style={!filterCategory && !filterTag ? 'background:#1A6B4A' : ''}
+        >
+          <span class="i18n" data-fr="Tout" data-en="All">Tout</span>
+        </a>
+        {categories.map((cat) => (
+          <a
+            href={`/blog?category=${cat}`}
+            class={`text-sm px-3 py-1.5 rounded-full border font-medium transition-colors ${filterCategory === cat ? 'text-white border-green-700' : 'bg-white text-gray-600 border-gray-200 hover:border-green-400'}`}
+            style={filterCategory === cat ? 'background:#1A6B4A' : ''}
+          >
+            <span class="i18n" data-fr={categoryLabels[cat]?.fr ?? cat} data-en={categoryLabels[cat]?.en ?? cat}>
+              {categoryLabels[cat]?.fr ?? cat}
+            </span>
+          </a>
+        ))}
+        {filterTag && (
+          <div class="flex items-center gap-2 ml-auto">
+            <span class="text-sm text-gray-500">
+              <span class="i18n" data-fr="Filtre :" data-en="Filter:">Filtre :</span>
+              <strong class="ml-1">#{filterTag}</strong>
+            </span>
+            <a href="/blog" class="text-xs text-red-500 hover:underline">
+              <span class="i18n" data-fr="Effacer" data-en="Clear">Effacer</span>
+            </a>
+          </div>
+        )}
+      </div>
     </div>
-  </section>
+
+    <!-- Articles grid -->
+    <main class="max-w-6xl mx-auto px-4 pb-16">
+      {filtered.length === 0 ? (
+        <div class="text-center py-16 text-gray-400">
+          <p class="text-xl mb-2">
+            <span class="i18n" data-fr="Aucun article pour l'instant." data-en="No articles yet.">Aucun article pour l'instant.</span>
+          </p>
+          <p class="text-gray-500 mb-6">
+            <span class="i18n"
+              data-fr="Les premiers articles arrivent bientôt. En attendant, contactez-nous directement."
+              data-en="The first articles are coming soon. In the meantime, contact us directly.">
+              Les premiers articles arrivent bientôt. En attendant, contactez-nous directement.
+            </span>
+          </p>
+          <a href="/contact" class="inline-block text-white font-bold px-6 py-3 rounded-full" style="background:#1A6B4A">
+            <span class="i18n" data-fr="Nous contacter" data-en="Contact us">Nous contacter</span>
+          </a>
+        </div>
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filtered.map((article) => {
+            const { meta, hero, content } = article.data;
+            const catLabel = categoryLabels[meta.category];
+            return (
+              <article class="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:border-green-400 hover:shadow-lg transition-all flex flex-col">
+                <a href={`/blog/${meta.slug}`} class="block aspect-[16/9] overflow-hidden bg-gray-100">
+                  {hero.src ? (
+                    <img
+                      src={hero.src}
+                      alt={hero.alt.fr}
+                      data-alt-fr={hero.alt.fr}
+                      data-alt-en={hero.alt.en}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div class="w-full h-full flex items-center justify-center" style="background:#e8f5ee">
+                      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#1A6B4A" stroke-width="1.5">
+                        <path stroke-linecap="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                      </svg>
+                    </div>
+                  )}
+                </a>
+                <div class="p-5 flex flex-col flex-1">
+                  <div class="mb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider" style="color:#1A6B4A">
+                      <span class="i18n" data-fr={catLabel?.fr ?? meta.category} data-en={catLabel?.en ?? meta.category}>
+                        {catLabel?.fr ?? meta.category}
+                      </span>
+                    </span>
+                  </div>
+                  <h2 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors leading-snug">
+                    <a href={`/blog/${meta.slug}`}>
+                      <span class="i18n" data-fr={meta.title.fr} data-en={meta.title.en}>
+                        {meta.title.fr}
+                      </span>
+                    </a>
+                  </h2>
+                  <p class="text-sm text-gray-600 leading-relaxed line-clamp-3 flex-1">
+                    <span class="i18n" data-fr={content.chapeau.fr} data-en={content.chapeau.en}>
+                      {content.chapeau.fr}
+                    </span>
+                  </p>
+                  <div class="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
+                    <div class="flex items-center gap-3 text-xs text-gray-400">
+                      <time datetime={meta.date}>{meta.date}</time>
+                      <span>·</span>
+                      <span>
+                        <span class="i18n"
+                          data-fr={`${meta.reading_time} min`}
+                          data-en={`${meta.reading_time} min`}>
+                          {meta.reading_time} min
+                        </span>
+                      </span>
+                    </div>
+                    <a href={`/blog/${meta.slug}`} class="text-xs font-bold hover:underline" style="color:#1A6B4A">
+                      <span class="i18n" data-fr="Lire →" data-en="Read →">Lire →</span>
+                    </a>
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      )}
+    </main>
+  </div>
 </Layout>
+
+<style>
+  .lang-btn-list {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .lang-btn-list.active {
+    background: white;
+    color: #1A6B4A;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
+
+<script>
+  (function () {
+    const btnFr = document.getElementById('btn-fr-list');
+    const btnEn = document.getElementById('btn-en-list');
+    if (!btnFr || !btnEn) return;
+
+    function setLang(lang: 'fr' | 'en') {
+      btnFr.classList.toggle('active', lang === 'fr');
+      btnEn.classList.toggle('active', lang === 'en');
+      btnFr.setAttribute('aria-pressed', String(lang === 'fr'));
+      btnEn.setAttribute('aria-pressed', String(lang === 'en'));
+
+      document.querySelectorAll<HTMLElement>('.i18n').forEach((el) => {
+        const val = el.dataset[lang];
+        if (val !== undefined) el.textContent = val;
+      });
+
+      document.querySelectorAll<HTMLImageElement>('img[data-alt-fr]').forEach((img) => {
+        const alt = img.dataset[`alt${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
+        if (alt) img.alt = alt;
+      });
+
+      try { localStorage.setItem('gardemalade-lang', lang); } catch {}
+    }
+
+    btnFr.addEventListener('click', () => setLang('fr'));
+    btnEn.addEventListener('click', () => setLang('en'));
+
+    try {
+      const saved = localStorage.getItem('gardemalade-lang') as 'fr' | 'en' | null;
+      if (saved === 'en') setLang('en');
+      else setLang('fr');
+    } catch {
+      setLang('fr');
+    }
+  })();
+</script>

@@ -1,0 +1,505 @@
+---
+/**
+ * ArticleRenderer.astro
+ * Renders a bilingual blog article from JSON data.
+ * Language toggle (FR/EN) is handled client-side via JS.
+ */
+
+interface BilingualText {
+  fr: string;
+  en: string;
+}
+
+interface HeroData {
+  src: string;
+  alt: BilingualText;
+  photographer: string | null;
+  photographer_url: string | null;
+  photo_url: string | null;
+  unsplash_id: string | null;
+}
+
+interface Section {
+  heading: BilingualText;
+  body: BilingualText;
+  image: { src: string; alt: BilingualText } | null;
+}
+
+interface FaqItem {
+  question: BilingualText;
+  answer: BilingualText;
+}
+
+interface Source {
+  title: string;
+  url: string;
+  org: string;
+}
+
+interface ArticleData {
+  meta: {
+    slug: string;
+    date: string;
+    title: BilingualText;
+    description: BilingualText;
+    focus_keyword: BilingualText;
+    reading_time: number;
+    category: string;
+    tags: string[];
+  };
+  hero: HeroData;
+  content: {
+    chapeau: BilingualText;
+    sections: Section[];
+    faq: FaqItem[];
+    conclusion: BilingualText;
+    cta: { text: BilingualText; href: string };
+  };
+  sources: Source[];
+  related: string[];
+  schema: { faq_items: FaqItem[] };
+}
+
+interface Props {
+  article: ArticleData;
+  siteUrl?: string;
+}
+
+const { article, siteUrl = 'https://gardemalade-cm.com' } = Astro.props;
+
+const { meta, hero, content, sources, schema } = article;
+
+// Date formatting
+function formatDate(iso: string, lang: 'fr' | 'en'): string {
+  const moisFr = [
+    'janvier', 'février', 'mars', 'avril', 'mai', 'juin',
+    'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre',
+  ];
+  const moisEn = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December',
+  ];
+  const [y, m, d] = iso.split('-').map(Number);
+  if (lang === 'fr') return `${d} ${moisFr[m - 1]} ${y}`;
+  return `${moisEn[m - 1]} ${d}, ${y}`;
+}
+
+const dateStrFr = formatDate(meta.date, 'fr');
+const dateStrEn = formatDate(meta.date, 'en');
+
+const articleUrl = `${siteUrl}/blog/${meta.slug}`;
+
+// Schema JSON-LD
+const blogPostingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: meta.title.fr,
+  description: meta.description.fr,
+  datePublished: meta.date,
+  dateModified: meta.date,
+  url: articleUrl,
+  image: hero.src ? `${siteUrl}${hero.src}` : undefined,
+  author: {
+    '@type': 'Organization',
+    name: 'GardeMalade Cameroun',
+    url: siteUrl,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'GardeMalade Cameroun',
+    url: siteUrl,
+  },
+  inLanguage: 'fr-CM',
+  keywords: meta.tags.join(', '),
+};
+
+const faqSchema = schema.faq_items?.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: schema.faq_items.map((item) => ({
+        '@type': 'Question',
+        name: item.question.fr,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer.fr,
+        },
+      })),
+    }
+  : null;
+
+const categoryLabels: Record<string, BilingualText> = {
+  couts:                  { fr: 'Coûts et tarifs',              en: 'Costs & rates' },
+  guide_pratique:         { fr: 'Guide pratique',               en: 'Practical guide' },
+  sante_personnes_agees:  { fr: 'Santé personnes âgées',        en: 'Elderly health care' },
+  diaspora:               { fr: 'Diaspora',                     en: 'Diaspora' },
+  juridique_administratif:{ fr: 'Juridique & administratif',    en: 'Legal & admin' },
+};
+
+const catLabel = categoryLabels[meta.category] ?? { fr: meta.category, en: meta.category };
+---
+
+<!-- JSON-LD Schemas -->
+<script type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
+{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+<article class="article-wrapper max-w-3xl mx-auto px-4 py-10" id="article-root" data-lang="fr">
+
+  <!-- ── Language toggle ── -->
+  <div class="flex justify-end mb-6">
+    <div class="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 p-1 gap-1" role="group" aria-label="Language / Langue">
+      <button
+        id="btn-fr"
+        class="lang-btn px-3 py-1 text-sm font-semibold rounded-full transition-colors"
+        aria-pressed="true"
+        aria-label="Afficher en français"
+      >
+        FR
+      </button>
+      <button
+        id="btn-en"
+        class="lang-btn px-3 py-1 text-sm font-semibold rounded-full transition-colors"
+        aria-pressed="false"
+        aria-label="Show in English"
+      >
+        EN
+      </button>
+    </div>
+  </div>
+
+  <!-- ── Hero image ── -->
+  {hero.src && (
+    <figure class="mb-8 rounded-2xl overflow-hidden shadow-md">
+      <img
+        src={hero.src}
+        alt={hero.alt.fr}
+        data-alt-fr={hero.alt.fr}
+        data-alt-en={hero.alt.en}
+        class="w-full aspect-[1200/630] object-cover"
+        loading="eager"
+        decoding="async"
+        id="hero-img"
+      />
+      {hero.photographer && hero.photo_url && (
+        <figcaption class="text-xs text-gray-400 px-3 py-1.5 bg-gray-50 text-right">
+          <span class="i18n" data-fr="Photo :" data-en="Photo:">Photo :</span>
+          {' '}
+          <a
+            href={hero.photographer_url ?? '#'}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:underline"
+          >
+            {hero.photographer}
+          </a>
+          {' '}
+          <span class="i18n" data-fr="sur" data-en="on">sur</span>
+          {' '}
+          <a
+            href={hero.photo_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:underline"
+          >
+            Unsplash
+          </a>
+        </figcaption>
+      )}
+    </figure>
+  )}
+
+  <!-- ── Article header ── -->
+  <header class="mb-8">
+    <!-- Category badge -->
+    <div class="mb-3">
+      <span class="inline-block text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full" style="background:#e8f5ee;color:#1A6B4A">
+        <span class="i18n" data-fr={catLabel.fr} data-en={catLabel.en}>{catLabel.fr}</span>
+      </span>
+    </div>
+
+    <!-- Title -->
+    <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+      <span class="i18n" data-fr={meta.title.fr} data-en={meta.title.en}>{meta.title.fr}</span>
+    </h1>
+
+    <!-- Meta row -->
+    <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+      <time datetime={meta.date} class="flex items-center gap-1.5">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        <span class="i18n" data-fr={dateStrFr} data-en={dateStrEn}>{dateStrFr}</span>
+      </time>
+      <span class="flex items-center gap-1.5">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <span class="i18n"
+          data-fr={`${meta.reading_time} min de lecture`}
+          data-en={`${meta.reading_time} min read`}>
+          {meta.reading_time} min de lecture
+        </span>
+      </span>
+    </div>
+  </header>
+
+  <!-- ── Chapeau / intro ── -->
+  <div class="lead text-lg text-gray-700 font-medium leading-relaxed mb-10 border-l-4 pl-4" style="border-color:#1A6B4A">
+    <span class="i18n" data-fr={content.chapeau.fr} data-en={content.chapeau.en}>
+      {content.chapeau.fr}
+    </span>
+  </div>
+
+  <!-- ── Article sections ── -->
+  <div class="article-body prose prose-lg max-w-none">
+    {content.sections.map((section, i) => (
+      <section key={i} class="mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">
+          <span class="i18n" data-fr={section.heading.fr} data-en={section.heading.en}>
+            {section.heading.fr}
+          </span>
+        </h2>
+        <div class="section-body text-gray-700 leading-relaxed space-y-4">
+          <div class="i18n-html" data-fr={section.body.fr} data-en={section.body.en} set:html={section.body.fr} />
+        </div>
+        {section.image && (
+          <figure class="my-6 rounded-xl overflow-hidden shadow">
+            <img
+              src={section.image.src}
+              alt={section.image.alt.fr}
+              data-alt-fr={section.image.alt.fr}
+              data-alt-en={section.image.alt.en}
+              class="w-full object-cover"
+              loading="lazy"
+            />
+          </figure>
+        )}
+      </section>
+    ))}
+  </div>
+
+  <!-- ── FAQ ── -->
+  {content.faq.length > 0 && (
+    <section class="mb-10 mt-12" aria-labelledby="faq-heading">
+      <h2 id="faq-heading" class="text-2xl font-bold text-gray-900 mb-6">
+        <span class="i18n" data-fr="Questions fréquentes" data-en="Frequently asked questions">
+          Questions fréquentes
+        </span>
+      </h2>
+      <div class="space-y-3">
+        {content.faq.map((item, i) => (
+          <details key={i} class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <summary class="faq-summary flex items-center justify-between px-5 py-4 cursor-pointer font-semibold text-gray-800 hover:bg-gray-50 transition-colors select-none list-none">
+              <span class="i18n" data-fr={item.question.fr} data-en={item.question.en}>
+                {item.question.fr}
+              </span>
+              <svg class="faq-chevron flex-shrink-0 ml-3 transition-transform" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </summary>
+            <div class="faq-answer px-5 py-4 text-gray-600 leading-relaxed border-t border-gray-100">
+              <span class="i18n" data-fr={item.answer.fr} data-en={item.answer.en}>
+                {item.answer.fr}
+              </span>
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- ── Conclusion ── -->
+  <section class="conclusion mb-10 p-6 rounded-2xl" style="background:#e8f5ee">
+    <h2 class="text-xl font-bold mb-3" style="color:#1A6B4A">
+      <span class="i18n" data-fr="En résumé" data-en="To sum up">En résumé</span>
+    </h2>
+    <div class="text-gray-700 leading-relaxed">
+      <div class="i18n-html" data-fr={content.conclusion.fr} data-en={content.conclusion.en} set:html={content.conclusion.fr} />
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <div class="cta-block text-center py-8 px-6 mb-10 rounded-2xl text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
+    <p class="text-xl font-bold mb-2">
+      <span class="i18n"
+        data-fr="Besoin d'un garde-malade au Cameroun ?"
+        data-en="Need a caregiver in Cameroon?">
+        Besoin d'un garde-malade au Cameroun ?
+      </span>
+    </p>
+    <p class="text-green-100 mb-5 text-sm">
+      <span class="i18n"
+        data-fr="Évaluation gratuite · Réponse en moins d'une heure · Service disponible à Douala et Yaoundé"
+        data-en="Free assessment · Response within one hour · Service available in Douala and Yaoundé">
+        Évaluation gratuite · Réponse en moins d'une heure · Service disponible à Douala et Yaoundé
+      </span>
+    </p>
+    <a
+      href={content.cta.href}
+      class="inline-block bg-white font-bold px-6 py-3 rounded-full transition-opacity hover:opacity-90 text-sm"
+      style="color:#1A6B4A"
+    >
+      <span class="i18n" data-fr={content.cta.text.fr} data-en={content.cta.text.en}>
+        {content.cta.text.fr}
+      </span>
+    </a>
+  </div>
+
+  <!-- ── Tags ── -->
+  {meta.tags.length > 0 && (
+    <div class="flex flex-wrap gap-2 mb-8">
+      {meta.tags.map((tag) => (
+        <a
+          href={`/blog?tag=${encodeURIComponent(tag)}`}
+          class="text-xs px-3 py-1 rounded-full border border-gray-200 text-gray-500 hover:border-green-400 hover:text-green-700 transition-colors"
+        >
+          #{tag}
+        </a>
+      ))}
+    </div>
+  )}
+
+  <!-- ── Sources ── -->
+  {sources.length > 0 && (
+    <section class="sources mt-10 pt-6 border-t border-gray-200" aria-labelledby="sources-heading">
+      <h2 id="sources-heading" class="text-base font-bold text-gray-600 mb-3">
+        <span class="i18n" data-fr="Sources consultées" data-en="Sources consulted">Sources consultées</span>
+      </h2>
+      <ul class="space-y-1.5">
+        {sources.map((src) => (
+          <li class="text-sm text-gray-500">
+            <span class="font-medium text-gray-600">{src.org}</span>
+            {' — '}
+            <a
+              href={src.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:underline hover:text-green-700"
+            >
+              {src.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</article>
+
+<!-- ── Styles ── -->
+<style>
+  /* Language toggle buttons */
+  .lang-btn {
+    color: #6b7280;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .lang-btn.active {
+    background: #1A6B4A;
+    color: white;
+  }
+  .lang-btn:focus-visible {
+    outline: 2px solid #1A6B4A;
+    outline-offset: 2px;
+  }
+
+  /* FAQ accordion */
+  details[open] .faq-chevron {
+    transform: rotate(180deg);
+  }
+  details[open] > summary {
+    background: #f9fafb;
+  }
+  .faq-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* Prose overrides */
+  .article-body :global(a) {
+    color: #1A6B4A;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .article-body :global(a:hover) {
+    opacity: 0.8;
+  }
+  .article-body :global(ul) {
+    padding-left: 1.25rem;
+    list-style-type: disc;
+  }
+  .article-body :global(li) {
+    margin-bottom: 0.35rem;
+  }
+  .article-body :global(strong) {
+    font-weight: 700;
+    color: #111827;
+  }
+  .article-body :global(em) {
+    font-style: italic;
+    color: #374151;
+  }
+  .conclusion :global(a) {
+    color: #1A6B4A;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+</style>
+
+<!-- ── Language toggle script ── -->
+<script>
+  (function () {
+    const root = document.getElementById('article-root');
+    const btnFr = document.getElementById('btn-fr');
+    const btnEn = document.getElementById('btn-en');
+    if (!root || !btnFr || !btnEn) return;
+
+    function setLang(lang: 'fr' | 'en') {
+      root.dataset.lang = lang;
+      btnFr.classList.toggle('active', lang === 'fr');
+      btnEn.classList.toggle('active', lang === 'en');
+      btnFr.setAttribute('aria-pressed', String(lang === 'fr'));
+      btnEn.setAttribute('aria-pressed', String(lang === 'en'));
+
+      // Plain text elements
+      root.querySelectorAll<HTMLElement>('.i18n').forEach((el) => {
+        const val = el.dataset[lang];
+        if (val !== undefined) el.textContent = val;
+      });
+
+      // HTML elements (body sections, conclusion)
+      root.querySelectorAll<HTMLElement>('.i18n-html').forEach((el) => {
+        const val = el.dataset[lang];
+        if (val !== undefined) el.innerHTML = val;
+      });
+
+      // Hero image alt
+      const heroImg = document.getElementById('hero-img') as HTMLImageElement | null;
+      if (heroImg) {
+        const alt = heroImg.dataset[`alt${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
+        if (alt) heroImg.alt = alt;
+      }
+
+      // Section images alt
+      root.querySelectorAll<HTMLImageElement>('figure img:not(#hero-img)').forEach((img) => {
+        const alt = img.dataset[`alt${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
+        if (alt) img.alt = alt;
+      });
+
+      // Store preference
+      try { localStorage.setItem('gardemalade-lang', lang); } catch {}
+    }
+
+    btnFr.addEventListener('click', () => setLang('fr'));
+    btnEn.addEventListener('click', () => setLang('en'));
+
+    // Restore saved preference
+    try {
+      const saved = localStorage.getItem('gardemalade-lang') as 'fr' | 'en' | null;
+      if (saved === 'en') setLang('en');
+      else setLang('fr');
+    } catch {
+      setLang('fr');
+    }
+  })();
+</script>
