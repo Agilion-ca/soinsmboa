@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" font-family="'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 318 76" width="318" height="76" font-family="'Helvetica Neue', Arial, sans-serif">
 
-  <!-- ── MARK: maison + croix ── -->
-  <!-- Toit -->
-  <polygon points="44,6 76,32 12,32" fill="#FF6B35"/>
-  <!-- Corps maison -->
-  <rect x="14" y="30" width="60" height="42" rx="3" fill="#1A6B4A"/>
-  <!-- Croix médicale blanche -->
-  <rect x="40" y="38" width="8" height="26" rx="2" fill="white"/>
-  <rect x="30" y="46" width="28" height="8" rx="2" fill="white"/>
+  <!-- ── MARK (icône, mise à l'échelle 60px de haut via transform) ── -->
+  <g transform="translate(4,8) scale(0.882)">
+    <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#1A6B4A"/>
+    <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+    <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+    <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+    <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
+  </g>
 
   <!-- ── WORDMARK ── -->
-  <!-- "Soins" sombre -->
-  <text x="90" y="48" font-size="38" font-weight="800" fill="#0D2318" letter-spacing="-0.5">Soins</text>
-  <!-- "Mboa" orange — positionné en tspan pour continuité optique -->
-  <text x="210" y="48" font-size="38" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">Mboa</text>
+  <!-- Nom de marque : tspan unique pour alignement garanti -->
+  <text y="46" font-size="36" font-weight="800" letter-spacing="-0.5">
+    <tspan x="64" fill="#0D2318">Soins</tspan><tspan fill="#FF6B35">Mboa</tspan>
+  </text>
 
-  <!-- Trait de séparation sous le nom -->
-  <rect x="90" y="55" width="238" height="1.5" fill="#1A6B4A" opacity="0.18"/>
+  <!-- Ligne séparatrice fine -->
+  <rect x="64" y="53" width="246" height="1.2" fill="#1A6B4A" opacity="0.15"/>
 
   <!-- Tagline -->
-  <text x="90" y="70" font-size="11" fill="#1A6B4A" letter-spacing="2.8" font-weight="600">SOINS À DOMICILE · CAMEROUN</text>
+  <text x="65" y="67" font-size="10" font-weight="600" fill="#1A6B4A" letter-spacing="2.2">SOINS À DOMICILE · CAMEROUN</text>
 
 </svg>

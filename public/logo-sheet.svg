@@ -1,119 +1,150 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 620" font-family="'Helvetica Neue', Arial, sans-serif">
+<rect width="840" height="620" fill="#F7F5F2"/>
 
-  <!-- Fond planche -->
-  <rect width="800" height="520" fill="#F8F5F0"/>
+<!-- ══ EN-TÊTE ══ -->
+<text x="40" y="38" font-size="10" font-weight="700" fill="#BBBBBB" letter-spacing="3">SOINSMBOA — CHARTE IDENTITÉ VISUELLE</text>
+<rect x="40" y="46" width="760" height="1" fill="#E2DDD8"/>
 
-  <!-- ── TITRE PLANCHE ── -->
-  <text x="40" y="40" font-size="11" font-weight="700" fill="#999" letter-spacing="3">SOINSMBOA — IDENTITÉ VISUELLE</text>
-  <rect x="40" y="50" width="720" height="1" fill="#E0DDD8"/>
+<!-- ══════════════════════════════════
+     LIGNE 1 : LOGOS HORIZONTAL
+══════════════════════════════════ -->
 
-  <!-- ══════════════════════════════════════════════
-       ZONE 1 : LOGO HORIZONTAL — fond clair
-  ══════════════════════════════════════════════ -->
-  <rect x="40" y="72" width="440" height="130" rx="8" fill="white"/>
-  <text x="60" y="100" font-size="9" fill="#CCC" letter-spacing="2">FOND CLAIR (usage principal)</text>
+<!-- Fond clair -->
+<rect x="40" y="64" width="460" height="148" rx="6" fill="white"/>
+<text x="56" y="84" font-size="8" font-weight="600" fill="#CCCCCC" letter-spacing="2">FOND CLAIR — USAGE PRINCIPAL</text>
+<!-- Mark -->
+<g transform="translate(64, 94) scale(0.97)">
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#1A6B4A"/>
+  <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
+</g>
+<!-- Wordmark -->
+<text y="146" font-size="36" font-weight="800" letter-spacing="-0.5">
+  <tspan x="134" fill="#0D2318">Soins</tspan><tspan fill="#FF6B35">Mboa</tspan>
+</text>
+<rect x="134" y="154" width="230" height="1" fill="#1A6B4A" opacity="0.14"/>
+<text x="135" y="167" font-size="9.5" font-weight="600" fill="#1A6B4A" letter-spacing="2.2">SOINS À DOMICILE · CAMEROUN</text>
 
-  <!-- Mark -->
-  <polygon points="132,112 164,136 100,136" fill="#FF6B35"/>
-  <rect x="102" y="134" width="60" height="42" rx="3" fill="#1A6B4A"/>
-  <rect x="128" y="142" width="8" height="26" rx="2" fill="white"/>
-  <rect x="118" y="150" width="28" height="8" rx="2" fill="white"/>
-  <!-- Wordmark -->
-  <text x="176" y="158" font-size="36" font-weight="800" fill="#0D2318" letter-spacing="-0.5">Soins</text>
-  <text x="288" y="158" font-size="36" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">Mboa</text>
-  <rect x="176" y="165" width="228" height="1.5" fill="#1A6B4A" opacity="0.15"/>
-  <text x="176" y="178" font-size="10" fill="#1A6B4A" letter-spacing="2.5" font-weight="600">SOINS À DOMICILE · CAMEROUN</text>
+<!-- Fond sombre -->
+<rect x="520" y="64" width="280" height="148" rx="6" fill="#0D2318"/>
+<text x="536" y="84" font-size="8" font-weight="600" fill="#444444" letter-spacing="2">FOND SOMBRE</text>
+<!-- Mark blanc -->
+<g transform="translate(544, 92) scale(0.82)">
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#1A6B4A"/>
+  <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
+</g>
+<!-- Wordmark blanc -->
+<text y="144" font-size="30" font-weight="800" letter-spacing="-0.5">
+  <tspan x="596" fill="white">Soins</tspan><tspan fill="#FF6B35">Mboa</tspan>
+</text>
+<text x="597" y="162" font-size="9" font-weight="600" fill="#4ade80" letter-spacing="2">CAMEROUN</text>
 
-  <!-- ══════════════════════════════════════════════
-       ZONE 2 : LOGO HORIZONTAL — fond sombre
-  ══════════════════════════════════════════════ -->
-  <rect x="500" y="72" width="260" height="130" rx="8" fill="#0D2318"/>
-  <text x="520" y="100" font-size="9" fill="#555" letter-spacing="2">FOND SOMBRE</text>
+<!-- ══════════════════════════════════
+     LIGNE 2 : VARIATIONS DU MARK
+══════════════════════════════════ -->
+<text x="40" y="240" font-size="8" font-weight="600" fill="#BBBBBB" letter-spacing="2">VARIATIONS DE L'ICÔNE</text>
+<rect x="40" y="248" width="760" height="1" fill="#E2DDD8"/>
 
-  <!-- Mark (même icône) -->
-  <polygon points="572,112 604,136 540,136" fill="#FF6B35"/>
-  <rect x="542" y="134" width="60" height="42" rx="3" fill="#1A6B4A"/>
-  <rect x="568" y="142" width="8" height="26" rx="2" fill="white"/>
-  <rect x="558" y="150" width="28" height="8" rx="2" fill="white"/>
-  <!-- Wordmark blanc -->
-  <text x="614" y="152" font-size="30" font-weight="800" fill="white" letter-spacing="-0.5">Soins</text>
-  <text x="614" y="152" font-size="30" font-weight="800" fill="white" letter-spacing="-0.5">
-    <tspan fill="white">Soins</tspan>
-  </text>
-  <text x="718" y="152" font-size="30" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">Mboa</text>
-  <text x="614" y="168" font-size="9" fill="#4ade80" letter-spacing="2" font-weight="600">CAMEROUN</text>
+<!-- A : Fond blanc -->
+<rect x="40" y="262" width="140" height="140" rx="6" fill="white"/>
+<g transform="translate(68, 288) scale(1.22)">
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#1A6B4A"/>
+  <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
+</g>
+<text x="110" y="416" font-size="8.5" fill="#999" text-anchor="middle">Fond blanc</text>
 
-  <!-- ══════════════════════════════════════════════
-       ZONE 3 : MARK seul — 3 variantes
-  ══════════════════════════════════════════════ -->
-  <text x="40" y="236" font-size="9" fill="#999" letter-spacing="2">ICÔNE SEULE</text>
+<!-- B : Fond vert (app icon) -->
+<rect x="200" y="262" width="140" height="140" rx="20" fill="#1A6B4A"/>
+<g transform="translate(228, 286) scale(1.22)">
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="white" fill-opacity="0.15"/>
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="none" stroke="white" stroke-opacity="0.2" stroke-width="1"/>
+  <!-- Silhouette simplifiée pour fond vert -->
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="white"/>
+  <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="#1A6B4A"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="#1A6B4A"/>
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="#1A6B4A"/>
+</g>
+<text x="270" y="416" font-size="8.5" fill="#999" text-anchor="middle">App icon / avatar</text>
 
-  <!-- Variante A : fond transparent -->
-  <rect x="40" y="248" width="120" height="120" rx="8" fill="white"/>
-  <polygon points="100,270 128,292 72,292" fill="#FF6B35"/>
-  <rect x="74" y="290" width="52" height="38" rx="3" fill="#1A6B4A"/>
-  <rect x="95" y="297" width="8" height="24" rx="2" fill="white"/>
-  <rect x="85" y="305" width="28" height="8" rx="2" fill="white"/>
-  <text x="100" y="380" font-size="9" fill="#999" text-anchor="middle">Fond blanc</text>
+<!-- C : Fond sombre -->
+<rect x="360" y="262" width="140" height="140" rx="6" fill="#0D2318"/>
+<g transform="translate(388, 288) scale(1.22)">
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#1A6B4A"/>
+  <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
+</g>
+<text x="430" y="416" font-size="8.5" fill="#999" text-anchor="middle">Fond sombre</text>
 
-  <!-- Variante B : fond vert (app icon) -->
-  <rect x="180" y="248" width="120" height="120" rx="16" fill="#1A6B4A"/>
-  <polygon points="240,268 268,292 212,292" fill="#FF6B35"/>
-  <rect x="214" y="290" width="52" height="42" rx="3" fill="white"/>
-  <rect x="235" y="297" width="8" height="28" rx="2" fill="#1A6B4A"/>
-  <rect x="225" y="305" width="28" height="8" rx="2" fill="#1A6B4A"/>
-  <text x="240" y="380" font-size="9" fill="#999" text-anchor="middle">App icon</text>
+<!-- D : Monochrome -->
+<rect x="520" y="262" width="140" height="140" rx="6" fill="white"/>
+<g transform="translate(548, 288) scale(1.22)">
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#0D2318"/>
+  <circle cx="28" cy="2" r="4.5" fill="#0D2318"/>
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
+</g>
+<text x="590" y="416" font-size="8.5" fill="#999" text-anchor="middle">Monochrome</text>
 
-  <!-- Variante C : fond sombre -->
-  <rect x="320" y="248" width="120" height="120" rx="8" fill="#0D2318"/>
-  <polygon points="380,268 408,292 352,292" fill="#FF6B35"/>
-  <rect x="354" y="290" width="52" height="42" rx="3" fill="#1A6B4A"/>
-  <rect x="375" y="297" width="8" height="28" rx="2" fill="white"/>
-  <rect x="365" y="305" width="28" height="8" rx="2" fill="white"/>
-  <text x="380" y="380" font-size="9" fill="#999" text-anchor="middle">Fond sombre</text>
+<!-- E : Favicon 32px simulé -->
+<rect x="680" y="262" width="140" height="140" rx="6" fill="#F0EDE8"/>
+<rect x="728" y="302" width="44" height="44" rx="8" fill="#1A6B4A"/>
+<path d="M750,305 L763,316 L763,344 Q763,346 761,346 L739,346 Q737,346 737,344 L737,316 Z" fill="white" transform="scale(0.6) translate(501,176)"/>
+<!-- Simplified favicon à 44px -->
+<path d="M750,304 L771,320 L771,344 Q771,346 769,346 L731,346 Q729,346 729,344 L729,320 Z" fill="white"/>
+<circle cx="750" cy="304" r="3" fill="#FF6B35"/>
+<rect x="747.5" y="324" width="5" height="14" rx="1" fill="#1A6B4A"/>
+<rect x="742" y="329" width="16" height="5" rx="1" fill="#1A6B4A"/>
+<path d="M744,346 L744,341 Q744,337 750,337 Q756,337 756,341 L756,346 Z" fill="#1A6B4A"/>
+<text x="750" y="416" font-size="8.5" fill="#999" text-anchor="middle">Favicon 32–64px</text>
 
-  <!-- Variante D : mono noir -->
-  <rect x="460" y="248" width="120" height="120" rx="8" fill="white"/>
-  <polygon points="520,268 548,292 492,292" fill="#0D2318"/>
-  <rect x="494" y="290" width="52" height="42" rx="3" fill="#0D2318"/>
-  <rect x="515" y="297" width="8" height="28" rx="2" fill="white"/>
-  <rect x="505" y="305" width="28" height="8" rx="2" fill="white"/>
-  <text x="520" y="380" font-size="9" fill="#999" text-anchor="middle">Monochrome</text>
+<!-- ══════════════════════════════════
+     LIGNE 3 : PALETTE + TYPO
+══════════════════════════════════ -->
+<rect x="40" y="432" width="760" height="1" fill="#E2DDD8"/>
+<text x="40" y="448" font-size="8" font-weight="600" fill="#BBBBBB" letter-spacing="2">PALETTE COULEURS</text>
 
-  <!-- Variante E : taille favicon (32px) -->
-  <rect x="600" y="248" width="120" height="120" rx="8" fill="#F8F5F0"/>
-  <rect x="648" y="282" width="24" height="24" rx="3" fill="#1A6B4A"/>
-  <polygon points="660,278 674,286 646,286" fill="#FF6B35"/>
-  <rect x="658" y="286" width="4" height="16" rx="1" fill="white"/>
-  <rect x="653" y="291" width="14" height="4" rx="1" fill="white"/>
-  <text x="660" y="380" font-size="9" fill="#999" text-anchor="middle">Favicon 32px</text>
+<!-- Swatch 1 -->
+<rect x="40" y="460" width="100" height="56" rx="5" fill="#1A6B4A"/>
+<text x="90" y="532" font-size="9" fill="#666" text-anchor="middle">#1A6B4A</text>
+<text x="90" y="543" font-size="8" fill="#AAA" text-anchor="middle">Vert marque</text>
 
-  <!-- ══════════════════════════════════════════════
-       ZONE 4 : PALETTE COULEURS
-  ══════════════════════════════════════════════ -->
-  <rect x="40" y="400" width="720" height="1" fill="#E0DDD8"/>
-  <text x="40" y="420" font-size="9" fill="#999" letter-spacing="2">PALETTE</text>
+<!-- Swatch 2 -->
+<rect x="156" y="460" width="100" height="56" rx="5" fill="#0D2318"/>
+<text x="206" y="532" font-size="9" fill="#666" text-anchor="middle">#0D2318</text>
+<text x="206" y="543" font-size="8" fill="#AAA" text-anchor="middle">Vert nuit</text>
 
-  <rect x="40" y="432" width="80" height="48" rx="6" fill="#1A6B4A"/>
-  <text x="80" y="494" font-size="9" fill="#999" text-anchor="middle">#1A6B4A</text>
-  <text x="80" y="505" font-size="8" fill="#BBB" text-anchor="middle">Vert marque</text>
+<!-- Swatch 3 -->
+<rect x="272" y="460" width="100" height="56" rx="5" fill="#FF6B35"/>
+<text x="322" y="532" font-size="9" fill="#666" text-anchor="middle">#FF6B35</text>
+<text x="322" y="543" font-size="8" fill="#AAA" text-anchor="middle">Orange accent</text>
 
-  <rect x="140" y="432" width="80" height="48" rx="6" fill="#0D2318"/>
-  <text x="180" y="494" font-size="9" fill="#999" text-anchor="middle">#0D2318</text>
-  <text x="180" y="505" font-size="8" fill="#BBB" text-anchor="middle">Vert nuit</text>
+<!-- Swatch 4 -->
+<rect x="388" y="460" width="100" height="56" rx="5" fill="#F7F5F2" stroke="#E2DDD8" stroke-width="1"/>
+<text x="438" y="532" font-size="9" fill="#666" text-anchor="middle">#F7F5F2</text>
+<text x="438" y="543" font-size="8" fill="#AAA" text-anchor="middle">Blanc chaud</text>
 
-  <rect x="240" y="432" width="80" height="48" rx="6" fill="#FF6B35"/>
-  <text x="280" y="494" font-size="9" fill="#999" text-anchor="middle">#FF6B35</text>
-  <text x="280" y="505" font-size="8" fill="#BBB" text-anchor="middle">Orange accent</text>
+<!-- Typo specimen -->
+<rect x="504" y="458" width="296" height="60" rx="5" fill="white"/>
+<text x="520" y="476" font-size="9" font-weight="600" fill="#CCC" letter-spacing="1.5">TYPOGRAPHIE</text>
+<text x="520" y="498" font-size="22" font-weight="800" fill="#0D2318">Aa</text>
+<text x="556" y="498" font-size="22" font-weight="400" fill="#666">Aa</text>
+<text x="520" y="511" font-size="9" fill="#AAA">Helvetica Neue · 800 ExtraBold · 400 Regular</text>
 
-  <rect x="340" y="432" width="80" height="48" rx="6" fill="#F8F5F0" stroke="#E0DDD8" stroke-width="1"/>
-  <text x="380" y="494" font-size="9" fill="#999" text-anchor="middle">#F8F5F0</text>
-  <text x="380" y="505" font-size="8" fill="#BBB" text-anchor="middle">Blanc chaud</text>
-
-  <rect x="440" y="432" width="80" height="48" rx="6" fill="#0D2318"/>
-  <text x="480" y="455" font-size="16" font-weight="800" fill="white" text-anchor="middle">Soins</text>
-  <text x="480" y="472" font-size="16" font-weight="800" fill="#FF6B35" text-anchor="middle">Mboa</text>
-  <text x="480" y="494" font-size="9" fill="#999" text-anchor="middle">Helvetica Neue</text>
-  <text x="480" y="505" font-size="8" fill="#BBB" text-anchor="middle">800 / ExtraBold</text>
+<!-- Footer -->
+<rect x="40" y="572" width="760" height="1" fill="#E2DDD8"/>
+<text x="40" y="590" font-size="8" fill="#CCCCCC">SoinsMboa · Usage réservé · Ne pas modifier les proportions ni les couleurs de la marque</text>
+<text x="800" y="590" font-size="8" fill="#CCCCCC" text-anchor="end">2026</text>
 
 </svg>

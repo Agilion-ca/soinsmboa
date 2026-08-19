@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <!-- Fond carré arrondi vert -->
-  <rect width="64" height="64" rx="12" fill="#1A6B4A"/>
-  <!-- Toit orange -->
-  <polygon points="32,7 55,26 9,26" fill="#FF6B35"/>
-  <!-- Corps maison blanc -->
-  <rect x="11" y="24" width="42" height="32" rx="2" fill="white"/>
-  <!-- Croix verte dans le corps -->
-  <rect x="28.5" y="30" width="7" height="20" rx="1.5" fill="#1A6B4A"/>
-  <rect x="21" y="37" width="22" height="7" rx="1.5" fill="#1A6B4A"/>
+  <rect width="64" height="64" rx="13" fill="#1A6B4A"/>
+  <!-- Maison blanche -->
+  <path d="M32,10 L52,28 L52,54 Q52,57 49,57 L15,57 Q12,57 12,54 L12,28 Z" fill="white"/>
+  <!-- Dot orange au pic -->
+  <circle cx="32" cy="10" r="4" fill="#FF6B35"/>
+  <!-- Croix verte dans la maison -->
+  <rect x="29" y="33" width="6" height="17" rx="1.5" fill="#1A6B4A"/>
+  <rect x="21.5" y="39" width="21" height="6" rx="1.5" fill="#1A6B4A"/>
+  <!-- Petite porte blanche (visible sur fond vert) -->
+  <path d="M26,57 L26,51 Q26,46 32,46 Q38,46 38,51 L38,57 Z" fill="#1A6B4A"/>
 </svg>

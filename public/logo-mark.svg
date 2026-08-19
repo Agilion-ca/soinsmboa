@@ -1,9 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" width="64" height="72" font-family="'Helvetica Neue', Arial, sans-serif">
-  <!-- Toit orange -->
-  <polygon points="32,2 62,26 2,26" fill="#FF6B35"/>
-  <!-- Corps maison vert -->
-  <rect x="4" y="24" width="56" height="44" rx="3" fill="#1A6B4A"/>
-  <!-- Croix médicale blanche -->
-  <rect x="28.5" y="32" width="7" height="28" rx="2" fill="white"/>
-  <rect x="19" y="40.5" width="26" height="7" rx="2" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 68" width="56" height="68">
+  <!-- Maison — chemin unique, coins bas arrondis -->
+  <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="#1A6B4A"/>
+  <!-- Point orange au sommet — accent unique, signature de marque -->
+  <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+  <!-- Croix médicale — centrée dans la partie haute du corps -->
+  <rect x="25" y="30" width="6" height="22" rx="2" fill="white"/>
+  <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="white"/>
+  <!-- Arche de porte — renforce la lecture "domicile" -->
+  <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="white"/>
 </svg>
