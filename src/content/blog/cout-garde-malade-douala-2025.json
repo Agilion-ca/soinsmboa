@@ -35,13 +35,13 @@
   "hero": {
     "src": "/blog/images/cout-garde-malade-douala-2025.jpg",
     "alt": {
-      "fr": "Infirmière africaine prenant soin d'une personne âgée à domicile à Douala",
-      "en": "African nurse caring for an elderly person at home in Douala"
+      "fr": "Sage-femme africaine accompagnant une patiente lors d'une consultation à domicile au Cameroun",
+      "en": "African midwife assisting a patient during a home consultation in Cameroon"
     },
-    "photographer": "Test Photographer",
-    "photographer_url": "https://unsplash.com/@testphotographer?utm_source=gardemalade&utm_medium=referral",
-    "photo_url": "https://unsplash.com/photos/test-id?utm_source=gardemalade&utm_medium=referral",
-    "unsplash_id": "test-id"
+    "photographer": "Iwaria Inc.",
+    "photographer_url": "https://unsplash.com/@iwaria?utm_source=soinsmboa&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/a-woman-in-a-pink-shirt-and-a-woman-in-a-green-and-yellow-dress-e_4u1tobpbg?utm_source=soinsmboa&utm_medium=referral",
+    "unsplash_id": "e_4u1tobpbg"
   },
   "body_images": [],
   "content": {

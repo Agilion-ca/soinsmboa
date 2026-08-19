@@ -64,7 +64,7 @@ export const POST: APIRoute = async ({ request }) => {
     <div style="font-family:sans-serif;max-width:580px;margin:0 auto">
       <div style="background:#1A6B4A;color:white;padding:20px;border-radius:8px 8px 0 0">
         <h2 style="margin:0">Nouvelle demande de soin</h2>
-        <p style="margin:4px 0 0;opacity:.8;font-size:13px">GardeMalade Cameroun</p>
+        <p style="margin:4px 0 0;opacity:.8;font-size:13px">SoinsMboa</p>
       </div>
       <div style="background:#f8f9fa;padding:24px;border-radius:0 0 8px 8px">
         <table style="width:100%">
@@ -90,7 +90,7 @@ export const POST: APIRoute = async ({ request }) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      sender: { name: 'GardeMalade CM', email: fromEmail },
+      sender: { name: 'SoinsMboa', email: fromEmail },
       to: [{ email: toEmail }],
       replyTo: body.email ? { email: body.email } : undefined,
       subject: `Demande ${SERVICES[body.service]} — ${body.nom} (${body.ville})`,
