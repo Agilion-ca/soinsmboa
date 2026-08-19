@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Fond planche -->
+  <rect width="800" height="520" fill="#F8F5F0"/>
+
+  <!-- ── TITRE PLANCHE ── -->
+  <text x="40" y="40" font-size="11" font-weight="700" fill="#999" letter-spacing="3">SOINSMBOA — IDENTITÉ VISUELLE</text>
+  <rect x="40" y="50" width="720" height="1" fill="#E0DDD8"/>
+
+  <!-- ══════════════════════════════════════════════
+       ZONE 1 : LOGO HORIZONTAL — fond clair
+  ══════════════════════════════════════════════ -->
+  <rect x="40" y="72" width="440" height="130" rx="8" fill="white"/>
+  <text x="60" y="100" font-size="9" fill="#CCC" letter-spacing="2">FOND CLAIR (usage principal)</text>
+
+  <!-- Mark -->
+  <polygon points="132,112 164,136 100,136" fill="#FF6B35"/>
+  <rect x="102" y="134" width="60" height="42" rx="3" fill="#1A6B4A"/>
+  <rect x="128" y="142" width="8" height="26" rx="2" fill="white"/>
+  <rect x="118" y="150" width="28" height="8" rx="2" fill="white"/>
+  <!-- Wordmark -->
+  <text x="176" y="158" font-size="36" font-weight="800" fill="#0D2318" letter-spacing="-0.5">Soins</text>
+  <text x="288" y="158" font-size="36" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">Mboa</text>
+  <rect x="176" y="165" width="228" height="1.5" fill="#1A6B4A" opacity="0.15"/>
+  <text x="176" y="178" font-size="10" fill="#1A6B4A" letter-spacing="2.5" font-weight="600">SOINS À DOMICILE · CAMEROUN</text>
+
+  <!-- ══════════════════════════════════════════════
+       ZONE 2 : LOGO HORIZONTAL — fond sombre
+  ══════════════════════════════════════════════ -->
+  <rect x="500" y="72" width="260" height="130" rx="8" fill="#0D2318"/>
+  <text x="520" y="100" font-size="9" fill="#555" letter-spacing="2">FOND SOMBRE</text>
+
+  <!-- Mark (même icône) -->
+  <polygon points="572,112 604,136 540,136" fill="#FF6B35"/>
+  <rect x="542" y="134" width="60" height="42" rx="3" fill="#1A6B4A"/>
+  <rect x="568" y="142" width="8" height="26" rx="2" fill="white"/>
+  <rect x="558" y="150" width="28" height="8" rx="2" fill="white"/>
+  <!-- Wordmark blanc -->
+  <text x="614" y="152" font-size="30" font-weight="800" fill="white" letter-spacing="-0.5">Soins</text>
+  <text x="614" y="152" font-size="30" font-weight="800" fill="white" letter-spacing="-0.5">
+    <tspan fill="white">Soins</tspan>
+  </text>
+  <text x="718" y="152" font-size="30" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">Mboa</text>
+  <text x="614" y="168" font-size="9" fill="#4ade80" letter-spacing="2" font-weight="600">CAMEROUN</text>
+
+  <!-- ══════════════════════════════════════════════
+       ZONE 3 : MARK seul — 3 variantes
+  ══════════════════════════════════════════════ -->
+  <text x="40" y="236" font-size="9" fill="#999" letter-spacing="2">ICÔNE SEULE</text>
+
+  <!-- Variante A : fond transparent -->
+  <rect x="40" y="248" width="120" height="120" rx="8" fill="white"/>
+  <polygon points="100,270 128,292 72,292" fill="#FF6B35"/>
+  <rect x="74" y="290" width="52" height="38" rx="3" fill="#1A6B4A"/>
+  <rect x="95" y="297" width="8" height="24" rx="2" fill="white"/>
+  <rect x="85" y="305" width="28" height="8" rx="2" fill="white"/>
+  <text x="100" y="380" font-size="9" fill="#999" text-anchor="middle">Fond blanc</text>
+
+  <!-- Variante B : fond vert (app icon) -->
+  <rect x="180" y="248" width="120" height="120" rx="16" fill="#1A6B4A"/>
+  <polygon points="240,268 268,292 212,292" fill="#FF6B35"/>
+  <rect x="214" y="290" width="52" height="42" rx="3" fill="white"/>
+  <rect x="235" y="297" width="8" height="28" rx="2" fill="#1A6B4A"/>
+  <rect x="225" y="305" width="28" height="8" rx="2" fill="#1A6B4A"/>
+  <text x="240" y="380" font-size="9" fill="#999" text-anchor="middle">App icon</text>
+
+  <!-- Variante C : fond sombre -->
+  <rect x="320" y="248" width="120" height="120" rx="8" fill="#0D2318"/>
+  <polygon points="380,268 408,292 352,292" fill="#FF6B35"/>
+  <rect x="354" y="290" width="52" height="42" rx="3" fill="#1A6B4A"/>
+  <rect x="375" y="297" width="8" height="28" rx="2" fill="white"/>
+  <rect x="365" y="305" width="28" height="8" rx="2" fill="white"/>
+  <text x="380" y="380" font-size="9" fill="#999" text-anchor="middle">Fond sombre</text>
+
+  <!-- Variante D : mono noir -->
+  <rect x="460" y="248" width="120" height="120" rx="8" fill="white"/>
+  <polygon points="520,268 548,292 492,292" fill="#0D2318"/>
+  <rect x="494" y="290" width="52" height="42" rx="3" fill="#0D2318"/>
+  <rect x="515" y="297" width="8" height="28" rx="2" fill="white"/>
+  <rect x="505" y="305" width="28" height="8" rx="2" fill="white"/>
+  <text x="520" y="380" font-size="9" fill="#999" text-anchor="middle">Monochrome</text>
+
+  <!-- Variante E : taille favicon (32px) -->
+  <rect x="600" y="248" width="120" height="120" rx="8" fill="#F8F5F0"/>
+  <rect x="648" y="282" width="24" height="24" rx="3" fill="#1A6B4A"/>
+  <polygon points="660,278 674,286 646,286" fill="#FF6B35"/>
+  <rect x="658" y="286" width="4" height="16" rx="1" fill="white"/>
+  <rect x="653" y="291" width="14" height="4" rx="1" fill="white"/>
+  <text x="660" y="380" font-size="9" fill="#999" text-anchor="middle">Favicon 32px</text>
+
+  <!-- ══════════════════════════════════════════════
+       ZONE 4 : PALETTE COULEURS
+  ══════════════════════════════════════════════ -->
+  <rect x="40" y="400" width="720" height="1" fill="#E0DDD8"/>
+  <text x="40" y="420" font-size="9" fill="#999" letter-spacing="2">PALETTE</text>
+
+  <rect x="40" y="432" width="80" height="48" rx="6" fill="#1A6B4A"/>
+  <text x="80" y="494" font-size="9" fill="#999" text-anchor="middle">#1A6B4A</text>
+  <text x="80" y="505" font-size="8" fill="#BBB" text-anchor="middle">Vert marque</text>
+
+  <rect x="140" y="432" width="80" height="48" rx="6" fill="#0D2318"/>
+  <text x="180" y="494" font-size="9" fill="#999" text-anchor="middle">#0D2318</text>
+  <text x="180" y="505" font-size="8" fill="#BBB" text-anchor="middle">Vert nuit</text>
+
+  <rect x="240" y="432" width="80" height="48" rx="6" fill="#FF6B35"/>
+  <text x="280" y="494" font-size="9" fill="#999" text-anchor="middle">#FF6B35</text>
+  <text x="280" y="505" font-size="8" fill="#BBB" text-anchor="middle">Orange accent</text>
+
+  <rect x="340" y="432" width="80" height="48" rx="6" fill="#F8F5F0" stroke="#E0DDD8" stroke-width="1"/>
+  <text x="380" y="494" font-size="9" fill="#999" text-anchor="middle">#F8F5F0</text>
+  <text x="380" y="505" font-size="8" fill="#BBB" text-anchor="middle">Blanc chaud</text>
+
+  <rect x="440" y="432" width="80" height="48" rx="6" fill="#0D2318"/>
+  <text x="480" y="455" font-size="16" font-weight="800" fill="white" text-anchor="middle">Soins</text>
+  <text x="480" y="472" font-size="16" font-weight="800" fill="#FF6B35" text-anchor="middle">Mboa</text>
+  <text x="480" y="494" font-size="9" fill="#999" text-anchor="middle">Helvetica Neue</text>
+  <text x="480" y="505" font-size="8" fill="#BBB" text-anchor="middle">800 / ExtraBold</text>
+
+</svg>

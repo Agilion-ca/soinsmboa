@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" font-family="'Helvetica Neue', Arial, sans-serif">
+
+  <!-- ── MARK: maison + croix ── -->
+  <!-- Toit -->
+  <polygon points="44,6 76,32 12,32" fill="#FF6B35"/>
+  <!-- Corps maison -->
+  <rect x="14" y="30" width="60" height="42" rx="3" fill="#1A6B4A"/>
+  <!-- Croix médicale blanche -->
+  <rect x="40" y="38" width="8" height="26" rx="2" fill="white"/>
+  <rect x="30" y="46" width="28" height="8" rx="2" fill="white"/>
+
+  <!-- ── WORDMARK ── -->
+  <!-- "Soins" sombre -->
+  <text x="90" y="48" font-size="38" font-weight="800" fill="#0D2318" letter-spacing="-0.5">Soins</text>
+  <!-- "Mboa" orange — positionné en tspan pour continuité optique -->
+  <text x="210" y="48" font-size="38" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">Mboa</text>
+
+  <!-- Trait de séparation sous le nom -->
+  <rect x="90" y="55" width="238" height="1.5" fill="#1A6B4A" opacity="0.18"/>
+
+  <!-- Tagline -->
+  <text x="90" y="70" font-size="11" fill="#1A6B4A" letter-spacing="2.8" font-weight="600">SOINS À DOMICILE · CAMEROUN</text>
+
+</svg>

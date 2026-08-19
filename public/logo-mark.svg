@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" width="64" height="72" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Toit orange -->
+  <polygon points="32,2 62,26 2,26" fill="#FF6B35"/>
+  <!-- Corps maison vert -->
+  <rect x="4" y="24" width="56" height="44" rx="3" fill="#1A6B4A"/>
+  <!-- Croix médicale blanche -->
+  <rect x="28.5" y="32" width="7" height="28" rx="2" fill="white"/>
+  <rect x="19" y="40.5" width="26" height="7" rx="2" fill="white"/>
+</svg>

@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="16" fill="#1A6B4A"/>
-  <path d="M16 8v16M8 16h16" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Fond carré arrondi vert -->
+  <rect width="64" height="64" rx="12" fill="#1A6B4A"/>
+  <!-- Toit orange -->
+  <polygon points="32,7 55,26 9,26" fill="#FF6B35"/>
+  <!-- Corps maison blanc -->
+  <rect x="11" y="24" width="42" height="32" rx="2" fill="white"/>
+  <!-- Croix verte dans le corps -->
+  <rect x="28.5" y="30" width="7" height="20" rx="1.5" fill="#1A6B4A"/>
+  <rect x="21" y="37" width="22" height="7" rx="1.5" fill="#1A6B4A"/>
 </svg>
