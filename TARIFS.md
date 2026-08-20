@@ -64,7 +64,7 @@
 | Nuit 12h | 93 000 | Virement fin de mois |
 | 24h/24 (2 agents) | 86 000 chacun | Virement fin de mois |
 
-*Base de calcul : SMIG Cameroun = 36 270 FCFA/mois. Un auxiliaire à mi-temps touche 2× le SMIG — attractif, fidélisant.*
+*Base de calcul : SMIG Cameroun = 60 000 FCFA/mois (secteur privé non-agricole, revalorisation 2024). Un auxiliaire à mi-temps touche 1,2× le SMIG — attractif, fidélisant.*
 
 ### Garde-malade — rémunération à la prestation
 
