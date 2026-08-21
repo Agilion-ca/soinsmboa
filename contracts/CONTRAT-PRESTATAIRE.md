@@ -111,6 +111,10 @@ Les déplacements pour se rendre au domicile du client sont inclus dans la rému
 Le Prestataire s'engage à :
 
 1. **Respecter les horaires** convenus avec SoinsMboa et le client. Tout retard de plus de **15 minutes** doit être signalé immédiatement par WhatsApp à SoinsMboa.
+   - Retard de **16 à 30 minutes** non justifié : déduction de **1 500 FCFA** sur la rémunération du mois.
+   - Retard de **31 minutes à 1 heure** non justifié : déduction d'une **demi-journée** de rémunération.
+   - Retard de **plus d'1 heure** non justifié : déduction d'une **journée complète** de rémunération, équivalent à une absence.
+   - Est considéré comme justifié : accident de transport avec preuve, maladie déclarée dans les 2 heures, cas de force majeure signalé dans l'heure.
 2. **Prévenir en cas d'absence** : toute absence doit être notifiée à SoinsMboa au minimum **4 heures à l'avance** (sauf urgence médicale). Une absence non prévenue sans justificatif médical entraîne la déduction de la journée et une pénalité de **3 000 FCFA**.
 3. **Assurer la qualité des soins** dans le strict respect des prescriptions médicales et des instructions de SoinsMboa.
 4. **Tenir à jour la fiche de suivi** du bénéficiaire (état général, alimentation, comportement, médicaments) et la transmettre à SoinsMboa selon la fréquence définie.
@@ -138,6 +142,32 @@ Le Prestataire s'engage à remettre à SoinsMboa, avant tout début de mission :
 - [ ] Casier judiciaire bulletin n°3 (datant de moins de 3 mois)
 
 Tout document fourni frauduleux entraîne la résiliation immédiate et peut faire l'objet de poursuites.
+
+---
+
+## Article 5 bis — Responsabilité financière : vol et dommages
+
+### 5 bis.1 Vol ou tentative de vol
+
+Tout acte de vol, tentative de vol, ou appropriation indue d'un bien appartenant au bénéficiaire, à sa famille, ou à SoinsMboa entraîne :
+
+1. **Résiliation immédiate** du présent contrat, sans préavis ni indemnité (conformément à l'article 11.2).
+2. **Obligation de restitution intégrale** de la valeur du bien soustrait, estimée contradictoirement ou sur production de justificatifs d'achat.
+3. **Retenue sur rémunération** : SoinsMboa est autorisée à retenir toute rémunération en attente de versement à titre de provision sur les dommages et intérêts, dans la limite des sommes dues.
+4. **Dépôt de plainte systématique** auprès des services de police ou de gendarmerie compétents — cette disposition est portée à la connaissance du Prestataire dès la signature du présent contrat et vaut mise en garde préalable.
+
+### 5 bis.2 Dommages matériels
+
+Tout dommage matériel causé au domicile du bénéficiaire par négligence caractérisée ou imprudence du Prestataire engage sa responsabilité civile. La procédure est :
+
+1. Constat contradictoire dans les **24 heures** (SoinsMboa, Prestataire, client).
+2. Estimation du préjudice, partagée entre les parties.
+3. Prise en charge par le Prestataire à hauteur de **50 %** du préjudice estimé, dans la limite de **3 mois de rémunération mensuelle**.
+4. Au-delà, la responsabilité revient à l'assurance RC Pro de SoinsMboa.
+
+### 5 bis.3 Récidive
+
+Tout second incident (retard répété, absence injustifiée, comportement signalé par deux clients distincts) donne lieu à un avertissement écrit. Le troisième incident dans une période de **6 mois** entraîne la résiliation sans préavis et l'inscription sur la liste interne des prestataires non-réengageables.
 
 ---
 
