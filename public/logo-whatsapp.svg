@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Fond plein vert — WhatsApp crop circulaire, pas de rx -->
+  <rect width="500" height="500" fill="#1A6B4A"/>
+
+  <!-- Mark centré — scale 5, centré à 250,250
+       Bounding box : x 110–380 (±130 du centre), y 78–421 (±171 du centre)
+       Rayon effectif max : 171px < 250px → aucun élément coupé par le crop circulaire -->
+  <g transform="translate(110, 91) scale(5)">
+    <!-- Maison blanche -->
+    <path d="M28,2 L54,26 L54,62 Q54,66 50,66 L6,66 Q2,66 2,62 L2,26 Z" fill="white"/>
+    <!-- Point orange — signature de marque, au sommet -->
+    <circle cx="28" cy="2" r="4.5" fill="#FF6B35"/>
+    <!-- Croix médicale verte sur fond blanc -->
+    <rect x="25" y="30" width="6" height="22" rx="2" fill="#1A6B4A"/>
+    <rect x="16.5" y="37.5" width="23" height="6" rx="2" fill="#1A6B4A"/>
+    <!-- Arche de porte -->
+    <path d="M19,66 L19,59 Q19,53 28,53 Q37,53 37,59 L37,66 Z" fill="#1A6B4A"/>
+  </g>
+</svg>
