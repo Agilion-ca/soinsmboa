@@ -1,7 +1,7 @@
 # PACTE D'ASSOCIÉS — SoinsMboa
 ## Convention de partenariat, de gouvernance et de partage des bénéfices
 
-> Version 1.0 — Douala, __ / __ / 2026  
+> Version 2.0 — Douala, __ / __ / 2026  
 > Document confidentiel — usage exclusif des signataires
 
 ---
@@ -63,7 +63,7 @@ Les Associés conviennent de créer une **SARL (Société à Responsabilité Lim
 | Michel | 100 parts | 33,33 % |
 | **Total** | **300 parts** | **100 %** |
 
-> *La répartition équitable des parts sociales garantit l'égalité des droits de vote en assemblée. La différenciation économique est gérée par le mécanisme de partage des bénéfices de l'Article 8, distinct des parts sociales.*
+> *La répartition équitable des parts sociales garantit l'égalité des droits de vote en assemblée. La différenciation économique est gérée par le mécanisme de partage des bénéfices de l'Article 9, distinct des parts sociales.*
 
 **2.3 Libération du capital**
 
@@ -80,17 +80,17 @@ Chaque associé libère **100 000 FCFA** au moment de l'immatriculation au CFCE 
 - **Direction médicale** : définit les protocoles de soins, valide les fiches de suivi des bénéficiaires, signe les documents à caractère médical
 - **Recrutement médical** : évalue les qualifications des prestataires infirmiers et médecins, valide les habilitations
 - **Consultations directes** : peut intervenir personnellement en tant que médecin du travail pour l'évaluation des prestataires (visite médicale d'aptitude) et en médecin généraliste pour les clients du pack médical
-- **Interface MINSANTE** : interlocutrice principale en cas d'extension aux soins médicaux (directrice technique requise par l'Arrêté MINSANTE)
+- **Interface MINSANTE** : interlocutrice principale en cas d'extension aux soins médicaux — directrice technique requise par l'Arrêté MINSANTE
 - **Gestion des incidents médicaux** : première répondante en cas d'urgence signalée par un prestataire terrain
 
 **3.2 Temps estimé**
 
-- Phase lancement (mois 1-6) : **5-8 heures/semaine** (protocoles, recrutements, 1-2 consultations/semaine)
-- Phase croisière (mois 7+) : **3-5 heures/semaine** + consultations médicales directes facturées séparément
+- Phase lancement (mois 1-6) : 5 à 8 heures par semaine (protocoles, recrutements, 1-2 consultations/semaine)
+- Phase croisière (mois 7+) : 3 à 5 heures par semaine + consultations médicales directes facturées à SoinsMboa au tarif médecin conventionné
 
-**3.3 Autonomie**
+**3.3 Autonomie décisionnelle**
 
-Josiane dispose d'un **pouvoir de décision unilatéral** sur toute question médicale (aptitude d'un prestataire, arrêt d'une mission pour raison médicale, orientation d'un bénéficiaire). Les décisions financières > 50 000 FCFA requièrent l'accord de deux associés.
+Josiane dispose d'un pouvoir de décision unilatéral sur toute question médicale : aptitude d'un prestataire, arrêt d'une mission pour raison médicale, orientation d'un bénéficiaire. Les décisions financières supérieures à 50 000 FCFA requièrent l'accord de deux associés.
 
 ---
 
@@ -99,24 +99,24 @@ Josiane dispose d'un **pouvoir de décision unilatéral** sur toute question mé
 **4.1 Responsabilités**
 
 - **Recrutement terrain** : identifier, vérifier et sélectionner les prestataires auxiliaires de vie et gardes-malades
-- **Formation initiale** : accueillir les nouveaux prestataires, leur présenter les protocoles SoinsMboa, accompagner les premières missions
+- **Formation initiale** : accueillir les nouveaux prestataires, présenter les protocoles SoinsMboa, accompagner les premières missions
 - **Coordination quotidienne** : gérer les plannings, les remplacements d'urgence, les fiches de présence, les retours clients
-- **Contrôle qualité terrain** : visites surprise chez les clients (au moins 1/mois par prestataire actif), rapport hebdomadaire à l'équipe
+- **Contrôle qualité terrain** : visites au moins une fois par mois par prestataire actif, rapport hebdomadaire à l'équipe
 - **Gestion des incidents** : première répondante pour tout incident non médical (vol, conflit, retard, plainte client)
 - **Onboarding clients** : réaliser les évaluations initiales du bénéficiaire chez les nouveaux clients
 
 **4.2 Temps estimé**
 
-- Phase lancement : **20-30 heures/semaine** (poste le plus chargé au démarrage)
-- Phase croisière : **15-20 heures/semaine** selon le nombre de prestataires actifs
+- Phase lancement : 20 à 30 heures par semaine — poste le plus chargé au démarrage
+- Phase croisière : 15 à 20 heures par semaine selon le nombre de prestataires actifs
 
-**4.3 Autonomie**
+**4.3 Autonomie décisionnelle**
 
-Odile dispose d'un **pouvoir de décision unilatéral** sur l'organisation opérationnelle quotidienne : plannings, remplacements, pénalités prestataires < 5 000 FCFA. Les décisions de résiliation de contrat prestataire requièrent l'accord de deux associés.
+Odile dispose d'un pouvoir de décision unilatéral sur l'organisation opérationnelle quotidienne : plannings, remplacements, pénalités prestataires inférieures à 5 000 FCFA. Les décisions de résiliation de contrat prestataire requièrent l'accord de deux associés.
 
 **4.4 Prestation directe**
 
-Odile peut, si elle le souhaite, intervenir personnellement comme auxiliaire de vie auprès de clients SoinsMboa. Dans ce cas, elle est rémunérée au tarif prestataire standard (séparément de sa part de bénéfice, comme une charge de l'entreprise).
+Odile peut intervenir personnellement comme auxiliaire de vie auprès de clients SoinsMboa. Dans ce cas, elle est rémunérée au tarif prestataire standard, comptabilisé comme charge de l'entreprise, indépendamment de sa rémunération d'associée.
 
 ---
 
@@ -124,132 +124,222 @@ Odile peut, si elle le souhaite, intervenir personnellement comme auxiliaire de 
 
 **5.1 Responsabilités**
 
-- **Infrastructure numérique** : développer et maintenir le site SoinsMboa (soinsmboa.com), l'application de suivi prestataires/clients, les outils de reporting automatisé
-- **Automatisation** : blog automatique (génération IA + SEO), rapports WhatsApp diaspora automatisés, système de facturation
-- **Sécurité et hébergement** : gérer les accès, les sauvegardes, les déploiements (Cloudflare Workers)
-- **Marketing digital** : campagnes Meta/WhatsApp, SEO, gestion des flyers et supports de communication
-- **Reporting financier** : tableau de bord mensuel des KPIs (CA, marge, prestataires actifs, taux de satisfaction)
-- **Diaspora tech** : interface de paiement international, suivi en ligne pour les familles à l'étranger
+- **Infrastructure numérique** : développer et maintenir le site SoinsMboa, l'application de suivi prestataires/clients, les outils de reporting automatisé
+- **Automatisation** : blog IA, rapports WhatsApp diaspora, système de facturation
+- **Sécurité et hébergement** : accès, sauvegardes, déploiements
+- **Marketing digital** : campagnes Meta/WhatsApp, SEO, supports de communication
+- **Reporting financier** : tableau de bord mensuel des indicateurs clés (CA, marge, prestataires actifs, satisfaction client)
+- **Interface diaspora** : paiement international, suivi en ligne pour les familles à l'étranger
 
 **5.2 Temps estimé**
 
-- Phase lancement (mois 1-3) : **30-40 heures** (construction de l'infrastructure — investissement initial)
-- Phase croisière : **5-10 heures/semaine** (maintenance, évolutions, reporting)
+- Phase lancement (mois 1-3) : 30 à 40 heures — investissement initial de construction
+- Phase croisière : 5 à 10 heures par semaine (maintenance, évolutions, reporting)
 
-**5.3 Autonomie**
+**5.3 Autonomie décisionnelle**
 
-Michel dispose d'un **pouvoir de décision unilatéral** sur toute décision technique (choix d'outils, hébergement, sécurité, design). Les dépenses techniques > 20 000 FCFA/mois requièrent validation collective.
+Michel dispose d'un pouvoir de décision unilatéral sur toute décision technique. Les dépenses techniques supérieures à 20 000 FCFA par mois requièrent validation collective.
 
 **5.4 Propriété intellectuelle**
 
-Le code source, le site, les outils développés par Michel pour SoinsMboa appartiennent **à la SARL SoinsMboa**, et non à Michel à titre personnel. Michel s'engage à transférer tous les accès (dépôts GitHub, DNS, Cloudflare) à la société dans les 30 jours suivant l'immatriculation.
+Le code source, le site, et les outils développés par Michel pour SoinsMboa appartiennent à la SARL SoinsMboa et non à Michel à titre personnel. Michel s'engage à transférer tous les accès (GitHub, DNS, Cloudflare) à la société dans les 30 jours suivant l'immatriculation.
 
 ---
 
 ## Partie III — Rémunérations
 
-### Article 6 — Principe de rémunération
+### Article 6 — Architecture de rémunération
 
-Les associés distinguent deux types de revenus :
-
-1. **Rémunération de gérance** (*indemnité mensuelle*) — versée en échange du temps de travail opérationnel, prélevée en **charges de l'entreprise avant calcul du bénéfice distribuable**
-2. **Part de bénéfice** — calculée sur le bénéfice net résiduel, selon l'Article 8
-
-### Article 7 — Rémunérations de gérance
-
-Les rémunérations de gérance sont suspendues tant que le chiffre d'affaires mensuel net n'atteint pas **300 000 FCFA**. En dessous, chaque associé travaille "à risque" et se rémunère uniquement sur sa part de bénéfice.
-
-Une fois le seuil de 300 000 FCFA/mois de CA atteint de façon stable (2 mois consécutifs) :
-
-| Associé | Rémunération de gérance mensuelle | Déclencheur |
-|---------|----------------------------------|-------------|
-| Odile | 80 000 FCFA | Dès 300 000 FCFA CA |
-| Josiane | 50 000 FCFA | Dès 300 000 FCFA CA |
-| Michel | 40 000 FCFA | Dès 400 000 FCFA CA |
-
-> *Ces montants sont révisables à la hausse lors de chaque assemblée annuelle, par vote à la majorité des 2/3.*
-
-> *Odile est prioritaire car elle assure la charge opérationnelle la plus lourde au quotidien. Sa rémunération de gérance est distincte de tout revenu prestataire direct qu'elle pourrait percevoir.*
-
----
-
-## Partie IV — Partage des bénéfices
-
-### Article 8 — Bénéfice distribuable
-
-Le **bénéfice distribuable mensuel** est calculé comme suit :
+Les revenus des Associés se composent de deux couches distinctes et indépendantes :
 
 ```
-Chiffre d'affaires encaissé
-− Rémunérations prestataires externes
-− Rémunérations de gérance des associés
-− Charges fixes (téléphones, transport, hébergement serveur, etc.)
-− Provision réserve légale (10 % du bénéfice brut, jusqu'à 150 000 FCFA cumulés)
-= BÉNÉFICE DISTRIBUABLE
+COUCHE 1 — Indemnité de gérance (salaire mensuel)
+  Rémunère le temps de travail opérationnel de l'associé
+  Comptabilisée en CHARGE de l'entreprise
+  Versée AVANT calcul du bénéfice distribuable
+
+COUCHE 2 — Part de bénéfice trimestrielle
+  Rémunère l'investissement en capital et en risque
+  Calculée sur le bénéfice NET résiduel (après tout)
+  Versée tous les trimestres
 ```
 
-La **provision de réserve** (10 %) est mise de côté avant toute distribution pour couvrir les imprévus, remplacements d'urgence, et investissements. Elle est revue trimestriellement et peut être distribuée si elle dépasse 3 mois de charges fixes.
+---
+
+### Article 7 — Indemnités de gérance (Couche 1)
+
+#### 7.1 Définition de l'assiette de déclenchement
+
+L'indemnité de gérance n'est versée que lorsque l'entreprise en a les moyens. Le seuil est mesuré sur le **résultat brut avant indemnités** (RBI), défini comme :
+
+```
+RBI = Chiffre d'affaires encaissé
+    − Rémunérations des prestataires externes
+    − Charges fixes opérationnelles
+    (téléphones, transport, hébergement, imprévus)
+```
+
+Le RBI doit dépasser un seuil donné **pendant deux mois consécutifs** pour déclencher l'indemnité correspondante. Si le RBI retombe en dessous pendant deux mois consécutifs, l'indemnité est suspendue jusqu'à nouvel atteinte du seuil.
+
+#### 7.2 Grille de déclenchement — Phase 1 (démarrage)
+
+| Seuil RBI mensuel | Indemnité déclenchée | Bénéficiaire | Montant |
+|-------------------|---------------------|--------------|---------|
+| ≥ 100 000 FCFA | Indemnité opérationnelle | Odile | 100 000 FCFA/mois |
+| ≥ 200 000 FCFA | Indemnité médicale | Josiane | 80 000 FCFA/mois |
+| ≥ 300 000 FCFA | Indemnité technique | Michel | 60 000 FCFA/mois |
+
+> *Odile est déclenchée en premier car elle supporte la charge opérationnelle la plus lourde dès le premier jour. Josiane et Michel ont respectivement leur cabinet et leurs autres activités pour les soutenir en phase de démarrage.*
+
+#### 7.3 Grille de déclenchement — Phase 2 (entreprise établie)
+
+La Phase 2 s'enclenche lorsque le RBI dépasse **500 000 FCFA pendant deux mois consécutifs**. Les indemnités sont revalorisées :
+
+| Associé | Phase 1 | Phase 2 |
+|---------|---------|---------|
+| Odile | 100 000 FCFA | **150 000 FCFA** |
+| Josiane | 80 000 FCFA | **150 000 FCFA** |
+| Michel | 60 000 FCFA | **100 000 FCFA** |
+| **Total gérance** | **240 000 FCFA** | **400 000 FCFA** |
+
+#### 7.4 Justification des montants
+
+| Associé | Référence marché Douala | Temps hebdo SoinsMboa | Indemnité Phase 1 |
+|---------|------------------------|----------------------|-------------------|
+| Josiane | 5 000–15 000 FCFA/consultation | 5–8h/sem | 80 000 FCFA |
+| Odile | 60 000–150 000 FCFA/mois (coordinatrice) | 20–30h/sem | 100 000 FCFA |
+| Michel | 80 000–200 000 FCFA/mois (dev) | 5–10h/sem (après lancement) | 60 000 FCFA |
+
+Les indemnités Phase 1 représentent une rémunération volontairement modérée. La différence avec le marché est compensée par la participation aux bénéfices (Couche 2).
+
+#### 7.5 Modalités de versement des indemnités
+
+- **Date de versement** : le 5 de chaque mois, pour le mois écoulé
+- **Mode** : Orange Money ou MTN MoMo au choix de chaque associé
+- **Justificatif** : tableau de bord mensuel validé par Michel avant le 3 du mois
+- **Avance sur indemnité** : en cas de trésorerie tendue, une avance de 50 % peut être versée le 20 du mois en cours, solde le 5 du mois suivant
 
 ---
 
-### Article 9 — Mécanisme de partage par tranches progressives
+### Article 8 — Calcul du bénéfice distribuable (Couche 2)
 
-Le bénéfice distribuable est réparti selon un système de **tranches marginales** (chaque tranche est calculée indépendamment, comme le barème d'imposition).
+Le bénéfice distribuable trimestriel est calculé comme suit :
 
-**Tranches et taux :**
+```
+Chiffre d'affaires encaissé sur le trimestre
+− Rémunérations des prestataires externes
+− Charges fixes opérationnelles
+− Indemnités de gérance des associés (si déclenchées)
+− Impôts et taxes (IGS, CNPS part patronale)
+− Provision de réserve (10 % du solde, plafonnée à 500 000 FCFA cumulés)
+= BÉNÉFICE DISTRIBUABLE DU TRIMESTRE
+```
 
-| Tranche | Bénéfice distribuable mensuel | Michel | Josiane | Odile |
-|---------|------------------------------|--------|---------|-------|
-| T1 | 0 — 200 000 FCFA | 10 % | 10 % | 80 % |
-| T2 | 200 001 — 500 000 FCFA | 20 % | 20 % | 60 % |
-| T3 | Au-delà de 500 000 FCFA | 30 % | 30 % | 40 % |
-
-**Exemple de calcul pour un bénéfice de 700 000 FCFA :**
-- T1 (200 000 FCFA) : Michel 20 000 + Josiane 20 000 + Odile 160 000 = 200 000 ✓
-- T2 (300 000 FCFA) : Michel 60 000 + Josiane 60 000 + Odile 180 000 = 300 000 ✓
-- T3 (200 000 FCFA) : Michel 60 000 + Josiane 60 000 + Odile 80 000 = 200 000 ✓
-- **Total** : Michel **140 000** + Josiane **140 000** + Odile **420 000** = 700 000 ✓
+La **provision de réserve** constitue le fonds de roulement de l'entreprise. Elle est restituée aux associés au prorata des parts sociales si elle dépasse 6 mois de charges fixes cumulées, ou en cas de dissolution.
 
 ---
 
-### Article 10 — Table de simulation
+### Article 9 — Répartition du bénéfice distribuable — Système à paliers avec plancher
 
-*Montants en FCFA. Rémunérations de gérance déjà déduites avant ces calculs.*
+#### 9.1 Principe général
 
-| Bénéfice distribuable | Michel | Josiane | Odile | Michel % réel | Odile % réel |
-|----------------------|--------|---------|-------|--------------|-------------|
-| 50 000 | 5 000 | 5 000 | 40 000 | 10 % | 80 % |
-| 100 000 | 10 000 | 10 000 | 80 000 | 10 % | 80 % |
-| 200 000 | 20 000 | 20 000 | 160 000 | 10 % | 80 % |
-| 300 000 | 40 000 | 40 000 | 220 000 | 13 % | 73 % |
-| 500 000 | 80 000 | 80 000 | 340 000 | 16 % | 68 % |
-| 700 000 | 140 000 | 140 000 | 420 000 | 20 % | 60 % |
-| 1 000 000 | 230 000 | 230 000 | 540 000 | 23 % | 54 % |
-| 1 500 000 | 380 000 | 380 000 | 740 000 | 25 % | 49 % |
-| 2 000 000 | 530 000 | 530 000 | 940 000 | 26 % | 47 % |
+Le bénéfice distribuable est réparti selon un système de **paliers globaux avec plancher de protection** pour Odile. Le palier applicable est déterminé par le montant total du bénéfice distribuable du trimestre, puis les taux s'appliquent à la totalité de ce montant.
 
-**Revenus totaux estimés (gérance + bénéfice) à 700 000 FCFA de bénéfice distribuable :**
+#### 9.2 Tableau des paliers
 
-| Associé | Part bénéfice | Gérance | **Total mensuel** |
-|---------|--------------|---------|------------------|
-| Josiane | 140 000 | 50 000 | **190 000 FCFA** |
-| Odile | 420 000 | 80 000 | **500 000 FCFA** |
-| Michel | 140 000 | 40 000 | **180 000 FCFA** |
+| Palier | Bénéfice distribuable trimestriel | Michel | Josiane | Odile |
+|--------|----------------------------------|--------|---------|-------|
+| P1 | Jusqu'à 200 000 FCFA | 10 % | 10 % | 80 % |
+| P2 | De 200 001 à 500 000 FCFA | 20 % | 20 % | 60 % |
+| P3 | Au-delà de 500 000 FCFA | 30 % | 30 % | 40 % |
+
+#### 9.3 Plancher de protection d'Odile
+
+Lors de chaque franchissement de palier à la hausse (P1→P2 et P2→P3), le changement de taux peut temporairement réduire la part absolue d'Odile. Pour protéger sa rémunération :
+
+**Règle du plancher** : la part d'Odile ne peut jamais être inférieure à sa part du trimestre précédent au même palier. Si le calcul brut donne un montant inférieur au plancher, l'écart est prélevé proportionnellement sur les parts de Michel et Josiane.
+
+*Exemple — bénéfice de 600 000 FCFA (P3) :*
+- Calcul brut P3 : Michel 180K, Josiane 180K, Odile 240K
+- Plancher Odile (son montant en P2 à 500K) : 300 000 FCFA
+- Odile est sous son plancher → ajustement :
+  - Odile : **300 000 FCFA** (plancher maintenu)
+  - Reste à distribuer : 300 000 FCFA → Michel **150 000** + Josiane **150 000**
+
+Le plancher disparaît naturellement lorsque le bénéfice dépasse **750 000 FCFA** (point de recouvrement P3 pour Odile).
+
+#### 9.4 Table de simulation trimestrielle
+
+*Montants en FCFA — indemnités de gérance déjà déduites*
+
+| Bénéfice trimestriel | Michel | Josiane | Odile | Palier / Note |
+|----------------------|--------|---------|-------|---------------|
+| 100 000 | 10 000 | 10 000 | 80 000 | P1 |
+| 200 000 | 20 000 | 20 000 | 160 000 | P1 — seuil |
+| 300 000 | 60 000 | 60 000 | 180 000 | P2 |
+| 400 000 | 80 000 | 80 000 | 240 000 | P2 |
+| 500 000 | 100 000 | 100 000 | 300 000 | P2 — seuil |
+| 600 000 | 150 000 | 150 000 | **300 000** | P3 + plancher actif |
+| 700 000 | 200 000 | 200 000 | **300 000** | P3 + plancher actif |
+| 750 000 | 225 000 | 225 000 | 300 000 | P3 — recouvrement |
+| 800 000 | 240 000 | 240 000 | 320 000 | P3 — normal |
+| 1 000 000 | 300 000 | 300 000 | 400 000 | P3 |
+| 1 500 000 | 450 000 | 450 000 | 600 000 | P3 |
+| 2 000 000 | 600 000 | 600 000 | 800 000 | P3 |
+
+#### 9.5 Revenus totaux estimés (gérance Phase 2 + bénéfice)
+
+*Pour illustrer la rémunération complète à différents niveaux de rentabilité*
+
+| Bénéfice trimestriel | Michel total | Josiane total | Odile total |
+|----------------------|-------------|--------------|------------|
+| 300 000 | 60K + 300K gérance = **360 000** | 60K + 450K gérance = **510 000** | 180K + 450K gérance = **630 000** |
+| 600 000 | 150K + 300K = **450 000** | 150K + 450K = **600 000** | 300K + 450K = **750 000** |
+| 1 000 000 | 300K + 300K = **600 000** | 300K + 450K = **750 000** | 400K + 450K = **850 000** |
+| 2 000 000 | 600K + 300K = **900 000** | 600K + 450K = **1 050 000** | 800K + 450K = **1 250 000** |
+
+*Gérance trimestrielle Phase 2 : Michel 3 × 100K = 300K / Josiane 3 × 150K = 450K / Odile 3 × 150K = 450K*
 
 ---
 
-### Article 11 — Modalités de versement des bénéfices
+### Article 10 — Modalités de versement du bénéfice (Couche 2)
 
-- **Fréquence** : mensuelle, le **5 du mois suivant** (après clôture des comptes du mois)
-- **Arrêté des comptes** : Michel produit un tableau de bord récapitulatif avant le 3 du mois
-- **Mode de versement** : Orange Money ou MTN MoMo au choix de chaque associé
-- **Vote requis** : si un associé conteste le montant du bénéfice calculé, un délai de **7 jours** est accordé pour présentation des justificatifs contradictoires, avant versement
+#### 10.1 Fréquence
+
+Le bénéfice est distribué **trimestriellement**, selon le calendrier suivant :
+
+| Trimestre | Période couverte | Date de versement |
+|-----------|-----------------|-------------------|
+| T1 | Janvier – Mars | 15 avril |
+| T2 | Avril – Juin | 15 juillet |
+| T3 | Juillet – Septembre | 15 octobre |
+| T4 | Octobre – Décembre | 15 janvier N+1 |
+
+La distribution trimestrielle permet de lisser les variations mensuelles et de constituer un coussin de trésorerie entre deux distributions.
+
+#### 10.2 Procédure de clôture trimestrielle
+
+1. **J−12** (3 du mois de clôture) : Michel produit le tableau de bord financier du trimestre
+2. **J−7** : les Associés valident ou contestent les chiffres par WhatsApp (délai de 5 jours)
+3. **J−3** : en cas de désaccord non résolu, réunion d'arbitrage (voir Article 13)
+4. **J** (15 du mois) : virement du bénéfice distribuable selon les parts calculées
+
+#### 10.3 Avance trimestrielle optionnelle
+
+Si le bénéfice distribuable prévisionnel du trimestre en cours dépasse **600 000 FCFA**, les Associés peuvent voter une avance mensuelle de **30 % de la part prévisionnelle**, ajustée lors de la clôture trimestrielle réelle.
+
+#### 10.4 Absence de bénéfice
+
+Si le bénéfice distribuable est nul ou négatif sur un trimestre :
+- Aucune distribution n'est effectuée
+- Le déficit n'est pas reporté sur les trimestres suivants (chaque trimestre est indépendant)
+- La provision de réserve peut être utilisée pour couvrir un déficit exceptionnel, sur vote unanime
 
 ---
 
-## Partie V — Gouvernance
+## Partie IV — Gouvernance
 
-### Article 12 — Prises de décision
+### Article 11 — Prises de décision
 
 | Type de décision | Règle |
 |-----------------|-------|
@@ -257,71 +347,63 @@ Le bénéfice distribuable est réparti selon un système de **tranches marginal
 | Dépenses 20 000 – 100 000 FCFA | Accord de 2 associés sur 3 |
 | Dépenses > 100 000 FCFA | Accord unanime des 3 associés |
 | Embauche d'un salarié permanent | Accord unanime |
+| Activation / suspension d'une indemnité de gérance | Accord de 2 associés sur 3 |
 | Modification du présent pacte | Accord unanime + avenant écrit |
 | Entrée d'un nouvel associé | Accord unanime |
 | Dissolution de la société | Accord unanime |
 
-### Article 13 — Réunion mensuelle
+### Article 12 — Réunion mensuelle
 
-Les Associés se réunissent (en personne ou WhatsApp/visio) au minimum une fois par mois pour :
-- Validation du tableau de bord financier (préparé par Michel)
-- Bilan opérationnel (préparé par Odile)
-- Point médical et qualité (préparé par Josiane)
-- Décisions d'investissement ou d'orientation stratégique
+Les Associés se réunissent (en personne ou visio/WhatsApp) au minimum une fois par mois pour :
+- Validation du tableau de bord financier (Michel)
+- Bilan opérationnel (Odile)
+- Point médical et qualité (Josiane)
+- Décisions d'investissement ou de stratégie
 
-Toute décision prise en réunion est consignée dans un compte-rendu sommaire rédigé par rotation et partagé dans le groupe WhatsApp SoinsMboa-Direction.
+Toute décision est consignée dans un compte-rendu sommaire rédigé par rotation, partagé dans le groupe WhatsApp **SoinsMboa-Direction** dans les 48 heures.
+
+### Article 13 — Arbitrage des désaccords
+
+En cas de désaccord persistant après 7 jours :
+1. Réunion physique obligatoire dans les 5 jours
+2. Si toujours pas de consensus : recours à un médiateur extérieur choisi d'un commun accord (avocat OHADA ou expert-comptable CGA)
+3. En dernier recours : juridictions compétentes de Douala
 
 ---
 
-## Partie VI — Engagements et protections
+## Partie V — Engagements et protections
 
 ### Article 14 — Non-concurrence
 
-Pendant la durée du pacte et dans les **18 mois suivant sa cessation**, aucun associé ne peut :
-- Créer ou participer à une entreprise de services à domicile concurrente dans le périmètre Douala-Yaoundé
-- Démarcher les clients ou prestataires de SoinsMboa à son profit personnel ou au profit d'un tiers
+Pendant la durée du pacte et dans les **18 mois suivant sa cessation**, aucun associé ne peut créer ou participer à une entreprise de services à domicile concurrente dans le périmètre Douala-Yaoundé, ni démarcher les clients ou prestataires de SoinsMboa à son profit.
 
-Pénalité en cas de violation : **12 mois de revenus moyens** (gérance + bénéfice) versés à SoinsMboa.
+Pénalité : **12 mois de revenus moyens** (gérance + bénéfice) versés à SoinsMboa.
 
-*Exception : Josiane peut continuer d'exercer la médecine libérale dans son cabinet, tant que cela ne capte pas de clients déjà servis par SoinsMboa.*
+*Exception : Josiane peut continuer d'exercer la médecine libérale en cabinet, hors clients déjà servis par SoinsMboa.*
 
 ### Article 15 — Confidentialité
 
-Chaque associé s'engage à ne divulguer à aucun tiers (y compris membres de la famille) les informations financières, la liste des clients, les marges, les contrats, et les stratégies de SoinsMboa.
+Aucun associé ne divulgue à des tiers les informations financières, la liste des clients, les marges ou les stratégies de SoinsMboa. Obligation sans limitation de durée après cessation.
 
 ### Article 16 — Cession de parts
 
-Aucun associé ne peut céder ses parts sociales sans l'accord unanime des deux autres. En cas de cession, les associés restants bénéficient d'un **droit de préemption** à valeur équivalente, valable **30 jours** à compter de la notification de l'offre.
+Aucun associé ne peut céder ses parts sans accord unanime des deux autres. Les associés restants bénéficient d'un droit de préemption de **30 jours** à valeur équivalente à compter de la notification.
 
 ---
 
-## Partie VII — Sortie et dissolution
+## Partie VI — Sortie et dissolution
 
 ### Article 17 — Départ d'un associé
 
-**17.1 Départ volontaire**
+**17.1 Départ volontaire** — préavis de 3 mois, missions assurées pendant le préavis.
 
-Tout associé souhaitant quitter le partenariat notifie sa décision par écrit avec un préavis de **3 mois**. Pendant ce préavis, il continue d'assurer ses responsabilités normalement.
+**17.2 Valorisation des parts** — CA annuel moyen × 0,5. Les deux associés restants rachètent à parts égales, sauf accord différent.
 
-**17.2 Valorisation des parts**
-
-La valeur de rachat des parts est calculée sur la base du **chiffre d'affaires annuel moyen × 0,5** (méthode simple, adaptée au stade de développement). Les deux associés restants rachètent les parts à parts égales, sauf accord différent.
-
-**17.3 Départ pour faute grave**
-
-En cas de :
-- Détournement de fonds ou de clients
-- Violation grave de la clause de confidentialité
-- Inaction caractérisée (absence de contribution pendant 60 jours consécutifs sans accord)
-
-Les deux autres associés peuvent exclure l'associé fautif par décision unanime. Dans ce cas, le rachat des parts se fait à **50 % de la valeur calculée** selon 17.2.
+**17.3 Départ pour faute grave** (détournement, violation confidentialité, inaction > 60 jours) — exclusion par vote unanime des deux autres, rachat à **50 % de la valeur calculée**.
 
 ### Article 18 — Dissolution
 
-En cas de décision de dissolution à l'unanimité, les actifs sont liquidés dans l'ordre suivant :
-1. Paiement des dettes (prestataires, fournisseurs)
-2. Remboursement du capital social
-3. Partage du reliquat selon les parts sociales (1/3 chacun)
+Ordre de liquidation : dettes → capital social → reliquat au prorata des parts (1/3 chacun).
 
 ---
 
@@ -339,4 +421,4 @@ Le présent pacte est établi en **trois exemplaires originaux**, un pour chaque
 
 ---
 
-*Ce pacte ne se substitue pas aux statuts légaux de la SARL SoinsMboa. Il est recommandé de le faire relire par un juriste OHADA avant signature définitive. Cabinet conseillé : tout cabinet d'avocat d'affaires inscrit au Barreau du Cameroun, section Douala.*
+*Ce pacte ne se substitue pas aux statuts légaux de la SARL SoinsMboa. Il est recommandé de le faire relire par un juriste OHADA avant signature définitive.*
