@@ -2,14 +2,18 @@
 const zones = [
   {
     city: 'Douala',
-    flag: '🏙️',
     sub: 'Capitale économique',
+    img: '/images/douala.jpg',
+    imgAlt: 'Rue animée de Douala, Cameroun — photo Edouard TAMBA / Unsplash',
+    credit: 'Edouard TAMBA / Unsplash',
     hoods: ['Akwa','Bonanjo','Bonapriso','Makepe','Logbessou','Kotto','Deido','New Bell','Bassa','Bonabéri','Ndokoti','Bépanda'],
   },
   {
     city: 'Yaoundé',
-    flag: '🏛️',
     sub: 'Capitale politique',
+    img: '/images/yaounde.jpg',
+    imgAlt: 'Carrefour Nlongkak à Yaoundé, Cameroun — photo Ariel Nathan ADA MBITA / Unsplash',
+    credit: 'Ariel Nathan ADA MBITA / Unsplash',
     hoods: ['Bastos','Centre-ville','Nlongkak','Melen','Omnisport','Mimboman','Mvog-Mbi','Tsinga','Obili','Ngousso','Essos','Biyem-Assi'],
   },
 ];
@@ -29,15 +33,29 @@ const zones = [
     </div>
 
     <div class="grid md:grid-cols-2 gap-6">
-      {zones.map(({ city, flag, sub, hoods }) => (
+      {zones.map(({ city, sub, img, imgAlt, credit, hoods }) => (
         <div class="rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-          <div class="px-6 py-5 flex items-center gap-4" style="background:#F0FAF5">
-            <span class="text-4xl">{flag}</span>
-            <div>
-              <h3 class="text-2xl font-extrabold text-gray-900">{city}</h3>
-              <p class="text-sm text-gray-500">{sub}</p>
+          <!-- Photo header -->
+          <div class="relative h-52 overflow-hidden">
+            <img
+              src={img}
+              alt={imgAlt}
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+            <!-- Gradient overlay -->
+            <div class="absolute inset-0" style="background:linear-gradient(to top, rgba(13,35,24,0.75) 0%, rgba(13,35,24,0.1) 60%, transparent 100%)"></div>
+            <!-- City label -->
+            <div class="absolute bottom-0 left-0 p-5">
+              <h3 class="text-2xl font-extrabold text-white leading-tight">{city}</h3>
+              <p class="text-green-200 text-sm font-medium">{sub}</p>
+            </div>
+            <!-- Photo credit -->
+            <div class="absolute top-3 right-3">
+              <span class="text-white/50 text-[10px]">{credit}</span>
             </div>
           </div>
+          <!-- Neighbourhoods -->
           <div class="p-6">
             <div class="flex flex-wrap gap-2">
               {hoods.map(n => (
