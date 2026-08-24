@@ -1,55 +1,78 @@
 ---
 const PHONE = import.meta.env.PUBLIC_PHONE || '+237 6 99 77 48 82';
 const links = [
-  { href: '/', label: 'Accueil' },
-  { href: '/services', label: 'Nos services' },
-  { href: '/blog', label: 'Blog' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/', fr: 'Accueil', en: 'Home' },
+  { href: '/services', fr: 'Nos services', en: 'Our services' },
+  { href: '/blog', fr: 'Blog santé', en: 'Health blog' },
+  { href: '/contact', fr: 'Contact', en: 'Contact' },
 ];
 ---
 
 <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100 shadow-sm">
-  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
 
-    <a href="/" class="flex items-center">
+    <a href="/" class="flex items-center shrink-0">
       <img src="/logo.svg" alt="SoinsMboa" height="40" width="204" style="height:40px;width:auto" loading="eager"/>
     </a>
 
-    <nav class="hidden md:flex items-center gap-6">
+    <nav class="hidden md:flex items-center gap-5">
       {links.map(l => (
         <a href={l.href} class="text-gray-600 hover:text-[#1A6B4A] font-semibold text-sm transition-colors">
-          {l.label}
+          <span class="i18n" data-fr={l.fr} data-en={l.en}>{l.fr}</span>
         </a>
       ))}
     </nav>
 
-    <a
-      href={`tel:${PHONE}`}
-      class="hidden md:flex items-center gap-2 text-white text-sm font-bold px-4 py-2 rounded-full transition-opacity hover:opacity-90"
-      style="background:#1A6B4A"
-    >
-      <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
-      </svg>
-      {PHONE}
-    </a>
+    <div class="hidden md:flex items-center gap-3">
+      <!-- Language toggle -->
+      <div class="flex items-center rounded-full border border-gray-200 overflow-hidden text-xs font-semibold">
+        <button
+          data-lang-btn="fr"
+          aria-pressed="true"
+          class="px-3 py-1.5 transition-colors"
+          style="background:#1A6B4A;color:#fff;font-weight:700"
+        >FR</button>
+        <button
+          data-lang-btn="en"
+          aria-pressed="false"
+          class="px-3 py-1.5 text-gray-500 transition-colors hover:text-gray-700"
+        >EN</button>
+      </div>
 
-    <!-- Mobile menu button -->
-    <button id="menu-btn" class="md:hidden p-2 text-gray-600" aria-label="Menu">
-      <svg id="icon-open" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-      <svg id="icon-close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="hidden">
-        <path stroke-linecap="round" d="M6 18L18 6M6 6l12 12"/>
-      </svg>
-    </button>
+      <a
+        href={`tel:${PHONE}`}
+        class="flex items-center gap-2 text-white text-sm font-bold px-4 py-2 rounded-full transition-opacity hover:opacity-90"
+        style="background:#1A6B4A"
+      >
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+        </svg>
+        {PHONE}
+      </a>
+    </div>
+
+    <!-- Mobile: lang toggle + hamburger -->
+    <div class="md:hidden flex items-center gap-2">
+      <div class="flex items-center rounded-full border border-gray-200 overflow-hidden text-xs font-semibold">
+        <button data-lang-btn="fr" aria-pressed="true" class="px-2.5 py-1 transition-colors" style="background:#1A6B4A;color:#fff;font-weight:700">FR</button>
+        <button data-lang-btn="en" aria-pressed="false" class="px-2.5 py-1 text-gray-500">EN</button>
+      </div>
+      <button id="menu-btn" class="p-2 text-gray-600" aria-label="Menu">
+        <svg id="icon-open" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="icon-close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="hidden">
+          <path stroke-linecap="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
   </div>
 
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-3">
     {links.map(l => (
       <a href={l.href} class="text-gray-700 font-semibold py-2 border-b border-gray-50">
-        {l.label}
+        <span class="i18n" data-fr={l.fr} data-en={l.en}>{l.fr}</span>
       </a>
     ))}
     <a
@@ -57,7 +80,7 @@ const links = [
       class="flex items-center justify-center gap-2 text-white font-bold px-4 py-3 rounded-full mt-2"
       style="background:#1A6B4A"
     >
-      Appeler maintenant
+      <span class="i18n" data-fr="Appeler maintenant" data-en="Call now">Appeler maintenant</span>
     </a>
   </div>
 </header>

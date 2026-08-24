@@ -2,7 +2,7 @@
 const zones = [
   {
     city: 'Douala',
-    sub: 'Capitale économique',
+    sub: { fr: 'Capitale économique', en: 'Economic capital' },
     img: '/images/douala.jpg',
     imgAlt: 'Rue animée de Douala, Cameroun — photo Edouard TAMBA / Unsplash',
     credit: 'Edouard TAMBA / Unsplash',
@@ -10,7 +10,7 @@ const zones = [
   },
   {
     city: 'Yaoundé',
-    sub: 'Capitale politique',
+    sub: { fr: 'Capitale politique', en: 'Political capital' },
     img: '/images/yaounde.jpg',
     imgAlt: 'Carrefour Nlongkak à Yaoundé, Cameroun — photo Ariel Nathan ADA MBITA / Unsplash',
     credit: 'Ariel Nathan ADA MBITA / Unsplash',
@@ -22,40 +22,33 @@ const zones = [
 <section id="zones" class="py-20 bg-white">
   <div class="max-w-6xl mx-auto px-4">
     <div class="text-center mb-12">
-      <span class="text-sm font-bold uppercase tracking-wider" style="color:#1A6B4A">Zones d'intervention</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 mb-3 text-gray-900">
+      <span class="text-sm font-bold uppercase tracking-wider i18n" style="color:#1A6B4A" data-fr="Zones d'intervention" data-en="Service areas">Zones d'intervention</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 mb-3 text-gray-900 i18n"
+        data-fr="Nous sommes à Douala et Yaoundé"
+        data-en="We serve Douala and Yaoundé">
         Nous sommes à Douala et Yaoundé
       </h2>
-      <p class="text-gray-500 max-w-lg mx-auto">
-        Contactez-nous pour vérifier la disponibilité dans le quartier de votre proche.
-        Nouvelles zones en cours d'expansion.
+      <p class="text-gray-500 max-w-lg mx-auto i18n"
+        data-fr="Contactez-nous pour vérifier la disponibilité dans le quartier de votre proche. Nouvelles zones en cours d'expansion."
+        data-en="Contact us to check availability in your loved one's neighbourhood. New areas being added.">
+        Contactez-nous pour vérifier la disponibilité dans le quartier de votre proche. Nouvelles zones en cours d'expansion.
       </p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6">
       {zones.map(({ city, sub, img, imgAlt, credit, hoods }) => (
         <div class="rounded-2xl border border-gray-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-          <!-- Photo header -->
           <div class="relative h-52 overflow-hidden">
-            <img
-              src={img}
-              alt={imgAlt}
-              class="w-full h-full object-cover"
-              loading="lazy"
-            />
-            <!-- Gradient overlay -->
+            <img src={img} alt={imgAlt} class="w-full h-full object-cover" loading="lazy" />
             <div class="absolute inset-0" style="background:linear-gradient(to top, rgba(13,35,24,0.75) 0%, rgba(13,35,24,0.1) 60%, transparent 100%)"></div>
-            <!-- City label -->
             <div class="absolute bottom-0 left-0 p-5">
               <h3 class="text-2xl font-extrabold text-white leading-tight">{city}</h3>
-              <p class="text-green-200 text-sm font-medium">{sub}</p>
+              <p class="text-green-200 text-sm font-medium i18n" data-fr={sub.fr} data-en={sub.en}>{sub.fr}</p>
             </div>
-            <!-- Photo credit -->
             <div class="absolute top-3 right-3">
               <span class="text-white/50 text-[10px]">{credit}</span>
             </div>
           </div>
-          <!-- Neighbourhoods -->
           <div class="p-6">
             <div class="flex flex-wrap gap-2">
               {hoods.map(n => (
@@ -65,23 +58,27 @@ const zones = [
                 </span>
               ))}
             </div>
-            <p class="text-xs text-gray-400 mt-4">+ autres quartiers · <a href="/contact" class="underline hover:text-gray-600">Nous contacter</a> pour confirmer</p>
+            <p class="text-xs text-gray-400 mt-4">
+              <span class="i18n" data-fr="+ autres quartiers" data-en="+ other neighbourhoods">+ autres quartiers</span>
+              {' · '}
+              <a href="/contact" class="underline hover:text-gray-600 i18n" data-fr="Nous contacter pour confirmer" data-en="Contact us to confirm">Nous contacter pour confirmer</a>
+            </p>
           </div>
         </div>
       ))}
     </div>
 
-    <!-- Diaspora callout -->
     <div class="mt-8 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4" style="background:#1A6B4A">
       <div class="text-3xl shrink-0">✈️</div>
       <div class="text-white flex-1">
-        <p class="font-bold text-lg">Vous êtes à l'étranger ?</p>
-        <p class="text-green-100 text-sm mt-1">
-          Pas besoin de rentrer au Cameroun. Gérez tout par téléphone ou WhatsApp depuis la France, la Belgique, le Canada ou ailleurs.
-          Nous vous tenons informé à chaque étape.
+        <p class="font-bold text-lg i18n" data-fr="Vous êtes à l'étranger ?" data-en="Are you abroad?">Vous êtes à l'étranger ?</p>
+        <p class="text-green-100 text-sm mt-1 i18n"
+          data-fr="Pas besoin de rentrer au Cameroun. Gérez tout par téléphone ou WhatsApp depuis la France, la Belgique, le Canada ou ailleurs. Nous vous tenons informé à chaque étape."
+          data-en="No need to travel back to Cameroon. Manage everything by phone or WhatsApp from France, Belgium, Canada or anywhere. We keep you informed at every step.">
+          Pas besoin de rentrer au Cameroun. Gérez tout par téléphone ou WhatsApp depuis la France, la Belgique, le Canada ou ailleurs. Nous vous tenons informé à chaque étape.
         </p>
       </div>
-      <a href="/contact" class="shrink-0 bg-white font-bold text-sm px-5 py-2.5 rounded-full hover:opacity-90 transition whitespace-nowrap" style="color:#1A6B4A">
+      <a href="/contact" class="shrink-0 bg-white font-bold text-sm px-5 py-2.5 rounded-full hover:opacity-90 transition whitespace-nowrap i18n" style="color:#1A6B4A" data-fr="Nous contacter" data-en="Contact us">
         Nous contacter
       </a>
     </div>

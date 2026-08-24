@@ -8,10 +8,14 @@ const msg = encodeURIComponent("Bonjour, j'ai besoin d'un soignant pour un proch
 <section class="py-20 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
   <div class="max-w-4xl mx-auto px-4 text-center">
     <div class="text-4xl mb-4">🌍</div>
-    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+    <h2 class="text-3xl md:text-4xl font-extrabold mb-4 i18n"
+      data-fr="Prêt à prendre soin de votre proche ?"
+      data-en="Ready to care for your loved one?">
       Prêt à prendre soin de votre proche ?
     </h2>
-    <p class="text-green-100 text-lg mb-8 max-w-xl mx-auto">
+    <p class="text-green-100 text-lg mb-8 max-w-xl mx-auto i18n"
+      data-fr="Un appel suffit. Nous évaluons vos besoins gratuitement et vous proposons la solution la plus adaptée, même depuis l'étranger."
+      data-en="One call is all it takes. We assess your needs for free and find the best solution — even from abroad.">
       Un appel suffit. Nous évaluons vos besoins gratuitement et vous proposons la solution la plus adaptée, même depuis l'étranger.
     </p>
 
@@ -44,7 +48,7 @@ const msg = encodeURIComponent("Bonjour, j'ai besoin d'un soignant pour un proch
         href="/contact"
         class="flex items-center justify-center gap-2 font-semibold px-8 py-4 rounded-full border border-white/30 text-white hover:bg-white/10 transition"
       >
-        Formulaire contact
+        <span class="i18n" data-fr="Formulaire contact" data-en="Contact form">Formulaire contact</span>
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
     </div>

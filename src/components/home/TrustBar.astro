@@ -1,19 +1,19 @@
 ---
 const items = [
-  { icon: '🛡️', label: 'Personnel vérifié & formé' },
-  { icon: '⚡', label: 'Intervention en moins de 24h' },
-  { icon: '📱', label: 'Compte-rendu quotidien à la famille' },
-  { icon: '💰', label: 'Devis gratuit, sans engagement' },
+  { icon: '🛡️', fr: 'Personnel vérifié & formé',              en: 'Verified & trained staff' },
+  { icon: '⚡', fr: 'Intervention en moins de 24h',            en: 'Response in under 24h' },
+  { icon: '📱', fr: 'Compte-rendu quotidien à la famille',     en: 'Daily family updates' },
+  { icon: '💰', fr: 'Devis gratuit, sans engagement',          en: 'Free quote, no commitment' },
 ];
 ---
 
 <div style="background:#1A6B4A" class="py-4">
   <div class="max-w-6xl mx-auto px-4">
     <div class="flex flex-wrap justify-center md:justify-between gap-4 md:gap-0">
-      {items.map(({ icon, label }) => (
+      {items.map(({ icon, fr, en }) => (
         <div class="flex items-center gap-2 text-white text-sm font-medium">
           <span class="text-lg">{icon}</span>
-          {label}
+          <span class="i18n" data-fr={fr} data-en={en}>{fr}</span>
         </div>
       ))}
     </div>

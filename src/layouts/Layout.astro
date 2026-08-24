@@ -26,6 +26,9 @@ const siteUrl = 'https://gardemalade-cm.com';
 <!doctype html>
 <html lang="fr">
   <head>
+    <!-- Instant lang init — prevents flash of wrong language -->
+    <script>try{document.documentElement.lang=localStorage.getItem('gardemalade-lang')||'fr'}catch(e){}</script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#1A6B4A" />
@@ -60,32 +63,22 @@ const siteUrl = 'https://gardemalade-cm.com';
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Schema.org -->
-    <script type="application/ld+json">
-      {JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "SoinsMboa",
-        "description": "Service de soins à domicile à Douala et Yaoundé — auxiliaires de vie, gardes-malades, médecins.",
-        "url": siteUrl,
-        "telephone": import.meta.env.PUBLIC_PHONE,
-        "address": [
-          {
-            "@type": "PostalAddress",
-            "addressLocality": "Douala",
-            "addressCountry": "CM"
-          },
-          {
-            "@type": "PostalAddress",
-            "addressLocality": "Yaoundé",
-            "addressCountry": "CM"
-          }
-        ],
-        "areaServed": ["Douala", "Yaoundé"],
-        "serviceType": ["Auxiliaire de vie", "Garde-malade", "Médecin à domicile"],
-        "openingHours": "Mo-Sa 07:00-21:00",
-        "priceRange": "CFA"
-      })}
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "SoinsMboa",
+      "description": "Service de soins à domicile à Douala et Yaoundé — auxiliaires de vie, gardes-malades, médecins.",
+      "url": siteUrl,
+      "telephone": import.meta.env.PUBLIC_PHONE,
+      "address": [
+        { "@type": "PostalAddress", "addressLocality": "Douala", "addressCountry": "CM" },
+        { "@type": "PostalAddress", "addressLocality": "Yaoundé", "addressCountry": "CM" }
+      ],
+      "areaServed": ["Douala", "Yaoundé"],
+      "serviceType": ["Auxiliaire de vie", "Garde-malade", "Médecin à domicile"],
+      "openingHours": "Mo-Su 00:00-24:00",
+      "priceRange": "CFA"
+    })} />
 
     {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
@@ -98,5 +91,62 @@ const siteUrl = 'https://gardemalade-cm.com';
     </main>
     <Footer />
     <WhatsAppButton />
+
+    <!-- Global i18n engine — handles all pages -->
+    <script>
+    (function () {
+      var KEY = 'gardemalade-lang';
+
+      function applyLang(lang) {
+        document.documentElement.lang = lang;
+
+        // Simple text swap
+        document.querySelectorAll('.i18n').forEach(function (el) {
+          var t = el.getAttribute('data-' + lang);
+          if (t !== null) el.textContent = t;
+        });
+
+        // HTML swap (bold, links inside text)
+        document.querySelectorAll('.i18n-html').forEach(function (el) {
+          var h = el.getAttribute('data-' + lang);
+          if (h !== null) el.innerHTML = h;
+        });
+
+        // Show/hide whole blocks
+        document.querySelectorAll('.lang-fr, .lang-en').forEach(function (el) {
+          el.style.display = 'none';
+        });
+        document.querySelectorAll('.lang-' + lang).forEach(function (el) {
+          el.style.display = '';
+        });
+
+        // Toggle button styling
+        document.querySelectorAll('[data-lang-btn]').forEach(function (btn) {
+          var active = btn.getAttribute('data-lang-btn') === lang;
+          btn.style.background = active ? '#1A6B4A' : '';
+          btn.style.color = active ? '#ffffff' : '';
+          btn.style.fontWeight = active ? '700' : '';
+          btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+
+        try { localStorage.setItem(KEY, lang); } catch (e) {}
+        document.dispatchEvent(new CustomEvent('langchange', { detail: { lang: lang } }));
+      }
+
+      window.__setLang = applyLang;
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var lang;
+        try { lang = localStorage.getItem(KEY); } catch (e) {}
+        applyLang(lang || 'fr');
+
+        // Event delegation — covers any [data-lang-btn] anywhere on the page
+        document.addEventListener('click', function (e) {
+          var btn = e.target.closest('[data-lang-btn]');
+          if (btn) applyLang(btn.getAttribute('data-lang-btn'));
+        });
+      });
+    })();
+    </script>
   </body>
 </html>

@@ -2,12 +2,18 @@
 const services = [
   {
     icon: `<svg width="26" height="26" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>`,
-    title: 'Auxiliaire de vie',
-    tagline: 'Aide quotidienne, présence et accompagnement',
-    desc: "Pour les personnes dépendantes ou en convalescence : toilette, repas, sorties, stimulation. Un visage familier et bienveillant, tous les jours.",
-    points: ['Aide à la toilette & habillage', 'Préparation des repas', 'Accompagnement médical', 'Soutien moral & compagnie'],
+    title:  { fr: 'Auxiliaire de vie',                       en: 'Home helper' },
+    tagline:{ fr: 'Aide quotidienne, présence et accompagnement', en: 'Daily assistance, presence and support' },
+    desc:   { fr: "Pour les personnes dépendantes ou en convalescence : toilette, repas, sorties, stimulation. Un visage familier et bienveillant, tous les jours.",
+              en: "For dependent or recovering people: hygiene, meals, outings, stimulation. A familiar, caring face every single day." },
+    points: [
+      { fr: 'Aide à la toilette & habillage', en: 'Personal hygiene & dressing' },
+      { fr: 'Préparation des repas',          en: 'Meal preparation' },
+      { fr: 'Accompagnement médical',         en: 'Medical appointments' },
+      { fr: 'Soutien moral & compagnie',      en: 'Emotional support & company' },
+    ],
     img: '/images/services-1.jpg',
-    imgAlt: 'Médecin africain prenant la tension d\'un patient à domicile',
+    imgAlt: "Médecin africain prenant la tension d'un patient à domicile",
     color: '#1A6B4A',
     bg: '#F0FAF5',
     href: '/services#auxiliaire',
@@ -15,12 +21,18 @@ const services = [
   },
   {
     icon: `<svg width="26" height="26" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>`,
-    title: 'Garde-malade',
-    tagline: 'Surveillance 24h/24, à domicile ou en clinique',
-    desc: "Présence continue auprès du patient, coordination avec le personnel médical, rapport quotidien à la famille. Disponible de nuit comme de jour.",
-    points: ['Surveillance continue', 'Soins de confort', 'Présence à l\'hôpital', 'Rapport famille quotidien'],
+    title:  { fr: 'Garde-malade',                            en: 'Caregiver' },
+    tagline:{ fr: 'Surveillance 24h/24, à domicile ou en clinique', en: '24/7 monitoring, at home or in clinic' },
+    desc:   { fr: "Présence continue auprès du patient, coordination avec le personnel médical, rapport quotidien à la famille. Disponible de nuit comme de jour.",
+              en: "Continuous presence with the patient, coordination with medical staff, daily family report. Available day and night." },
+    points: [
+      { fr: 'Surveillance continue',      en: 'Continuous monitoring' },
+      { fr: 'Soins de confort',           en: 'Comfort care' },
+      { fr: "Présence à l'hôpital",       en: 'Hospital presence' },
+      { fr: 'Rapport famille quotidien',  en: 'Daily family report' },
+    ],
     img: '/images/services-2.jpg',
-    imgAlt: 'Soignant africain en visite médicale auprès d\'un patient',
+    imgAlt: "Soignant africain en visite médicale auprès d'un patient",
     color: '#FF6B35',
     bg: '#FFF5F0',
     href: '/services#garde',
@@ -28,10 +40,16 @@ const services = [
   },
   {
     icon: `<svg width="26" height="26" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
-    title: 'Médecin à domicile',
-    tagline: 'Consultation sans se déplacer',
-    desc: "Nos médecins se déplacent chez vous ou en clinique : diagnostic, ordonnance, suivi post-opératoire. Idéal pour les personnes à mobilité réduite.",
-    points: ['Consultation complète', 'Diagnostic & ordonnance', 'Suivi post-opératoire', 'Urgences légères'],
+    title:  { fr: 'Médecin à domicile',                      en: 'Home doctor' },
+    tagline:{ fr: 'Consultation sans se déplacer',            en: 'Medical consultation without travel' },
+    desc:   { fr: "Nos médecins se déplacent chez vous ou en clinique : diagnostic, ordonnance, suivi post-opératoire. Idéal pour les personnes à mobilité réduite.",
+              en: "Our doctors come to you or a clinic: diagnosis, prescription, post-op care. Ideal for people with limited mobility." },
+    points: [
+      { fr: 'Consultation complète',    en: 'Full consultation' },
+      { fr: 'Diagnostic & ordonnance',  en: 'Diagnosis & prescription' },
+      { fr: 'Suivi post-opératoire',    en: 'Post-op follow-up' },
+      { fr: 'Urgences légères',         en: 'Minor emergencies' },
+    ],
     img: '/images/hero.jpg',
     imgAlt: 'Médecin en consultation à domicile',
     color: '#1A6B4A',
@@ -45,51 +63,52 @@ const services = [
 <section id="services" class="py-20 bg-white">
   <div class="max-w-6xl mx-auto px-4">
     <div class="text-center mb-14">
-      <span class="text-sm font-bold uppercase tracking-wider" style="color:#1A6B4A">Nos prestations</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 mb-4 text-gray-900">
+      <span class="text-sm font-bold uppercase tracking-wider i18n" style="color:#1A6B4A" data-fr="Nos prestations" data-en="Our services">Nos prestations</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 mb-4 text-gray-900 i18n"
+        data-fr="Des soins adaptés à chaque situation"
+        data-en="Care tailored to every situation">
         Des soins adaptés à chaque situation
       </h2>
-      <p class="text-gray-500 max-w-xl mx-auto">
-        Que vous soyez en France, en Belgique, au Canada ou aux États-Unis —
-        nous prenons soin de vos proches restés au Cameroun.
+      <p class="text-gray-500 max-w-xl mx-auto i18n"
+        data-fr="Que vous soyez en France, en Belgique, au Canada ou aux États-Unis — nous prenons soin de vos proches restés au Cameroun."
+        data-en="Whether you're in France, Belgium, Canada or the US — we take care of your loved ones in Cameroon.">
+        Que vous soyez en France, en Belgique, au Canada ou aux États-Unis — nous prenons soin de vos proches restés au Cameroun.
       </p>
     </div>
 
     <div class="space-y-16">
       {services.map((s, i) => (
         <div class={`grid md:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'md:[&>*:first-child]:order-2' : ''}`}>
-          <!-- Photo -->
           <div class="relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
             <img src={s.img} alt={s.imgAlt} class="w-full h-full object-cover" loading={i === 0 ? 'eager' : 'lazy'} />
             <div class="absolute inset-0" style="background:linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 60%)"></div>
             <p class="absolute bottom-3 right-3 text-white/60 text-xs">Photo : {s.credit}</p>
           </div>
 
-          <!-- Contenu -->
           <div>
             <div class="flex items-center gap-3 mb-4">
               <div class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style={`background:${s.color}`}>
                 <Fragment set:html={s.icon} />
               </div>
               <div>
-                <h3 class="text-2xl font-extrabold text-gray-900">{s.title}</h3>
-                <p class="text-sm font-medium" style={`color:${s.color}`}>{s.tagline}</p>
+                <h3 class="text-2xl font-extrabold text-gray-900 i18n" data-fr={s.title.fr} data-en={s.title.en}>{s.title.fr}</h3>
+                <p class="text-sm font-medium i18n" style={`color:${s.color}`} data-fr={s.tagline.fr} data-en={s.tagline.en}>{s.tagline.fr}</p>
               </div>
             </div>
 
-            <p class="text-gray-600 leading-relaxed mb-5">{s.desc}</p>
+            <p class="text-gray-600 leading-relaxed mb-5 i18n" data-fr={s.desc.fr} data-en={s.desc.en}>{s.desc.fr}</p>
 
             <ul class="grid grid-cols-2 gap-2 mb-6">
               {s.points.map(p => (
                 <li class="flex items-center gap-2 text-sm text-gray-700">
                   <span class="w-5 h-5 rounded-full flex items-center justify-center text-white text-xs shrink-0" style={`background:${s.color}`}>✓</span>
-                  {p}
+                  <span class="i18n" data-fr={p.fr} data-en={p.en}>{p.fr}</span>
                 </li>
               ))}
             </ul>
 
             <a href={s.href} class="inline-flex items-center gap-2 font-bold text-sm transition hover:opacity-75" style={`color:${s.color}`}>
-              En savoir plus
+              <span class="i18n" data-fr="En savoir plus" data-en="Learn more">En savoir plus</span>
               <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
           </div>

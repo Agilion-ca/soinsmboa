@@ -3,6 +3,19 @@ const PHONE = import.meta.env.PUBLIC_PHONE || '+237 6 99 77 48 82';
 const PHONE_2 = import.meta.env.PUBLIC_PHONE_2 || '+237 6 76 81 47 85';
 const WHATSAPP = import.meta.env.PUBLIC_WHATSAPP || '237699774882';
 const WHATSAPP_2 = import.meta.env.PUBLIC_WHATSAPP_2 || '237676814785';
+
+const navLinks = [
+  { href: '/',        fr: 'Accueil',      en: 'Home' },
+  { href: '/services', fr: 'Nos services', en: 'Our services' },
+  { href: '/blog',    fr: 'Blog santé',    en: 'Health blog' },
+  { href: '/contact', fr: 'Contact',       en: 'Contact' },
+];
+
+const serviceLinks = [
+  { href: '/services#auxiliaire', fr: 'Auxiliaire de vie',   en: 'Home helper' },
+  { href: '/services#garde',      fr: 'Garde-malade',        en: 'Caregiver' },
+  { href: '/services#medecin',    fr: 'Médecin à domicile',  en: 'Home doctor' },
+];
 ---
 
 <footer style="background:#1A6B4A" class="text-white mt-0">
@@ -13,9 +26,10 @@ const WHATSAPP_2 = import.meta.env.PUBLIC_WHATSAPP_2 || '237676814785';
         <img src="/logo-mark.svg" alt="SoinsMboa" width="44" height="50" style="height:50px;width:auto;filter:brightness(0) invert(1)" loading="lazy"/>
         <span class="sr-only">SoinsMboa</span>
       </div>
-      <p class="text-green-100 text-sm leading-relaxed max-w-sm">
-        Service professionnel de soins à domicile et en milieu hospitalier à Douala et Yaoundé.
-        Disponible 7j/7 pour vous et vos proches.
+      <p class="text-green-100 text-sm leading-relaxed max-w-sm i18n"
+        data-fr="Service professionnel de soins à domicile et en milieu hospitalier à Douala et Yaoundé. Disponible 7j/7 pour vous et vos proches."
+        data-en="Professional home care and hospital care service in Douala and Yaoundé. Available 7 days a week for you and your loved ones.">
+        Service professionnel de soins à domicile et en milieu hospitalier à Douala et Yaoundé. Disponible 7j/7 pour vous et vos proches.
       </p>
       <div class="mt-4 space-y-2">
         <a href={`tel:${PHONE}`}
@@ -39,37 +53,38 @@ const WHATSAPP_2 = import.meta.env.PUBLIC_WHATSAPP_2 || '237676814785';
     </div>
 
     <div>
-      <h4 class="font-bold text-sm uppercase tracking-wider text-green-300 mb-4">Navigation</h4>
+      <h4 class="font-bold text-sm uppercase tracking-wider text-green-300 mb-4 i18n" data-fr="Navigation" data-en="Navigation">Navigation</h4>
       <ul class="space-y-2">
-        {[['Accueil', '/'], ['Nos services', '/services'], ['Blog santé', '/blog'], ['Contact', '/contact']].map(([label, href]) => (
+        {navLinks.map(({ href, fr, en }) => (
           <li>
-            <a href={href} class="text-green-100 hover:text-white text-sm transition-colors">{label}</a>
+            <a href={href} class="text-green-100 hover:text-white text-sm transition-colors i18n" data-fr={fr} data-en={en}>{fr}</a>
           </li>
         ))}
       </ul>
     </div>
 
     <div>
-      <h4 class="font-bold text-sm uppercase tracking-wider text-green-300 mb-4">Services</h4>
+      <h4 class="font-bold text-sm uppercase tracking-wider text-green-300 mb-4 i18n" data-fr="Services" data-en="Services">Services</h4>
       <ul class="space-y-2">
-        {['Auxiliaire de vie', 'Garde-malade', 'Médecin à domicile'].map(s => (
+        {serviceLinks.map(({ href, fr, en }) => (
           <li>
-            <a href="/services" class="text-green-100 hover:text-white text-sm transition-colors">{s}</a>
+            <a href={href} class="text-green-100 hover:text-white text-sm transition-colors i18n" data-fr={fr} data-en={en}>{fr}</a>
           </li>
         ))}
       </ul>
       <div class="mt-5">
-        <p class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-1">Zones</p>
+        <p class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-1 i18n" data-fr="Zones" data-en="Areas">Zones</p>
         <p class="text-green-100 text-sm">Douala &amp; Yaoundé</p>
-        <p class="text-green-300 text-xs mt-1">Cameroun</p>
+        <p class="text-green-300 text-xs mt-1 i18n" data-fr="Cameroun" data-en="Cameroon">Cameroun</p>
       </div>
     </div>
   </div>
 
   <div class="border-t border-green-700 py-4 text-center text-green-400 text-xs">
-    © {new Date().getFullYear()} SoinsMboa. Tous droits réservés. &nbsp;·&nbsp;
-    <a href="/confidentialite" class="hover:text-white transition-colors">Confidentialité</a>
+    © {new Date().getFullYear()} SoinsMboa. <span class="i18n" data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span>
     &nbsp;·&nbsp;
-    <a href="/mentions-legales" class="hover:text-white transition-colors">Mentions légales</a>
+    <a href="/confidentialite" class="hover:text-white transition-colors i18n" data-fr="Confidentialité" data-en="Privacy policy">Confidentialité</a>
+    &nbsp;·&nbsp;
+    <a href="/mentions-legales" class="hover:text-white transition-colors i18n" data-fr="Mentions légales" data-en="Legal notice">Mentions légales</a>
   </div>
 </footer>

@@ -3,20 +3,23 @@ const steps = [
   {
     n: '01',
     emoji: '📞',
-    title: 'Vous nous contactez',
-    desc: "Appelez, envoyez un WhatsApp ou remplissez notre formulaire. Vous êtes à Paris, Bruxelles ou Montréal — peu importe. Nous répondons dans l'heure.",
+    title: { fr: 'Vous nous contactez',  en: 'You reach out' },
+    desc:  { fr: "Appelez, envoyez un WhatsApp ou remplissez notre formulaire. Vous êtes à Paris, Bruxelles ou Montréal — peu importe. Nous répondons dans l'heure.",
+             en: "Call, send a WhatsApp or fill out our form. Whether you're in Paris, Brussels or Montreal — we respond within the hour." },
   },
   {
     n: '02',
     emoji: '📋',
-    title: 'Évaluation gratuite',
-    desc: "Un coordinateur vous rappelle pour évaluer les besoins de votre proche : état de santé, disponibilités, lieu d'intervention. Gratuit, sans engagement.",
+    title: { fr: 'Évaluation gratuite',  en: 'Free assessment' },
+    desc:  { fr: "Un coordinateur vous rappelle pour évaluer les besoins de votre proche : état de santé, disponibilités, lieu d'intervention. Gratuit, sans engagement.",
+             en: "A coordinator calls you back to assess your loved one's needs: health status, availability, location. Free, no commitment." },
   },
   {
     n: '03',
     emoji: '🤝',
-    title: 'Prise en charge rapide',
-    desc: "Le soignant intervient en moins de 24h. Vous recevez un compte-rendu quotidien. Votre proche est en de bonnes mains.",
+    title: { fr: 'Prise en charge rapide', en: 'Care starts fast' },
+    desc:  { fr: "Le soignant intervient en moins de 24h. Vous recevez un compte-rendu quotidien. Votre proche est en de bonnes mains.",
+             en: "The caregiver arrives in under 24h. You receive a daily update. Your loved one is in good hands." },
   },
 ];
 ---
@@ -24,17 +27,20 @@ const steps = [
 <section id="comment" class="py-20" style="background:#F0FAF5">
   <div class="max-w-5xl mx-auto px-4">
     <div class="text-center mb-14">
-      <span class="text-sm font-bold uppercase tracking-wider" style="color:#1A6B4A">Simple & rapide</span>
-      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 text-gray-900">
+      <span class="text-sm font-bold uppercase tracking-wider i18n" style="color:#1A6B4A" data-fr="Simple &amp; rapide" data-en="Simple &amp; fast">Simple &amp; rapide</span>
+      <h2 class="text-3xl md:text-4xl font-extrabold mt-2 text-gray-900 i18n"
+        data-fr="Comment ça marche depuis l'étranger ?"
+        data-en="How does it work from abroad?">
         Comment ça marche depuis l'étranger ?
       </h2>
-      <p class="text-gray-500 mt-3 max-w-lg mx-auto">
+      <p class="text-gray-500 mt-3 max-w-lg mx-auto i18n"
+        data-fr="Vous êtes loin, mais vous restez aux commandes. Tout se fait par téléphone et WhatsApp."
+        data-en="You're far away, but you stay in control. Everything is done by phone and WhatsApp.">
         Vous êtes loin, mais vous restez aux commandes. Tout se fait par téléphone et WhatsApp.
       </p>
     </div>
 
     <div class="grid md:grid-cols-3 gap-6 relative">
-      <!-- Ligne de connexion desktop -->
       <div class="hidden md:block absolute top-10 left-[20%] right-[20%] h-0.5 bg-green-200 z-0"></div>
 
       {steps.map(({ n, emoji, title, desc }) => (
@@ -47,15 +53,15 @@ const steps = [
               {n}
             </span>
           </div>
-          <h3 class="text-lg font-extrabold text-gray-900 mb-2">{title}</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">{desc}</p>
+          <h3 class="text-lg font-extrabold text-gray-900 mb-2 i18n" data-fr={title.fr} data-en={title.en}>{title.fr}</h3>
+          <p class="text-gray-500 text-sm leading-relaxed i18n" data-fr={desc.fr} data-en={desc.en}>{desc.fr}</p>
         </div>
       ))}
     </div>
 
     <div class="mt-10 text-center">
       <a href="/contact" class="inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-full transition hover:opacity-90" style="background:#1A6B4A">
-        Demander une évaluation gratuite
+        <span class="i18n" data-fr="Demander une évaluation gratuite" data-en="Request a free assessment">Demander une évaluation gratuite</span>
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
     </div>
