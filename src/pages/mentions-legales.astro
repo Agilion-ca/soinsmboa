@@ -1,0 +1,90 @@
+---
+export const prerender = true;
+import Layout from '../layouts/Layout.astro';
+
+const lastUpdate = "24 août 2026";
+const email = "info@soinsmboa.com";
+---
+
+<Layout
+  title="Mentions légales | SoinsMboa"
+  description="Mentions légales du site SoinsMboa — éditeur, hébergeur, propriété intellectuelle."
+>
+  <section class="py-12 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Mentions légales</h1>
+      <p class="text-green-100 text-sm">Dernière mise à jour : {lastUpdate}</p>
+    </div>
+  </section>
+
+  <section class="py-14 bg-[#F7F5F2]">
+    <div class="max-w-3xl mx-auto px-4 prose prose-green prose-sm md:prose-base">
+
+      <h2>1. Éditeur du site</h2>
+      <p>
+        <strong>SoinsMboa</strong><br/>
+        Entreprise de services de soins à domicile<br/>
+        Forme juridique : SARL (en cours d'immatriculation)<br/>
+        Siège social : Douala, Cameroun<br/>
+        RCCM : <em>(en cours)</em><br/>
+        NIU : <em>(en cours)</em><br/>
+        Téléphone : +237 6 99 77 48 82 · +237 6 76 81 47 85<br/>
+        Email : <a href={`mailto:${email}`}>{email}</a>
+      </p>
+      <p>Directeur de la publication : le(s) gérant(s) de SoinsMboa</p>
+
+      <h2>2. Hébergement</h2>
+      <p>
+        Ce site est hébergé par :<br/>
+        <strong>Cloudflare, Inc.</strong><br/>
+        101 Townsend St, San Francisco, CA 94107, États-Unis<br/>
+        <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer">www.cloudflare.com</a>
+      </p>
+
+      <h2>3. Propriété intellectuelle</h2>
+      <p>
+        L'ensemble des contenus présents sur ce site (textes, images, logo, charte graphique) est la propriété exclusive de SoinsMboa ou de ses partenaires, et est protégé par le droit camerounais de la propriété intellectuelle.
+      </p>
+      <p>
+        Toute reproduction, représentation, modification ou exploitation, totale ou partielle, de ces contenus sans autorisation écrite préalable de SoinsMboa est strictement interdite.
+      </p>
+
+      <h2>4. Photos et médias</h2>
+      <p>
+        Les photographies utilisées sur ce site proviennent de la plateforme <strong>Unsplash</strong>, sous licence libre d'utilisation.
+        Crédits photographiques disponibles sur demande à <a href={`mailto:${email}`}>{email}</a>.
+      </p>
+
+      <h2>5. Liens hypertextes</h2>
+      <p>
+        Ce site peut contenir des liens vers des sites tiers. SoinsMboa n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou leurs pratiques en matière de données personnelles.
+      </p>
+
+      <h2>6. Limitation de responsabilité</h2>
+      <p>
+        SoinsMboa s'efforce de maintenir les informations de ce site à jour et exactes. Toutefois, nous ne saurions garantir l'exhaustivité ou l'exactitude de tous les contenus publiés. Les informations médicales générales présentes sur ce site ne se substituent en aucun cas à un avis médical professionnel.
+      </p>
+
+      <h2>7. Droit applicable</h2>
+      <p>
+        Les présentes mentions légales sont soumises au droit camerounais. En cas de litige, les tribunaux compétents de Douala, Cameroun, seront seuls compétents.
+      </p>
+
+      <h2>8. Contact</h2>
+      <p>
+        Pour toute question relative au site :<br/>
+        <a href={`mailto:${email}`}>{email}</a><br/>
+        SoinsMboa · Douala, Cameroun
+      </p>
+
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .prose h2 { color: #1A6B4A; font-size: 1.15rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.5rem; }
+  .prose p, .prose li { color: #374151; line-height: 1.75; }
+  .prose a { color: #FF6B35; text-decoration: underline; }
+  .prose em { color: #9CA3AF; font-style: italic; }
+  .prose strong { color: #0D2318; }
+</style>

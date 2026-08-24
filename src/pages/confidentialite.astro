@@ -1,0 +1,118 @@
+---
+export const prerender = true;
+import Layout from '../layouts/Layout.astro';
+
+const lastUpdate = "24 août 2026";
+const email = "info@soinsmboa.com";
+---
+
+<Layout
+  title="Politique de confidentialité | SoinsMboa"
+  description="Comment SoinsMboa collecte, utilise et protège vos données personnelles. Conformité RGPD et loi camerounaise 2010/012."
+>
+  <section class="py-12 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Politique de confidentialité</h1>
+      <p class="text-green-100 text-sm">Dernière mise à jour : {lastUpdate}</p>
+    </div>
+  </section>
+
+  <section class="py-14 bg-[#F7F5F2]">
+    <div class="max-w-3xl mx-auto px-4 prose prose-green prose-sm md:prose-base">
+
+      <h2>1. Qui sommes-nous ?</h2>
+      <p>
+        <strong>SoinsMboa</strong> est un service de soins à domicile basé à Douala, Cameroun.
+        Nous mettons en relation des familles avec des prestataires de soins qualifiés (auxiliaires de vie, gardes-malades, médecins à domicile).
+      </p>
+      <p>Responsable du traitement des données : SoinsMboa<br/>
+      Contact : <a href={`mailto:${email}`}>{email}</a><br/>
+      Téléphone : +237 6 99 77 48 82</p>
+
+      <h2>2. Quelles données collectons-nous ?</h2>
+      <p>Nous collectons uniquement les données que vous nous transmettez volontairement via :</p>
+      <ul>
+        <li><strong>Le formulaire de contact</strong> : nom, adresse email, numéro de téléphone, message</li>
+        <li><strong>WhatsApp</strong> : votre numéro de téléphone et les messages échangés</li>
+        <li><strong>Email direct</strong> : les informations contenues dans vos emails</li>
+      </ul>
+      <p>Nous ne collectons <strong>aucune donnée de navigation</strong> (cookies tiers, traceurs publicitaires, Google Analytics). Ce site ne dépose aucun cookie de traçage.</p>
+
+      <h2>3. Pourquoi collectons-nous ces données ?</h2>
+      <table>
+        <thead>
+          <tr><th>Finalité</th><th>Base légale</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Répondre à votre demande de contact</td><td>Intérêt légitime / exécution d'un contrat</td></tr>
+          <tr><td>Vous proposer un devis ou une évaluation gratuite</td><td>Consentement explicite</td></tr>
+          <tr><td>Coordonner la mise en place d'un service</td><td>Exécution du contrat de prestation</td></tr>
+          <tr><td>Vous envoyer des informations sur nos services</td><td>Consentement (opt-in)</td></tr>
+        </tbody>
+      </table>
+      <p>Nous n'utilisons jamais vos données à des fins publicitaires ni ne les revendons à des tiers.</p>
+
+      <h2>4. Qui reçoit vos données ?</h2>
+      <p>Vos données sont accessibles uniquement à :</p>
+      <ul>
+        <li>L'équipe SoinsMboa (coordinateurs, direction médicale) dans le cadre de la gestion de votre demande</li>
+        <li>Le prestataire assigné à votre proche, dans la stricte limite des informations nécessaires à la mission</li>
+      </ul>
+      <p>Aucune donnée n'est partagée avec des partenaires commerciaux, annonceurs ou organismes tiers.</p>
+
+      <h2>5. Durée de conservation</h2>
+      <ul>
+        <li><strong>Prospects (sans suite donnée)</strong> : 12 mois après le dernier contact</li>
+        <li><strong>Clients actifs</strong> : durée du contrat + 3 ans (prescription légale camerounaise)</li>
+        <li><strong>Données médicales du bénéficiaire</strong> : 5 ans après fin de prise en charge</li>
+      </ul>
+
+      <h2>6. Vos droits</h2>
+      <p>Conformément au Règlement Général sur la Protection des Données (RGPD, applicable aux résidents de l'Union Européenne) et à la loi camerounaise n° 2010/012 du 21 décembre 2010, vous disposez des droits suivants :</p>
+      <ul>
+        <li><strong>Droit d'accès</strong> : obtenir une copie des données vous concernant</li>
+        <li><strong>Droit de rectification</strong> : corriger des données inexactes</li>
+        <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données</li>
+        <li><strong>Droit d'opposition</strong> : s'opposer à un traitement</li>
+        <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format lisible</li>
+      </ul>
+      <p>Pour exercer ces droits : <a href={`mailto:${email}`}>{email}</a><br/>
+      Nous répondons dans un délai de <strong>30 jours</strong>.</p>
+
+      <h2>7. Sécurité</h2>
+      <p>
+        Ce site est hébergé sur <strong>Cloudflare Pages</strong> (infrastructure sécurisée, HTTPS enforced, certificat SSL renouvelé automatiquement).
+        Les échanges WhatsApp bénéficient du chiffrement de bout en bout natif à l'application.
+        Les emails transitent via <strong>Brevo</strong> (conformité RGPD certifiée).
+      </p>
+
+      <h2>8. Transferts internationaux</h2>
+      <p>
+        SoinsMboa est basée au Cameroun. Si vous nous contactez depuis l'Union Européenne, vos données transitent vers des serveurs hors UE (Cloudflare, infrastructure mondiale).
+        Cloudflare est certifié <strong>EU-US Data Privacy Framework</strong> et propose des garanties contractuelles conformes au RGPD.
+      </p>
+
+      <h2>9. Modifications</h2>
+      <p>Toute modification substantielle de cette politique sera signalée par la mise à jour de la date en haut de cette page. Nous vous invitons à la consulter régulièrement.</p>
+
+      <h2>10. Contact</h2>
+      <p>
+        Pour toute question relative à cette politique ou à vos données personnelles :<br/>
+        <a href={`mailto:${email}`}>{email}</a><br/>
+        SoinsMboa · Douala, Cameroun
+      </p>
+
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .prose h2 { color: #1A6B4A; font-size: 1.15rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.5rem; }
+  .prose p, .prose li { color: #374151; line-height: 1.75; }
+  .prose a { color: #FF6B35; text-decoration: underline; }
+  .prose table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+  .prose th { background: #1A6B4A; color: white; padding: 0.5rem 0.75rem; text-align: left; }
+  .prose td { border: 1px solid #E2DDD8; padding: 0.5rem 0.75rem; color: #374151; }
+  .prose ul { padding-left: 1.25rem; }
+  .prose strong { color: #0D2318; }
+</style>
