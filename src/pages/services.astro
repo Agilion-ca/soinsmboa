@@ -8,7 +8,6 @@ const WHATSAPP = import.meta.env.PUBLIC_WHATSAPP || '237600000000';
 const services = [
   {
     id: 'auxiliaire',
-    icon: '🤝',
     title: 'Auxiliaire de vie',
     tagline: 'Aide quotidienne et accompagnement',
     desc: `L'auxiliaire de vie accompagne au quotidien les personnes âgées, handicapées ou en convalescence. Elle intervient à domicile pour faciliter les gestes essentiels et offrir une présence bienveillante, indispensable pour les familles vivant à l'étranger.`,
@@ -22,12 +21,14 @@ const services = [
       'Soutien moral et compagnie',
     ],
     forWho: ['Personnes âgées dépendantes', 'Personnes handicapées', 'Convalescents post-opératoires', 'Familles vivant à l\'étranger'],
+    img: '/images/service-auxiliaire.jpg',
+    imgAlt: 'Femme âgée africaine à domicile entourée de sa famille',
+    credit: 'Soweto Graphics / Unsplash',
     color: '#1A6B4A',
     bg: '#F0FAF5',
   },
   {
     id: 'garde',
-    icon: '👁️',
     title: 'Garde-malade',
     tagline: 'Surveillance et soins de confort, 24h/24',
     desc: `Le garde-malade assure une présence et une surveillance continue auprès du patient, à domicile ou en milieu hospitalier. Il travaille en coordination avec le personnel médical et tient la famille informée chaque jour — essentiel quand vous êtes à des milliers de kilomètres.`,
@@ -41,12 +42,14 @@ const services = [
       'Gestion des urgences de nuit',
     ],
     forWho: ['Patients hospitalisés', 'Post-opératoires', 'Patients en soins intensifs', 'Personnes seules sans famille proche'],
+    img: '/images/service-garde.jpg',
+    imgAlt: 'Soignante souriante avec une patiente âgée',
+    credit: 'Age Cymru / Unsplash',
     color: '#FF6B35',
     bg: '#FFF5F0',
   },
   {
     id: 'medecin',
-    icon: '🩺',
     title: 'Médecin à domicile',
     tagline: 'Consultation médicale sans déplacement',
     desc: `Nos médecins généralistes et spécialistes se déplacent à domicile ou en clinique. Idéal pour éviter les longues attentes, pour les personnes à mobilité réduite, ou pour un suivi rapide quand vous ne pouvez pas être présent.`,
@@ -60,6 +63,9 @@ const services = [
       'Coordination avec spécialistes',
     ],
     forWho: ['Personnes à mobilité réduite', 'Patients fragiles', 'Urgences légères', 'Suivi chronique'],
+    img: '/images/service-medecin.jpg',
+    imgAlt: 'Médecin en consultation à domicile avec un patient',
+    credit: 'Vitaly Gariev / Unsplash',
     color: '#1A6B4A',
     bg: '#F0FAF5',
   },
@@ -101,21 +107,32 @@ const schema = {
   </section>
 
   <!-- Services -->
-  <section class="max-w-5xl mx-auto px-4 py-16 space-y-20">
-    {services.map(({ id, icon, title, tagline, desc, prestations, forWho, color, bg }) => (
+  <section class="max-w-5xl mx-auto px-4 py-16 space-y-24">
+    {services.map(({ id, title, tagline, desc, prestations, forWho, img, imgAlt, credit, color, bg }, i) => (
       <div id={id} class="scroll-mt-20">
-        <div class="flex items-start gap-4 mb-6">
-          <div class="text-5xl">{icon}</div>
-          <div>
-            <h2 class="text-3xl font-extrabold text-gray-900">{title}</h2>
-            <p class="font-semibold text-lg mt-1" style={`color:${color}`}>{tagline}</p>
-          </div>
-        </div>
+        <div class={`grid md:grid-cols-2 gap-10 items-center ${i % 2 === 1 ? 'md:[&>*:first-child]:order-2' : ''}`}>
 
-        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Photo -->
+          <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[4/3]">
+            <img
+              src={img}
+              alt={imgAlt}
+              class="w-full h-full object-cover"
+              loading={i === 0 ? 'eager' : 'lazy'}
+            />
+            <div class="absolute inset-0" style={`background:linear-gradient(to top, ${color}99 0%, transparent 55%)`}></div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <h2 class="text-2xl font-extrabold text-white">{title}</h2>
+              <p class="text-white/80 text-sm font-medium">{tagline}</p>
+            </div>
+            <p class="absolute top-3 right-3 text-white/40 text-[10px]">{credit}</p>
+          </div>
+
+          <!-- Contenu -->
           <div>
             <p class="text-gray-600 leading-relaxed mb-5">{desc}</p>
-            <div class="mb-4">
+
+            <div class="mb-5">
               <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Pour qui ?</p>
               <div class="flex flex-wrap gap-2">
                 {forWho.map(w => (
@@ -123,21 +140,21 @@ const schema = {
                 ))}
               </div>
             </div>
-          </div>
-          <div class="rounded-2xl p-5" style={`background:${bg}`}>
-            <p class="font-bold text-gray-900 mb-3 text-sm">Ce qui est inclus</p>
-            <ul class="space-y-2">
-              {prestations.map(p => (
-                <li class="flex items-start gap-2 text-sm text-gray-700">
-                  <span class="w-5 h-5 rounded-full flex items-center justify-center text-white text-xs shrink-0 mt-0.5" style={`background:${color}`}>✓</span>
-                  {p}
-                </li>
-              ))}
-            </ul>
-            <p class="mt-4 text-xs text-gray-400">Tarif sur devis · Évaluation gratuite</p>
+
+            <div class="rounded-2xl p-5" style={`background:${bg}`}>
+              <p class="font-bold text-gray-900 mb-3 text-sm">Ce qui est inclus</p>
+              <ul class="space-y-2">
+                {prestations.map(p => (
+                  <li class="flex items-start gap-2 text-sm text-gray-700">
+                    <span class="w-5 h-5 rounded-full flex items-center justify-center text-white text-xs shrink-0 mt-0.5" style={`background:${color}`}>✓</span>
+                    {p}
+                  </li>
+                ))}
+              </ul>
+              <p class="mt-4 text-xs text-gray-400">Tarif sur devis · Évaluation gratuite</p>
+            </div>
           </div>
         </div>
-        <div class="border-b border-gray-100 mt-10"></div>
       </div>
     ))}
   </section>
