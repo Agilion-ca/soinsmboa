@@ -103,6 +103,12 @@ const trustItems = [
               class="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#1A6B4A] focus:ring-2 focus:ring-[#1A6B4A]/20 transition resize-none"></textarea>
           </div>
 
+          <!-- Honeypot: hidden, bots fill it, humans don't -->
+          <input type="text" name="_hp" tabindex="-1" autocomplete="off"
+            style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none" aria-hidden="true" />
+          <!-- Form load timestamp for timing check -->
+          <input type="hidden" name="_t" id="form-time" />
+
           <div id="form-error" class="hidden text-sm text-red-600 bg-red-50 px-4 py-2.5 rounded-xl"></div>
           <div id="form-success" class="hidden text-sm text-green-700 bg-green-50 px-4 py-3 rounded-xl font-medium"></div>
 
@@ -254,10 +260,15 @@ const trustItems = [
     }
   }
 
-  document.addEventListener('DOMContentLoaded', () => updatePlaceholders(getLang()));
-  document.addEventListener('langchange', (e: Event) => {
-    updatePlaceholders((e as CustomEvent<{ lang: string }>).detail.lang);
+  document.addEventListener('DOMContentLoaded', () => {
+    updatePlaceholders(getLang());
+    // Set form load timestamp for bot timing check
+    const ft = document.getElementById('form-time') as HTMLInputElement | null;
+    if (ft) ft.value = Date.now().toString();
   });
+  document.addEventListener('langchange', (e: Event) =>
+    updatePlaceholders((e as CustomEvent<{ lang: string }>).detail.lang)
+  );
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();

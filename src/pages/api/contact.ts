@@ -9,7 +9,10 @@ const SERVICES: Record<string, string> = {
   'autre': 'Autre',
 };
 
-const rateLimitMap = new Map<string, number>();
+// Rate limit: 3 attempts per 10 minutes per IP
+const rateLimitMap = new Map<string, { count: number; windowStart: number }>();
+const RATE_WINDOW = 600_000;
+const RATE_MAX = 3;
 
 function validate(body: Record<string, string>): string | null {
   if (!body.nom || body.nom.length < 2) return 'Nom invalide';
@@ -26,13 +29,6 @@ export const POST: APIRoute = async ({ request }) => {
     ?? 'unknown';
 
   const now = Date.now();
-  const last = rateLimitMap.get(ip);
-  if (last && now - last < 60_000) {
-    return new Response(JSON.stringify({ error: 'Trop de tentatives. Veuillez patienter une minute.' }), {
-      status: 429, headers: { 'Content-Type': 'application/json' },
-    });
-  }
-  rateLimitMap.set(ip, now);
 
   let body: Record<string, string>;
   try {
@@ -41,6 +37,34 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(JSON.stringify({ error: 'Requête invalide' }), {
       status: 400, headers: { 'Content-Type': 'application/json' },
     });
+  }
+
+  // Honeypot: bots fill hidden fields, humans don't
+  if (body._hp) {
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200, headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Timing: real users take >3s to fill a form
+  const formAge = now - parseInt(body._t ?? '0', 10);
+  if (!body._t || formAge < 3000 || formAge > 3_600_000) {
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200, headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Rate limit: 3 per 10 min per IP
+  const entry = rateLimitMap.get(ip);
+  if (entry && now - entry.windowStart < RATE_WINDOW) {
+    if (entry.count >= RATE_MAX) {
+      return new Response(JSON.stringify({ error: 'Plusieurs demandes reçues. Appelez-nous directement ou réessayez dans quelques minutes.' }), {
+        status: 429, headers: { 'Content-Type': 'application/json' },
+      });
+    }
+    entry.count++;
+  } else {
+    rateLimitMap.set(ip, { count: 1, windowStart: now });
   }
 
   const err = validate(body);
