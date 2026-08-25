@@ -2,8 +2,8 @@
 export const prerender = true;
 import Layout from '../layouts/Layout.astro';
 
-const lastUpdate = "24 août 2026";
 const email = "info@soinsmboa.com";
+const lastUpdate = { fr: "24 août 2026", en: "24 August 2026" };
 ---
 
 <Layout
@@ -12,95 +12,191 @@ const email = "info@soinsmboa.com";
 >
   <section class="py-12 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
     <div class="max-w-3xl mx-auto px-4 text-center">
-      <h1 class="text-3xl md:text-4xl font-extrabold mb-3">Politique de confidentialité</h1>
-      <p class="text-green-100 text-sm">Dernière mise à jour : {lastUpdate}</p>
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-3 i18n"
+        data-fr="Politique de confidentialité"
+        data-en="Privacy policy">Politique de confidentialité</h1>
+      <p class="text-green-100 text-sm i18n"
+        data-fr={`Dernière mise à jour : ${lastUpdate.fr}`}
+        data-en={`Last updated: ${lastUpdate.en}`}>Dernière mise à jour : {lastUpdate.fr}</p>
     </div>
   </section>
 
   <section class="py-14 bg-[#F7F5F2]">
-    <div class="max-w-3xl mx-auto px-4 prose prose-green prose-sm md:prose-base">
+    <div class="max-w-3xl mx-auto px-4">
 
-      <h2>1. Qui sommes-nous ?</h2>
-      <p>
-        <strong>SoinsMboa</strong> est un service de soins à domicile basé à Douala, Cameroun.
-        Nous mettons en relation des familles avec des prestataires de soins qualifiés (auxiliaires de vie, gardes-malades, médecins à domicile).
-      </p>
-      <p>Responsable du traitement des données : SoinsMboa<br/>
-      Contact : <a href={`mailto:${email}`}>{email}</a><br/>
-      Téléphone : +237 6 99 77 48 82</p>
+      <!-- Français -->
+      <div class="lang-fr prose prose-green prose-sm md:prose-base">
 
-      <h2>2. Quelles données collectons-nous ?</h2>
-      <p>Nous collectons uniquement les données que vous nous transmettez volontairement via :</p>
-      <ul>
-        <li><strong>Le formulaire de contact</strong> : nom, adresse email, numéro de téléphone, message</li>
-        <li><strong>WhatsApp</strong> : votre numéro de téléphone et les messages échangés</li>
-        <li><strong>Email direct</strong> : les informations contenues dans vos emails</li>
-      </ul>
-      <p>Nous ne collectons <strong>aucune donnée de navigation</strong> (cookies tiers, traceurs publicitaires, Google Analytics). Ce site ne dépose aucun cookie de traçage.</p>
+        <h2>1. Qui sommes-nous ?</h2>
+        <p>
+          <strong>SoinsMboa</strong> est un service de soins à domicile basé à Douala, Cameroun.
+          Nous mettons en relation des familles avec des prestataires de soins qualifiés (auxiliaires de vie, gardes-malades, médecins à domicile).
+        </p>
+        <p>Responsable du traitement des données : SoinsMboa<br/>
+        Contact : <a href={`mailto:${email}`}>{email}</a><br/>
+        Téléphone : +237 6 99 77 48 82</p>
 
-      <h2>3. Pourquoi collectons-nous ces données ?</h2>
-      <table>
-        <thead>
-          <tr><th>Finalité</th><th>Base légale</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Répondre à votre demande de contact</td><td>Intérêt légitime / exécution d'un contrat</td></tr>
-          <tr><td>Vous proposer un devis ou une évaluation gratuite</td><td>Consentement explicite</td></tr>
-          <tr><td>Coordonner la mise en place d'un service</td><td>Exécution du contrat de prestation</td></tr>
-          <tr><td>Vous envoyer des informations sur nos services</td><td>Consentement (opt-in)</td></tr>
-        </tbody>
-      </table>
-      <p>Nous n'utilisons jamais vos données à des fins publicitaires ni ne les revendons à des tiers.</p>
+        <h2>2. Quelles données collectons-nous ?</h2>
+        <p>Nous collectons uniquement les données que vous nous transmettez volontairement via :</p>
+        <ul>
+          <li><strong>Le formulaire de contact</strong> : nom, adresse email, numéro de téléphone, message</li>
+          <li><strong>WhatsApp</strong> : votre numéro de téléphone et les messages échangés</li>
+          <li><strong>Email direct</strong> : les informations contenues dans vos emails</li>
+        </ul>
+        <p>Nous ne collectons <strong>aucune donnée de navigation</strong> (cookies tiers, traceurs publicitaires, Google Analytics). Ce site ne dépose aucun cookie de traçage.</p>
 
-      <h2>4. Qui reçoit vos données ?</h2>
-      <p>Vos données sont accessibles uniquement à :</p>
-      <ul>
-        <li>L'équipe SoinsMboa (coordinateurs, direction médicale) dans le cadre de la gestion de votre demande</li>
-        <li>Le prestataire assigné à votre proche, dans la stricte limite des informations nécessaires à la mission</li>
-      </ul>
-      <p>Aucune donnée n'est partagée avec des partenaires commerciaux, annonceurs ou organismes tiers.</p>
+        <h2>3. Pourquoi collectons-nous ces données ?</h2>
+        <table>
+          <thead>
+            <tr><th>Finalité</th><th>Base légale</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Répondre à votre demande de contact</td><td>Intérêt légitime / exécution d'un contrat</td></tr>
+            <tr><td>Vous proposer un devis ou une évaluation gratuite</td><td>Consentement explicite</td></tr>
+            <tr><td>Coordonner la mise en place d'un service</td><td>Exécution du contrat de prestation</td></tr>
+            <tr><td>Vous envoyer des informations sur nos services</td><td>Consentement (opt-in)</td></tr>
+          </tbody>
+        </table>
+        <p>Nous n'utilisons jamais vos données à des fins publicitaires ni ne les revendons à des tiers.</p>
 
-      <h2>5. Durée de conservation</h2>
-      <ul>
-        <li><strong>Prospects (sans suite donnée)</strong> : 12 mois après le dernier contact</li>
-        <li><strong>Clients actifs</strong> : durée du contrat + 3 ans (prescription légale camerounaise)</li>
-        <li><strong>Données médicales du bénéficiaire</strong> : 5 ans après fin de prise en charge</li>
-      </ul>
+        <h2>4. Qui reçoit vos données ?</h2>
+        <p>Vos données sont accessibles uniquement à :</p>
+        <ul>
+          <li>L'équipe SoinsMboa (coordinateurs, direction médicale) dans le cadre de la gestion de votre demande</li>
+          <li>Le prestataire assigné à votre proche, dans la stricte limite des informations nécessaires à la mission</li>
+        </ul>
+        <p>Aucune donnée n'est partagée avec des partenaires commerciaux, annonceurs ou organismes tiers.</p>
 
-      <h2>6. Vos droits</h2>
-      <p>Conformément au Règlement Général sur la Protection des Données (RGPD, applicable aux résidents de l'Union Européenne) et à la loi camerounaise n° 2010/012 du 21 décembre 2010, vous disposez des droits suivants :</p>
-      <ul>
-        <li><strong>Droit d'accès</strong> : obtenir une copie des données vous concernant</li>
-        <li><strong>Droit de rectification</strong> : corriger des données inexactes</li>
-        <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données</li>
-        <li><strong>Droit d'opposition</strong> : s'opposer à un traitement</li>
-        <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format lisible</li>
-      </ul>
-      <p>Pour exercer ces droits : <a href={`mailto:${email}`}>{email}</a><br/>
-      Nous répondons dans un délai de <strong>30 jours</strong>.</p>
+        <h2>5. Durée de conservation</h2>
+        <ul>
+          <li><strong>Prospects (sans suite donnée)</strong> : 12 mois après le dernier contact</li>
+          <li><strong>Clients actifs</strong> : durée du contrat + 3 ans (prescription légale camerounaise)</li>
+          <li><strong>Données médicales du bénéficiaire</strong> : 5 ans après fin de prise en charge</li>
+        </ul>
 
-      <h2>7. Sécurité</h2>
-      <p>
-        Ce site est hébergé sur <strong>Cloudflare Pages</strong> (infrastructure sécurisée, HTTPS enforced, certificat SSL renouvelé automatiquement).
-        Les échanges WhatsApp bénéficient du chiffrement de bout en bout natif à l'application.
-        Les emails transitent via <strong>Brevo</strong> (conformité RGPD certifiée).
-      </p>
+        <h2>6. Vos droits</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD, applicable aux résidents de l'Union Européenne) et à la loi camerounaise n° 2010/012 du 21 décembre 2010, vous disposez des droits suivants :</p>
+        <ul>
+          <li><strong>Droit d'accès</strong> : obtenir une copie des données vous concernant</li>
+          <li><strong>Droit de rectification</strong> : corriger des données inexactes</li>
+          <li><strong>Droit à l'effacement</strong> : demander la suppression de vos données</li>
+          <li><strong>Droit d'opposition</strong> : s'opposer à un traitement</li>
+          <li><strong>Droit à la portabilité</strong> : recevoir vos données dans un format lisible</li>
+        </ul>
+        <p>Pour exercer ces droits : <a href={`mailto:${email}`}>{email}</a><br/>
+        Nous répondons dans un délai de <strong>30 jours</strong>.</p>
 
-      <h2>8. Transferts internationaux</h2>
-      <p>
-        SoinsMboa est basée au Cameroun. Si vous nous contactez depuis l'Union Européenne, vos données transitent vers des serveurs hors UE (Cloudflare, infrastructure mondiale).
-        Cloudflare est certifié <strong>EU-US Data Privacy Framework</strong> et propose des garanties contractuelles conformes au RGPD.
-      </p>
+        <h2>7. Sécurité</h2>
+        <p>
+          Ce site est hébergé sur <strong>Cloudflare Pages</strong> (infrastructure sécurisée, HTTPS enforced, certificat SSL renouvelé automatiquement).
+          Les échanges WhatsApp bénéficient du chiffrement de bout en bout natif à l'application.
+          Les emails transitent via <strong>Brevo</strong> (conformité RGPD certifiée).
+        </p>
 
-      <h2>9. Modifications</h2>
-      <p>Toute modification substantielle de cette politique sera signalée par la mise à jour de la date en haut de cette page. Nous vous invitons à la consulter régulièrement.</p>
+        <h2>8. Transferts internationaux</h2>
+        <p>
+          SoinsMboa est basée au Cameroun. Si vous nous contactez depuis l'Union Européenne, vos données transitent vers des serveurs hors UE (Cloudflare, infrastructure mondiale).
+          Cloudflare est certifié <strong>EU-US Data Privacy Framework</strong> et propose des garanties contractuelles conformes au RGPD.
+        </p>
 
-      <h2>10. Contact</h2>
-      <p>
-        Pour toute question relative à cette politique ou à vos données personnelles :<br/>
-        <a href={`mailto:${email}`}>{email}</a><br/>
-        SoinsMboa · Douala, Cameroun
-      </p>
+        <h2>9. Modifications</h2>
+        <p>Toute modification substantielle de cette politique sera signalée par la mise à jour de la date en haut de cette page. Nous vous invitons à la consulter régulièrement.</p>
+
+        <h2>10. Contact</h2>
+        <p>
+          Pour toute question relative à cette politique ou à vos données personnelles :<br/>
+          <a href={`mailto:${email}`}>{email}</a><br/>
+          SoinsMboa · Douala, Cameroun
+        </p>
+
+      </div>
+
+      <!-- English -->
+      <div class="lang-en prose prose-green prose-sm md:prose-base" style="display:none">
+
+        <h2>1. Who are we?</h2>
+        <p>
+          <strong>SoinsMboa</strong> is a home care service based in Douala, Cameroon.
+          We connect families with qualified care providers (home helpers, caregivers, home doctors).
+        </p>
+        <p>Data controller: SoinsMboa<br/>
+        Contact: <a href={`mailto:${email}`}>{email}</a><br/>
+        Phone: +237 6 99 77 48 82</p>
+
+        <h2>2. What data do we collect?</h2>
+        <p>We only collect data you voluntarily provide via:</p>
+        <ul>
+          <li><strong>The contact form</strong>: name, email address, phone number, message</li>
+          <li><strong>WhatsApp</strong>: your phone number and messages exchanged</li>
+          <li><strong>Direct email</strong>: information contained in your emails</li>
+        </ul>
+        <p>We collect <strong>no browsing data</strong> (third-party cookies, advertising trackers, Google Analytics). This site places no tracking cookies.</p>
+
+        <h2>3. Why do we collect this data?</h2>
+        <table>
+          <thead>
+            <tr><th>Purpose</th><th>Legal basis</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Respond to your contact request</td><td>Legitimate interest / contract performance</td></tr>
+            <tr><td>Provide a quote or free assessment</td><td>Explicit consent</td></tr>
+            <tr><td>Coordinate service setup</td><td>Service contract performance</td></tr>
+            <tr><td>Send you information about our services</td><td>Consent (opt-in)</td></tr>
+          </tbody>
+        </table>
+        <p>We never use your data for advertising purposes or sell it to third parties.</p>
+
+        <h2>4. Who receives your data?</h2>
+        <p>Your data is only accessible to:</p>
+        <ul>
+          <li>The SoinsMboa team (coordinators, medical management) for handling your request</li>
+          <li>The caregiver assigned to your loved one, strictly limited to information necessary for the assignment</li>
+        </ul>
+        <p>No data is shared with commercial partners, advertisers or third-party organisations.</p>
+
+        <h2>5. Retention period</h2>
+        <ul>
+          <li><strong>Prospects (no follow-up)</strong>: 12 months after last contact</li>
+          <li><strong>Active clients</strong>: duration of contract + 3 years (Cameroonian legal limitation)</li>
+          <li><strong>Beneficiary medical data</strong>: 5 years after end of care</li>
+        </ul>
+
+        <h2>6. Your rights</h2>
+        <p>In accordance with the General Data Protection Regulation (GDPR, applicable to EU residents) and Cameroonian law no. 2010/012 of 21 December 2010, you have the following rights:</p>
+        <ul>
+          <li><strong>Right of access</strong>: obtain a copy of data relating to you</li>
+          <li><strong>Right of rectification</strong>: correct inaccurate data</li>
+          <li><strong>Right to erasure</strong>: request deletion of your data</li>
+          <li><strong>Right to object</strong>: object to processing</li>
+          <li><strong>Right to portability</strong>: receive your data in a readable format</li>
+        </ul>
+        <p>To exercise these rights: <a href={`mailto:${email}`}>{email}</a><br/>
+        We respond within <strong>30 days</strong>.</p>
+
+        <h2>7. Security</h2>
+        <p>
+          This site is hosted on <strong>Cloudflare Pages</strong> (secure infrastructure, HTTPS enforced, SSL certificate renewed automatically).
+          WhatsApp exchanges benefit from the application's native end-to-end encryption.
+          Emails transit via <strong>Brevo</strong> (GDPR certified).
+        </p>
+
+        <h2>8. International transfers</h2>
+        <p>
+          SoinsMboa is based in Cameroon. If you contact us from the European Union, your data may transit to servers outside the EU (Cloudflare, global infrastructure).
+          Cloudflare is certified under the <strong>EU-US Data Privacy Framework</strong> and offers contractual guarantees compliant with GDPR.
+        </p>
+
+        <h2>9. Modifications</h2>
+        <p>Any material changes to this policy will be indicated by updating the date at the top of this page. We encourage you to consult it regularly.</p>
+
+        <h2>10. Contact</h2>
+        <p>
+          For any questions regarding this policy or your personal data:<br/>
+          <a href={`mailto:${email}`}>{email}</a><br/>
+          SoinsMboa · Douala, Cameroon
+        </p>
+
+      </div>
 
     </div>
   </section>
