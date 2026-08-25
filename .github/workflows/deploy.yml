@@ -31,7 +31,9 @@ jobs:
           BREVO_FROM_EMAIL: ${{ secrets.BREVO_FROM_EMAIL }}
           BREVO_TO_EMAIL: ${{ secrets.BREVO_TO_EMAIL }}
           PUBLIC_PHONE: ${{ secrets.PUBLIC_PHONE }}
+          PUBLIC_PHONE_2: ${{ secrets.PUBLIC_PHONE_2 }}
           PUBLIC_WHATSAPP: ${{ secrets.PUBLIC_WHATSAPP }}
+          PUBLIC_WHATSAPP_2: ${{ secrets.PUBLIC_WHATSAPP_2 }}
           PUBLIC_SMS: ${{ secrets.PUBLIC_SMS }}
 
       - name: Deploy to Cloudflare Pages

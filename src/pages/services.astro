@@ -2,25 +2,31 @@
 export const prerender = true;
 import Layout from '../layouts/Layout.astro';
 
-const PHONE = import.meta.env.PUBLIC_PHONE || '+237 6XX XXX XXX';
-const WHATSAPP = import.meta.env.PUBLIC_WHATSAPP || '237600000000';
+const PHONE = import.meta.env.PUBLIC_PHONE || '+237 6 99 77 48 82';
+const WHATSAPP = import.meta.env.PUBLIC_WHATSAPP || '237699774882';
 
 const services = [
   {
     id: 'auxiliaire',
-    title: 'Auxiliaire de vie',
-    tagline: 'Aide quotidienne et accompagnement',
-    desc: `L'auxiliaire de vie accompagne au quotidien les personnes âgées, handicapées ou en convalescence. Elle intervient à domicile pour faciliter les gestes essentiels et offrir une présence bienveillante, indispensable pour les familles vivant à l'étranger.`,
+    title:   { fr: 'Auxiliaire de vie',               en: 'Home helper' },
+    tagline: { fr: 'Aide quotidienne et accompagnement', en: 'Daily assistance and support' },
+    desc:    { fr: "L'auxiliaire de vie accompagne au quotidien les personnes âgées, handicapées ou en convalescence. Elle intervient à domicile pour faciliter les gestes essentiels et offrir une présence bienveillante, indispensable pour les familles vivant à l'étranger.",
+               en: "The home helper provides daily support to elderly, disabled or recovering people. They assist at home with essential tasks and offer a caring presence — indispensable for families living abroad." },
     prestations: [
-      'Aide à la toilette et à l\'habillage',
-      'Préparation et aide aux repas',
-      'Entretien courant du logement',
-      'Courses et gestion du quotidien',
-      'Accompagnement aux rendez-vous médicaux',
-      'Stimulation cognitive et activités',
-      'Soutien moral et compagnie',
+      { fr: "Aide à la toilette et à l'habillage",       en: 'Personal hygiene & dressing' },
+      { fr: 'Préparation et aide aux repas',              en: 'Meal preparation & assistance' },
+      { fr: 'Entretien courant du logement',              en: 'Light household tasks' },
+      { fr: 'Courses et gestion du quotidien',            en: 'Shopping & daily errands' },
+      { fr: 'Accompagnement aux rendez-vous médicaux',   en: 'Medical appointment support' },
+      { fr: 'Stimulation cognitive et activités',         en: 'Cognitive stimulation & activities' },
+      { fr: 'Soutien moral et compagnie',                 en: 'Emotional support & companionship' },
     ],
-    forWho: ['Personnes âgées dépendantes', 'Personnes handicapées', 'Convalescents post-opératoires', 'Familles vivant à l\'étranger'],
+    forWho: [
+      { fr: 'Personnes âgées dépendantes',              en: 'Dependent elderly people' },
+      { fr: 'Personnes handicapées',                    en: 'People with disabilities' },
+      { fr: 'Convalescents post-opératoires',           en: 'Post-surgery recovery' },
+      { fr: "Familles vivant à l'étranger",             en: 'Families living abroad' },
+    ],
     img: '/images/service-auxiliaire.jpg',
     imgAlt: "Mains d'une soignante et d'une personne âgée — geste de réconfort",
     credit: 'Nappy / Unsplash',
@@ -29,19 +35,25 @@ const services = [
   },
   {
     id: 'garde',
-    title: 'Garde-malade',
-    tagline: 'Surveillance et soins de confort, 24h/24',
-    desc: `Le garde-malade assure une présence et une surveillance continue auprès du patient, à domicile ou en milieu hospitalier. Il travaille en coordination avec le personnel médical et tient la famille informée chaque jour — essentiel quand vous êtes à des milliers de kilomètres.`,
+    title:   { fr: 'Garde-malade',                                  en: 'Caregiver' },
+    tagline: { fr: 'Surveillance et soins de confort, 24h/24',      en: 'Monitoring & comfort care, 24/7' },
+    desc:    { fr: "Le garde-malade assure une présence et une surveillance continue auprès du patient, à domicile ou en milieu hospitalier. Il travaille en coordination avec le personnel médical et tient la famille informée chaque jour — essentiel quand vous êtes à des milliers de kilomètres.",
+               en: "The caregiver ensures continuous presence and monitoring of the patient, at home or in hospital. They coordinate with medical staff and keep the family updated every day — essential when you are thousands of kilometres away." },
     prestations: [
-      'Surveillance continue de l\'état du patient',
-      'Soins de confort et prévention des escarres',
-      'Administration des médicaments selon prescription',
-      'Présence à l\'hôpital ou en clinique',
-      'Compte-rendu quotidien à la famille',
-      'Coordination avec l\'équipe soignante',
-      'Gestion des urgences de nuit',
+      { fr: "Surveillance continue de l'état du patient",   en: "Continuous patient monitoring" },
+      { fr: 'Soins de confort et prévention des escarres',  en: 'Comfort care & pressure sore prevention' },
+      { fr: 'Administration des médicaments selon prescription', en: 'Medication administration as prescribed' },
+      { fr: "Présence à l'hôpital ou en clinique",          en: 'Hospital or clinic presence' },
+      { fr: 'Compte-rendu quotidien à la famille',          en: 'Daily family updates' },
+      { fr: "Coordination avec l'équipe soignante",         en: 'Coordination with medical team' },
+      { fr: 'Gestion des urgences de nuit',                 en: 'Night-time emergency management' },
     ],
-    forWho: ['Patients hospitalisés', 'Post-opératoires', 'Patients en soins intensifs', 'Personnes seules sans famille proche'],
+    forWho: [
+      { fr: 'Patients hospitalisés',                       en: 'Hospitalised patients' },
+      { fr: 'Post-opératoires',                            en: 'Post-surgery patients' },
+      { fr: 'Patients en soins intensifs',                 en: 'Intensive care patients' },
+      { fr: 'Personnes seules sans famille proche',        en: 'People without nearby family' },
+    ],
     img: '/images/service-garde.jpg',
     imgAlt: 'Infirmière en blouse bleue avec stéthoscope — soin en milieu hospitalier',
     credit: 'CDC / Unsplash',
@@ -50,19 +62,25 @@ const services = [
   },
   {
     id: 'medecin',
-    title: 'Médecin à domicile',
-    tagline: 'Consultation médicale sans déplacement',
-    desc: `Nos médecins généralistes et spécialistes se déplacent à domicile ou en clinique. Idéal pour éviter les longues attentes, pour les personnes à mobilité réduite, ou pour un suivi rapide quand vous ne pouvez pas être présent.`,
+    title:   { fr: 'Médecin à domicile',                         en: 'Home doctor' },
+    tagline: { fr: 'Consultation médicale sans déplacement',     en: 'Medical consultation without travel' },
+    desc:    { fr: "Nos médecins généralistes et spécialistes se déplacent à domicile ou en clinique. Idéal pour éviter les longues attentes, pour les personnes à mobilité réduite, ou pour un suivi rapide quand vous ne pouvez pas être présent.",
+               en: "Our GPs and specialists come to you at home or in a clinic. Ideal to avoid long waits, for people with limited mobility, or for a quick follow-up when you cannot be there in person." },
     prestations: [
-      'Consultation générale complète',
-      'Diagnostic et prescription d\'ordonnance',
-      'Suivi des maladies chroniques',
-      'Suivi post-opératoire',
-      'Certificats médicaux',
-      'Urgences légères (fièvre, chute, douleur)',
-      'Coordination avec spécialistes',
+      { fr: 'Consultation générale complète',              en: 'Full general consultation' },
+      { fr: "Diagnostic et prescription d'ordonnance",    en: 'Diagnosis & prescription' },
+      { fr: 'Suivi des maladies chroniques',              en: 'Chronic illness follow-up' },
+      { fr: 'Suivi post-opératoire',                      en: 'Post-op follow-up' },
+      { fr: 'Certificats médicaux',                       en: 'Medical certificates' },
+      { fr: 'Urgences légères (fièvre, chute, douleur)',  en: 'Minor emergencies (fever, falls, pain)' },
+      { fr: 'Coordination avec spécialistes',             en: 'Specialist coordination' },
     ],
-    forWho: ['Personnes à mobilité réduite', 'Patients fragiles', 'Urgences légères', 'Suivi chronique'],
+    forWho: [
+      { fr: 'Personnes à mobilité réduite',  en: 'People with limited mobility' },
+      { fr: 'Patients fragiles',             en: 'Fragile patients' },
+      { fr: 'Urgences légères',              en: 'Minor emergencies' },
+      { fr: 'Suivi chronique',               en: 'Chronic illness follow-up' },
+    ],
     img: '/images/service-medecin.jpg',
     imgAlt: 'Médecin africaine en blouse blanche avec stéthoscope rouge, souriant',
     credit: 'Ato Aikins / Unsplash',
@@ -72,11 +90,26 @@ const services = [
 ];
 
 const faqs = [
-  { q: "Quels sont vos délais d'intervention ?", a: "Auxiliaires de vie et gardes-malades : 24 à 48h. Médecins à domicile : le jour même dans la majorité des cas." },
-  { q: "Comment se passe le suivi pour les familles à l'étranger ?", a: "Vous recevez un compte-rendu quotidien par WhatsApp ou email. Votre coordinateur est joignable à tout moment." },
-  { q: "Les soignants sont-ils qualifiés ?", a: "Oui. Diplômes vérifiés, expérience minimum requise, entretien et références. Formation continue assurée." },
-  { q: "Intervenez-vous de nuit et le week-end ?", a: "Oui, service 7j/7 et 24h/24. Suppléments possibles pour les horaires nocturnes." },
-  { q: "Quels modes de paiement acceptez-vous ?", a: "Virement bancaire international, Orange Money, MTN MoMo. Devis et facturation transparents." },
+  { q: { fr: "Quels sont vos délais d'intervention ?",
+          en: "What are your response times?" },
+    a: { fr: "Auxiliaires de vie et gardes-malades : 24 à 48h. Médecins à domicile : le jour même dans la majorité des cas.",
+          en: "Home helpers and caregivers: 24 to 48h. Home doctors: same day in most cases." } },
+  { q: { fr: "Comment se passe le suivi pour les familles à l'étranger ?",
+          en: "How does follow-up work for families abroad?" },
+    a: { fr: "Vous recevez un compte-rendu quotidien par WhatsApp ou email. Votre coordinateur est joignable à tout moment.",
+          en: "You receive a daily update by WhatsApp or email. Your coordinator is reachable at any time." } },
+  { q: { fr: "Les soignants sont-ils qualifiés ?",
+          en: "Are your caregivers qualified?" },
+    a: { fr: "Oui. Diplômes vérifiés, expérience minimum requise, entretien et références. Formation continue assurée.",
+          en: "Yes. Verified qualifications, minimum experience required, interview and references. Ongoing training provided." } },
+  { q: { fr: "Intervenez-vous de nuit et le week-end ?",
+          en: "Do you work nights and weekends?" },
+    a: { fr: "Oui, service 7j/7 et 24h/24. Suppléments possibles pour les horaires nocturnes.",
+          en: "Yes, service 7 days a week, 24 hours a day. Supplements may apply for night hours." } },
+  { q: { fr: "Quels modes de paiement acceptez-vous ?",
+          en: "What payment methods do you accept?" },
+    a: { fr: "Virement bancaire international, Orange Money, MTN MoMo. Devis et facturation transparents.",
+          en: "International bank transfer, Orange Money, MTN MoMo. Transparent quotes and invoicing." } },
 ];
 
 const schema = {
@@ -84,8 +117,8 @@ const schema = {
   "@type": "FAQPage",
   "mainEntity": faqs.map(({ q, a }) => ({
     "@type": "Question",
-    "name": q,
-    "acceptedAnswer": { "@type": "Answer", "text": a },
+    "name": q.fr,
+    "acceptedAnswer": { "@type": "Answer", "text": a.fr },
   })),
 };
 ---
@@ -98,10 +131,11 @@ const schema = {
   <!-- Hero -->
   <section class="py-16 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
     <div class="max-w-4xl mx-auto px-4 text-center">
-      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Nos services</h1>
-      <p class="text-green-100 text-lg max-w-xl mx-auto">
-        Des prestations professionnelles pour vos proches à Douala et Yaoundé,
-        organisées depuis n'importe où dans le monde.
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4 i18n" data-fr="Nos services" data-en="Our services">Nos services</h1>
+      <p class="text-green-100 text-lg max-w-xl mx-auto i18n"
+        data-fr="Des prestations professionnelles pour vos proches à Douala et Yaoundé, organisées depuis n'importe où dans le monde."
+        data-en="Professional care services for your loved ones in Douala and Yaoundé, organised from anywhere in the world.">
+        Des prestations professionnelles pour vos proches à Douala et Yaoundé, organisées depuis n'importe où dans le monde.
       </p>
     </div>
   </section>
@@ -112,46 +146,39 @@ const schema = {
       <div id={id} class="scroll-mt-20">
         <div class={`grid md:grid-cols-2 gap-10 items-center ${i % 2 === 1 ? 'md:[&>*:first-child]:order-2' : ''}`}>
 
-          <!-- Photo -->
           <div class="relative rounded-2xl overflow-hidden shadow-md aspect-[4/3]">
-            <img
-              src={img}
-              alt={imgAlt}
-              class="w-full h-full object-cover"
-              loading={i === 0 ? 'eager' : 'lazy'}
-            />
+            <img src={img} alt={imgAlt} class="w-full h-full object-cover" loading={i === 0 ? 'eager' : 'lazy'} />
             <div class="absolute inset-0" style={`background:linear-gradient(to top, ${color}99 0%, transparent 55%)`}></div>
             <div class="absolute bottom-4 left-4 right-4">
-              <h2 class="text-2xl font-extrabold text-white">{title}</h2>
-              <p class="text-white/80 text-sm font-medium">{tagline}</p>
+              <h2 class="text-2xl font-extrabold text-white i18n" data-fr={title.fr} data-en={title.en}>{title.fr}</h2>
+              <p class="text-white/80 text-sm font-medium i18n" data-fr={tagline.fr} data-en={tagline.en}>{tagline.fr}</p>
             </div>
             <p class="absolute top-3 right-3 text-white/40 text-[10px]">{credit}</p>
           </div>
 
-          <!-- Contenu -->
           <div>
-            <p class="text-gray-600 leading-relaxed mb-5">{desc}</p>
+            <p class="text-gray-600 leading-relaxed mb-5 i18n" data-fr={desc.fr} data-en={desc.en}>{desc.fr}</p>
 
             <div class="mb-5">
-              <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Pour qui ?</p>
+              <p class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 i18n" data-fr="Pour qui ?" data-en="Who is it for?">Pour qui ?</p>
               <div class="flex flex-wrap gap-2">
                 {forWho.map(w => (
-                  <span class="text-xs font-semibold px-3 py-1 rounded-full" style={`background:${bg};color:${color}`}>{w}</span>
+                  <span class="text-xs font-semibold px-3 py-1 rounded-full i18n" style={`background:${bg};color:${color}`} data-fr={w.fr} data-en={w.en}>{w.fr}</span>
                 ))}
               </div>
             </div>
 
             <div class="rounded-2xl p-5" style={`background:${bg}`}>
-              <p class="font-bold text-gray-900 mb-3 text-sm">Ce qui est inclus</p>
+              <p class="font-bold text-gray-900 mb-3 text-sm i18n" data-fr="Ce qui est inclus" data-en="What is included">Ce qui est inclus</p>
               <ul class="space-y-2">
                 {prestations.map(p => (
                   <li class="flex items-start gap-2 text-sm text-gray-700">
                     <span class="w-5 h-5 rounded-full flex items-center justify-center text-white text-xs shrink-0 mt-0.5" style={`background:${color}`}>✓</span>
-                    {p}
+                    <span class="i18n" data-fr={p.fr} data-en={p.en}>{p.fr}</span>
                   </li>
                 ))}
               </ul>
-              <p class="mt-4 text-xs text-gray-400">Tarif sur devis · Évaluation gratuite</p>
+              <p class="mt-4 text-xs text-gray-400 i18n" data-fr="Tarif sur devis · Évaluation gratuite" data-en="Quote on request · Free assessment">Tarif sur devis · Évaluation gratuite</p>
             </div>
           </div>
         </div>
@@ -162,15 +189,17 @@ const schema = {
   <!-- FAQ -->
   <section class="py-14" style="background:#F0FAF5">
     <div class="max-w-3xl mx-auto px-4">
-      <h2 class="text-2xl font-extrabold text-gray-900 mb-8 text-center">Questions fréquentes</h2>
+      <h2 class="text-2xl font-extrabold text-gray-900 mb-8 text-center i18n" data-fr="Questions fréquentes" data-en="Frequently asked questions">Questions fréquentes</h2>
       <div class="space-y-3">
         {faqs.map(({ q, a }) => (
           <details class="group bg-white rounded-xl border border-gray-100 overflow-hidden">
             <summary class="flex items-center justify-between px-5 py-4 cursor-pointer font-semibold text-gray-800 list-none gap-3 hover:text-[#1A6B4A]">
-              {q}
+              <span class="i18n" data-fr={q.fr} data-en={q.en}>{q.fr}</span>
               <svg class="shrink-0 w-5 h-5 text-gray-400 group-open:rotate-45 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
             </summary>
-            <div class="px-5 pb-4 pt-2 text-sm text-gray-600 border-t border-gray-100">{a}</div>
+            <div class="px-5 pb-4 pt-2 text-sm text-gray-600 border-t border-gray-100">
+              <span class="i18n" data-fr={a.fr} data-en={a.en}>{a.fr}</span>
+            </div>
           </details>
         ))}
       </div>
@@ -180,12 +209,14 @@ const schema = {
   <!-- CTA -->
   <section class="py-14 text-white" style="background:linear-gradient(135deg,#1A6B4A 0%,#0f4a33 100%)">
     <div class="max-w-3xl mx-auto px-4 text-center">
-      <h2 class="text-2xl font-extrabold mb-3">Prêt à commencer ?</h2>
-      <p class="text-green-100 mb-6">Évaluation gratuite par téléphone. Intervention sous 24h.</p>
+      <h2 class="text-2xl font-extrabold mb-3 i18n" data-fr="Prêt à commencer ?" data-en="Ready to get started?">Prêt à commencer ?</h2>
+      <p class="text-green-100 mb-6 i18n" data-fr="Évaluation gratuite par téléphone. Intervention sous 24h." data-en="Free phone assessment. Care starts within 24h.">Évaluation gratuite par téléphone. Intervention sous 24h.</p>
       <div class="flex flex-col sm:flex-row gap-3 justify-center">
         <a href={`tel:${PHONE}`} class="flex items-center justify-center gap-2 font-bold px-6 py-3 rounded-full text-white" style="background:#FF6B35">{PHONE}</a>
         <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full bg-white/15 border border-white/30 text-white hover:bg-white/25 transition">WhatsApp</a>
-        <a href="/contact" class="flex items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full border border-white/30 text-white hover:bg-white/10 transition">Formulaire</a>
+        <a href="/contact" class="flex items-center justify-center gap-2 font-semibold px-6 py-3 rounded-full border border-white/30 text-white hover:bg-white/10 transition">
+          <span class="i18n" data-fr="Formulaire" data-en="Contact form">Formulaire</span>
+        </a>
       </div>
     </div>
   </section>
