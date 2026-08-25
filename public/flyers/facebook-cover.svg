@@ -1,88 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="624" viewBox="0 0 1640 624" font-family="'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1640" height="624" viewBox="0 0 1640 624"
+     font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <!-- Fondu latéral gauche sur la photo -->
+    <linearGradient id="g-left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0D2318" stop-opacity="1"/>
+      <stop offset="30%"  stop-color="#0D2318" stop-opacity="0.7"/>
+      <stop offset="65%"  stop-color="#0D2318" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Fondu haut/bas sur la photo -->
+    <linearGradient id="g-top-photo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0D2318" stop-opacity="0.55"/>
+      <stop offset="40%"  stop-color="#0D2318" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0D2318" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="g-orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#e85a24"/>
+    </linearGradient>
+    <clipPath id="photo-clip">
+      <rect x="720" y="0" width="920" height="624"/>
+    </clipPath>
+  </defs>
 
-  <!-- LEFT HALF — dark green -->
-  <rect x="0" y="0" width="820" height="624" fill="#0D2318"/>
+  <!-- ── Fond sombre base ── -->
+  <rect width="1640" height="624" fill="#0D2318"/>
 
-  <!-- Orange top accent bar -->
-  <rect x="0" y="0" width="820" height="5" fill="#FF6B35"/>
+  <!-- ── Photo droite : médecin africaine en blouse blanche ── -->
+  <image href="../images/service-medecin.jpg"
+         x="720" y="0" width="920" height="624"
+         preserveAspectRatio="xMidYMid slice"
+         clip-path="url(#photo-clip)"/>
 
-  <!-- Brand name -->
-  <text x="72" y="138" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="-2">SoinsMboa</text>
+  <!-- Fondu latéral (photo → panneau gauche) -->
+  <rect x="720" y="0" width="640" height="624" fill="url(#g-left)"/>
+  <!-- Fondu haut/bas sur toute la photo -->
+  <rect x="720" y="0" width="920" height="624" fill="url(#g-top-photo)"/>
 
-  <!-- Tagline -->
-  <text x="72" y="190" font-size="20" fill="#F8F5F0" fill-opacity="0.55" letter-spacing="0.5">Soins à domicile · Douala &amp; Yaoundé</text>
+  <!-- Barre orange top accent -->
+  <rect x="0" y="0" width="720" height="5" fill="#FF6B35"/>
 
-  <!-- Short accent rule -->
-  <rect x="72" y="216" width="260" height="2" fill="#FF6B35"/>
+  <!-- ── PANNEAU GAUCHE VERT FONCÉ ── -->
+  <!-- (le fond sombre de la base suffit, on dessine le contenu) -->
 
-  <!-- Availability badge -->
-  <rect x="72" y="240" width="210" height="38" rx="4" fill="#FF6B35"/>
-  <text x="177" y="264" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">24h/24 · 7j/7</text>
+  <!-- Brand -->
+  <text x="72" y="108" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="-2">SoinsMboa</text>
+  <rect x="72" y="122" width="280" height="2.5" fill="#FF6B35"/>
+  <text x="72" y="156" font-size="16" fill="#F8F5F0" fill-opacity="0.5" letter-spacing="3">SOINS À DOMICILE · CAMEROUN</text>
 
-  <!-- Supporting copy -->
-  <text x="72" y="340" font-size="17" fill="#F8F5F0" fill-opacity="0.48">Personnel qualifié · Intervention &lt;24h</text>
-  <text x="72" y="366" font-size="17" fill="#F8F5F0" fill-opacity="0.48">Compte-rendu famille quotidien</text>
+  <!-- Badge disponibilité -->
+  <rect x="72" y="178" width="176" height="38" rx="19" fill="url(#g-orange)"/>
+  <text x="160" y="202" font-size="15" font-weight="800" fill="#FFFFFF" text-anchor="middle">24h/24 · 7j/7</text>
 
-  <!-- Diaspora line -->
-  <text x="72" y="430" font-size="14" fill="#F8F5F0" fill-opacity="0.3" letter-spacing="0.3">Pour la diaspora · France · Belgique · Canada</text>
+  <!-- Points forts -->
+  <text x="72" y="268" font-size="16" fill="#F8F5F0" fill-opacity="0.55" letter-spacing="0.3">✓  Personnel soignant vérifié et formé</text>
+  <text x="72" y="298" font-size="16" fill="#F8F5F0" fill-opacity="0.55" letter-spacing="0.3">✓  Intervention en moins de 24h</text>
+  <text x="72" y="328" font-size="16" fill="#F8F5F0" fill-opacity="0.55" letter-spacing="0.3">✓  Compte-rendu quotidien à la famille</text>
+  <text x="72" y="358" font-size="16" fill="#F8F5F0" fill-opacity="0.55" letter-spacing="0.3">✓  Diaspora · France · Belgique · Canada</text>
 
-  <!-- Footer micro text -->
-  <rect x="72" y="570" width="680" height="1" fill="#FFFFFF" fill-opacity="0.08"/>
-  <text x="72" y="600" font-size="12" fill="#F8F5F0" fill-opacity="0.28" letter-spacing="0.3">SoinsMboa.com</text>
+  <!-- Services inline -->
+  <rect x="72" y="402" width="1" height="1" fill="none"/>
+  <text x="72" y="402" font-size="11" font-weight="700" fill="#FF6B35" letter-spacing="3">NOS SERVICES</text>
 
-  <!-- VERTICAL DIVIDER -->
-  <rect x="820" y="0" width="4" height="624" fill="#FF6B35"/>
+  <rect x="72"  y="418" width="178" height="36" rx="4" fill="#1A6B4A" fill-opacity="0.5"/>
+  <rect x="72"  y="418" width="3"   height="36" rx="1" fill="#1A6B4A"/>
+  <text x="161" y="441" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Auxiliaire de vie</text>
 
-  <!-- RIGHT HALF — off-white -->
-  <rect x="824" y="0" width="816" height="624" fill="#F8F5F0"/>
+  <rect x="264" y="418" width="178" height="36" rx="4" fill="#1A6B4A" fill-opacity="0.5"/>
+  <rect x="264" y="418" width="3"   height="36" rx="1" fill="#1A6B4A"/>
+  <text x="353" y="441" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Garde-malade</text>
 
-  <!-- Headline -->
-  <text x="892" y="108" font-size="38" font-weight="800" fill="#0D2318" letter-spacing="-0.5">Soins à domicile professionnels</text>
-  <text x="892" y="156" font-size="38" font-weight="800" fill="#1A6B4A" letter-spacing="-0.5">au Cameroun</text>
+  <rect x="456" y="418" width="200" height="36" rx="4" fill="#FF6B35" fill-opacity="0.25"/>
+  <rect x="456" y="418" width="3"   height="36" rx="1" fill="#FF6B35"/>
+  <text x="556" y="441" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">Médecin à domicile</text>
 
-  <!-- Rule -->
-  <rect x="892" y="180" width="620" height="1.5" fill="#0D2318" fill-opacity="0.1"/>
+  <!-- Séparateur -->
+  <rect x="72" y="484" width="596" height="1" fill="#FFFFFF" fill-opacity="0.1"/>
 
-  <!-- Phone boxes — two side by side, full number on each -->
-  <!-- Box 1 — dark background -->
-  <rect x="892" y="204" width="292" height="118" rx="6" fill="#0D2318"/>
-  <text x="1038" y="240" font-size="11" fill="#F8F5F0" fill-opacity="0.5" text-anchor="middle" letter-spacing="2">WHATSAPP · APPEL</text>
-  <text x="1038" y="287" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">+237 6 99</text>
-  <text x="1038" y="316" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">77 48 82</text>
+  <!-- Téléphones côte à côte -->
+  <rect x="72"  y="500" width="278" height="88" rx="6" fill="url(#g-orange)"/>
+  <rect x="72"  y="500" width="278" height="88" rx="6" fill="#000" fill-opacity="0.1"/>
+  <text x="211" y="534" font-size="10" fill="#FFFFFF" fill-opacity="0.75" text-anchor="middle" letter-spacing="2">WHATSAPP · APPEL</text>
+  <text x="211" y="572" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">+237 6 99 77 48 82</text>
 
-  <!-- Box 2 — green background -->
-  <rect x="1202" y="204" width="292" height="118" rx="6" fill="#1A6B4A"/>
-  <text x="1348" y="240" font-size="11" fill="#F8F5F0" fill-opacity="0.7" text-anchor="middle" letter-spacing="2">WHATSAPP · APPEL</text>
-  <text x="1348" y="287" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">+237 7 55</text>
-  <text x="1348" y="316" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">30 42 49</text>
+  <rect x="366" y="500" width="278" height="88" rx="6" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="366" y="500" width="278" height="88" rx="6" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="505" y="534" font-size="10" fill="#FFFFFF" fill-opacity="0.45" text-anchor="middle" letter-spacing="2">WHATSAPP · APPEL</text>
+  <text x="505" y="572" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">+237 6 76 81 47 85</text>
 
-  <!-- Rule -->
-  <rect x="892" y="344" width="620" height="1.5" fill="#0D2318" fill-opacity="0.08"/>
+  <!-- ── ZONE PHOTO — headline sur la droite ── -->
+  <!-- Headline overlaid sur la photo, aligné bas -->
+  <text x="1360" y="330" font-size="44" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-1">Votre proche a besoin</text>
+  <text x="1360" y="384" font-size="44" font-weight="800" fill="#4ade80" text-anchor="middle" letter-spacing="-1">d'un soignant qualifié ?</text>
+  <text x="1360" y="430" font-size="18" fill="#F8F5F0" fill-opacity="0.7" text-anchor="middle">Nous intervenons à domicile et à l'hôpital.</text>
 
-  <!-- Services label -->
-  <text x="892" y="382" font-size="11" font-weight="700" fill="#FF6B35" letter-spacing="3">NOS SERVICES</text>
-
-  <!-- 3 service tags -->
-  <rect x="892" y="400" width="186" height="42" rx="4" fill="#FFFFFF"/>
-  <rect x="892" y="400" width="4" height="42" rx="1" fill="#1A6B4A"/>
-  <text x="986" y="426" font-size="15" font-weight="700" fill="#0D2318" text-anchor="middle">Auxiliaire de vie</text>
-
-  <rect x="1096" y="400" width="186" height="42" rx="4" fill="#FFFFFF"/>
-  <rect x="1096" y="400" width="4" height="42" rx="1" fill="#1A6B4A"/>
-  <text x="1190" y="426" font-size="15" font-weight="700" fill="#0D2318" text-anchor="middle">Garde-malade</text>
-
-  <rect x="1300" y="400" width="196" height="42" rx="4" fill="#FFFFFF"/>
-  <rect x="1300" y="400" width="4" height="42" rx="1" fill="#FF6B35"/>
-  <text x="1399" y="426" font-size="15" font-weight="700" fill="#0D2318" text-anchor="middle">Médecin à domicile</text>
-
-  <!-- Bottom strip — dark, with both full phone numbers large -->
-  <rect x="824" y="500" width="816" height="124" fill="#0D2318"/>
-  <rect x="824" y="500" width="816" height="4" fill="#FF6B35"/>
-
-  <text x="892" y="548" font-size="11" fill="#F8F5F0" fill-opacity="0.4" letter-spacing="2">NOUS APPELER</text>
-  <text x="892" y="590" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">+237 6 99 77 48 82</text>
-
-  <text x="1300" y="548" font-size="11" fill="#F8F5F0" fill-opacity="0.4" letter-spacing="2">OU</text>
-  <text x="1300" y="590" font-size="34" font-weight="800" fill="#FF6B35" letter-spacing="-0.5">+237 6 76 81 47 85</text>
-
+  <!-- URL en bas droite -->
+  <rect x="720" y="574" width="920" height="50" fill="#0D2318" fill-opacity="0.5"/>
+  <text x="1180" y="603" font-size="13" fill="#F8F5F0" fill-opacity="0.35" text-anchor="middle" letter-spacing="0.5">SoinsMboa.com · Évaluation gratuite · Personnel qualifié</text>
 </svg>
