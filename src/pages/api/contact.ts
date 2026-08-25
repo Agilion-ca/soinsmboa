@@ -12,7 +12,7 @@ const SERVICES: Record<string, string> = {
 // Rate limit: 3 attempts per 10 minutes per IP
 const rateLimitMap = new Map<string, { count: number; windowStart: number }>();
 const RATE_WINDOW = 600_000;
-const RATE_MAX = 3;
+const RATE_MAX = 7;
 
 function validate(body: Record<string, string>): string | null {
   if (!body.nom || body.nom.length < 2) return 'Nom invalide';
