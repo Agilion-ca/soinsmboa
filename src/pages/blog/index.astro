@@ -49,13 +49,6 @@ const categoryLabels: Record<string, { fr: string; en: string }> = {
             Conseils pratiques sur les soins à domicile au Cameroun — pour les familles et la diaspora
           </span>
         </p>
-        <!-- Language toggle -->
-        <div class="flex justify-center mt-6">
-          <div class="inline-flex items-center rounded-full border border-white/30 bg-white/10 p-1 gap-1">
-            <button id="btn-fr-list" class="lang-btn-list px-4 py-1.5 text-sm font-bold rounded-full transition-colors active" aria-pressed="true">FR</button>
-            <button id="btn-en-list" class="lang-btn-list px-4 py-1.5 text-sm font-bold rounded-full transition-colors" aria-pressed="false">EN</button>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -184,16 +177,6 @@ const categoryLabels: Record<string, { fr: string; en: string }> = {
 </Layout>
 
 <style>
-  .lang-btn-list {
-    color: rgba(255, 255, 255, 0.7);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  .lang-btn-list.active {
-    background: white;
-    color: #1A6B4A;
-  }
   .line-clamp-3 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -202,40 +185,3 @@ const categoryLabels: Record<string, { fr: string; en: string }> = {
   }
 </style>
 
-<script>
-  (function () {
-    const btnFr = document.getElementById('btn-fr-list');
-    const btnEn = document.getElementById('btn-en-list');
-    if (!btnFr || !btnEn) return;
-
-    function setLang(lang: 'fr' | 'en') {
-      btnFr.classList.toggle('active', lang === 'fr');
-      btnEn.classList.toggle('active', lang === 'en');
-      btnFr.setAttribute('aria-pressed', String(lang === 'fr'));
-      btnEn.setAttribute('aria-pressed', String(lang === 'en'));
-
-      document.querySelectorAll<HTMLElement>('.i18n').forEach((el) => {
-        const val = el.dataset[lang];
-        if (val !== undefined) el.textContent = val;
-      });
-
-      document.querySelectorAll<HTMLImageElement>('img[data-alt-fr]').forEach((img) => {
-        const alt = img.dataset[`alt${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
-        if (alt) img.alt = alt;
-      });
-
-      try { localStorage.setItem('gardemalade-lang', lang); } catch {}
-    }
-
-    btnFr.addEventListener('click', () => setLang('fr'));
-    btnEn.addEventListener('click', () => setLang('en'));
-
-    try {
-      const saved = localStorage.getItem('gardemalade-lang') as 'fr' | 'en' | null;
-      if (saved === 'en') setLang('en');
-      else setLang('fr');
-    } catch {
-      setLang('fr');
-    }
-  })();
-</script>

@@ -143,29 +143,7 @@ const catLabel = categoryLabels[meta.category] ?? { fr: meta.category, en: meta.
 <script type="application/ld+json" set:html={JSON.stringify(blogPostingSchema)} />
 {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
-<article class="article-wrapper max-w-3xl mx-auto px-4 py-10" id="article-root" data-lang="fr">
-
-  <!-- ── Language toggle ── -->
-  <div class="flex justify-end mb-6">
-    <div class="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 p-1 gap-1" role="group" aria-label="Language / Langue">
-      <button
-        id="btn-fr"
-        class="lang-btn px-3 py-1 text-sm font-semibold rounded-full transition-colors"
-        aria-pressed="true"
-        aria-label="Afficher en français"
-      >
-        FR
-      </button>
-      <button
-        id="btn-en"
-        class="lang-btn px-3 py-1 text-sm font-semibold rounded-full transition-colors"
-        aria-pressed="false"
-        aria-label="Show in English"
-      >
-        EN
-      </button>
-    </div>
-  </div>
+<article class="article-wrapper max-w-3xl mx-auto px-4 py-10" id="article-root">
 
   <!-- ── Hero image ── -->
   {hero.src && (
@@ -387,22 +365,6 @@ const catLabel = categoryLabels[meta.category] ?? { fr: meta.category, en: meta.
 
 <!-- ── Styles ── -->
 <style>
-  /* Language toggle buttons */
-  .lang-btn {
-    color: #6b7280;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  .lang-btn.active {
-    background: #1A6B4A;
-    color: white;
-  }
-  .lang-btn:focus-visible {
-    outline: 2px solid #1A6B4A;
-    outline-offset: 2px;
-  }
-
   /* FAQ accordion */
   details[open] .faq-chevron {
     transform: rotate(180deg);
@@ -446,60 +408,22 @@ const catLabel = categoryLabels[meta.category] ?? { fr: meta.category, en: meta.
   }
 </style>
 
-<!-- ── Language toggle script ── -->
+<!-- Image alts only — global engine handles .i18n and .i18n-html -->
 <script>
   (function () {
-    const root = document.getElementById('article-root');
-    const btnFr = document.getElementById('btn-fr');
-    const btnEn = document.getElementById('btn-en');
-    if (!root || !btnFr || !btnEn) return;
-
-    function setLang(lang: 'fr' | 'en') {
-      root.dataset.lang = lang;
-      btnFr.classList.toggle('active', lang === 'fr');
-      btnEn.classList.toggle('active', lang === 'en');
-      btnFr.setAttribute('aria-pressed', String(lang === 'fr'));
-      btnEn.setAttribute('aria-pressed', String(lang === 'en'));
-
-      // Plain text elements
-      root.querySelectorAll<HTMLElement>('.i18n').forEach((el) => {
-        const val = el.dataset[lang];
-        if (val !== undefined) el.textContent = val;
-      });
-
-      // HTML elements (body sections, conclusion)
-      root.querySelectorAll<HTMLElement>('.i18n-html').forEach((el) => {
-        const val = el.dataset[lang];
-        if (val !== undefined) el.innerHTML = val;
-      });
-
-      // Hero image alt
-      const heroImg = document.getElementById('hero-img') as HTMLImageElement | null;
-      if (heroImg) {
-        const alt = heroImg.dataset[`alt${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
-        if (alt) heroImg.alt = alt;
-      }
-
-      // Section images alt
-      root.querySelectorAll<HTMLImageElement>('figure img:not(#hero-img)').forEach((img) => {
-        const alt = img.dataset[`alt${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
+    function updateImageAlts(lang: string) {
+      document.querySelectorAll<HTMLImageElement>('img[data-alt-fr]').forEach((img) => {
+        const alt = lang === 'en' ? img.dataset.altEn : img.dataset.altFr;
         if (alt) img.alt = alt;
       });
-
-      // Store preference
-      try { localStorage.setItem('gardemalade-lang', lang); } catch {}
     }
-
-    btnFr.addEventListener('click', () => setLang('fr'));
-    btnEn.addEventListener('click', () => setLang('en'));
-
-    // Restore saved preference
-    try {
-      const saved = localStorage.getItem('gardemalade-lang') as 'fr' | 'en' | null;
-      if (saved === 'en') setLang('en');
-      else setLang('fr');
-    } catch {
-      setLang('fr');
-    }
+    document.addEventListener('DOMContentLoaded', () => {
+      let lang = 'fr';
+      try { lang = localStorage.getItem('gardemalade-lang') || 'fr'; } catch {}
+      updateImageAlts(lang);
+    });
+    document.addEventListener('langchange', (e: Event) => {
+      updateImageAlts((e as CustomEvent<{ lang: string }>).detail.lang);
+    });
   })();
 </script>

@@ -21,7 +21,7 @@ const canonicalUrl = `${siteUrl}/blog/${article.meta.slug}`;
 const ogImage = article.hero.src ? `${siteUrl}${article.hero.src}` : '/images/hero.jpg';
 
 // Build related articles list
-let relatedArticles: Array<{ slug: string; title_fr: string; title_en: string; category: string; hero_src: string; chapeau_fr: string }> = [];
+let relatedArticles: Array<{ slug: string; title_fr: string; title_en: string; category: string; hero_src: string; chapeau_fr: string; chapeau_en: string }> = [];
 if (article.related.length > 0) {
   const allArticles = await getCollection('blog', ({ id }) => id !== '_index');
   relatedArticles = article.related
@@ -35,6 +35,7 @@ if (article.related.length > 0) {
         category: found.data.meta.category,
         hero_src: found.data.hero.src,
         chapeau_fr: found.data.content.chapeau.fr,
+        chapeau_en: found.data.content.chapeau.en,
       };
     })
     .filter(Boolean) as typeof relatedArticles;
@@ -52,6 +53,7 @@ const fallbackRelated = relatedArticles.length === 0
         category: a.data.meta.category,
         hero_src: a.data.hero.src,
         chapeau_fr: a.data.content.chapeau.fr,
+        chapeau_en: a.data.content.chapeau.en,
       }))
   : relatedArticles;
 ---
@@ -80,8 +82,8 @@ const fallbackRelated = relatedArticles.length === 0
     <!-- Related articles -->
     {fallbackRelated.length > 0 && (
       <section class="max-w-6xl mx-auto px-4 pb-16 mt-4">
-        <h2 class="text-2xl font-bold text-gray-900 mb-6 related-heading">
-          <span class="i18n-related" data-fr="Articles connexes" data-en="Related articles">Articles connexes</span>
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">
+          <span class="i18n" data-fr="Articles connexes" data-en="Related articles">Articles connexes</span>
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {fallbackRelated.map((rel) => (
@@ -101,9 +103,11 @@ const fallbackRelated = relatedArticles.length === 0
               )}
               <div class="p-4">
                 <h3 class="font-bold text-gray-900 mb-2 group-hover:text-green-700 transition-colors leading-snug">
-                  {rel.title_fr}
+                  <span class="i18n" data-fr={rel.title_fr} data-en={rel.title_en}>{rel.title_fr}</span>
                 </h3>
-                <p class="text-sm text-gray-500 line-clamp-2">{rel.chapeau_fr}</p>
+                <p class="text-sm text-gray-500 line-clamp-2">
+                  <span class="i18n" data-fr={rel.chapeau_fr} data-en={rel.chapeau_en}>{rel.chapeau_fr}</span>
+                </p>
               </div>
             </a>
           ))}
@@ -113,23 +117,3 @@ const fallbackRelated = relatedArticles.length === 0
   </div>
 </Layout>
 
-<script>
-  // Sync related section heading with language toggle from ArticleRenderer
-  (function () {
-    const heading = document.querySelector('.i18n-related');
-    if (!heading) return;
-
-    function syncRelatedLang() {
-      const root = document.getElementById('article-root');
-      const lang = (root?.dataset.lang ?? 'fr') as 'fr' | 'en';
-      const val = (heading as HTMLElement).dataset[lang];
-      if (val) heading.textContent = val;
-    }
-
-    // Poll for language change (simple approach compatible with SSR)
-    const observer = new MutationObserver(syncRelatedLang);
-    const root = document.getElementById('article-root');
-    if (root) observer.observe(root, { attributes: true, attributeFilter: ['data-lang'] });
-    syncRelatedLang();
-  })();
-</script>
