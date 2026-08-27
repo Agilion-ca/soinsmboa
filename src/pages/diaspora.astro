@@ -1,0 +1,464 @@
+---
+export const prerender = true;
+import Layout from '../layouts/Layout.astro';
+
+const WHATSAPP  = import.meta.env.PUBLIC_WHATSAPP  || '237699774882';
+const PHONE     = import.meta.env.PUBLIC_PHONE     || '+237 6 99 77 48 82';
+const PHONE_2   = import.meta.env.PUBLIC_PHONE_2   || '+237 6 76 81 47 85';
+const waMsg     = encodeURIComponent("Bonjour, je vis à l'étranger et j'ai besoin d'un soignant pour un proche au Cameroun.");
+const waUrl     = `https://wa.me/${WHATSAPP}?text=${waMsg}`;
+
+const steps = [
+  {
+    num: '01',
+    fr: 'Vous nous écrivez',
+    en: 'You contact us',
+    desc_fr: 'Un message WhatsApp suffit. On vous répond en moins d\'une heure et on écoute votre situation.',
+    desc_en: 'A single WhatsApp message is enough. We reply within the hour and listen to your situation.',
+  },
+  {
+    num: '02',
+    fr: 'On évalue le besoin',
+    en: 'We assess the need',
+    desc_fr: 'Évaluation gratuite, sans engagement. On vous propose le profil de soignant adapté et un devis transparent.',
+    desc_en: 'Free assessment, no commitment. We propose the right caregiver profile with a clear quote.',
+  },
+  {
+    num: '03',
+    fr: 'Vous restez informé',
+    en: 'You stay informed',
+    desc_fr: 'Compte-rendu quotidien sur WhatsApp. Photos, état de santé, événements du jour. Vous gérez depuis n\'importe où.',
+    desc_en: 'Daily WhatsApp updates. Photos, health status, daily events. You manage from anywhere.',
+  },
+];
+
+const services = [
+  {
+    icon: '🤲',
+    fr: 'Auxiliaire de vie',
+    en: 'Home helper',
+    desc_fr: 'Aide quotidienne, toilette, repas, sorties. Présence bienveillante au quotidien.',
+    desc_en: 'Daily assistance, hygiene, meals, outings. Kind and steady daily presence.',
+    color: '#1A6B4A',
+  },
+  {
+    icon: '👁',
+    fr: 'Garde-malade',
+    en: 'Caregiver',
+    desc_fr: 'Surveillance jour et nuit, à domicile ou à l\'hôpital. Votre proche n\'est jamais seul.',
+    desc_en: 'Day and night monitoring, at home or in hospital. Your loved one is never alone.',
+    color: '#1A6B4A',
+  },
+  {
+    icon: '🩺',
+    fr: 'Médecin à domicile',
+    en: 'Home doctor',
+    desc_fr: 'Consultation, ordonnance, suivi post-opératoire. Sans se déplacer à l\'hôpital.',
+    desc_en: 'Consultation, prescription, post-op follow-up. No trip to the hospital needed.',
+    color: '#FF6B35',
+  },
+];
+
+const faqs = [
+  {
+    q_fr: 'Comment payer depuis l\'étranger ?',
+    q_en: 'How do I pay from abroad?',
+    a_fr: 'Par virement international, Mobile Money (MTN, Orange), PayPal ou carte bancaire. On s\'adapte à votre situation.',
+    a_en: 'By international transfer, Mobile Money (MTN, Orange), PayPal or credit card. We adapt to your situation.',
+  },
+  {
+    q_fr: 'Comment savoir que le soignant est fiable ?',
+    q_en: 'How do I know the caregiver is trustworthy?',
+    a_fr: 'Tout notre personnel est vérifié, formé et référencé. Vous recevez son profil complet avant le début de la mission.',
+    a_en: 'All our staff are verified, trained and referenced. You receive their full profile before the assignment starts.',
+  },
+  {
+    q_fr: 'Quels sont les tarifs ?',
+    q_en: 'What are the rates?',
+    a_fr: 'Devis gratuit selon le type de soin, la durée et la ville. Transparence totale, aucun frais caché.',
+    a_en: 'Free quote based on care type, duration and city. Full transparency, no hidden fees.',
+  },
+  {
+    q_fr: 'Puis-je appeler à tout moment ?',
+    q_en: 'Can I call at any time?',
+    a_fr: 'Oui. Vous avez un contact direct avec le responsable de la mission. WhatsApp disponible 7j/7.',
+    a_en: 'Yes. You have a direct contact with the mission manager. WhatsApp available 7 days/7.',
+  },
+  {
+    q_fr: 'Combien de temps pour trouver un soignant ?',
+    q_en: 'How long to find a caregiver?',
+    a_fr: 'Moins de 24h dans la plupart des cas. Pour les urgences, on fait notre maximum pour le jour même.',
+    a_en: 'Less than 24h in most cases. For emergencies, we do our best for the same day.',
+  },
+];
+---
+
+<Layout
+  title="Soins à domicile au Cameroun pour la diaspora | SoinsMboa"
+  description="Vous vivez en France, Belgique ou Canada ? SoinsMboa s'occupe de votre proche à Douala ou Yaoundé. Soignant qualifié, compte-rendu quotidien sur WhatsApp."
+  canonical="https://soinsmboa.com/diaspora"
+  ogImage="/images/service-medecin.jpg"
+>
+
+  <!-- ══════════════════════════════════════════
+       HERO — photo plein écran, headline fort
+  ══════════════════════════════════════════ -->
+  <section class="relative min-h-screen flex flex-col justify-end" style="background:#0D2318">
+
+    <!-- Photo plein cadre -->
+    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+         style="background-image:url('/images/service-medecin.jpg');background-position:center 15%"></div>
+
+    <!-- Dégradé : léger en haut, dense en bas -->
+    <div class="absolute inset-0"
+         style="background:linear-gradient(to bottom,rgba(13,35,24,.2) 0%,rgba(13,35,24,.05) 25%,rgba(13,35,24,.65) 58%,rgba(13,35,24,.97) 100%)"></div>
+
+    <!-- Barre brand top -->
+    <div class="absolute top-0 left-0 right-0 flex items-center justify-between px-6 py-5 z-10">
+      <a href="/" class="text-white font-extrabold text-2xl tracking-tight">SoinsMboa</a>
+      <span class="text-white text-xs font-bold px-3 py-1.5 rounded-full" style="background:#FF6B35">24h/24 · 7j/7</span>
+    </div>
+
+    <!-- Contenu hero -->
+    <div class="relative z-10 max-w-3xl px-6 pb-16 md:pb-24 mx-auto w-full">
+
+      <p class="text-xs font-bold tracking-widest mb-5" style="color:#FF6B35">
+        <span class="i18n" data-fr="POUR LA DIASPORA AFRICAINE — FRANCE · BELGIQUE · CANADA" data-en="FOR THE AFRICAN DIASPORA — FRANCE · BELGIUM · CANADA">
+          POUR LA DIASPORA AFRICAINE — FRANCE · BELGIQUE · CANADA
+        </span>
+      </p>
+
+      <h1 class="text-4xl md:text-6xl font-black text-white leading-tight tracking-tight mb-6" style="letter-spacing:-1.5px">
+        <span class="i18n" data-fr="Votre proche est au Cameroun." data-en="Your loved one is in Cameroon.">
+          Votre proche est au Cameroun.
+        </span><br>
+        <span style="color:#4ade80" class="i18n" data-fr="Vous, vous êtes loin." data-en="You are far away.">
+          Vous, vous êtes loin.
+        </span>
+      </h1>
+
+      <p class="text-lg md:text-xl mb-10" style="color:rgba(255,255,255,.72)">
+        <span class="i18n"
+          data-fr="On s'occupe de lui. Vous recevez un compte-rendu chaque jour sur WhatsApp."
+          data-en="We take care of them. You receive a daily update on WhatsApp.">
+          On s'occupe de lui. Vous recevez un compte-rendu chaque jour sur WhatsApp.
+        </span>
+      </p>
+
+      <!-- CTA principal WhatsApp -->
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href={waUrl} target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full font-bold text-lg text-white transition hover:opacity-90 shadow-lg"
+          style="background:#25D366">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          <span class="i18n" data-fr="Écrire sur WhatsApp" data-en="Write on WhatsApp">Écrire sur WhatsApp</span>
+        </a>
+        <a href={`tel:${PHONE}`}
+          class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-bold text-white border transition hover:bg-white hover:text-gray-900"
+          style="border-color:rgba(255,255,255,.35);color:rgba(255,255,255,.85)">
+          <span class="i18n" data-fr="Appeler directement" data-en="Call directly">Appeler directement</span>
+        </a>
+      </div>
+
+      <p class="text-xs mt-5" style="color:rgba(255,255,255,.38)">
+        <span class="i18n" data-fr="Évaluation gratuite · Réponse sous 1h · Sans engagement" data-en="Free assessment · Reply within 1h · No commitment">
+          Évaluation gratuite · Réponse sous 1h · Sans engagement
+        </span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       BARRE DE RÉASSURANCE
+  ══════════════════════════════════════════ -->
+  <div class="border-b border-gray-100" style="background:#F0FAF5">
+    <div class="max-w-5xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-4">
+      {[
+        { num: '< 24h', label_fr: 'Intervention', label_en: 'Response time' },
+        { num: '7j/7', label_fr: 'Disponibilité', label_en: 'Availability' },
+        { num: '100%', label_fr: 'Personnel vérifié', label_en: 'Verified staff' },
+        { num: '∞', label_fr: 'Compte-rendu WhatsApp', label_en: 'WhatsApp updates' },
+      ].map(item => (
+        <div class="text-center">
+          <div class="text-2xl font-black" style="color:#1A6B4A">{item.num}</div>
+          <div class="text-xs text-gray-500 mt-0.5 i18n" data-fr={item.label_fr} data-en={item.label_en}>{item.label_fr}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       LE PROBLÈME — section émotionnelle
+  ══════════════════════════════════════════ -->
+  <section class="py-20 px-6" style="background:#0D2318">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-xs font-bold tracking-widest mb-6" style="color:#FF6B35">
+        <span class="i18n" data-fr="ON VOUS COMPREND" data-en="WE UNDERSTAND YOU">ON VOUS COMPREND</span>
+      </p>
+      <h2 class="text-3xl md:text-4xl font-black text-white leading-tight mb-10" style="letter-spacing:-1px">
+        <span class="i18n"
+          data-fr="Être loin quand un parent est malade, c'est insupportable."
+          data-en="Being far away when a parent is sick is unbearable.">
+          Être loin quand un parent est malade, c'est insupportable.
+        </span>
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        {[
+          {
+            fr: "L'inquiétude permanente",
+            en: "Constant worry",
+            desc_fr: "Vous ne savez pas vraiment comment il va. Les appels ne suffisent pas.",
+            desc_en: "You don't really know how they are. Phone calls are not enough.",
+          },
+          {
+            fr: "Les hôpitaux débordés",
+            en: "Overwhelmed hospitals",
+            desc_fr: "Le personnel soignant local n'a pas le temps pour un suivi individualisé.",
+            desc_en: "Local hospital staff don't have time for personalized follow-up.",
+          },
+          {
+            fr: "La culpabilité",
+            en: "The guilt",
+            desc_fr: "Vous voudriez être là. Vous ne pouvez pas tout quitter. C'est normal.",
+            desc_en: "You want to be there. You can't leave everything. That's normal.",
+          },
+        ].map(item => (
+          <div class="rounded-2xl p-5" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)">
+            <div class="font-bold text-white mb-2 i18n" data-fr={item.fr} data-en={item.en}>{item.fr}</div>
+            <div class="text-sm i18n" style="color:rgba(255,255,255,.5)" data-fr={item.desc_fr} data-en={item.desc_en}>{item.desc_fr}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       COMMENT ÇA MARCHE — 3 étapes + photo
+  ══════════════════════════════════════════ -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-xs font-bold tracking-widest mb-3" style="color:#1A6B4A">
+          <span class="i18n" data-fr="COMMENT ÇA MARCHE" data-en="HOW IT WORKS">COMMENT ÇA MARCHE</span>
+        </p>
+        <h2 class="text-3xl md:text-4xl font-black text-gray-900" style="letter-spacing:-1px">
+          <span class="i18n" data-fr="Simple. Rapide. Transparent." data-en="Simple. Fast. Transparent.">
+            Simple. Rapide. Transparent.
+          </span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Étapes -->
+        <div class="space-y-8">
+          {steps.map((step, i) => (
+            <div class="flex gap-5">
+              <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-black text-sm text-white" style="background:#1A6B4A">
+                {step.num}
+              </div>
+              <div>
+                <div class="font-bold text-gray-900 text-lg mb-1 i18n" data-fr={step.fr} data-en={step.en}>{step.fr}</div>
+                <div class="text-gray-500 text-sm leading-relaxed i18n" data-fr={step.desc_fr} data-en={step.desc_en}>{step.desc_fr}</div>
+              </div>
+            </div>
+          ))}
+
+          <a href={waUrl} target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-white transition hover:opacity-90"
+            style="background:#25D366">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <span class="i18n" data-fr="Commencer maintenant" data-en="Start now">Commencer maintenant</span>
+          </a>
+        </div>
+
+        <!-- Photo -->
+        <div class="relative rounded-3xl overflow-hidden aspect-[4/5]">
+          <img src="/images/service-garde.jpg" alt="Soignante prenant soin d'un patient"
+               class="w-full h-full object-cover" loading="lazy" />
+          <!-- Badge flottant -->
+          <div class="absolute bottom-5 left-5 right-5 rounded-2xl px-4 py-3 flex items-center gap-3"
+               style="background:rgba(13,35,24,.88);backdrop-filter:blur(8px)">
+            <div class="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0" style="background:#25D366">
+              <svg width="16" height="16" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <div class="text-white text-sm font-bold i18n" data-fr="Compte-rendu reçu ce matin" data-en="Update received this morning">Compte-rendu reçu ce matin</div>
+              <div class="text-xs" style="color:rgba(255,255,255,.5)">
+                <span class="i18n" data-fr="« Maman a bien mangé. Elle a dormi toute la nuit. »" data-en="« Mom ate well. She slept through the night. »">
+                  « Maman a bien mangé. Elle a dormi toute la nuit. »
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════════ -->
+  <section class="py-20 px-6" style="background:#F8F9FA">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-xs font-bold tracking-widest mb-3" style="color:#1A6B4A">
+          <span class="i18n" data-fr="NOS SERVICES" data-en="OUR SERVICES">NOS SERVICES</span>
+        </p>
+        <h2 class="text-3xl font-black text-gray-900" style="letter-spacing:-0.5px">
+          <span class="i18n" data-fr="Un seul contact pour tout gérer." data-en="One contact to manage everything.">
+            Un seul contact pour tout gérer.
+          </span>
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        {services.map(svc => (
+          <div class="bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-md transition-shadow">
+            <div class="text-3xl mb-4">{svc.icon}</div>
+            <h3 class="font-bold text-gray-900 text-lg mb-2 i18n" data-fr={svc.fr} data-en={svc.en}>{svc.fr}</h3>
+            <p class="text-sm text-gray-500 leading-relaxed i18n" data-fr={svc.desc_fr} data-en={svc.desc_en}>{svc.desc_fr}</p>
+            <div class="mt-4 h-0.5 w-8 rounded" style={`background:${svc.color}`}></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       TÉMOIGNAGES
+  ══════════════════════════════════════════ -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-xs font-bold tracking-widest mb-3" style="color:#1A6B4A">
+          <span class="i18n" data-fr="ILS NOUS FONT CONFIANCE" data-en="THEY TRUST US">ILS NOUS FONT CONFIANCE</span>
+        </p>
+        <h2 class="text-3xl font-black text-gray-900" style="letter-spacing:-0.5px">
+          <span class="i18n" data-fr="Des familles, partout dans le monde." data-en="Families, from all over the world.">
+            Des familles, partout dans le monde.
+          </span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Photo centrale en plus grand -->
+        <div class="md:col-span-1 rounded-2xl overflow-hidden aspect-square">
+          <img src="/images/testimonials.jpg" alt="Famille camerounaise suivie par SoinsMboa"
+               class="w-full h-full object-cover" loading="lazy" />
+        </div>
+
+        <div class="md:col-span-2 grid sm:grid-cols-2 gap-5">
+          {[
+            {
+              name: 'Sandrine M.',
+              location: 'Lyon, France',
+              fr: 'Ma mère est sortie de l\'hôpital début janvier. SoinsMboa a pris le relais immédiatement. Je reçois un message chaque matin. Je peux enfin dormir.',
+              en: 'My mother left the hospital in early January. SoinsMboa stepped in immediately. I receive a message every morning. I can finally sleep.',
+            },
+            {
+              name: 'Jean-Paul N.',
+              location: 'Bruxelles, Belgique',
+              fr: 'Mon père est grabataire à Douala. Je ne pouvais pas quitter mon travail. SoinsMboa m\'a permis d\'être présent à distance. Le soignant est exceptionnel.',
+              en: 'My father is bedridden in Douala. I couldn\'t leave my job. SoinsMboa allowed me to be present from a distance. The caregiver is exceptional.',
+            },
+            {
+              name: 'Christelle A.',
+              location: 'Montréal, Canada',
+              fr: 'J\'ai contacté SoinsMboa un vendredi soir. Le lundi matin, une auxiliaire était chez ma grand-mère. Sérieux et efficace.',
+              en: 'I contacted SoinsMboa on a Friday evening. By Monday morning, a helper was at my grandmother\'s. Serious and efficient.',
+            },
+            {
+              name: 'Patrick K.',
+              location: 'Paris, France',
+              fr: 'La transparence sur les tarifs m\'a convaincu. Devis clair, paiement simple depuis la France. Et ma mère est bien entourée.',
+              en: 'The transparent pricing convinced me. Clear quote, simple payment from France. And my mother is well cared for.',
+            },
+          ].map(t => (
+            <div class="rounded-2xl p-5 border border-gray-100" style="background:#F0FAF5">
+              <p class="text-sm text-gray-700 leading-relaxed mb-4 i18n" data-fr={`« ${t.fr} »`} data-en={`« ${t.en} »`}>
+                « {t.fr} »
+              </p>
+              <div>
+                <div class="font-bold text-gray-900 text-sm">{t.name}</div>
+                <div class="text-xs text-gray-400">{t.location}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FAQ
+  ══════════════════════════════════════════ -->
+  <section class="py-20 px-6" style="background:#F8F9FA">
+    <div class="max-w-2xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-black text-gray-900" style="letter-spacing:-0.5px">
+          <span class="i18n" data-fr="Vos questions fréquentes" data-en="Your frequent questions">Vos questions fréquentes</span>
+        </h2>
+      </div>
+      <div class="space-y-3">
+        {faqs.map((faq, i) => (
+          <details class="bg-white rounded-2xl border border-gray-100 group">
+            <summary class="flex items-center justify-between px-5 py-4 cursor-pointer list-none font-semibold text-gray-900 text-sm">
+              <span class="i18n" data-fr={faq.q_fr} data-en={faq.q_en}>{faq.q_fr}</span>
+              <svg class="w-5 h-5 text-gray-400 flex-shrink-0 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M12 5v14M5 12h14"/>
+              </svg>
+            </summary>
+            <div class="px-5 pb-4 text-sm text-gray-500 leading-relaxed i18n" data-fr={faq.a_fr} data-en={faq.a_en}>{faq.a_fr}</div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CTA FINAL
+  ══════════════════════════════════════════ -->
+  <section class="relative py-24 px-6 overflow-hidden" style="background:#0D2318">
+    <!-- Photo de fond subtile -->
+    <div class="absolute inset-0 bg-cover bg-center opacity-20"
+         style="background-image:url('/images/hero.jpg')"></div>
+    <div class="absolute inset-0" style="background:linear-gradient(to bottom,rgba(13,35,24,.5),rgba(13,35,24,.95))"></div>
+
+    <div class="relative max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-black text-white mb-4" style="letter-spacing:-1px">
+        <span class="i18n"
+          data-fr="Prenez soin de votre proche dès aujourd'hui."
+          data-en="Take care of your loved one starting today.">
+          Prenez soin de votre proche dès aujourd'hui.
+        </span>
+      </h2>
+      <p class="mb-10 text-lg" style="color:rgba(255,255,255,.6)">
+        <span class="i18n"
+          data-fr="Un message suffit. On s'occupe du reste."
+          data-en="One message is enough. We handle the rest.">
+          Un message suffit. On s'occupe du reste.
+        </span>
+      </p>
+
+      <a href={waUrl} target="_blank" rel="noopener noreferrer"
+        class="inline-flex items-center gap-3 px-10 py-5 rounded-full font-bold text-xl text-white transition hover:opacity-90 shadow-2xl mb-6"
+        style="background:#25D366">
+        <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="i18n" data-fr="Écrire sur WhatsApp" data-en="Write on WhatsApp">Écrire sur WhatsApp</span>
+      </a>
+
+      <div class="flex items-center justify-center gap-6">
+        <a href={`tel:${PHONE}`} class="text-sm font-semibold" style="color:rgba(255,255,255,.55)">{PHONE}</a>
+        <span style="color:rgba(255,255,255,.2)">·</span>
+        <a href={`tel:${PHONE_2}`} class="text-sm font-semibold" style="color:rgba(255,255,255,.55)">{PHONE_2}</a>
+      </div>
+      <p class="text-xs mt-3" style="color:rgba(255,255,255,.28)">
+        <span class="i18n" data-fr="Douala · Yaoundé · Évaluation gratuite sans engagement" data-en="Douala · Yaoundé · Free assessment, no commitment">
+          Douala · Yaoundé · Évaluation gratuite sans engagement
+        </span>
+      </p>
+    </div>
+  </section>
+
+</Layout>
