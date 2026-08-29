@@ -800,7 +800,7 @@ function buildSuccessEmail(article) {
 <p><strong>Date :</strong> ${date}</p>
 <p><strong>Catégorie :</strong> ${article.meta.category}</p>
 <p><strong>Temps de lecture :</strong> ${article.meta.reading_time} min</p>
-<p><strong>URL :</strong> <a href="https://gardemalade-cm.com/blog/${slug}">gardemalade-cm.com/blog/${slug}</a></p>
+<p><strong>URL :</strong> <a href="https://soinsmboa.com/blog/${slug}">soinsmboa.com/blog/${slug}</a></p>
 <hr>
 <p><strong>Intro FR :</strong> ${article.content.chapeau.fr}</p>
 <p><em>Mode :</em> ${DRY_RUN ? 'DRY-RUN (aucun fichier écrit)' : 'Production'}</p>
