@@ -527,13 +527,14 @@ Retourne UNIQUEMENT ce JSON (sans balises markdown) :
   "sources": [
     { "title": "Nom de la page source", "url": "https://url-exacte-depuis-RAG.com", "org": "Nom de l'organisme" }
   ],
-  "related": [],
+  "related": ["slug-article-connexe-si-pertinent"],
   "schema": {
     "faq_items": []
   }
 }
 
 ━━━ RAPPELS CRITIQUES AVANT DE GÉNÉRER ━━━
+0. "related" : tableau de slugs STRING uniquement — ex: ["cout-garde-malade-douala-2025"] — JAMAIS d'objets {slug, title}
 1. Vérifie que meta.description.fr fait bien 150-158 caractères (compte-les)
 2. Le mot-clé "${topic.focus_keyword_fr}" doit apparaître dans : title.fr, chapeau.fr (1ère phrase), au moins 2 heading.fr, description.fr
 3. sections : exactement 3-4 sections H2
@@ -863,6 +864,13 @@ async function main() {
     const userPrompt = buildUserPrompt(topic, ragResults, existingArticles);
     const article = await callClaude(systemPrompt, userPrompt);
     log(`Article generated: "${article.meta?.title?.fr}"`);
+
+    // Sanitize related: Claude sometimes returns objects instead of slug strings
+    if (Array.isArray(article.related)) {
+      article.related = article.related.map(r =>
+        typeof r === 'string' ? r : (r?.slug ?? '')
+      ).filter(Boolean);
+    }
 
     // 5. Download Unsplash image
     const imageData = await fetchUnsplashImage(article.meta.slug, topic.unsplash_queries || []);

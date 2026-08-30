@@ -203,20 +203,8 @@
     }
   ],
   "related": [
-    {
-      "slug": "cout-garde-malade-douala-2025",
-      "title": {
-        "fr": "Combien coûte un garde-malade à Douala en 2025 ?",
-        "en": "How much does a caregiver cost in Douala in 2025?"
-      }
-    },
-    {
-      "slug": "droits-des-patients-au-cameroun-ce-que-vous-devez-savoir-pour-defendre-votre-pro",
-      "title": {
-        "fr": "Droits des patients au Cameroun : défendez votre proche",
-        "en": "Patient rights in Cameroon: how to advocate for your loved one"
-      }
-    }
+    "cout-garde-malade-douala-2025",
+    "droits-des-patients-au-cameroun-ce-que-vous-devez-savoir-pour-defendre-votre-pro"
   ],
   "schema": {
     "faq_items": [
