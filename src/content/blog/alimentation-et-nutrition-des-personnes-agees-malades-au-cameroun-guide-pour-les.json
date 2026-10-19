@@ -1,14 +1,14 @@
 {
   "meta": {
     "slug": "alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les",
-    "date": "2026-10-13",
+    "date": "2026-10-19",
     "title": {
-      "fr": "Nutrition personnes âgées Cameroun : guide aidants 2026",
-      "en": "Elderly Nutrition Cameroon: Caregiver's Complete Guide 2026"
+      "fr": "Nutrition personnes âgées Cameroun aidants : guide complet",
+      "en": "Elderly Nutrition Cameroon Caregiver: A Complete Guide"
     },
     "description": {
-      "fr": "Nutrition personnes âgées Cameroun aidants : alimentation adaptée, erreurs à éviter, conseils pratiques pour bien nourrir votre proche malade. Nos conseils.",
-      "en": "Elderly nutrition Cameroon caregiver guide: what to feed a sick older relative, common mistakes and practical tips for families at home or abroad. Read more."
+      "fr": "Nutrition personnes âgées Cameroun aidants : conseils pratiques sur l'alimentation, les carences et le rôle de l'aidant à domicile. Nos conseils.",
+      "en": "Elderly nutrition Cameroon caregiver guide: practical advice on diet, deficiencies and home care support in Douala and Yaoundé. All you need to know."
     },
     "focus_keyword": {
       "fr": "nutrition personnes âgées Cameroun aidants",
@@ -17,11 +17,11 @@
     "secondary_keywords": {
       "fr": [
         "alimentation personne âgée malade",
-        "garde-malade domicile Cameroun"
+        "aidant familial Cameroun"
       ],
       "en": [
-        "diet for elderly sick patients Cameroon",
-        "home caregiver elderly Cameroon"
+        "elderly diet Cameroon",
+        "family caregiver elderly Africa"
       ]
     },
     "reading_time": 16,
@@ -29,15 +29,15 @@
     "tags": [
       "garde-malade",
       "cameroun",
+      "personnes-agees",
       "nutrition",
-      "personnes âgées",
-      "aidants"
+      "aidant-familial"
     ],
     "internal_links": [
       {
         "href": "/services#garde",
         "text": {
-          "fr": "notre service de garde-malade",
+          "fr": "notre service garde-malade",
           "en": "our caregiver service"
         }
       },
@@ -51,8 +51,8 @@
       {
         "href": "/blog/combien-coute-un-garde-malade-a-douala-en-2025-tarifs-et-ce-qui-les-influence",
         "text": {
-          "fr": "les tarifs d'un garde-malade à Douala",
-          "en": "caregiver costs in Douala"
+          "fr": "coût d'un garde-malade à Douala",
+          "en": "cost of a caregiver in Douala"
         }
       }
     ]
@@ -60,62 +60,62 @@
   "hero": {
     "src": "/blog/images/alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les.jpg",
     "alt": {
-      "fr": "Aide-soignante préparant un repas adapté pour la nutrition personnes âgées Cameroun aidants à domicile à Douala",
-      "en": "Home caregiver preparing a nutritious meal for an elderly patient as part of elderly nutrition Cameroon caregiver support in Douala"
+      "fr": "Auxiliaire de vie aidant une personne âgée malade à bien manger — nutrition personnes âgées Cameroun aidants à domicile à Douala",
+      "en": "Home caregiver helping a sick elderly person eat well — elderly nutrition Cameroon caregiver support at home in Douala"
     },
-    "photographer": "Leianne Louis",
-    "photographer_url": "https://unsplash.com/@__leianne_?utm_source=gardemalade&utm_medium=referral",
-    "photo_url": "https://unsplash.com/photos/a-man-woman-and-child-sitting-on-a-dock-uiFs8kO5gjw?utm_source=gardemalade&utm_medium=referral",
-    "unsplash_id": "uiFs8kO5gjw"
+    "photographer": "Trung Nhan Tran",
+    "photographer_url": "https://unsplash.com/@huanshi?utm_source=gardemalade&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/a-person-talking-on-a-cell-phone-3rXNeBDci8c?utm_source=gardemalade&utm_medium=referral",
+    "unsplash_id": "3rXNeBDci8c"
   },
   "body_images": [],
   "content": {
     "chapeau": {
-      "fr": "La nutrition personnes âgées Cameroun aidants, c'est un sujet que beaucoup de familles négligent jusqu'au jour où leur proche malade n'a plus la force de se lever du lit. Si tu t'occupes d'un parent âgé à la maison — que tu sois à Douala, à Yaoundé, ou que tu gères tout depuis l'étranger — ce guide sur l'alimentation de la personne âgée malade est fait pour toi. Bien nourrir, c'est déjà soigner.",
-      "en": "Elderly nutrition in Cameroon is one of those caregiver responsibilities that often gets overlooked until a health crisis hits. Whether you're right there in Douala or Yaoundé managing daily care, or coordinating from the UK or Canada, understanding how to feed a sick older relative properly can make a real difference to their recovery and quality of life. This guide is written for you."
+      "fr": "La nutrition personnes âgées Cameroun aidants, c'est un sujet qu'on ne prend pas toujours au sérieux — jusqu'au jour où le médecin signale une perte de poids alarmante ou une fatigue qui ne passe plus. Que tu t'occupes d'un parent à Douala ou que tu gères tout depuis la France, bien nourrir une personne âgée malade, ce n'est pas chose facile : les besoins changent, l'appétit baisse, et les ressources locales en diététique restent limitées. Ce guide est fait pour toi.",
+      "en": "Elderly nutrition in Cameroon is one of those topics that doesn't get enough attention — until a doctor flags worrying weight loss or persistent fatigue in your aging parent. Whether you're a hands-on family caregiver in Yaoundé or managing care remotely from London, understanding how to feed a sick elderly person well is one of the most important things you can do. This guide breaks it down simply and practically."
     },
     "sections": [
       {
         "heading": {
-          "fr": "Pourquoi la nutrition personnes âgées Cameroun aidants est une urgence silencieuse",
-          "en": "Why elderly nutrition in Cameroon is a silent emergency every caregiver must know about"
+          "fr": "Pourquoi la nutrition personnes âgées Cameroun aidants est un enjeu souvent ignoré",
+          "en": "Why elderly nutrition in Cameroon is a challenge caregivers must understand"
         },
         "body": {
-          "fr": "<p>Tu sais, ici au Cameroun, quand un parent est malade, on pense d'abord aux médicaments, aux bilans à l'Hôpital Général de Douala ou au CHU de Yaoundé, aux ordonnances. L'alimentation, on la règle souvent à la va-vite : un peu de bouillie, du riz blanc, parfois rien du tout si le malade dit qu'il n'a pas faim. Et c'est là que le problème commence.</p><p>Une étude menée à l'Hôpital Régional de Bafoussam (Cameroun) a montré que la dénutrition chez les patients adultes et âgés hospitalisés est un problème réel, aggravé par le manque de suppléments nutritionnels accessibles et par le fait que beaucoup de soignants — familiaux comme professionnels — n'ont pas reçu de formation sur le dépistage de la dénutrition. Quand la dénutrition s'installe, les dépenses de santé augmentent, la guérison s'allonge, et le fardeau sur l'aidant devient plus lourd encore.</p><p>Pour une personne âgée malade, les besoins en protéines, en vitamines et en minéraux augmentent au moment même où son appétit diminue. C'est ce paradoxe que tout aidant doit comprendre. <a href=\"/services#garde\">Notre service de garde-malade</a> forme ses équipes à reconnaître les premiers signes de dénutrition pour intervenir rapidement, avant que la situation ne se détériore.</p><p>Les familles qui assurent elles-mêmes les soins à domicile — souvent sans accompagnement — portent un poids énorme. La politique nationale d'alimentation et de nutrition au Cameroun prévoit un soutien aux groupes vulnérables, dont les personnes âgées, mais l'accès à ces ressources reste limité sur le terrain. En attendant, c'est l'aidant qui est en première ligne.</p>",
-          "en": "<p>When an elderly relative falls ill in Cameroon, the immediate focus is usually on medication, hospital visits — whether to the Hôpital Général de Douala or the CHU in Yaoundé — and getting prescriptions filled. Nutrition often becomes an afterthought: a bit of porridge here, plain rice there, or nothing at all if the patient says they're not hungry. That's exactly where things start to go wrong.</p><p>A study conducted at the Bafoussam Regional Hospital in Cameroon found that undernutrition among hospitalised adult and elderly patients is a significant and underrecognised problem. The research highlighted a shortage of accessible nutritional supplements and insufficient training of health staff and family caregivers in detecting and managing undernutrition. When malnutrition sets in, hospital stays get longer, health costs rise, and the caregiver's burden becomes heavier.</p><p>For a sick older person, the need for protein, vitamins and minerals actually increases at the very moment appetite drops. That's the paradox every caregiver needs to understand. <a href=\"/services#garde\">Our caregiver service</a> trains its teams to spot the early signs of undernutrition so families can act before the situation becomes critical.</p><p>Family caregivers — often untrained and unsupported — carry an enormous responsibility. If you're managing care from abroad, knowing what to look for and what to ask local helpers to provide can be genuinely lifesaving.</p>"
+          "fr": "<p>Tu sais, ici au Cameroun, quand un parent tombe malade, la priorité va souvent aux médicaments et aux consultations. La nourriture, on pense que c'est secondaire. Pourtant, une alimentation mal adaptée peut faire autant de dégâts qu'un traitement mal suivi. Les personnes âgées malades ont des besoins nutritionnels spécifiques : leur corps absorbe moins bien les nutriments, leur appétit diminue, et certaines maladies chroniques comme le diabète ou l'hypertension imposent des restrictions alimentaires strictes.</p><p>Une étude menée à l'Hôpital Régional de Bafoussam a mis en évidence la prévalence de la sous-nutrition chez les patients adultes et âgés hospitalisés, en soulignant notamment les limites d'accès aux compléments nutritionnels et le manque de formation du personnel soignant en matière de dépistage nutritionnel (<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12710069' target='_blank' rel='noopener'>PMC12710069</a>). Cette réalité ne concerne pas que les hôpitaux : elle se retrouve aussi à domicile, où l'aidant familial se retrouve seul à gérer l'alimentation sans vraiment savoir quoi donner.</p><p>Au CHU de Yaoundé ou à l'Hôpital Général de Douala, les diététiciens sont rares et les consultations nutritionnelles souvent payantes — un frein réel pour les familles à revenus modestes. C'est pourquoi <a href='/services#garde'>notre service garde-malade</a> intègre des conseils nutritionnels de base dans l'accompagnement à domicile, pour que l'aidant ne soit jamais seul face à cette question.</p>",
+          "en": "<p>When a parent falls ill in Cameroon, the family's first instinct is to focus on medication and hospital visits. Food tends to come second. But poor nutrition in a sick elderly person can seriously slow recovery and worsen existing conditions like diabetes or hypertension — and the impact is very real.</p><p>A study conducted at Bafoussam Regional Hospital highlighted the prevalence of undernutrition among hospitalized adult and elderly patients, pointing to limited access to nutritional supplements and insufficient training of health workers in nutritional screening (<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12710069' target='_blank' rel='noopener'>PMC12710069</a>). This gap doesn't only exist in hospitals — it plays out daily in homes across Douala and Yaoundé, where family caregivers are left to make difficult feeding decisions without proper guidance.</p><p>Dietitians are hard to find at facilities like the Hôpital Général de Douala or the CHU de Yaoundé, and when available, consultations can be costly. That's why <a href='/services#garde'>our home caregiver service</a> includes basic nutritional guidance as part of daily elderly care — because no family should have to figure this out alone.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Quels aliments privilégier pour la nutrition personnes âgées Cameroun aidants à domicile ?",
-          "en": "What to feed a sick elderly person at home in Cameroon: practical guidance for caregivers"
+          "fr": "Ce que la nutrition personnes âgées Cameroun aidants exige concrètement au quotidien",
+          "en": "What elderly nutrition in Cameroon actually looks like day-to-day for caregivers"
         },
         "body": {
-          "fr": "<p>Prenons l'exemple de Blandine, auxiliaire de vie certifiée qui travaille à Makepe (Douala) depuis cinq ans. Elle s'occupe depuis quelques semaines de Thérèse, 74 ans, sortie de l'Hôpital Laquintinie après une hospitalisation pour diabète mal contrôlé. La famille de Thérèse lui apportait chaque jour du ndolé et du plantain frit — un repas délicieux, mais trop riche en graisses et inadapté à son état. Blandine a dû expliquer calmement à la famille qu'il fallait adapter les repas, pas les supprimer.</p><p>Je ne vais pas te mentir : changer les habitudes alimentaires d'une famille camerounaise, c'est une vraie discussion. Mais voilà ce qui fonctionne concrètement pour une personne âgée malade :</p><ul><li><strong>Les protéines en priorité :</strong> œufs bien cuits, poisson blanc (comme le silure grillé), légumineuses (haricots, niébé) en petites portions régulières. Les protéines aident à maintenir la masse musculaire et à cicatriser.</li><li><strong>Les féculents bien tolérés :</strong> riz bien cuit, plantain bouilli (pas frit), igname — en quantités adaptées à l'état du malade, surtout si diabétique.</li><li><strong>Les légumes verts :</strong> feuilles de manioc, épinards, gombo — riches en micronutriments essentiels.</li><li><strong>L'hydratation :</strong> eau propre, tisanes légères, bouillons — une personne âgée déshydratée se dégrade très vite.</li></ul><p>L'idéal, c'est de fractionner les repas : 5 à 6 petites prises par jour plutôt que 3 grands repas que le malade ne finit pas. Si la personne a du mal à mâcher, écraser ou mixer les aliments n'est pas une honte — c'est du bon sens. Pour en savoir plus sur comment un professionnel peut vous accompagner, consultez <a href=\"/blog/combien-coute-un-garde-malade-a-douala-en-2025-tarifs-et-ce-qui-les-influence\">les tarifs d'un garde-malade à Douala</a>.</p>",
-          "en": "<p>Let me tell you about a situation that plays out in homes across Douala every week. Blandine, a certified auxiliary caregiver based in Makepe, was assigned to look after Thérèse, a 74-year-old woman recently discharged from Hôpital Laquintinie after being treated for poorly controlled diabetes. The family, loving and well-meaning, was bringing her ndolé and fried plantain every day — delicious, but completely wrong for her condition. Blandine had to gently guide them toward a different approach.</p><p>Here's what actually works for sick elderly patients at home in Cameroon:</p><ul><li><strong>Protein first:</strong> well-cooked eggs, white fish (grilled catfish works well), beans and cowpeas in small, regular portions. Protein preserves muscle mass and supports healing.</li><li><strong>Easy-to-digest carbohydrates:</strong> well-cooked rice, boiled plantain (not fried), yam — adjusted carefully for diabetic patients.</li><li><strong>Leafy greens:</strong> cassava leaves, spinach, okra — rich in the micronutrients older bodies need most.</li><li><strong>Hydration:</strong> clean water, light herbal teas, broths — dehydration in an elderly sick person can spiral quickly.</li></ul><p>The key principle is to offer 5 to 6 small meals throughout the day rather than 3 large ones the patient can't finish. If chewing is difficult, mashing or blending food isn't a step backward — it's smart caregiving. A trained caregiver can implement all of this consistently, so the family doesn't have to manage every meal alone.</p>"
+          "fr": "<p>Prenons l'exemple de Thérèse Owona, 74 ans, qui vit à Biyem-Assi (Yaoundé) avec sa fille Angèle. Depuis son AVC il y a huit mois, Thérèse a du mal à avaler les aliments solides et a perdu plusieurs kilogrammes. Angèle, qui travaille toute la journée, ne sait pas toujours comment adapter les repas. Le matin, elle lui prépare une bouillie de maïs — une bonne idée — mais sans ajout de protéines ni de matières grasses, ce qui reste insuffisant pour maintenir la masse musculaire.</p><p>Je ne vais pas te mentir : adapter l'alimentation d'un parent âgé malade, ça demande de la méthode. Voici les points essentiels à retenir :</p><ul><li><strong>Fractionner les repas :</strong> 5 à 6 petits repas par jour plutôt que 3 grands — l'estomac âgé tolère mieux les petites quantités.</li><li><strong>Enrichir sans forcer :</strong> ajouter de l'huile de palme, des œufs, du lait en poudre ou des légumineuses aux plats habituels pour augmenter l'apport calorique et protéique.</li><li><strong>Hydrater régulièrement :</strong> la sensation de soif diminue avec l'âge — proposer de l'eau, des tisanes ou des bouillons toutes les deux heures.</li><li><strong>Adapter les textures :</strong> en cas de troubles de la déglutition, passer les aliments ou opter pour des purées bien liées.</li></ul><p>Avec la vie chère, on ne va pas demander à chaque famille d'acheter des compléments nutritionnels importés à 15 000 ou 20 000 FCFA la boîte. Des aliments locaux bien combinés — igname pilée avec de la viande hachée, haricots rouges enrichis d'huile, poisson fumé mixé — peuvent couvrir une grande partie des besoins sans exploser le budget.</p>",
+          "en": "<p>Consider the situation of Thérèse Owona, 74, who lives in Biyem-Assi, Yaoundé, with her daughter Angèle. Since suffering a stroke eight months ago, Thérèse has difficulty swallowing solid foods and has lost significant weight. Angèle works full-time and isn't always sure how to adapt mealtimes for her mother's condition — a scenario many diaspora families recognise when they think about their parents back home.</p><p>Here's what proper elderly nutrition actually requires on a daily basis:</p><ul><li><strong>Smaller, more frequent meals:</strong> 5 to 6 meals a day instead of 3 large ones — an ageing digestive system handles this much better.</li><li><strong>Calorie and protein enrichment:</strong> add palm oil, eggs, powdered milk or legumes to everyday dishes to boost nutritional value without major cost.</li><li><strong>Regular hydration:</strong> the thirst sensation weakens with age — offer water, herbal teas or broths every two hours.</li><li><strong>Texture adaptation:</strong> for swallowing difficulties, blend or mash foods into smooth consistencies.</li></ul><p>You don't need expensive imported supplements costing 15,000 to 20,000 CFA francs per tin. Local staples — pounded yam with minced meat, red beans enriched with oil, blended smoked fish — can meet most nutritional needs affordably. The key is knowing how to combine them. If you're managing your parent's care from abroad, reading our guide on <a href='/blog/combien-coute-un-garde-malade-a-douala-en-2025-tarifs-et-ce-qui-les-influence'>the cost of a caregiver in Douala</a> will also help you budget for professional support.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Les erreurs fréquentes des aidants face à la dénutrition des personnes âgées",
-          "en": "Common caregiver mistakes that worsen malnutrition in elderly patients"
+          "fr": "Le rôle clé de l'aidant familial dans l'alimentation de la personne âgée malade",
+          "en": "The caregiver's essential role in supporting elderly nutrition in Cameroon"
         },
         "body": {
-          "fr": "<p>La famille, c'est sacré — et c'est précisément parce qu'on aime qu'on commet parfois les erreurs qui fragilisent le malade. Voici les plus courantes que nos équipes observent sur le terrain, à Ngousso (Yaoundé) comme à Bonanjo (Douala).</p><p>La première erreur, c'est de croire que si le malade ne veut pas manger, c'est normal et qu'il faut attendre qu'il ait faim. Faux. La perte d'appétit chez une personne âgée malade est un symptôme à surveiller, pas à accepter passivement. Elle peut signaler une dénutrition débutante, une dépression, ou un problème de médicaments.</p><p>La deuxième erreur, c'est de supprimer les protéines parce que «&nbsp;les reins&nbsp;» — une idée répandue mais souvent mal comprise. Sauf prescription médicale explicite, une personne âgée qui guérit a besoin de protéines. Si le médecin traitant a posé une restriction, elle doit être respectée, mais l'aidant doit demander clairement quelle quantité est autorisée.</p><p>La troisième erreur, c'est d'ignorer la déshydratation. Avec la chaleur de Douala ou de Yaoundé, une personne âgée alitée peut se déshydrater sans s'en rendre compte. Un verre d'eau toutes les deux heures, c'est un geste simple mais décisif.</p><p>Enfin, beaucoup de familles — surtout celles de la diaspora qui gèrent les soins à distance — confient l'alimentation à une aide ménagère non formée. Un garde-malade ou une auxiliaire de vie formée fait une vraie différence. Avec la vie chère, on cherche à économiser, c'est compréhensible. Mais une dénutrition mal gérée mène à une réhospitalisation, et ça coûte beaucoup plus cher. Pour organiser un suivi sérieux, vous pouvez directement <a href=\"/contact\">nous contacter</a> — on vous répond sous 24 heures.</p>",
-          "en": "<p>Because caregiving often falls to family members who are doing their absolute best without professional training, certain mistakes come up again and again — in homes across Yaoundé's Nlongkak neighbourhood and in Douala's Akwa district alike.</p><p>The most common one is accepting loss of appetite as normal. When an elderly sick person stops eating, that's a warning sign, not something to wait out. It can indicate the start of malnutrition, depression, or a side effect of medication that the treating doctor needs to know about.</p><p>Another frequent mistake is cutting out protein entirely because of vague concerns about kidney health. Unless a doctor has given a specific restriction, sick elderly people need adequate protein to heal and maintain muscle. If there is a medical restriction, the caregiver should ask exactly how much protein is allowed per day.</p><p>Dehydration is also massively underestimated. In the heat of Douala or Yaoundé, a bedridden elderly person can become dehydrated without obviously asking for water. Offering a glass every two hours is a small habit with a big impact.</p><p>Finally — and this matters especially for families managing care from the UK, US or Canada — handing nutritional responsibility to an untrained domestic helper is a real risk. A properly trained caregiver ensures consistent, medically appropriate meals every day. If you'd like to arrange that kind of professional support, <a href=\"/contact\">contact us</a> and we'll get back to you within 24 hours.</p>"
+          "fr": "<p>La famille, c'est sacré. Et au Cameroun, c'est encore l'entourage proche qui assure la majorité des soins aux personnes âgées. Une revue systématique publiée dans une revue internationale a montré qu'une étude menée au Cameroun avait impliqué 126 aidants, âgés de 18 à 62 ans, centrée sur l'amélioration de leurs connaissances et pratiques pour prendre en charge leurs proches âgés (<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12231671' target='_blank' rel='noopener'>PMC12231671</a>). Ce chiffre dit quelque chose d'important : l'aidant familial est souvent jeune, peu formé, et porte une charge lourde — parfois en plus d'un emploi à plein temps.</p><p>Face à cette réalité, faire appel à un professionnel formé peut changer beaucoup de choses. Une auxiliaire de vie comme Blandine Ngassa, qui travaille depuis cinq ans à Makepe (Douala), sait exactement comment gérer les repas d'une personne âgée diabétique : portions adaptées, sucres lents privilégiés, éviction des fritures excessives. Elle peut aussi noter les variations d'appétit et alerter la famille — qu'elle soit à Akwa ou à Paris.</p><p>Pour organiser ce type d'accompagnement, la démarche est simple : <a href='/contact'>contactez-nous</a> pour une évaluation gratuite des besoins de votre proche. Nous pouvons envoyer une auxiliaire de vie à domicile à Douala ou à Yaoundé, et le paiement peut être effectué depuis l'étranger via Orange Money ou MTN MoMo — sans que vous ayez besoin d'être sur place. Les tarifs pour une aide quotidienne à domicile varient généralement entre 50 000 et 120 000 FCFA par mois selon le niveau d'accompagnement requis.</p>",
+          "en": "<p>Across Africa, and certainly in Cameroon, family caregivers remain the backbone of elderly care. A systematic review published in an international journal noted that one Cameroonian study involved 126 caregivers aged 18 to 62, focused specifically on improving their knowledge and practices in caring for elderly relatives (<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12231671' target='_blank' rel='noopener'>PMC12231671</a>). That figure tells a clear story: caregivers are often young, undertrained, and stretched thin — sometimes juggling full-time work alongside caring for an elderly parent.</p><p>This is especially difficult when you're in the diaspora and can only manage things remotely. You might be sending money home every month, but worry about whether your parent in Nlongkak or Bonanjo is actually eating well. A professional home caregiver — someone like Blandine Ngassa, an experienced auxiliaire de vie based in Makepe, Douala — can handle daily meals, monitor appetite changes, and flag any concerns directly to the family.</p><p>Payment doesn't have to be complicated either. Families abroad can pay via Orange Money or MTN MoMo transfers, making it straightforward to set up and fund care from the UK, USA or Canada. Monthly rates for daily home assistance typically range from 50,000 to 120,000 CFA francs depending on the level of support needed. <a href='/contact'>Reach out to us</a> for a free assessment — we'll help you find the right level of care for your loved one.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Organiser l'alimentation de votre proche : le rôle concret du garde-malade",
-          "en": "How a professional caregiver supports elderly nutrition in Cameroon day-to-day"
+          "fr": "Pathologies fréquentes et adaptation de l'alimentation : ce que l'aidant doit savoir",
+          "en": "Common illnesses and diet adjustments: what every caregiver needs to know"
         },
         "body": {
-          "fr": "<p>Un bon garde-malade, ce n'est pas seulement quelqu'un qui donne les médicaments à l'heure. C'est aussi quelqu'un qui s'assure que le malade mange, note ce qu'il a refusé, observe les changements d'appétit et alerte la famille si quelque chose ne va pas. C'est ce travail-là qui fait la différence entre une convalescence qui avance et une qui stagne.</p><p>Concrètement, voici ce qu'un aide-soignant formé peut prendre en charge pour la nutrition de votre parent :</p><ul><li>Préparer des repas fractionnés et adaptés à l'état de santé (diabète, hypertension, problèmes rénaux)</li><li>Surveiller le poids et signaler toute perte rapide</li><li>S'assurer que l'hydratation est suffisante tout au long de la journée</li><li>Adapter la texture des aliments si le malade a du mal à avaler</li><li>Tenir un journal alimentaire simple à partager avec le médecin traitant</li></ul><p>Pour les familles de la diaspora qui gèrent tout depuis la France ou le Canada, ce suivi régulier peut être partagé par WhatsApp ou par appel — Orange Money et MTN MoMo permettent aussi de régler les honoraires à distance, sans intermédiaire compliqué. Si vous avez déjà posé la question des coûts, sachez que <a href=\"/services#auxiliaire\">notre service d'auxiliaire de vie</a> propose des formules journalières et hebdomadaires adaptées à chaque situation, avec un personnel formé à la nutrition des personnes dépendantes.</p><p>On est ensemble dans cette démarche. Que votre parent soit suivi à l'Hôpital Central de Yaoundé ou en convalescence à Biyem-Assi, nous pouvons mettre en place un accompagnement nutritionnel dès le retour à domicile. N'attendez pas que la dénutrition s'installe — c'est beaucoup plus dur à rattraper.</p>",
-          "en": "<p>A good caregiver isn't just someone who administers medication on time. They're the person who ensures your elderly relative actually eats, tracks what they refused, notices changes in appetite and flags anything concerning to the family. That kind of consistent daily attention is what separates a recovery that progresses from one that stalls.</p><p>Here's what a trained caregiver can practically handle around nutrition for your loved one:</p><ul><li>Preparing small, frequent meals tailored to the patient's condition (diabetes, hypertension, kidney issues)</li><li>Monitoring weight and reporting any rapid loss to the family or doctor</li><li>Ensuring adequate hydration throughout the day, especially in Cameroon's heat</li><li>Adapting food texture if the patient has swallowing difficulties</li><li>Keeping a simple food diary to share with the treating physician</li></ul><p>For diaspora families coordinating from abroad, this kind of daily reporting can easily be shared over WhatsApp or a regular call. Payments for caregiver services can be handled remotely via Orange Money or MTN MoMo — straightforward and reliable. <a href=\"/services#auxiliaire\">Our auxiliary caregiver service</a> offers daily and weekly packages with staff trained in nutrition support for dependent elderly patients. Whether your parent is recovering after a stay at the CHU in Yaoundé or convalescing at home in a quieter neighbourhood, we can put the right support in place from the very first day home.</p>"
+          "fr": "<p>Chaque maladie impose ses propres contraintes alimentaires, et l'aidant doit en avoir au moins une connaissance de base. Voici les situations les plus courantes que nous rencontrons à domicile :</p><h3>Diabète de type 2</h3><p>Très répandu chez les personnes âgées au Cameroun, le diabète exige de limiter les sucres rapides (pain blanc, boissons sucrées, riz blanc en grande quantité) et de privilégier les féculents à index glycémique bas : igname, patate douce, légumineuses. Les repas doivent être réguliers pour éviter les hypoglycémies, surtout si la personne prend de l'insuline.</p><h3>Hypertension artérielle</h3><p>Le sel est l'ennemi principal. Il faut réduire la consommation de poissons salés séchés, de bouillons cubes et de condiments industriels — des incontournables de la cuisine camerounaise. Remplacer par des épices naturelles : poivre, gingembre, ail, feuilles de basilic africain. La Polyclinique Bonanjo et l'Hôpital Laquintinie disposent de services de cardiologie qui peuvent orienter les aidants sur les régimes adaptés.</p><h3>Dénutrition et perte d'appétit</h3><p>C'est le problème le plus fréquent et souvent le plus sous-estimé. Une étude menée à l'Hôpital Régional de Bafoussam souligne que la sous-nutrition hospitalière s'accompagne d'une augmentation des dépenses de santé et d'un fardeau accru pour les aidants (<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12710069' target='_blank' rel='noopener'>PMC12710069</a>). À domicile, enrichir chaque repas, même petit, est la meilleure stratégie : une cuillère d'huile dans la soupe, un œuf battu dans la bouillie, du lait en poudre dans le porridge du matin.</p>",
+          "en": "<p>Different illnesses call for different dietary adjustments, and as a caregiver — whether present in Cameroon or coordinating from abroad — it helps to understand the basics. Here are the three most common situations:</p><h3>Type 2 Diabetes</h3><p>Very common among elderly Cameroonians, diabetes requires cutting back on fast sugars — white bread, sugary drinks, large portions of white rice — and favouring lower glycaemic options like yam, sweet potato and legumes. Meal timing matters too: regular meals help prevent dangerous blood sugar drops, especially if insulin is involved.</p><h3>High Blood Pressure</h3><p>Salt is the main issue. Dried and salted fish, stock cubes and processed condiments are kitchen staples in Cameroon, but they need to be significantly reduced for hypertensive patients. Natural spices — ginger, garlic, pepper, African basil — are good substitutes. Facilities like Polyclinique Bonanjo and Hôpital Laquintinie have cardiology departments that can advise on appropriate diets during consultations.</p><h3>Undernutrition and Loss of Appetite</h3><p>This is the most common and most underestimated challenge. Research at Bafoussam Regional Hospital highlights that hospital undernutrition increases health expenditure and places a heavier burden on caregivers (<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC12710069' target='_blank' rel='noopener'>PMC12710069</a>). At home, the answer is enrichment: a spoonful of oil in the soup, a beaten egg in the porridge, powdered milk stirred into breakfast — small additions that add up to real nutritional gain.</p>"
         },
         "image": null
       }
@@ -123,68 +123,68 @@
     "faq": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade spécialisé en nutrition à Douala ou Yaoundé ?",
-          "en": "How much does a nutrition-trained caregiver cost in Douala or Yaoundé?"
+          "fr": "Quels aliments locaux camerounais sont les meilleurs pour une personne âgée malade ?",
+          "en": "What local Cameroonian foods are best for a sick elderly person?"
         },
         "answer": {
-          "fr": "Un garde-malade à domicile à Douala ou Yaoundé coûte généralement entre 15 000 et 35 000 FCFA par jour selon le niveau de qualification et la durée de présence. Une auxiliaire de vie formée à la nutrition des personnes âgées peut se situer dans la fourchette haute, mais évite souvent les coûts bien plus élevés d'une réhospitalisation liée à la dénutrition. Les paiements peuvent se faire en Orange Money ou MTN MoMo.",
-          "en": "A home caregiver in Douala or Yaoundé generally costs between 15,000 and 35,000 CFA francs per day, depending on qualifications and hours of presence. A caregiver trained in elderly nutrition sits at the higher end of that range, but can prevent far more costly rehospitalisation due to malnutrition. Payment can be arranged via Orange Money or MTN MoMo for families based abroad."
+          "fr": "Les meilleurs aliments locaux pour une personne âgée malade au Cameroun sont : l'igname et la patate douce (énergie à index glycémique modéré), les légumineuses comme les haricots rouges (protéines végétales), le poisson frais ou fumé mixé (protéines et oméga-3), les œufs, le lait en poudre enrichi, et les légumes feuilles comme les feuilles de manioc ou le ndolé. L'objectif est de combiner ces aliments à chaque repas pour couvrir à la fois les besoins en calories, en protéines et en micronutriments — sans dépenser une fortune.",
+          "en": "The best local foods for a sick elderly person in Cameroon include yam and sweet potato for steady energy, red beans and lentils for plant protein, fresh or blended smoked fish for protein and omega-3s, eggs, enriched powdered milk, and leafy greens like ndolé or cassava leaves. The goal is combining these at each meal to cover calorie, protein and micronutrient needs — using affordable ingredients that are easy to find in any Douala or Yaoundé market."
         }
       },
       {
         "question": {
-          "fr": "Comment savoir si mon parent âgé malade souffre de dénutrition à domicile ?",
-          "en": "How can I tell if my elderly relative at home in Cameroon is malnourished?"
+          "fr": "Combien coûte un accompagnement nutritionnel à domicile au Cameroun ?",
+          "en": "How much does home nutritional support for an elderly person cost in Cameroon?"
         },
         "answer": {
-          "fr": "Les signes à surveiller sont : une perte de poids rapide (vêtements qui deviennent trop grands), une fatigue inhabituelle, des plaies qui cicatrisent lentement, une peau sèche, et un désintérêt prononcé pour la nourriture. Si vous observez plusieurs de ces signes, consultez rapidement un médecin — à l'Hôpital Laquintinie, au CHU de Yaoundé ou à l'Hôpital Général de Douala — et envisagez un suivi nutritionnel à domicile.",
-          "en": "Signs to watch for include rapid weight loss (clothes becoming noticeably looser), unusual fatigue, slow-healing wounds, dry or paper-thin skin, and a pronounced disinterest in eating. If you notice several of these signs — whether you're there in person or checking in remotely — seek medical advice promptly and consider arranging professional nutrition support at home."
+          "fr": "Un accompagnement à domicile comprenant la préparation des repas et le suivi nutritionnel de base est généralement inclus dans le service d'une auxiliaire de vie. Les tarifs varient entre 50 000 et 120 000 FCFA par mois pour une assistance quotidienne à Douala ou Yaoundé, selon la durée et le niveau d'intervention requis. Une consultation diététique spécialisée dans un hôpital comme l'Hôpital Général de Douala peut coûter entre 5 000 et 20 000 FCFA selon le prestataire.",
+          "en": "Home care that includes meal preparation and basic nutritional monitoring is typically part of an auxiliaire de vie's role. In Douala or Yaoundé, daily home assistance generally costs between 50,000 and 120,000 CFA francs per month, depending on the level of care. A specialist dietitian consultation at facilities like the Hôpital Général de Douala may cost between 5,000 and 20,000 CFA francs, depending on the provider."
         }
       },
       {
         "question": {
-          "fr": "Quelle est la différence entre un garde-malade et une auxiliaire de vie pour la nutrition d'une personne âgée ?",
-          "en": "What is the difference between a garde-malade and an auxiliary caregiver for elderly nutrition in Cameroon?"
+          "fr": "Quelle est la différence entre une auxiliaire de vie et une infirmière à domicile pour la nutrition ?",
+          "en": "What is the difference between an auxiliaire de vie and a home nurse for elderly nutrition?"
         },
         "answer": {
-          "fr": "Le garde-malade assure principalement une présence et une surveillance : il donne les médicaments, surveille l'état général, et peut aider aux repas. L'auxiliaire de vie a une formation plus complète incluant l'aide à la nutrition, la préparation de repas adaptés, et le suivi de l'état nutritionnel. Pour une personne âgée avec des problèmes de santé complexes (diabète, troubles de la déglutition), une auxiliaire de vie formée est généralement plus adaptée.",
-          "en": "A garde-malade primarily provides presence and monitoring — administering medication, observing the patient's general condition, and assisting with meals. An auxiliary caregiver has broader training that includes nutritional support, preparing medically appropriate meals, and tracking nutritional status over time. For an elderly person with complex health issues like diabetes or swallowing difficulties, a trained auxiliary caregiver is usually the better choice."
+          "fr": "L'auxiliaire de vie s'occupe des actes du quotidien : préparation des repas adaptés, aide à la prise des repas, hydratation, surveillance de l'appétit. L'infirmière à domicile, elle, intervient sur les actes médicaux : injections, pansements, suivi de glycémie, etc. Pour la nutrition au quotidien, l'auxiliaire de vie est souvent la plus adaptée — et moins coûteuse. Dans les cas complexes (sonde nasogastrique, nutrition parentérale), une infirmière est indispensable.",
+          "en": "An auxiliaire de vie handles daily living tasks — preparing adapted meals, assisting with eating, ensuring hydration and monitoring appetite. A home nurse focuses on medical acts: injections, wound care, blood sugar monitoring and so on. For everyday nutritional support, an auxiliaire de vie is usually the right and more affordable choice. For complex medical nutrition needs — like nasogastric tube feeding — a nurse is essential."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser le suivi nutritionnel de mon parent depuis la France ou le Canada ?",
-          "en": "Can I arrange nutritional care for my elderly parent in Cameroon from France, Canada or the UK?"
+          "fr": "Est-ce possible d'organiser les repas de mon parent âgé au Cameroun depuis l'étranger ?",
+          "en": "Can I arrange proper meals and nutrition support for my elderly parent in Cameroon from abroad?"
         },
         "answer": {
-          "fr": "Oui, c'est tout à fait possible. GardeMalade Cameroun travaille régulièrement avec des familles de la diaspora basées en France, au Canada ou en Belgique. Vous pouvez prendre contact via WhatsApp ou notre formulaire en ligne, définir les besoins de votre parent, et régler les honoraires à distance par Orange Money ou MTN MoMo. Des comptes rendus réguliers sont transmis à la famille pour un suivi transparent.",
-          "en": "Yes, absolutely. GardeMalade Cameroun works regularly with diaspora families based in France, Canada, the UK and Belgium. You can reach us via WhatsApp or our online form, explain your parent's situation, and pay caregiver fees remotely through Orange Money or MTN MoMo. Regular updates are shared with the family so you always know how your relative is doing, even from thousands of kilometres away."
+          "fr": "Oui, tout à fait. Beaucoup de familles de la diaspora organisent l'accompagnement nutritionnel de leurs parents à distance. GardeMalade Cameroun peut envoyer une auxiliaire de vie à domicile à Douala ou Yaoundé, vous transmettre des comptes rendus réguliers, et accepter les paiements depuis l'étranger via Orange Money ou MTN MoMo. Il suffit de nous contacter pour définir ensemble les besoins de votre proche et mettre en place un suivi adapté.",
+          "en": "Yes, absolutely. Many diaspora families in France, the UK, Canada and the USA manage their elderly parent's nutrition support remotely. GardeMalade Cameroun can deploy a trained home caregiver in Douala or Yaoundé, provide you with regular updates, and accept payment from abroad via Orange Money or MTN MoMo. Simply contact us to assess your loved one's needs and set up an appropriate care plan."
         }
       },
       {
         "question": {
-          "fr": "Quels aliments sont à éviter absolument pour une personne âgée malade au Cameroun ?",
-          "en": "What foods should a sick elderly person in Cameroon absolutely avoid?"
+          "fr": "Comment reconnaître les signes de dénutrition chez une personne âgée au Cameroun ?",
+          "en": "How can I tell if my elderly parent in Cameroon is malnourished?"
         },
         "answer": {
-          "fr": "Pour la majorité des personnes âgées malades, il faut limiter : les aliments très gras (fritures, viandes grasses en grande quantité), le sel en excès (surtout en cas d'hypertension), le sucre raffiné en excès (surtout en cas de diabète), l'alcool, et les aliments difficiles à mâcher ou à digérer. Chaque cas est différent : le médecin traitant doit valider le régime alimentaire, surtout en présence de maladies chroniques.",
-          "en": "For most sick elderly people, it's best to limit heavily fried or fatty foods, excessive salt (especially with hypertension), refined sugars (especially with diabetes), alcohol, and foods that are hard to chew or digest. Every patient is different, though — the treating physician should always validate the dietary approach, particularly when chronic conditions like diabetes, kidney disease or heart failure are involved."
+          "fr": "Les principaux signes de dénutrition chez une personne âgée sont : une perte de poids visible (vêtements qui lâchent, joues creuses), une fatigue inhabituelle ou une faiblesse musculaire, une peau sèche ou des plaies qui cicatrisent mal, une indifférence aux repas ou un refus de manger, et une confusion plus marquée. Si vous observez plusieurs de ces signes, il faut consulter rapidement un médecin — à l'Hôpital Central de Yaoundé ou à l'Hôpital Général de Douala — et revoir l'alimentation avec l'aidant en charge.",
+          "en": "Key signs of malnutrition in an elderly person include visible weight loss (clothes becoming loose, hollow cheeks), unusual fatigue or muscle weakness, dry skin or slow-healing wounds, disinterest in food or refusal to eat, and increased confusion. If you notice several of these signs, seek medical advice quickly — at the Hôpital Général de Douala or Hôpital Central de Yaoundé — and review the diet with whoever is providing daily care."
         }
       },
       {
         "question": {
-          "fr": "Combien de repas par jour doit manger une personne âgée malade à domicile ?",
-          "en": "How many meals a day should a sick elderly person at home in Cameroon eat?"
+          "fr": "Comment adapter les repas si mon parent âgé a du mal à avaler ?",
+          "en": "How should I adapt meals if my elderly parent has difficulty swallowing?"
         },
         "answer": {
-          "fr": "Les professionnels de santé recommandent généralement 5 à 6 petites prises alimentaires par jour pour une personne âgée malade, plutôt que 3 grands repas. Cela permet de maintenir un apport calorique et nutritionnel suffisant même quand l'appétit est faible. Les collations entre les repas — une banane, un yaourt, un bout de pain avec de l'avocat — contribuent à couvrir les besoins sans surcharger la digestion.",
-          "en": "Health professionals generally recommend 5 to 6 small meals or snacks per day for a sick elderly person, rather than 3 large meals. This approach maintains adequate caloric and nutritional intake even when appetite is poor. Between-meal snacks — a banana, a small yoghurt, bread with avocado — help cover daily needs without overwhelming digestion. A trained caregiver can implement this schedule consistently throughout the day."
+          "fr": "Les troubles de la déglutition sont fréquents après un AVC ou en cas de démence. La solution : adapter les textures. Mixer les plats habituels (purée de haricots, bouillie enrichie, soupe veloutée), éviter les aliments secs ou fibreux qui risquent de provoquer des fausses routes, et toujours faire asseoir la personne droite pendant et après le repas. Un professionnel de santé peut évaluer le niveau de risque et recommander les textures adaptées. En cas de doute, ne pas hésiter à consulter au CHU de Yaoundé ou à l'Hôpital Laquintinie.",
+          "en": "Swallowing difficulties are common after a stroke or with dementia. The solution is texture adaptation: blend usual dishes into smooth consistencies — bean purée, enriched porridge, creamy soups — and avoid dry or fibrous foods that could cause choking. Always seat the person upright during and after meals. A health professional can assess the risk level and recommend appropriate textures. When in doubt, seek advice at the CHU de Yaoundé or Hôpital Laquintinie."
         }
       }
     ],
     "conclusion": {
-      "fr": "<p>Prendre soin de la nutrition d'un parent âgé malade au Cameroun, ce n'est pas chose facile — surtout quand on jongle entre le travail, la famille, et parfois des milliers de kilomètres de distance. Mais c'est l'un des gestes les plus concrets qu'un aidant puisse poser pour soutenir la guérison de son proche. Un repas adapté, donné au bon moment et à la bonne texture, vaut parfois autant qu'un médicament.</p><p>Ce guide ne remplace pas l'avis d'un médecin : si vous avez le moindre doute sur l'état nutritionnel de votre parent, consultez rapidement un professionnel de santé. Mais il vous donne les bases pour ne pas attendre passivement que la dénutrition s'installe.</p><p>GardeMalade Cameroun peut vous accompagner avec des auxiliaires de vie formées à la nutrition et au soin des personnes âgées dépendantes, à Douala comme à Yaoundé. La première évaluation est gratuite. <a href=\"/contact\">Contactez-nous</a> dès aujourd'hui — on est ensemble.</p>",
-      "en": "<p>Caring for an elderly sick relative's nutrition is one of the most meaningful things a family can do — and one of the hardest to get right without proper guidance. Whether you're physically present in Douala or Yaoundé, or coordinating care from abroad, knowing what to feed your loved one and what warning signs to watch for genuinely changes outcomes.</p><p>This guide gives you the foundation, but it's not a substitute for medical advice. If you're concerned about your relative's nutritional state, please consult a doctor promptly. And if you need trained, professional support on the ground, GardeMalade Cameroun is here to help — with auxiliary caregivers experienced in elderly nutrition support, available across Douala and Yaoundé.</p><p>The initial assessment is free. <a href=\"/contact\">Reach out to us today</a> and let's work together to give your loved one the care they deserve.</p>"
+      "fr": "<p>On est ensemble dans cette démarche. Prendre soin de la nutrition d'un parent âgé malade au Cameroun, c'est un acte d'amour concret — mais ce n'est pas une charge que tu dois porter seul. Que tu sois à Bonapriso ou à Bruxelles, que ton parent soit à Ngousso ou à Logbessou, il existe des solutions adaptées à ta situation. Les aidants familiaux font un travail immense, souvent sans formation ni soutien, et c'est précisément pour eux que notre service a été pensé. Une auxiliaire de vie bien formée peut transformer le quotidien d'une personne âgée malade : repas adaptés, hydratation surveillée, appétit observé, famille informée. Si tu veux savoir ce que nous pouvons faire pour ton proche, <a href='/contact'>contacte-nous dès aujourd'hui pour une évaluation gratuite</a>. Ensemble, on peut s'assurer que ta maman ou ton papa mange bien — et récupère dans les meilleures conditions possibles.</p>",
+      "en": "<p>Caring for an elderly parent's nutrition from afar — or right beside them — is one of the most loving things you can do. It's also one of the hardest, especially in a context where dietitians are scarce and guidance isn't always easy to find. Whether your loved one is in Akwa, Biyem-Assi or anywhere across Cameroon, the right support can make a real difference to their recovery and quality of life. Our home caregivers are trained to handle the nutritional and daily care needs of elderly patients, and our team is available to help you set everything up — including remote payment options via Orange Money or MTN MoMo if you're based abroad. <a href='/contact'>Contact us today for a free assessment</a>, and let us help you make sure your family member is getting the nourishment and care they deserve.</p>"
     },
     "cta": {
       "text": {
@@ -198,84 +198,79 @@
     {
       "title": "Assessment of the Prevalence and Determinants of Undernutrition Among Adult and Elderly Patients Hospitalized at the Bafoussam Regional Hospital, West Cameroon",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710069",
-      "org": "PubMed Central (PMC)"
-    },
-    {
-      "title": "Profil sanitaire analytique 2016 Cameroun",
-      "url": "https://www.afro.who.int/sites/default/files/2017-07/Profil%20sanitaire_Cameroun_2016_%20FRENCH.pdf",
-      "org": "OMS / Bureau régional Afrique"
+      "org": "PubMed Central (NIH)"
     },
     {
       "title": "The role of family caregivers in supporting older adults in Africa: systematic review",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12231671",
-      "org": "PubMed Central (PMC)"
+      "org": "PubMed Central (NIH)"
     }
   ],
   "related": [
     "combien-coute-un-garde-malade-a-douala-en-2025-tarifs-et-ce-qui-les-influence",
-    "systeme-de-sante-au-cameroun-hopitaux-cliniques-privees-et-soins-a-domicile-ce-q",
+    "15-questions-a-poser-a-un-garde-malade-avant-de-le-recruter-au-cameroun",
     "payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon"
   ],
   "schema": {
     "faq_items": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade spécialisé en nutrition à Douala ou Yaoundé ?",
-          "en": "How much does a nutrition-trained caregiver cost in Douala or Yaoundé?"
+          "fr": "Quels aliments locaux camerounais sont les meilleurs pour une personne âgée malade ?",
+          "en": "What local Cameroonian foods are best for a sick elderly person?"
         },
         "answer": {
-          "fr": "Un garde-malade à domicile à Douala ou Yaoundé coûte généralement entre 15 000 et 35 000 FCFA par jour selon le niveau de qualification et la durée de présence. Une auxiliaire de vie formée à la nutrition des personnes âgées peut se situer dans la fourchette haute, mais évite souvent les coûts bien plus élevés d'une réhospitalisation liée à la dénutrition. Les paiements peuvent se faire en Orange Money ou MTN MoMo.",
-          "en": "A home caregiver in Douala or Yaoundé generally costs between 15,000 and 35,000 CFA francs per day, depending on qualifications and hours of presence. A caregiver trained in elderly nutrition sits at the higher end of that range, but can prevent far more costly rehospitalisation due to malnutrition. Payment can be arranged via Orange Money or MTN MoMo for families based abroad."
+          "fr": "Les meilleurs aliments locaux pour une personne âgée malade au Cameroun sont : l'igname et la patate douce (énergie à index glycémique modéré), les légumineuses comme les haricots rouges (protéines végétales), le poisson frais ou fumé mixé (protéines et oméga-3), les œufs, le lait en poudre enrichi, et les légumes feuilles comme les feuilles de manioc ou le ndolé. L'objectif est de combiner ces aliments à chaque repas pour couvrir à la fois les besoins en calories, en protéines et en micronutriments — sans dépenser une fortune.",
+          "en": "The best local foods for a sick elderly person in Cameroon include yam and sweet potato for steady energy, red beans and lentils for plant protein, fresh or blended smoked fish for protein and omega-3s, eggs, enriched powdered milk, and leafy greens like ndolé or cassava leaves. The goal is combining these at each meal to cover calorie, protein and micronutrient needs — using affordable ingredients that are easy to find in any Douala or Yaoundé market."
         }
       },
       {
         "question": {
-          "fr": "Comment savoir si mon parent âgé malade souffre de dénutrition à domicile ?",
-          "en": "How can I tell if my elderly relative at home in Cameroon is malnourished?"
+          "fr": "Combien coûte un accompagnement nutritionnel à domicile au Cameroun ?",
+          "en": "How much does home nutritional support for an elderly person cost in Cameroon?"
         },
         "answer": {
-          "fr": "Les signes à surveiller sont : une perte de poids rapide (vêtements qui deviennent trop grands), une fatigue inhabituelle, des plaies qui cicatrisent lentement, une peau sèche, et un désintérêt prononcé pour la nourriture. Si vous observez plusieurs de ces signes, consultez rapidement un médecin — à l'Hôpital Laquintinie, au CHU de Yaoundé ou à l'Hôpital Général de Douala — et envisagez un suivi nutritionnel à domicile.",
-          "en": "Signs to watch for include rapid weight loss (clothes becoming noticeably looser), unusual fatigue, slow-healing wounds, dry or paper-thin skin, and a pronounced disinterest in eating. If you notice several of these signs — whether you're there in person or checking in remotely — seek medical advice promptly and consider arranging professional nutrition support at home."
+          "fr": "Un accompagnement à domicile comprenant la préparation des repas et le suivi nutritionnel de base est généralement inclus dans le service d'une auxiliaire de vie. Les tarifs varient entre 50 000 et 120 000 FCFA par mois pour une assistance quotidienne à Douala ou Yaoundé, selon la durée et le niveau d'intervention requis. Une consultation diététique spécialisée dans un hôpital comme l'Hôpital Général de Douala peut coûter entre 5 000 et 20 000 FCFA selon le prestataire.",
+          "en": "Home care that includes meal preparation and basic nutritional monitoring is typically part of an auxiliaire de vie's role. In Douala or Yaoundé, daily home assistance generally costs between 50,000 and 120,000 CFA francs per month, depending on the level of care. A specialist dietitian consultation at facilities like the Hôpital Général de Douala may cost between 5,000 and 20,000 CFA francs, depending on the provider."
         }
       },
       {
         "question": {
-          "fr": "Quelle est la différence entre un garde-malade et une auxiliaire de vie pour la nutrition d'une personne âgée ?",
-          "en": "What is the difference between a garde-malade and an auxiliary caregiver for elderly nutrition in Cameroon?"
+          "fr": "Quelle est la différence entre une auxiliaire de vie et une infirmière à domicile pour la nutrition ?",
+          "en": "What is the difference between an auxiliaire de vie and a home nurse for elderly nutrition?"
         },
         "answer": {
-          "fr": "Le garde-malade assure principalement une présence et une surveillance : il donne les médicaments, surveille l'état général, et peut aider aux repas. L'auxiliaire de vie a une formation plus complète incluant l'aide à la nutrition, la préparation de repas adaptés, et le suivi de l'état nutritionnel. Pour une personne âgée avec des problèmes de santé complexes (diabète, troubles de la déglutition), une auxiliaire de vie formée est généralement plus adaptée.",
-          "en": "A garde-malade primarily provides presence and monitoring — administering medication, observing the patient's general condition, and assisting with meals. An auxiliary caregiver has broader training that includes nutritional support, preparing medically appropriate meals, and tracking nutritional status over time. For an elderly person with complex health issues like diabetes or swallowing difficulties, a trained auxiliary caregiver is usually the better choice."
+          "fr": "L'auxiliaire de vie s'occupe des actes du quotidien : préparation des repas adaptés, aide à la prise des repas, hydratation, surveillance de l'appétit. L'infirmière à domicile, elle, intervient sur les actes médicaux : injections, pansements, suivi de glycémie, etc. Pour la nutrition au quotidien, l'auxiliaire de vie est souvent la plus adaptée — et moins coûteuse. Dans les cas complexes (sonde nasogastrique, nutrition parentérale), une infirmière est indispensable.",
+          "en": "An auxiliaire de vie handles daily living tasks — preparing adapted meals, assisting with eating, ensuring hydration and monitoring appetite. A home nurse focuses on medical acts: injections, wound care, blood sugar monitoring and so on. For everyday nutritional support, an auxiliaire de vie is usually the right and more affordable choice. For complex medical nutrition needs — like nasogastric tube feeding — a nurse is essential."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser le suivi nutritionnel de mon parent depuis la France ou le Canada ?",
-          "en": "Can I arrange nutritional care for my elderly parent in Cameroon from France, Canada or the UK?"
+          "fr": "Est-ce possible d'organiser les repas de mon parent âgé au Cameroun depuis l'étranger ?",
+          "en": "Can I arrange proper meals and nutrition support for my elderly parent in Cameroon from abroad?"
         },
         "answer": {
-          "fr": "Oui, c'est tout à fait possible. GardeMalade Cameroun travaille régulièrement avec des familles de la diaspora basées en France, au Canada ou en Belgique. Vous pouvez prendre contact via WhatsApp ou notre formulaire en ligne, définir les besoins de votre parent, et régler les honoraires à distance par Orange Money ou MTN MoMo. Des comptes rendus réguliers sont transmis à la famille pour un suivi transparent.",
-          "en": "Yes, absolutely. GardeMalade Cameroun works regularly with diaspora families based in France, Canada, the UK and Belgium. You can reach us via WhatsApp or our online form, explain your parent's situation, and pay caregiver fees remotely through Orange Money or MTN MoMo. Regular updates are shared with the family so you always know how your relative is doing, even from thousands of kilometres away."
+          "fr": "Oui, tout à fait. Beaucoup de familles de la diaspora organisent l'accompagnement nutritionnel de leurs parents à distance. GardeMalade Cameroun peut envoyer une auxiliaire de vie à domicile à Douala ou Yaoundé, vous transmettre des comptes rendus réguliers, et accepter les paiements depuis l'étranger via Orange Money ou MTN MoMo. Il suffit de nous contacter pour définir ensemble les besoins de votre proche et mettre en place un suivi adapté.",
+          "en": "Yes, absolutely. Many diaspora families in France, the UK, Canada and the USA manage their elderly parent's nutrition support remotely. GardeMalade Cameroun can deploy a trained home caregiver in Douala or Yaoundé, provide you with regular updates, and accept payment from abroad via Orange Money or MTN MoMo. Simply contact us to assess your loved one's needs and set up an appropriate care plan."
         }
       },
       {
         "question": {
-          "fr": "Quels aliments sont à éviter absolument pour une personne âgée malade au Cameroun ?",
-          "en": "What foods should a sick elderly person in Cameroon absolutely avoid?"
+          "fr": "Comment reconnaître les signes de dénutrition chez une personne âgée au Cameroun ?",
+          "en": "How can I tell if my elderly parent in Cameroon is malnourished?"
         },
         "answer": {
-          "fr": "Pour la majorité des personnes âgées malades, il faut limiter : les aliments très gras (fritures, viandes grasses en grande quantité), le sel en excès (surtout en cas d'hypertension), le sucre raffiné en excès (surtout en cas de diabète), l'alcool, et les aliments difficiles à mâcher ou à digérer. Chaque cas est différent : le médecin traitant doit valider le régime alimentaire, surtout en présence de maladies chroniques.",
-          "en": "For most sick elderly people, it's best to limit heavily fried or fatty foods, excessive salt (especially with hypertension), refined sugars (especially with diabetes), alcohol, and foods that are hard to chew or digest. Every patient is different, though — the treating physician should always validate the dietary approach, particularly when chronic conditions like diabetes, kidney disease or heart failure are involved."
+          "fr": "Les principaux signes de dénutrition chez une personne âgée sont : une perte de poids visible (vêtements qui lâchent, joues creuses), une fatigue inhabituelle ou une faiblesse musculaire, une peau sèche ou des plaies qui cicatrisent mal, une indifférence aux repas ou un refus de manger, et une confusion plus marquée. Si vous observez plusieurs de ces signes, il faut consulter rapidement un médecin — à l'Hôpital Central de Yaoundé ou à l'Hôpital Général de Douala — et revoir l'alimentation avec l'aidant en charge.",
+          "en": "Key signs of malnutrition in an elderly person include visible weight loss (clothes becoming loose, hollow cheeks), unusual fatigue or muscle weakness, dry skin or slow-healing wounds, disinterest in food or refusal to eat, and increased confusion. If you notice several of these signs, seek medical advice quickly — at the Hôpital Général de Douala or Hôpital Central de Yaoundé — and review the diet with whoever is providing daily care."
         }
       },
       {
         "question": {
-          "fr": "Combien de repas par jour doit manger une personne âgée malade à domicile ?",
-          "en": "How many meals a day should a sick elderly person at home in Cameroon eat?"
+          "fr": "Comment adapter les repas si mon parent âgé a du mal à avaler ?",
+          "en": "How should I adapt meals if my elderly parent has difficulty swallowing?"
         },
         "answer": {
-          "fr": "Les professionnels de santé recommandent généralement 5 à 6 petites prises alimentaires par jour pour une personne âgée malade, plutôt que 3 grands repas. Cela permet de maintenir un apport calorique et nutritionnel suffisant même quand l'appétit est faible. Les collations entre les repas — une banane, un yaourt, un bout de pain avec de l'avocat — contribuent à couvrir les besoins sans surcharger la digestion.",
-          "en": "Health professionals generally recommend 5 to 6 small meals or snacks per day for a sick elderly person, rather than 3 large meals. This approach maintains adequate caloric and nutritional intake even when appetite is poor. Between-meal snacks — a banana, a small yoghurt, bread with avocado — help cover daily needs without overwhelming digestion. A trained caregiver can implement this schedule consistently throughout the day."
+          "fr": "Les troubles de la déglutition sont fréquents après un AVC ou en cas de démence. La solution : adapter les textures. Mixer les plats habituels (purée de haricots, bouillie enrichie, soupe veloutée), éviter les aliments secs ou fibreux qui risquent de provoquer des fausses routes, et toujours faire asseoir la personne droite pendant et après le repas. Un professionnel de santé peut évaluer le niveau de risque et recommander les textures adaptées. En cas de doute, ne pas hésiter à consulter au CHU de Yaoundé ou à l'Hôpital Laquintinie.",
+          "en": "Swallowing difficulties are common after a stroke or with dementia. The solution is texture adaptation: blend usual dishes into smooth consistencies — bean purée, enriched porridge, creamy soups — and avoid dry or fibrous foods that could cause choking. Always seat the person upright during and after meals. A health professional can assess the risk level and recommend appropriate textures. When in doubt, seek advice at the CHU de Yaoundé or Hôpital Laquintinie."
         }
       }
     ]

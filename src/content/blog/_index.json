@@ -1,5 +1,29 @@
 [
   {
+    "slug": "alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les",
+    "date": "2026-10-19",
+    "title_fr": "Nutrition personnes âgées Cameroun aidants : guide complet",
+    "title_en": "Elderly Nutrition Cameroon Caregiver: A Complete Guide",
+    "description_fr": "Nutrition personnes âgées Cameroun aidants : conseils pratiques sur l'alimentation, les carences et le rôle de l'aidant à domicile. Nos conseils.",
+    "description_en": "Elderly nutrition Cameroon caregiver guide: practical advice on diet, deficiencies and home care support in Douala and Yaoundé. All you need to know.",
+    "focus_keyword_fr": "nutrition personnes âgées Cameroun aidants",
+    "focus_keyword_en": "elderly nutrition Cameroon caregiver",
+    "category": "sante_personnes_agees",
+    "tags": [
+      "garde-malade",
+      "cameroun",
+      "personnes-agees",
+      "nutrition",
+      "aidant-familial"
+    ],
+    "reading_time": 16,
+    "hero_src": "/blog/images/alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les.jpg",
+    "hero_alt_fr": "Auxiliaire de vie aidant une personne âgée malade à bien manger — nutrition personnes âgées Cameroun aidants à domicile à Douala",
+    "hero_alt_en": "Home caregiver helping a sick elderly person eat well — elderly nutrition Cameroon caregiver support at home in Douala",
+    "chapeau_fr": "La nutrition personnes âgées Cameroun aidants, c'est un sujet qu'on ne prend pas toujours au sérieux — jusqu'au jour où le médecin signale une perte de poids alarmante ou une fatigue qui ne passe plus. Que tu t'occupes d'un parent à Douala ou que tu gères tout depuis la France, bien nourrir une personne âgée malade, ce n'est pas chose facile : les besoins changent, l'appétit baisse, et les ressources locales en diététique restent limitées. Ce guide est fait pour toi.",
+    "chapeau_en": "Elderly nutrition in Cameroon is one of those topics that doesn't get enough attention — until a doctor flags worrying weight loss or persistent fatigue in your aging parent. Whether you're a hands-on family caregiver in Yaoundé or managing care remotely from London, understanding how to feed a sick elderly person well is one of the most important things you can do. This guide breaks it down simply and practically."
+  },
+  {
     "slug": "financer-les-soins-de-sante-d-un-parent-au-cameroun-depuis-la-france-options-et-",
     "date": "2026-10-17",
     "title_fr": "Financer soins santé Cameroun France : options et comparatif",
@@ -22,30 +46,6 @@
     "hero_alt_en": "Cameroonian diaspora member using phone to finance healthcare Cameroon from France via Mobile Money transfer",
     "chapeau_fr": "Financer les soins santé d'un parent au Cameroun depuis la France, c'est souvent une course contre la montre — et contre l'inquiétude. Entre les virements bancaires qui tardent, les factures d'hôpital qui s'accumulent à Douala ou Yaoundé, et les intermédiaires peu fiables, envoyer de l'argent pour la santé de sa famille au mboa peut vite devenir un cauchemar. Ce guide compare concrètement toutes les options disponibles pour la diaspora camerounaise en France.",
     "chapeau_en": "Trying to finance healthcare for a relative in Cameroon from France can feel overwhelming — especially when you're thousands of kilometres away and every hour counts. Whether it's a hospitalisation at the Hôpital Général de Douala, a post-surgery follow-up in Yaoundé, or ongoing home care, knowing your options makes all the difference. This guide breaks down every realistic solution available to the Cameroonian diaspora in France, with honest pros, cons and real figures."
-  },
-  {
-    "slug": "alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les",
-    "date": "2026-10-13",
-    "title_fr": "Nutrition personnes âgées Cameroun : guide aidants 2026",
-    "title_en": "Elderly Nutrition Cameroon: Caregiver's Complete Guide 2026",
-    "description_fr": "Nutrition personnes âgées Cameroun aidants : alimentation adaptée, erreurs à éviter, conseils pratiques pour bien nourrir votre proche malade. Nos conseils.",
-    "description_en": "Elderly nutrition Cameroon caregiver guide: what to feed a sick older relative, common mistakes and practical tips for families at home or abroad. Read more.",
-    "focus_keyword_fr": "nutrition personnes âgées Cameroun aidants",
-    "focus_keyword_en": "elderly nutrition Cameroon caregiver",
-    "category": "sante_personnes_agees",
-    "tags": [
-      "garde-malade",
-      "cameroun",
-      "nutrition",
-      "personnes âgées",
-      "aidants"
-    ],
-    "reading_time": 16,
-    "hero_src": "/blog/images/alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les.jpg",
-    "hero_alt_fr": "Aide-soignante préparant un repas adapté pour la nutrition personnes âgées Cameroun aidants à domicile à Douala",
-    "hero_alt_en": "Home caregiver preparing a nutritious meal for an elderly patient as part of elderly nutrition Cameroon caregiver support in Douala",
-    "chapeau_fr": "La nutrition personnes âgées Cameroun aidants, c'est un sujet que beaucoup de familles négligent jusqu'au jour où leur proche malade n'a plus la force de se lever du lit. Si tu t'occupes d'un parent âgé à la maison — que tu sois à Douala, à Yaoundé, ou que tu gères tout depuis l'étranger — ce guide sur l'alimentation de la personne âgée malade est fait pour toi. Bien nourrir, c'est déjà soigner.",
-    "chapeau_en": "Elderly nutrition in Cameroon is one of those caregiver responsibilities that often gets overlooked until a health crisis hits. Whether you're right there in Douala or Yaoundé managing daily care, or coordinating from the UK or Canada, understanding how to feed a sick older relative properly can make a real difference to their recovery and quality of life. This guide is written for you."
   },
   {
     "slug": "combien-coute-un-garde-malade-a-douala-en-2025-tarifs-et-ce-qui-les-influence",
