@@ -1,14 +1,14 @@
 {
   "meta": {
     "slug": "prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique",
-    "date": "2026-10-29",
+    "date": "2026-11-03",
     "title": {
       "fr": "Prévention chutes personnes âgées domicile au Cameroun",
-      "en": "Fall Prevention Elderly Home Care Cameroon: Practical Tips"
+      "en": "Fall prevention elderly home care Cameroon: practical tips"
     },
     "description": {
-      "fr": "Prévention chutes personnes âgées domicile au Cameroun : conseils pratiques pour sécuriser votre maison et protéger vos proches. Nos experts vous guident.",
-      "en": "Fall prevention elderly home care Cameroon: practical tips to keep your loved ones safe at home in Douala or Yaoundé. Everything you need to know."
+      "fr": "Prévention chutes personnes âgées domicile au Cameroun : aménagements, exercices et rôle du garde-malade. Nos conseils concrets pour protéger vos proches.",
+      "en": "Fall prevention elderly home care Cameroon: home adjustments, exercises and caregiver tips to protect your loved ones. Everything you need to know."
     },
     "focus_keyword": {
       "fr": "prévention chutes personnes âgées domicile",
@@ -16,12 +16,12 @@
     },
     "secondary_keywords": {
       "fr": [
-        "sécurité domicile personnes âgées Cameroun",
-        "garde-malade personnes âgées Douala"
+        "garde-malade personne âgée Cameroun",
+        "sécurité domicile senior Douala Yaoundé"
       ],
       "en": [
-        "elderly safety at home Cameroon",
-        "caregiver for elderly Cameroon"
+        "elderly caregiver Cameroon",
+        "home safety for seniors Douala Yaoundé"
       ]
     },
     "reading_time": 16,
@@ -37,8 +37,15 @@
       {
         "href": "/services#garde",
         "text": {
-          "fr": "notre service de garde-malade",
+          "fr": "notre service garde-malade",
           "en": "our caregiver service"
+        }
+      },
+      {
+        "href": "/services#auxiliaire",
+        "text": {
+          "fr": "notre service d'auxiliaire de vie",
+          "en": "our home care assistant service"
         }
       },
       {
@@ -49,17 +56,10 @@
         }
       },
       {
-        "href": "/blog/alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les",
+        "href": "/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot",
         "text": {
-          "fr": "notre guide nutrition pour personnes âgées",
-          "en": "our nutrition guide for elderly"
-        }
-      },
-      {
-        "href": "/blog/15-questions-a-poser-a-un-garde-malade-avant-de-le-recruter-au-cameroun",
-        "text": {
-          "fr": "les questions à poser avant de recruter un garde-malade",
-          "en": "questions to ask before hiring a caregiver"
+          "fr": "organiser les soins depuis l'étranger",
+          "en": "organising care from abroad"
         }
       }
     ]
@@ -67,62 +67,62 @@
   "hero": {
     "src": "/blog/images/prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique.jpg",
     "alt": {
-      "fr": "Auxiliaire de vie aidant une personne âgée à marcher en sécurité dans sa maison à Douala Cameroun — prévention chutes personnes âgées domicile",
-      "en": "Caregiver helping an elderly person walk safely at home in Douala Cameroon — fall prevention elderly home care Cameroon"
+      "fr": "Auxiliaire de vie aidant une personne âgée à marcher dans son salon à Douala, prévention chutes personnes âgées domicile Cameroun",
+      "en": "Home care assistant helping an elderly person walk safely indoors in Douala, fall prevention elderly home care Cameroon"
     },
-    "photographer": "Yogendra Singh",
-    "photographer_url": "https://unsplash.com/@yogendras31?utm_source=gardemalade&utm_medium=referral",
-    "photo_url": "https://unsplash.com/photos/woman-in-front-of-people-inside-room-with-bars-l2QB279PJBU?utm_source=gardemalade&utm_medium=referral",
-    "unsplash_id": "l2QB279PJBU"
+    "photographer": "Junior REIS",
+    "photographer_url": "https://unsplash.com/@juniorreisfoto?utm_source=gardemalade&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/an-old-man-and-an-older-woman-are-posing-for-a-picture-yLVa8uyKfK4?utm_source=gardemalade&utm_medium=referral",
+    "unsplash_id": "yLVa8uyKfK4"
   },
   "body_images": [],
   "content": {
     "chapeau": {
-      "fr": "La prévention des chutes des personnes âgées à domicile est l'une des priorités les plus urgentes pour les familles camerounaises — et pourtant, c'est souvent le dernier sujet dont on parle avant qu'un accident ne survienne. Ce n'est pas chose facile d'anticiper ces risques quand on jongle avec le travail, les enfants et les trajets en taxi entre Akwa et Bonapriso. Mais une chute peut changer toute une vie en quelques secondes : voici comment protéger concrètement votre proche.",
-      "en": "Fall prevention for elderly people in home care is something many Cameroonian families — including those in the diaspora — overlook until an accident happens. If your parent or grandparent lives alone in Douala or Yaoundé while you're managing things from London or Toronto, understanding the real risks and practical solutions is essential. This guide gives you actionable advice you can start using today, even from a distance."
+      "fr": "La prévention chutes personnes âgées domicile est l'une des préoccupations les plus sérieuses pour les familles camerounaises — et pourtant, c'est un sujet qu'on ne prend pas toujours au sérieux avant qu'il ne soit trop tard. Une chute à domicile peut briser l'autonomie d'un parent en quelques secondes, surtout quand les soins spécialisés ne sont pas faciles d'accès. Dans cet article, on te donne des conseils concrets, adaptés à nos réalités de Douala et Yaoundé, pour protéger ta maman, ton papa ou ton grand-parent.",
+      "en": "Fall prevention in elderly home care in Cameroon is something many families only think about after an accident has already happened — and that's completely understandable, because life is busy and these conversations are never easy. Whether you're based in Douala, Yaoundé, or managing things from London or Toronto, this guide gives you practical, realistic steps to protect your elderly loved one at home without breaking the bank."
     },
     "sections": [
       {
         "heading": {
-          "fr": "Pourquoi la prévention des chutes des personnes âgées à domicile est si cruciale au Cameroun",
-          "en": "Why fall prevention for elderly home care in Cameroon matters so much"
+          "fr": "Pourquoi la prévention chutes personnes âgées domicile est urgente au Cameroun",
+          "en": "Why fall prevention in elderly home care Cameroon can't wait"
         },
         "body": {
-          "fr": "<p>Tu sais, ici au Cameroun, les personnes âgées vivent majoritairement à domicile, entourées de leur famille. C'est beau, c'est notre culture — <strong>la famille, c'est sacré</strong>. Mais les maisons n'ont pas toutes été pensées pour accueillir des seniors en perte de mobilité. Le sol carrelé glissant, l'absence de rampes dans les escaliers, la salle de bain sans barres d'appui : autant de pièges qui se cachent dans les foyers de Biyem-Assi à Yaoundé comme dans les maisons de Makepe à Douala.</p><p>Une recherche publiée sur PMC et portant sur des pays d'Afrique subsaharienne, dont le Cameroun, indique que la prévalence de la fragilité physique chez les personnes âgées en Afrique varie entre 10 et 37 % selon les contextes — ce qui signifie qu'une part significative de nos ainés présente déjà un risque élevé de chute. La même étude souligne que <strong>un mauvais équilibre augmente directement le risque de chutes répétées</strong>.</p><p>Pour nos familles, une chute peut entraîner une fracture du col du fémur, une hospitalisation à l'Hôpital Général de Douala ou au CHU de Yaoundé, et des semaines de convalescence coûteuses. Avant d'en arriver là, quelques aménagements simples et le recours à <a href=\"/services#garde\">notre service de garde-malade à domicile</a> peuvent faire toute la différence. Pour aller plus loin sur la santé globale de vos proches âgés, consultez aussi <a href=\"/blog/alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les\">notre guide nutrition pour personnes âgées au Cameroun</a>.</p>",
-          "en": "<p>When we talk about fall prevention in elderly home care in Cameroon, we're really talking about something that affects almost every family — whether you're living in Douala's Bonapriso neighbourhood or sending support from the UK. Homes in Cameroon are rarely built with elderly safety in mind: smooth tiled floors, no grab rails in bathrooms, uneven outdoor steps, and poor lighting are common in houses from Nlongkak to Logbessou.</p><p>A systematic review covering African countries including Cameroon found that physical frailty — which directly increases fall risk — affects between 10% and 37% of older adults in the region. Another study on intrinsic capacity confirmed that poor balance significantly raises the risk of recurrent falls among older Cameroonian adults. These aren't abstract statistics: this is your mother, your grandfather, your uncle.</p><p>A single fall can mean a fractured hip, emergency admission to the Hôpital Général de Douala, weeks of hospitalisation, and a recovery that costs the family dearly — financially and emotionally. The good news is that most falls are preventable with the right environment and the right support. Explore <a href=\"/services#garde\">our caregiver service</a> to understand how professional home care can reduce these risks significantly.</p>"
+          "fr": "<p>Ce n'est pas chose facile d'en parler, mais les chutes sont l'une des causes principales de perte d'autonomie chez les personnes âgées en Afrique subsaharienne. Une étude publiée dans la revue scientifique <em>PMC</em> le confirme clairement : prévenir les chutes, c'est préserver la dignité, l'indépendance et la qualité de vie des aînés — et réduire le poids qui pèse sur les familles qui s'en occupent.</p><p>Au Cameroun, la situation est particulière. Une grande partie des soins aux personnes âgées repose sur les proches — enfants, conjoints, petits-enfants — qui ne sont pas toujours formés pour gérer les risques de chute. La même étude signale que les aidants familiaux au Cameroun manquent souvent d'accès à une formation formelle en prévention des chutes et en exercices adaptés pour les seniors.</p><p>Concrètement, qu'est-ce que ça veut dire à Douala ou Yaoundé ? Ça veut dire que ta mère qui habite à Nlongkak peut glisser sur un carrelage mouillé sans que personne ne soit là pour l'aider. Ça veut dire qu'un parent qui rentre de l'Hôpital Général de Douala après une opération peut retomber dans les premières semaines parce que l'environnement à la maison n'a pas été adapté. Les risques sont réels — et les solutions aussi.</p><p>La bonne nouvelle, c'est que les interventions efficaces de prévention des chutes ne nécessitent pas de technologies coûteuses. Comme le souligne la littérature scientifique sur l'Afrique subsaharienne, ce qu'il faut, c'est de l'investissement stratégique, des aidants formés et une collaboration entre la famille et des professionnels de santé. C'est exactement ce que propose <a href=\"/services#garde\">notre service garde-malade</a> à GardeMalade Cameroun.</p>",
+          "en": "<p>Falls are one of the leading causes of disability and loss of independence among older adults in sub-Saharan Africa. Research published in <em>PMC</em> on falls in older adults in sub-Saharan Africa makes this clear: effective fall prevention is about dignity, independence and equity — and it's entirely achievable without expensive technology.</p><p>In Cameroon specifically, the responsibility for elder care falls largely on family members — often a spouse, adult children, or grandchildren — who are rarely trained in fall risk management. A systematic review on family caregiving in Africa found that caregivers in Cameroon frequently lack access to formal training in fall prevention and appropriate exercise routines for seniors.</p><p>For those of you managing things remotely — from the UK, the US or Canada — this gap is especially worrying. Your parent might be living alone in Biyem-Assi or Bonapriso, and one slippery floor or a missed step on the veranda could change everything. The good news is that the right combination of home adjustments, physical activity and professional caregiver support can dramatically reduce the risk. Our <a href=\"/services#garde\">caregiver service</a> at GardeMalade Cameroun is designed to fill exactly that gap.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Aménager la maison pour la prévention des chutes : conseils pratiques pour chaque pièce",
-          "en": "Home safety modifications to prevent falls: room-by-room practical guide"
+          "fr": "Aménager le domicile : les gestes concrets pour la prévention chutes personnes âgées",
+          "en": "Adapting the home environment for fall prevention in elderly care"
         },
         "body": {
-          "fr": "<p>Je ne vais pas te mentir : sécuriser une maison camerounaise demande un peu d'organisation, mais ce n'est pas aussi coûteux qu'on le pense. Voici les points essentiels, pièce par pièce.</p><h3>La salle de bain : la zone la plus dangereuse</h3><p>C'est là que la majorité des chutes graves se produisent. Installer une <strong>barre d'appui fixée au mur</strong> près des toilettes et de la douche coûte entre <strong>5 000 et 15 000 FCFA</strong> selon le matériau. Ajouter un tapis antidérapant sous la douche est une mesure simple à moins de <strong>3 000 FCFA</strong> dans n'importe quelle quincaillerie d'Akwa ou de Bonanjo.</p><h3>Les couloirs et escaliers</h3><p>Une rampe solide dans les escaliers est indispensable. Si votre parent se déplace avec une canne, vérifiez que les couloirs sont dégagés — pas de sacs, de câbles ou de nattes posés au sol. L'éclairage nocturne est souvent oublié : une simple veilleuse branchée dans le couloir peut éviter un accident à 2h du matin.</p><h3>Le salon et la chambre</h3><p>Les tapis décoratifs sont les ennemis des seniors : retirez-les ou fixez leurs bords avec du ruban adhésif double face. Le lit doit être à une hauteur permettant à votre proche de poser les deux pieds à plat sur le sol pour se lever. Si ce n'est pas le cas, un simple rehausseur de lit — disponible entre <strong>8 000 et 20 000 FCFA</strong> — règle le problème.</p><p>Ces modifications sont simples, mais leur efficacité dépend aussi d'un suivi humain régulier. C'est là qu'un <a href=\"/services#auxiliaire\">auxiliaire de vie à domicile</a> formé joue un rôle clé, en repérant les nouveaux risques et en aidant votre proche dans ses déplacements quotidiens.</p>",
-          "en": "<p>Making a home safer for an elderly person doesn't have to be expensive or complicated. Here's a practical, room-by-room approach that works in a typical Cameroonian household — whether it's a compound in Biyem-Assi or a flat in Bonapriso.</p><h3>Bathroom: the highest-risk room</h3><p>Most serious falls happen in the bathroom. A wall-mounted grab rail near the toilet and shower can be installed for between <strong>5,000 and 15,000 CFA francs</strong>, depending on the material. A non-slip mat for the shower area costs under <strong>3,000 CFA francs</strong> at most hardware stores. These two changes alone dramatically reduce risk.</p><h3>Hallways and stairs</h3><p>A sturdy handrail on all staircases is non-negotiable. Keep floors clear of bags, phone charger cables, and decorative mats that can shift underfoot. A plug-in night light in the hallway — under <strong>2,000 CFA francs</strong> — prevents the dangerous nighttime trip to the bathroom in the dark.</p><h3>Bedroom and living room</h3><p>Remove or securely tape down loose rugs. The bed should be at a height that allows your loved one to place both feet flat on the floor before standing. Bed raisers are available for between <strong>8,000 and 20,000 CFA francs</strong> locally. Chairs should have armrests to make getting up easier.</p><p>Physical modifications are a great start, but they work best alongside consistent human support. A trained caregiver — as part of <a href=\"/services#auxiliaire\">our auxiliary home care service</a> — will spot new hazards and assist with daily movement in ways no grab rail can replace.</p>"
+          "fr": "<p>Blandine Ngassa, auxiliaire de vie certifiée depuis cinq ans à Makepe (Douala), le répète à chaque famille qu'elle rencontre : <em>«&nbsp;Le danger, il est souvent dans les petits détails qu'on ne voit plus parce qu'on est habitué à la maison.&nbsp;»</em> Et elle a raison. Voici les points à corriger en priorité.</p><h3>La salle de bain et la cuisine : zones à risque numéro un</h3><p>Dans nos maisons camerounaises, le carrelage mouillé est l'ennemi principal. Un tapis antidérapant dans la douche ou la salle de bain coûte entre <strong>2 000 et 5 000 FCFA</strong> au marché et peut éviter une fracture. Si ton parent a du mal à se lever des toilettes, une barre d'appui fixée au mur — qu'un menuisier local peut installer pour <strong>10 000 à 20 000 FCFA</strong> — change vraiment la donne.</p><h3>L'éclairage : souvent négligé, toujours important</h3><p>Les couloirs et les escaliers mal éclairés la nuit sont une cause fréquente de chutes. Une lampe de veille branchée dans le couloir (disponible dans n'importe quelle boutique Akwa ou Bonanjo) suffit souvent. Si ton parent se lève la nuit pour aller aux toilettes, cet éclairage est non négociable.</p><h3>Les câbles, les seuils et les tapis volants</h3><ul><li>Fixer les câbles électriques le long des murs</li><li>Retirer les petits tapis qui peuvent glisser</li><li>Réduire les seuils de porte trop hauts si possible</li><li>Dégager les passages pour éviter les obstacles</li></ul><p>Ces aménagements coûtent peu et s'organisent en une demi-journée. Si tu es à l'étranger et que tu veux que quelqu'un fasse cette évaluation à la place, notre <a href=\"/services#auxiliaire\">service d'auxiliaire de vie</a> peut se charger d'un bilan sécurité à domicile.</p>",
+          "en": "<p>Marie-Claire Essomba, a nurse based in Bonapriso with twelve years of home care experience, puts it simply: the home environment is the first thing to fix before anything else. Many families focus on medication and doctor visits but overlook the physical space their elderly relative lives in every day.</p><h3>Bathroom and kitchen: the highest-risk zones</h3><p>Wet tiled floors — common in Cameroonian homes — are among the most frequent causes of falls. A non-slip bath mat costs between 2,000 and 5,000 FCFA and can prevent a broken hip. A grab bar next to the toilet or shower, installed by a local carpenter for around 10,000 to 20,000 FCFA, gives your parent something to hold onto when getting up.</p><h3>Lighting: simple and often overlooked</h3><p>Dimly lit corridors and staircases at night are a serious hazard. A low-cost night light plugged into the hallway — available at any hardware shop in Douala or Yaoundé — is one of the easiest wins. If your parent gets up during the night to use the bathroom, good lighting is non-negotiable.</p><h3>Cables, thresholds and loose rugs</h3><ul><li>Tape or fix electrical cables along walls</li><li>Remove loose rugs that can slide</li><li>Clear pathways of clutter and obstacles</li><li>Reduce door thresholds if they create a tripping hazard</li></ul><p>If you're based abroad and can't make these changes yourself, our <a href=\"/services#auxiliaire\">home care assistant service</a> can carry out a home safety assessment on your behalf.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Le rôle du garde-malade dans la prévention des chutes des personnes âgées à domicile",
-          "en": "How a professional caregiver supports fall prevention in elderly home care"
+          "fr": "Exercice physique et accompagnement professionnel : piliers de la prévention des chutes",
+          "en": "Exercise and professional support: the backbone of fall prevention for seniors"
         },
         "body": {
-          "fr": "<p>Blandine Ngassa est auxiliaire de vie depuis cinq ans, basée à Makepe. Elle s'occupe notamment de Thérèse, 74 ans, qui vit seule depuis que ses enfants sont partis à Yaoundé et en France. <em>«&nbsp;Madame Thérèse avait déjà glissé deux fois dans sa salle de bain avant que la famille me contacte. La première chose que j'ai faite en arrivant, c'est évaluer toute la maison avec elle.&nbsp;»</em></p><p>Cette anecdote illustre un problème bien réel : selon une revue systématique publiée sur PMC portant sur les aidants familiaux en Afrique, des études menées au Cameroun, en Éthiopie et au Nigeria montrent que beaucoup d'aidants familiaux manquent de formation sur la prévention des chutes et les exercices adaptés aux personnes âgées. <strong>Ce manque de connaissances peut conduire à des erreurs dans les soins</strong>, avec des conséquences graves pour la santé des personnes âgées.</p><p>Un garde-malade ou auxiliaire de vie formé intervient sur plusieurs plans :</p><ul><li>Accompagnement lors des déplacements à l'intérieur de la maison</li><li>Encouragement et supervision des exercices d'équilibre adaptés</li><li>Repérage des nouveaux risques (un meuble déplacé, un sol mouillé)</li><li>Réaction rapide en cas de malaise ou de chute</li></ul><p>Si vous êtes de la diaspora et que vous gérez les soins de votre parent à distance, savoir qu'un professionnel formé veille sur lui chaque jour change vraiment la donne. Pour voir comment mettre cela en place rapidement, n'hésitez pas à <a href=\"/contact\">nous contacter</a> — on répond aussi bien par WhatsApp que par appel téléphonique, et le paiement peut se faire via Orange Money ou MTN MoMo depuis n'importe où dans le monde.</p>",
-          "en": "<p>Blandine Ngassa has been a trained auxiliary caregiver for five years, working out of Makepe in Douala. One of her current clients is Thérèse, 74, who lives alone since her children moved to Yaoundé and abroad. <em>«&nbsp;When I first arrived at Madame Thérèse's home, she had already slipped twice in her bathroom. The family only called me after the second fall.&nbsp;»</em></p><p>This is far from an isolated story. A systematic review published on PMC covering family caregivers across Africa — including Cameroon — found that many caregivers lack adequate training in fall prevention and appropriate exercise routines for older adults. The same research notes that this knowledge gap can lead to mistakes that seriously harm elderly patients. A second qualitative study confirmed that awareness of suitable exercise routines for elderly activities of daily living remains a significant gap in sub-Saharan African caregiving.</p><p>A trained professional caregiver fills that gap in a way that well-meaning family members often can't. They provide:</p><ul><li>Safe physical assistance during movement around the home</li><li>Supervision of balance and strengthening exercises</li><li>Early identification of new environmental hazards</li><li>Immediate, calm response in the event of a fall or medical episode</li></ul><p>If you're based in the UK, USA, or Canada and managing your parent's care in Cameroon remotely, having a vetted professional on the ground gives you real peace of mind. Payment is straightforward — Orange Money and MTN MoMo transfers are accepted — so distance is no barrier. Check <a href=\"/blog/15-questions-a-poser-a-un-garde-malade-avant-de-le-recruter-au-cameroun\">our guide on questions to ask before hiring a caregiver</a>, then <a href=\"/contact\">contact us</a> to discuss your family's needs.</p>"
+          "fr": "<p>Tu sais, ici au Cameroun, on a tendance à penser que le repos total, c'est ce dont a besoin un parent âgé. Mais c'est l'inverse qui est vrai : bouger régulièrement, même doucement, c'est ce qui maintient l'équilibre et renforce les jambes. Le programme européen Vivifrail, cité dans les travaux de la Haute Autorité de Santé française, recommande des programmes d'activités physiques adaptées pour les personnes âgées selon leur niveau de fragilité — et ses effets sont optimisés quand ils s'associent à une intervention multifactorielle de prévention des chutes.</p><p>Concrètement, pour un parent suivi à Yaoundé, cela peut vouloir dire : marcher 20 minutes par jour dans la cour ou le quartier de Ngousso, faire des exercices d'équilibre debout en tenant une chaise, ou pratiquer des exercices assis pour renforcer les cuisses. Des exercices simples, que n'importe quel garde-malade formé peut encadrer au quotidien.</p><p>C'est là qu'Emmanuel Nkodo, qui gère depuis Lyon les soins de sa mère de 74 ans à Yaoundé, a fait un choix décisif : plutôt que de compter uniquement sur les voisins et la famille immédiate, il a fait appel à un garde-malade professionnel cinq jours par semaine. <em>«&nbsp;Je dormais mal à cause des inquiétudes. Depuis qu'il y a quelqu'un de formé avec elle, je respire.&nbsp;»</em> Un garde-malade à domicile à Yaoundé coûte en général entre <strong>60 000 et 120 000 FCFA par mois</strong> selon le nombre d'heures et le niveau d'expérience — un investissement que beaucoup de familles de la diaspora organisent via Orange Money ou MTN MoMo directement depuis l'étranger.</p><p>Si tu veux en savoir plus sur les soins organisables à distance, consulte notre article sur <a href=\"/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot\">comment organiser les soins depuis l'étranger</a>. Et pour discuter de ton cas, tu peux <a href=\"/contact\">nous contacter</a> directement — on est ensemble.</p>",
+          "en": "<p>One of the biggest misconceptions in elder care — and it's not unique to Cameroon — is that rest equals safety. In fact, the opposite is true: regular, adapted physical activity is one of the most effective ways to maintain balance and reduce fall risk. The European Vivifrail programme, referenced by the French National Health Authority, outlines how tailored exercise programmes for older adults can be optimised when combined with a broader fall prevention approach — and these principles apply just as well in sub-Saharan Africa.</p><p>In practical terms for a parent living in Douala or Yaoundé, this might look like: a 20-minute daily walk around the compound or neighbourhood, seated leg-strengthening exercises, or simple balance exercises holding onto a chair. None of this requires a gym or expensive equipment — it just requires consistency and, ideally, someone trained to guide it safely.</p><p>A study on family caregiving in Africa found that caregivers in Cameroon often lack adequate training in fall prevention and exercise routines for the elderly. This is precisely why having a trained, professional caregiver — rather than relying solely on family members who have their own jobs and children to manage — makes such a difference. Professional home care in Douala and Yaoundé typically costs between 60,000 and 120,000 FCFA per month, depending on hours and experience level. Payment is easily arranged via Orange Money or MTN MoMo, even from abroad. If you're coordinating from overseas, take a look at how other diaspora families are managing — and feel free to <a href=\"/contact\">reach out to us</a> for a free, no-pressure conversation.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Exercices et routine quotidienne : renforcer l'équilibre pour éviter les chutes",
-          "en": "Daily exercise and routines to strengthen balance and reduce fall risk"
+          "fr": "Santé, médicaments et suivi médical : ce qu'il ne faut pas négliger",
+          "en": "Health monitoring and medication: what families often overlook"
         },
         "body": {
-          "fr": "<p>Aménager la maison, c'est indispensable. Mais la vraie prévention chutes personnes âgées domicile passe aussi par le corps lui-même. Un senior qui renforce ses jambes et travaille son équilibre tombe moins — et récupère plus vite s'il tombe quand même.</p><p>La HAS (Haute Autorité de Santé) recommande dans son référentiel d'activité physique des programmes d'exercices adaptés aux personnes âgées à domicile, notamment des activités intégrées aux gestes quotidiens. L'idée : transformer des actions simples — se lever d'une chaise, monter une marche, tendre le bras — en mini-exercices de renforcement et d'équilibre. Ces programmes, comme Vivifrail ou LIFE, ont montré leur efficacité chez les seniors de 70 ans et plus présentant un risque élevé de chute.</p><p>Concrètement, voici des exercices faisables à la maison, idéalement supervisés par un auxiliaire de vie :</p><ul><li><strong>Se lever et s'asseoir lentement</strong> depuis une chaise, dix fois de suite matin et soir</li><li><strong>Station unipodale</strong> : tenir sur un pied pendant 10 secondes, en s'appuyant sur un meuble si nécessaire</li><li><strong>Marche talon-pointe</strong> le long d'un couloir dégagé, quelques minutes par jour</li></ul><p>Avec la vie chère et les journées chargées, personne n'a le temps d'inventer une routine d'exercice pour son parent âgé. C'est justement le rôle d'un auxiliaire de vie formé : il connaît ces exercices, il motive votre proche à les faire régulièrement, et il sait adapter l'intensité si la santé varie. On est ensemble dans cette démarche — et si vous avez des questions sur l'alimentation adaptée à vos aînés, notre <a href=\"/blog/alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les\">guide nutrition pour personnes âgées</a> vous donnera des bases solides.</p>",
-          "en": "<p>Modifying the home environment is essential, but fall prevention in elderly home care goes beyond the physical space. A senior who regularly works on strength and balance is less likely to fall — and more likely to recover well if they do. This is where daily routine and gentle exercise become powerful tools.</p><p>France's public health authority (HAS) recommends adapted physical activity programmes for older adults at home, including approaches like Vivifrail and the LIFE programme, which integrate exercise into everyday activities. These programmes have shown real benefit for people aged 70 and over who are at elevated fall risk. The principle is simple: turning everyday movements — standing up from a chair, climbing a step, reaching for an object — into small balance and strength exercises.</p><p>Practically speaking, here are three exercises any elderly person can do at home, ideally with a caregiver nearby:</p><ul><li><strong>Sit-to-stand</strong>: rising slowly from a chair ten times, morning and evening</li><li><strong>Single-leg stand</strong>: balancing on one foot for 10 seconds, holding a piece of furniture for support</li><li><strong>Heel-to-toe walking</strong> along a clear hallway for a few minutes each day</li></ul><p>These are simple, but consistency is everything — and that's exactly where a trained auxiliary caregiver adds daily value. They know how to motivate, adapt, and monitor. If you're organising care for a parent from abroad, knowing that someone trusted is supervising these routines every day brings enormous peace of mind. Reach out to <a href=\"/contact\">our team</a> to discuss the right level of support for your family.</p>"
+          "fr": "<p>Je ne vais pas te mentir, c'est souvent la partie la plus compliquée. Les chutes chez les personnes âgées ne sont pas toujours liées uniquement à l'environnement ou à la forme physique — certains médicaments provoquent des vertiges ou une baisse de tension, certaines maladies chroniques affectent l'équilibre. Une étude menée sur des retraités camerounais montre qu'il existe un lien fort entre les problèmes d'équilibre, la qualité du sommeil et le risque de fragilité — et que prévenir les chutes peut retarder ce déclin.</p><p>Voilà pourquoi un suivi médical régulier est indispensable. Si ton parent est suivi à l'Hôpital Laquintinie ou au CHU de Yaoundé, demande au médecin de revoir régulièrement la liste des médicaments pour identifier ceux qui peuvent augmenter le risque de chute. Des lunettes à la bonne correction, un suivi de la tension artérielle, une vérification de la glycémie : ces bilans simples peuvent faire une grande différence.</p><p>Un garde-malade professionnel joue aussi un rôle de vigie : il observe les changements de comportement, signale les moments de faiblesse inhabituels et peut alerter la famille à temps. C'est particulièrement important quand la famille est éloignée. Avec la vie chère, on ne peut pas toujours se permettre des consultations fréquentes — mais avoir quelqu'un de formé à la maison qui sait quand appeler un médecin, ça vaut son pesant d'or.</p><ul><li>Revue régulière des médicaments avec le médecin traitant</li><li>Contrôle de la vue (lunettes adaptées)</li><li>Suivi de la tension artérielle et de la glycémie</li><li>Observation quotidienne par un aidant formé</li></ul>",
+          "en": "<p>Home environment and exercise are crucial — but they're only part of the picture. Medications are one of the most underestimated fall risk factors in older adults. Drugs that affect blood pressure, sleep or balance can significantly increase the chance of a fall, and many older adults in Cameroon are managing multiple chronic conditions at the same time.</p><p>A study on the intrinsic capacity of retired older people in Cameroon found a strong link between balance problems, sleep disorders and the risk of frailty — and highlighted that preventing falls may actually slow the overall decline in healthy ageing. This is an important finding: fall prevention is not just about avoiding a broken bone, it's about preserving your parent's overall health trajectory.</p><p>Practically, this means: asking the treating doctor at Hôpital Central de Yaoundé or Polyclinique Bonanjo to review the full medication list for fall-risk drugs, ensuring your parent's glasses prescription is up to date, and monitoring blood pressure regularly. A trained professional caregiver can serve as an important early-warning system — noticing unusual weakness, dizziness or confusion and alerting the family before a fall occurs. That kind of daily, attentive monitoring is difficult for a family to maintain alone, especially from thousands of kilometres away.</p>"
         },
         "image": null
       }
@@ -130,68 +130,68 @@
     "faq": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade spécialisé en prévention des chutes à Douala ou Yaoundé ?",
-          "en": "How much does a fall prevention caregiver cost in Douala or Yaoundé?"
+          "fr": "Combien coûte un garde-malade pour prévenir les chutes d'une personne âgée au Cameroun ?",
+          "en": "How much does a caregiver for fall prevention cost in Cameroon?"
         },
         "answer": {
-          "fr": "Le tarif d'un auxiliaire de vie à domicile au Cameroun varie selon la durée de présence et le profil du professionnel. Comptez en général entre 15 000 et 35 000 FCFA par jour pour une présence de quelques heures, et entre 80 000 et 150 000 FCFA par mois pour un accompagnement quotidien à temps partiel. Un garde-malade en présence continue (24h/24) peut coûter davantage. GardeMalade Cameroun propose une évaluation gratuite pour affiner le devis selon vos besoins.",
-          "en": "In Cameroon, a trained auxiliary caregiver typically costs between 15,000 and 35,000 CFA francs per day for part-time support, or between 80,000 and 150,000 CFA francs per month for regular daily assistance. Round-the-clock care will cost more. GardeMalade Cameroun offers a free assessment to help you find the right level of support within your budget."
+          "fr": "Un garde-malade professionnel à domicile coûte généralement entre 60 000 et 120 000 FCFA par mois à Douala ou Yaoundé, selon le nombre d'heures de présence et le niveau d'expérience. Pour une présence de nuit uniquement, comptez entre 15 000 et 25 000 FCFA par nuit. Le paiement peut se faire via Orange Money ou MTN MoMo, y compris depuis l'étranger.",
+          "en": "A professional home caregiver in Douala or Yaoundé typically costs between 60,000 and 120,000 CFA francs per month, depending on hours and experience. Night-only cover usually ranges from 15,000 to 25,000 CFA francs per night. Payment can be arranged remotely via Orange Money or MTN MoMo."
         }
       },
       {
         "question": {
-          "fr": "Comment aménager une maison camerounaise pour éviter les chutes des personnes âgées ?",
-          "en": "How do I make a home in Cameroon safer to prevent falls in elderly people?"
+          "fr": "Comment réduire les risques de chute à domicile pour une personne âgée au Cameroun ?",
+          "en": "How can I reduce fall risks at home for an elderly person in Cameroon?"
         },
         "answer": {
-          "fr": "Les aménagements prioritaires sont : installer des barres d'appui dans la salle de bain (5 000 à 15 000 FCFA), poser des tapis antidérapants sous la douche, sécuriser ou retirer les tapis au sol, ajouter des veilleuses dans les couloirs, et vérifier la solidité des rampes d'escalier. Ces modifications simples et peu coûteuses, combinées à la présence d'un auxiliaire de vie formé, réduisent considérablement le risque de chute à domicile.",
-          "en": "Priority home modifications include: fitting grab rails in the bathroom (5,000 to 15,000 CFA francs), placing non-slip mats in the shower, removing or securing loose rugs, adding plug-in night lights in hallways, and checking staircase handrails. These low-cost changes, combined with a trained caregiver's daily presence, significantly reduce fall risk in the home."
+          "fr": "Commencez par sécuriser la salle de bain avec un tapis antidérapant (2 000 à 5 000 FCFA) et une barre d'appui. Améliorez l'éclairage des couloirs la nuit. Retirez les petits tapis glissants et dégagez les passages. Veillez à ce que la personne âgée fasse des exercices doux régulièrement pour maintenir son équilibre. Un garde-malade formé peut accompagner ces exercices quotidiennement.",
+          "en": "Start by securing the bathroom with a non-slip mat (2,000 to 5,000 CFA francs) and a grab bar. Add night lighting in corridors, remove loose rugs and clear walkways of obstacles. Encourage regular gentle exercise to maintain balance and muscle strength. A trained caregiver can supervise daily exercise routines and monitor your parent's condition closely."
         }
       },
       {
         "question": {
-          "fr": "Quelle est la différence entre un garde-malade et un auxiliaire de vie pour la prévention des chutes ?",
-          "en": "What is the difference between a garde-malade and an auxiliary caregiver for fall prevention?"
+          "fr": "Quelle est la différence entre un garde-malade et une auxiliaire de vie pour prévenir les chutes ?",
+          "en": "What is the difference between a garde-malade and a home care assistant for fall prevention?"
         },
         "answer": {
-          "fr": "Un garde-malade assure une présence et une surveillance, notamment de nuit ou lors des phases aiguës. Un auxiliaire de vie a une formation plus large : il aide aux activités quotidiennes, supervise les exercices d'équilibre et repère les risques dans l'environnement. Pour la prévention des chutes à domicile, l'auxiliaire de vie est souvent le profil le plus adapté au quotidien, tandis que le garde-malade intervient en cas de risque médical immédiat.",
-          "en": "A garde-malade primarily provides supervision and monitoring, especially at night or during acute health phases. An auxiliary caregiver has broader training: they assist with daily activities, supervise balance exercises, and actively identify home hazards. For ongoing fall prevention, an auxiliary caregiver is usually the best fit for day-to-day support, while a garde-malade is more suited to immediate medical monitoring situations."
+          "fr": "Le garde-malade assure principalement la surveillance et les soins de base — il est présent pour réagir en cas de problème et assister la personne dans ses déplacements. L'auxiliaire de vie a un rôle plus large : aide à la toilette, aux repas, aux exercices de mobilité et à l'organisation du domicile. Pour la prévention des chutes, les deux sont complémentaires. GardeMalade Cameroun propose les deux types de profils selon vos besoins.",
+          "en": "A garde-malade primarily provides supervision and basic care — they're there to respond quickly and assist with movement. A home care assistant (auxiliaire de vie) covers a broader role: personal hygiene, meals, mobility exercises and home organisation. For fall prevention, both profiles are useful and complementary. GardeMalade Cameroun can help you find the right fit for your situation."
         }
       },
       {
         "question": {
-          "fr": "Est-ce qu'on peut organiser la prévention des chutes pour un parent au Cameroun depuis l'étranger ?",
-          "en": "Can I arrange fall prevention home care for my parent in Cameroon from abroad?"
+          "fr": "Est-ce possible d'organiser la prévention des chutes pour un parent au Cameroun depuis la France ou le Canada ?",
+          "en": "Can I arrange fall prevention support for a parent in Cameroon from France, Canada or the UK?"
         },
         "answer": {
-          "fr": "Oui, absolument. GardeMalade Cameroun travaille régulièrement avec des familles de la diaspora en France, au Canada, en Belgique ou au Royaume-Uni. L'évaluation initiale se fait par appel vidéo ou WhatsApp, et le paiement est possible via Orange Money, MTN MoMo, ou virement bancaire. Une fois le professionnel en place, vous recevez des comptes-rendus réguliers sur l'état de votre proche.",
-          "en": "Yes, absolutely. GardeMalade Cameroun regularly works with diaspora families in France, the UK, Canada, and the US. The initial assessment can be done by video call or WhatsApp, and payment is accepted via Orange Money, MTN MoMo, or international bank transfer. Once a caregiver is in place, you receive regular updates on your loved one's wellbeing and safety."
+          "fr": "Oui, tout à fait. Beaucoup de familles de la diaspora organisent les soins de leurs parents à distance. GardeMalade Cameroun vous permet de recruter un garde-malade ou un auxiliaire de vie par téléphone ou WhatsApp, de signer un contrat, et de payer via Orange Money ou MTN MoMo. Un bilan sécurité à domicile peut aussi être organisé sur demande pour évaluer les risques de chute dans le logement de votre proche.",
+          "en": "Absolutely. Many diaspora families coordinate their parent's care remotely from Europe or North America. GardeMalade Cameroun allows you to hire a caregiver by phone or WhatsApp, sign a care contract and pay via Orange Money or MTN MoMo. We can also arrange a home safety assessment to identify fall risks in your parent's home, so you have a clear picture even from a distance."
         }
       },
       {
         "question": {
-          "fr": "Quels exercices aident à prévenir les chutes chez les personnes âgées à domicile ?",
-          "en": "What exercises help prevent falls in elderly people at home?"
+          "fr": "Quels médicaments augmentent le risque de chutes chez les personnes âgées ?",
+          "en": "Which medications increase fall risk in elderly people?"
         },
         "answer": {
-          "fr": "Les exercices les plus efficaces pour la prévention des chutes à domicile sont : les répétitions assis-debout depuis une chaise (renforcement des jambes), la station unipodale (équilibre), et la marche talon-pointe en ligne droite. Ces exercices, inspirés de programmes comme Vivifrail recommandés par la HAS pour les personnes de 70 ans et plus, doivent être pratiqués régulièrement et si possible supervisés par un auxiliaire de vie formé.",
-          "en": "The most effective exercises for fall prevention at home include: sit-to-stand repetitions from a chair (leg strengthening), single-leg standing (balance training), and heel-to-toe walking in a straight line. These approaches — used in programmes like Vivifrail recommended for people aged 70 and over — should be practised regularly, ideally under the supervision of a trained caregiver."
+          "fr": "Certains médicaments courants — somnifères, médicaments contre la tension artérielle, certains antidépresseurs et diurétiques — peuvent provoquer des vertiges ou une baisse de tension, surtout en se levant. Si votre parent prend plusieurs médicaments, demandez au médecin traitant (à l'Hôpital Laquintinie ou au CHU de Yaoundé par exemple) de revoir la liste et d'identifier ceux qui augmentent le risque de chute.",
+          "en": "Several common medications — including sleeping pills, blood pressure drugs, certain antidepressants and diuretics — can cause dizziness or a drop in blood pressure when standing up, increasing fall risk. If your elderly parent takes multiple medications, ask their doctor to review the full list and identify any that may be contributing to instability. This review can be requested at any hospital or clinic in Douala or Yaoundé."
         }
       },
       {
         "question": {
-          "fr": "Comment savoir si mon parent âgé est vraiment à risque de chute à domicile ?",
-          "en": "How do I know if my elderly parent is really at risk of falling at home?"
+          "fr": "Comment trouver un garde-malade formé à la prévention des chutes à Douala ou Yaoundé ?",
+          "en": "How do I find a trained fall prevention caregiver in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Plusieurs signes doivent alerter : des antécédents de chutes, une démarche hésitante ou un manque d'équilibre visible, des difficultés à se lever d'une chaise sans s'aider des bras, une vision affaiblie, ou une prise de médicaments qui affectent l'équilibre. Si vous observez un ou plusieurs de ces signes chez votre proche à Douala ou Yaoundé, une évaluation par un professionnel de santé ou un auxiliaire de vie est fortement recommandée.",
-          "en": "Key warning signs include: a history of previous falls, a visibly unsteady gait, difficulty rising from a chair without using the armrests, poor vision, or medications that affect balance. If you notice one or more of these in your parent in Douala or Yaoundé, a professional assessment — either by a healthcare provider or a trained caregiver — is strongly recommended."
+          "fr": "Passez par une structure spécialisée comme GardeMalade Cameroun, qui sélectionne et forme ses garde-malades sur des compétences spécifiques : aide à la mobilité, prévention des chutes, exercices adaptés et surveillance médicale de base. Évitez les recrutements informels sans vérification de références — un garde-malade non formé peut au contraire augmenter les risques.",
+          "en": "Work with a specialist service like GardeMalade Cameroun, which screens and trains caregivers in specific skills including mobility assistance, fall prevention, adapted exercises and basic health monitoring. Avoid informal recruitment without reference checks — an untrained caregiver may inadvertently increase rather than reduce fall risk for your loved one."
         }
       }
     ],
     "conclusion": {
-      "fr": "<p>On est ensemble dans ce combat pour protéger nos aînés. La prévention des chutes des personnes âgées à domicile au Cameroun n'est pas un luxe réservé aux grandes cliniques de Bonanjo : c'est quelque chose que chaque famille peut mettre en place, à son rythme et avec les moyens disponibles. Des barres d'appui dans la salle de bain, quelques exercices d'équilibre chaque matin, un sol dégagé et éclairé la nuit — ces petits gestes concrets peuvent éviter un drame.</p><p>Mais la présence humaine reste irremplaçable. Un auxiliaire de vie formé, présent chaque jour auprès de votre parent, est le meilleur filet de sécurité qui soit. Que vous soyez à Douala, à Yaoundé, ou que vous gériez tout depuis la France ou le Canada, <a href=\"/contact\">contactez notre équipe</a> pour une évaluation gratuite de la situation de votre proche. On vous propose la solution adaptée, avec un professionnel fiable et un suivi régulier — parce que vos aînés méritent de vieillir en sécurité, chez eux.</p>",
-      "en": "<p>Protecting your elderly parent from falls is one of the most meaningful things you can do — whether you're living right next door or sending support from thousands of miles away. Fall prevention in elderly home care in Cameroon isn't complicated or expensive when you know where to start: a few home modifications, a simple daily exercise routine, and the right professional by their side.</p><p>At GardeMalade Cameroun, we match families with trained, vetted caregivers who understand both the medical realities and the cultural warmth that good care in Cameroon requires. Payment via Orange Money or MTN MoMo means distance is no obstacle. <a href=\"/contact\">Get in touch with our team</a> today for a free, no-commitment assessment — and let's make sure your loved one stays safe, at home, where they belong.</p>"
+      "fr": "<p>La famille, c'est sacré — et voir un parent tomber, se blesser, ou perdre progressivement son autonomie, c'est l'une des choses les plus difficiles à vivre. Mais la prévention des chutes chez les personnes âgées à domicile, c'est un combat qu'on peut vraiment gagner, à condition d'agir avant que l'accident arrive. Aménager l'espace, maintenir une activité physique adaptée, assurer un suivi médical régulier et s'appuyer sur un garde-malade formé : ce sont des gestes concrets, accessibles, qui font une vraie différence.</p><p>Que tu sois à Douala, Yaoundé, ou que tu gères tout depuis Paris ou Montréal, GardeMalade Cameroun est là pour t'accompagner. On est ensemble dans cette démarche. Si tu veux qu'on évalue la situation de ton proche et qu'on t'aide à trouver la bonne solution, <a href=\"/contact\">contacte-nous dès aujourd'hui</a> — l'évaluation initiale est gratuite et sans engagement.</p>",
+      "en": "<p>Worrying about a parent falling when you're not there to help is one of the heaviest burdens of living far from home. But fall prevention in elderly home care in Cameroon is genuinely achievable — it doesn't require expensive equipment or complicated logistics. It requires the right information, a few practical home adjustments, and ideally a trained professional who can be present when you can't.</p><p>Whether your parent lives in Douala, Yaoundé, or anywhere in between, GardeMalade Cameroun can help you put the right support in place. Our team works with families across the diaspora every day — via WhatsApp, phone or email — to arrange care that's reliable, affordable and properly matched to your parent's needs. <a href=\"/contact\">Get in touch with us today</a> for a free, no-obligation assessment. You don't have to navigate this alone.</p>"
     },
     "cta": {
       "text": {
@@ -203,91 +203,96 @@
   },
   "sources": [
     {
-      "title": "Référentiel de prescription d'activité physique — Personnes âgées (Vivifrail, LIFE)",
-      "url": "https://www.has-sante.fr/jcms/p_3084458/fr/referentiel-de-prescription-d-activite-physique-et-sportive-les-personnes-agees",
-      "org": "Haute Autorité de Santé (HAS)"
+      "title": "Falls in older adults in sub-Saharan Africa: an urgent call for rehabilitation-centred action",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12853551",
+      "org": "PMC / National Library of Medicine"
     },
     {
       "title": "The role of family caregivers in supporting older adults in Africa: systematic review",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12231671",
-      "org": "PMC / NCBI"
+      "org": "PMC / National Library of Medicine"
     },
     {
       "title": "Prevalence of intrinsic capacity impairment and associated factors among retired older people in Cameroon",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12502386",
-      "org": "PMC / NCBI"
+      "org": "PMC / National Library of Medicine"
     },
     {
       "title": "Exploring the knowledge and skills for effective family caregiving in elderly home care: a qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11020407",
-      "org": "PMC / NCBI"
+      "org": "PMC / National Library of Medicine"
+    },
+    {
+      "title": "Référentiel de prescription d'activité physique et sportive — Les personnes âgées",
+      "url": "https://www.has-sante.fr/jcms/p_3084458/fr/referentiel-de-prescription-d-activite-physique-et-sportive-les-personnes-agees",
+      "org": "Haute Autorité de Santé (HAS)"
     }
   ],
   "related": [
-    "alimentation-et-nutrition-des-personnes-agees-malades-au-cameroun-guide-pour-les",
+    "rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot",
     "15-questions-a-poser-a-un-garde-malade-avant-de-le-recruter-au-cameroun",
-    "combien-coute-un-garde-malade-a-douala-en-2025-tarifs-et-ce-qui-les-influence"
+    "payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon"
   ],
   "schema": {
     "faq_items": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade spécialisé en prévention des chutes à Douala ou Yaoundé ?",
-          "en": "How much does a fall prevention caregiver cost in Douala or Yaoundé?"
+          "fr": "Combien coûte un garde-malade pour prévenir les chutes d'une personne âgée au Cameroun ?",
+          "en": "How much does a caregiver for fall prevention cost in Cameroon?"
         },
         "answer": {
-          "fr": "Le tarif d'un auxiliaire de vie à domicile au Cameroun varie selon la durée de présence et le profil du professionnel. Comptez en général entre 15 000 et 35 000 FCFA par jour pour une présence de quelques heures, et entre 80 000 et 150 000 FCFA par mois pour un accompagnement quotidien à temps partiel. Un garde-malade en présence continue (24h/24) peut coûter davantage. GardeMalade Cameroun propose une évaluation gratuite pour affiner le devis selon vos besoins.",
-          "en": "In Cameroon, a trained auxiliary caregiver typically costs between 15,000 and 35,000 CFA francs per day for part-time support, or between 80,000 and 150,000 CFA francs per month for regular daily assistance. Round-the-clock care will cost more. GardeMalade Cameroun offers a free assessment to help you find the right level of support within your budget."
+          "fr": "Un garde-malade professionnel à domicile coûte généralement entre 60 000 et 120 000 FCFA par mois à Douala ou Yaoundé, selon le nombre d'heures de présence et le niveau d'expérience. Pour une présence de nuit uniquement, comptez entre 15 000 et 25 000 FCFA par nuit. Le paiement peut se faire via Orange Money ou MTN MoMo, y compris depuis l'étranger.",
+          "en": "A professional home caregiver in Douala or Yaoundé typically costs between 60,000 and 120,000 CFA francs per month, depending on hours and experience. Night-only cover usually ranges from 15,000 to 25,000 CFA francs per night. Payment can be arranged remotely via Orange Money or MTN MoMo."
         }
       },
       {
         "question": {
-          "fr": "Comment aménager une maison camerounaise pour éviter les chutes des personnes âgées ?",
-          "en": "How do I make a home in Cameroon safer to prevent falls in elderly people?"
+          "fr": "Comment réduire les risques de chute à domicile pour une personne âgée au Cameroun ?",
+          "en": "How can I reduce fall risks at home for an elderly person in Cameroon?"
         },
         "answer": {
-          "fr": "Les aménagements prioritaires sont : installer des barres d'appui dans la salle de bain (5 000 à 15 000 FCFA), poser des tapis antidérapants sous la douche, sécuriser ou retirer les tapis au sol, ajouter des veilleuses dans les couloirs, et vérifier la solidité des rampes d'escalier. Ces modifications simples et peu coûteuses, combinées à la présence d'un auxiliaire de vie formé, réduisent considérablement le risque de chute à domicile.",
-          "en": "Priority home modifications include: fitting grab rails in the bathroom (5,000 to 15,000 CFA francs), placing non-slip mats in the shower, removing or securing loose rugs, adding plug-in night lights in hallways, and checking staircase handrails. These low-cost changes, combined with a trained caregiver's daily presence, significantly reduce fall risk in the home."
+          "fr": "Commencez par sécuriser la salle de bain avec un tapis antidérapant (2 000 à 5 000 FCFA) et une barre d'appui. Améliorez l'éclairage des couloirs la nuit. Retirez les petits tapis glissants et dégagez les passages. Veillez à ce que la personne âgée fasse des exercices doux régulièrement pour maintenir son équilibre. Un garde-malade formé peut accompagner ces exercices quotidiennement.",
+          "en": "Start by securing the bathroom with a non-slip mat (2,000 to 5,000 CFA francs) and a grab bar. Add night lighting in corridors, remove loose rugs and clear walkways of obstacles. Encourage regular gentle exercise to maintain balance and muscle strength. A trained caregiver can supervise daily exercise routines and monitor your parent's condition closely."
         }
       },
       {
         "question": {
-          "fr": "Quelle est la différence entre un garde-malade et un auxiliaire de vie pour la prévention des chutes ?",
-          "en": "What is the difference between a garde-malade and an auxiliary caregiver for fall prevention?"
+          "fr": "Quelle est la différence entre un garde-malade et une auxiliaire de vie pour prévenir les chutes ?",
+          "en": "What is the difference between a garde-malade and a home care assistant for fall prevention?"
         },
         "answer": {
-          "fr": "Un garde-malade assure une présence et une surveillance, notamment de nuit ou lors des phases aiguës. Un auxiliaire de vie a une formation plus large : il aide aux activités quotidiennes, supervise les exercices d'équilibre et repère les risques dans l'environnement. Pour la prévention des chutes à domicile, l'auxiliaire de vie est souvent le profil le plus adapté au quotidien, tandis que le garde-malade intervient en cas de risque médical immédiat.",
-          "en": "A garde-malade primarily provides supervision and monitoring, especially at night or during acute health phases. An auxiliary caregiver has broader training: they assist with daily activities, supervise balance exercises, and actively identify home hazards. For ongoing fall prevention, an auxiliary caregiver is usually the best fit for day-to-day support, while a garde-malade is more suited to immediate medical monitoring situations."
+          "fr": "Le garde-malade assure principalement la surveillance et les soins de base — il est présent pour réagir en cas de problème et assister la personne dans ses déplacements. L'auxiliaire de vie a un rôle plus large : aide à la toilette, aux repas, aux exercices de mobilité et à l'organisation du domicile. Pour la prévention des chutes, les deux sont complémentaires. GardeMalade Cameroun propose les deux types de profils selon vos besoins.",
+          "en": "A garde-malade primarily provides supervision and basic care — they're there to respond quickly and assist with movement. A home care assistant (auxiliaire de vie) covers a broader role: personal hygiene, meals, mobility exercises and home organisation. For fall prevention, both profiles are useful and complementary. GardeMalade Cameroun can help you find the right fit for your situation."
         }
       },
       {
         "question": {
-          "fr": "Est-ce qu'on peut organiser la prévention des chutes pour un parent au Cameroun depuis l'étranger ?",
-          "en": "Can I arrange fall prevention home care for my parent in Cameroon from abroad?"
+          "fr": "Est-ce possible d'organiser la prévention des chutes pour un parent au Cameroun depuis la France ou le Canada ?",
+          "en": "Can I arrange fall prevention support for a parent in Cameroon from France, Canada or the UK?"
         },
         "answer": {
-          "fr": "Oui, absolument. GardeMalade Cameroun travaille régulièrement avec des familles de la diaspora en France, au Canada, en Belgique ou au Royaume-Uni. L'évaluation initiale se fait par appel vidéo ou WhatsApp, et le paiement est possible via Orange Money, MTN MoMo, ou virement bancaire. Une fois le professionnel en place, vous recevez des comptes-rendus réguliers sur l'état de votre proche.",
-          "en": "Yes, absolutely. GardeMalade Cameroun regularly works with diaspora families in France, the UK, Canada, and the US. The initial assessment can be done by video call or WhatsApp, and payment is accepted via Orange Money, MTN MoMo, or international bank transfer. Once a caregiver is in place, you receive regular updates on your loved one's wellbeing and safety."
+          "fr": "Oui, tout à fait. Beaucoup de familles de la diaspora organisent les soins de leurs parents à distance. GardeMalade Cameroun vous permet de recruter un garde-malade ou un auxiliaire de vie par téléphone ou WhatsApp, de signer un contrat, et de payer via Orange Money ou MTN MoMo. Un bilan sécurité à domicile peut aussi être organisé sur demande pour évaluer les risques de chute dans le logement de votre proche.",
+          "en": "Absolutely. Many diaspora families coordinate their parent's care remotely from Europe or North America. GardeMalade Cameroun allows you to hire a caregiver by phone or WhatsApp, sign a care contract and pay via Orange Money or MTN MoMo. We can also arrange a home safety assessment to identify fall risks in your parent's home, so you have a clear picture even from a distance."
         }
       },
       {
         "question": {
-          "fr": "Quels exercices aident à prévenir les chutes chez les personnes âgées à domicile ?",
-          "en": "What exercises help prevent falls in elderly people at home?"
+          "fr": "Quels médicaments augmentent le risque de chutes chez les personnes âgées ?",
+          "en": "Which medications increase fall risk in elderly people?"
         },
         "answer": {
-          "fr": "Les exercices les plus efficaces pour la prévention des chutes à domicile sont : les répétitions assis-debout depuis une chaise (renforcement des jambes), la station unipodale (équilibre), et la marche talon-pointe en ligne droite. Ces exercices, inspirés de programmes comme Vivifrail recommandés par la HAS pour les personnes de 70 ans et plus, doivent être pratiqués régulièrement et si possible supervisés par un auxiliaire de vie formé.",
-          "en": "The most effective exercises for fall prevention at home include: sit-to-stand repetitions from a chair (leg strengthening), single-leg standing (balance training), and heel-to-toe walking in a straight line. These approaches — used in programmes like Vivifrail recommended for people aged 70 and over — should be practised regularly, ideally under the supervision of a trained caregiver."
+          "fr": "Certains médicaments courants — somnifères, médicaments contre la tension artérielle, certains antidépresseurs et diurétiques — peuvent provoquer des vertiges ou une baisse de tension, surtout en se levant. Si votre parent prend plusieurs médicaments, demandez au médecin traitant (à l'Hôpital Laquintinie ou au CHU de Yaoundé par exemple) de revoir la liste et d'identifier ceux qui augmentent le risque de chute.",
+          "en": "Several common medications — including sleeping pills, blood pressure drugs, certain antidepressants and diuretics — can cause dizziness or a drop in blood pressure when standing up, increasing fall risk. If your elderly parent takes multiple medications, ask their doctor to review the full list and identify any that may be contributing to instability. This review can be requested at any hospital or clinic in Douala or Yaoundé."
         }
       },
       {
         "question": {
-          "fr": "Comment savoir si mon parent âgé est vraiment à risque de chute à domicile ?",
-          "en": "How do I know if my elderly parent is really at risk of falling at home?"
+          "fr": "Comment trouver un garde-malade formé à la prévention des chutes à Douala ou Yaoundé ?",
+          "en": "How do I find a trained fall prevention caregiver in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Plusieurs signes doivent alerter : des antécédents de chutes, une démarche hésitante ou un manque d'équilibre visible, des difficultés à se lever d'une chaise sans s'aider des bras, une vision affaiblie, ou une prise de médicaments qui affectent l'équilibre. Si vous observez un ou plusieurs de ces signes chez votre proche à Douala ou Yaoundé, une évaluation par un professionnel de santé ou un auxiliaire de vie est fortement recommandée.",
-          "en": "Key warning signs include: a history of previous falls, a visibly unsteady gait, difficulty rising from a chair without using the armrests, poor vision, or medications that affect balance. If you notice one or more of these in your parent in Douala or Yaoundé, a professional assessment — either by a healthcare provider or a trained caregiver — is strongly recommended."
+          "fr": "Passez par une structure spécialisée comme GardeMalade Cameroun, qui sélectionne et forme ses garde-malades sur des compétences spécifiques : aide à la mobilité, prévention des chutes, exercices adaptés et surveillance médicale de base. Évitez les recrutements informels sans vérification de références — un garde-malade non formé peut au contraire augmenter les risques.",
+          "en": "Work with a specialist service like GardeMalade Cameroun, which screens and trains caregivers in specific skills including mobility assistance, fall prevention, adapted exercises and basic health monitoring. Avoid informal recruitment without reference checks — an untrained caregiver may inadvertently increase rather than reduce fall risk for your loved one."
         }
       }
     ]
