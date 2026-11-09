@@ -1,14 +1,14 @@
 {
   "meta": {
     "slug": "diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a",
-    "date": "2026-11-05",
+    "date": "2026-11-09",
     "title": {
       "fr": "Maladies chroniques personnes âgées Cameroun : diabète, HTA, AVC",
-      "en": "Chronic illness elderly care Cameroon: diabetes, HTA, stroke"
+      "en": "Diabetes, hypertension, stroke: chronic illness elderly care Cameroon"
     },
     "description": {
-      "fr": "Maladies chroniques personnes âgées Cameroun : diabète, hypertension, AVC. Suivi, coûts et garde-malade à domicile. Tout ce qu'il faut savoir.",
-      "en": "Chronic illness elderly care Cameroon: diabetes, hypertension, stroke. Home care options, costs and caregivers in Douala and Yaoundé. All you need to know."
+      "fr": "Maladies chroniques personnes âgées Cameroun : diabète, hypertension, AVC. Comment organiser le suivi à domicile à Douala ou Yaoundé. Nos conseils.",
+      "en": "Chronic illness elderly care Cameroon: diabetes, hypertension, stroke. How to manage care at home in Douala or Yaoundé. Everything you need to know."
     },
     "focus_keyword": {
       "fr": "maladies chroniques personnes âgées Cameroun",
@@ -16,24 +16,24 @@
     },
     "secondary_keywords": {
       "fr": [
-        "garde-malade domicile Cameroun",
-        "suivi diabète hypertension Douala Yaoundé"
+        "suivi diabète domicile Douala",
+        "garde-malade hypertension Yaoundé"
       ],
       "en": [
-        "home care elderly Cameroon",
-        "caregiver diabetes hypertension Douala Yaoundé"
+        "home care elderly Douala",
+        "caregiver chronic disease Yaoundé"
       ]
     },
-    "reading_time": 16,
+    "reading_time": 15,
     "category": "sante_personnes_agees",
     "tags": [
       "garde-malade",
       "cameroun",
-      "maladies chroniques",
-      "diabète",
+      "maladies-chroniques",
+      "personnes-agees",
+      "diabete",
       "hypertension",
-      "AVC",
-      "personnes âgées"
+      "avc"
     ],
     "internal_links": [
       {
@@ -51,16 +51,16 @@
         }
       },
       {
-        "href": "/blog/prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique",
+        "href": "/services#auxiliaire",
         "text": {
-          "fr": "prévenir les chutes des personnes âgées à domicile",
-          "en": "preventing falls in elderly people at home"
+          "fr": "auxiliaire de vie à domicile",
+          "en": "home care assistant"
         }
       },
       {
         "href": "/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot",
         "text": {
-          "fr": "rentrer au Cameroun pour s'occuper d'un parent malade",
+          "fr": "retour au Cameroun pour s'occuper d'un parent malade",
           "en": "returning to Cameroon to care for a sick parent"
         }
       }
@@ -69,8 +69,8 @@
   "hero": {
     "src": "/blog/images/diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a.jpg",
     "alt": {
-      "fr": "Garde-malade aidant une personne âgée atteinte de maladies chroniques à domicile au Cameroun",
-      "en": "Caregiver assisting an elderly person with chronic illness at home in Cameroon"
+      "fr": "Auxiliaire de vie aidant une personne âgée atteinte de maladies chroniques à domicile à Douala, Cameroun",
+      "en": "Home caregiver assisting an elderly person with chronic illness at home in Douala, Cameroon"
     },
     "photographer": "Eduardo Ramos",
     "photographer_url": "https://unsplash.com/@eduardoramoss?utm_source=gardemalade&utm_medium=referral",
@@ -80,51 +80,51 @@
   "body_images": [],
   "content": {
     "chapeau": {
-      "fr": "Les maladies chroniques des personnes âgées au Cameroun — diabète, hypertension artérielle, séquelles d'AVC — représentent un défi quotidien pour des milliers de familles à Douala comme à Yaoundé. Assurer un suivi médical rigoureux à domicile, trouver un garde-malade compétent, gérer les ordonnances et les consultations : ce n'est pas chose facile, surtout quand on vit à des milliers de kilomètres. Cet article est fait pour toi.",
-      "en": "Managing chronic illness in elderly parents in Cameroon — whether it's diabetes, high blood pressure, or the aftermath of a stroke — is one of the most demanding challenges a family can face. Whether you're based in Douala, in the diaspora in London, or in Montreal, knowing how to organise quality home care from afar is what this guide is all about."
+      "fr": "Les maladies chroniques des personnes âgées au Cameroun — diabète, hypertension artérielle, séquelles d'AVC — sont devenues l'un des défis de santé les plus lourds à porter pour les familles. Organiser le suivi à domicile à Douala ou à Yaoundé, trouver un garde-malade compétent, gérer les médicaments et les consultations régulières : ce n'est pas chose facile, surtout quand on est loin du pays.",
+      "en": "Managing chronic illness in an elderly parent in Cameroon — whether it's diabetes, high blood pressure, or recovery after a stroke — is one of the hardest things a family can face. If you're in the UK, the US, or Canada trying to coordinate care from thousands of kilometres away, this guide is for you."
     },
     "sections": [
       {
         "heading": {
-          "fr": "Maladies chroniques personnes âgées Cameroun : un fardeau réel mais gérable",
-          "en": "Chronic illness elderly care Cameroon: a real but manageable burden"
+          "fr": "Maladies chroniques personnes âgées Cameroun : un fardeau qui s'alourdit",
+          "en": "Chronic illness elderly care Cameroon: a growing health burden"
         },
         "body": {
-          "fr": "<p>Au Cameroun, les maladies non transmissibles — dont font partie le diabète, l'hypertension artérielle et les accidents vasculaires cérébraux — sont loin d'être marginales. <strong>Selon l'OMS et les données du Ministère de la Santé camerounais, ces maladies représentaient 31 % de tous les décès au Cameroun en 2014</strong>, avec une prévalence de l'hypertension artérielle qui stagnait autour de <strong>22 % entre 1994 et 2014</strong> (Source : Profil sanitaire analytique Cameroun 2016, OMS/AFRO).</p><p>Pour une famille dont le parent âgé vit à Biyem-Assi, à Ngousso ou à Bonapriso, ces chiffres ont un visage concret : c'est papa qui oublie de prendre son traitement antihypertenseur, c'est maman dont la glycémie monte dangereusement parce qu'elle a mangé du bâton de manioc au marché sans mesurer les glucides, c'est grand-père qui ne peut plus marcher correctement depuis son AVC de l'année dernière.</p><p>La bonne nouvelle, c'est que ces maladies chroniques se gèrent. Pas toujours facilement, mais elles se gèrent — à condition d'avoir le bon accompagnement. Un garde-malade formé aux maladies chroniques peut surveiller la tension artérielle quotidiennement, préparer des repas adaptés au régime diabétique et signaler immédiatement tout signe d'alerte à la famille. Si tu veux en savoir plus sur ce que cela implique concrètement, consulte <a href=\"/services#garde\">notre service garde-malade</a> : nous avons des auxiliaires spécialisés dans le suivi des pathologies chroniques à Douala et à Yaoundé.</p><p>La difficulté supplémentaire, c'est que <strong>les paiements de santé restent majoritairement à la charge des patients eux-mêmes au Cameroun</strong>, ce qui rend la gestion financière de ces maladies particulièrement lourde pour les familles (Source : PMC13108730, évaluation du financement des soins de santé chez les personnes âgées au Cameroun).</p>",
-          "en": "<p>Chronic illness in elderly people is not a niche issue in Cameroon. Data from the WHO and Cameroon's Ministry of Health show that noncommunicable diseases — including diabetes, hypertension and stroke — accounted for <strong>31% of all deaths in Cameroon in 2014</strong>, with hypertension prevalence holding steady at around <strong>22% between 1994 and 2014</strong> (Source: Cameroon Health Profile 2016, WHO/AFRO).</p><p>For families in the diaspora, this is not just a statistic. It's your mother in Nlongkak whose blood pressure spikes because she skips her medication. It's your father in Bonapriso whose blood sugar is out of control because there's no one to prepare a diabetic-friendly meal. It's your uncle in Akwa who hasn't recovered properly from his stroke because proper physiotherapy and daily monitoring are out of reach.</p><p>The challenge is compounded by the fact that <strong>out-of-pocket payments remain the primary method of healthcare financing in Cameroon</strong>, making chronic disease management financially draining for most families (Source: PMC13108730). But the right home care solution can change the equation. Our <a href=\"/services#garde\">caregiver service</a> connects families with trained caregivers who understand chronic illness protocols — from blood pressure monitoring to diabetic meal planning — right in Douala and Yaoundé.</p>"
+          "fr": "<p>Tu sais, ici au Cameroun, on a longtemps pensé que les maladies graves, c'était surtout le paludisme ou le VIH. Mais aujourd'hui, la réalité a changé. <strong>Selon l'OMS, les maladies non transmissibles représentaient 31 % de tous les décès au Cameroun</strong> (Profil sanitaire analytique 2016, OMS/AFRO). Le diabète, l'hypertension artérielle et les AVC touchent de plus en plus nos parents et grands-parents.</p><p>Une étude menée à l'Hôpital Central de Yaoundé a montré que parmi les personnes âgées suivies, environ <strong>35,6 % souffraient d'hypertension artérielle</strong> et <strong>8,7 % de diabète</strong> — et ces chiffres ne tiennent pas compte des cas non diagnostiqués (PMC, Geriatric syndromes, 2021). La prévalence de l'hypertension artérielle se maintenait autour de <strong>22 % dans la population générale</strong> entre 1994 et 2014, selon le même profil OMS.</p><p>Pour les familles, cela signifie des consultations régulières à l'Hôpital Général de Douala ou au CHU de Yaoundé, des ordonnances à renouveler chaque mois, une surveillance quotidienne de la tension ou de la glycémie. C'est un travail à plein temps. Et quand le parent vit seul à Akwa ou à Biyem-Assi, sans aide professionnelle, les risques s'accumulent : oubli de médicaments, crise hypoglycémique non détectée, chute après un malaise.</p><p>C'est exactement pourquoi <a href=\"/services#garde\">notre service garde-malade</a> a été pensé pour accompagner les familles dans cette réalité. Un professionnel formé à domicile, c'est la différence entre une complication évitée et une hospitalisation d'urgence.</p>",
+          "en": "<p>For a long time, the conversation about health in Cameroon centred on malaria and HIV. But the picture has shifted significantly. <strong>According to the WHO, non-communicable diseases accounted for 31% of all deaths in Cameroon</strong> (WHO Analytical Health Profile, 2016). Diabetes, hypertension, and stroke are now major causes of illness and death — especially among the elderly.</p><p>A study conducted at the Yaoundé Central Hospital found that among older adults surveyed, around <strong>35.6% had hypertension</strong> and <strong>8.7% had diabetes mellitus</strong> — and those figures only reflect diagnosed cases (PMC, Geriatric syndromes, 2021). The true numbers are likely higher, since many people in Cameroon go undiagnosed for years.</p><p>For families in the diaspora, this means your parent at home in Douala or Yaoundé may be dealing with serious chronic conditions — often without consistent professional support. Monthly prescriptions go unfilled, blood pressure goes unchecked, and warning signs get missed until it's too late.</p><p>That's why having a trained caregiver at home matters so much. <a href=\"/services#garde\">Our caregiver service</a> connects families with experienced professionals who understand chronic disease management in the Cameroonian context — people who know what to watch for and when to escalate to a clinic.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Maladies chroniques personnes âgées Cameroun : comment s'organise le suivi à domicile ?",
-          "en": "Chronic illness elderly care Cameroon: how does home monitoring actually work?"
+          "fr": "Diabète, hypertension, AVC : ce que vivent concrètement les familles",
+          "en": "Diabetes, hypertension, stroke: the daily reality for families"
         },
         "body": {
-          "fr": "<p>Prenons le cas concret d'Emmanuel Nkodo, qui vit à Lyon et dont la mère, Honorine, 72 ans, réside à Ngousso à Yaoundé. Honorine est diabétique de type 2 et hypertendue depuis une dizaine d'années. Emmanuel appelle régulièrement, mais il ne peut pas vérifier que sa mère prend bien ses comprimés deux fois par jour, qu'elle mange correctement ou que sa tension ne dépasse pas les seuils d'alerte. <em>«&nbsp;Je ne dormais plus tranquille. Je ne savais jamais si tout allait bien.&nbsp;»</em></p><p>Ce que beaucoup de familles ignorent, c'est qu'un garde-malade qualifié peut prendre en charge l'essentiel du suivi quotidien d'une personne âgée atteinte de maladies chroniques. Concrètement, voici ce que cela implique :</p><ul><li><strong>Prise des constantes</strong> : tension artérielle, glycémie capillaire (avec un glucomètre), température — deux fois par jour minimum pour les patients à risque.</li><li><strong>Gestion du traitement</strong> : préparation du pilulier, respect des horaires de prise, signalement immédiat de tout oubli ou effet secondaire suspect.</li><li><strong>Alimentation adaptée</strong> : pour un diabétique, cela signifie réduire le riz blanc, le bâton de manioc et les sucres rapides, et privilégier les légumes et les protéines. Le garde-malade peut cuisiner selon les recommandations du médecin traitant.</li><li><strong>Lien avec l'équipe médicale</strong> : accompagnement aux consultations au CHU de Yaoundé ou à l'Hôpital Central, et transmission des rapports de suivi à la famille à distance via WhatsApp ou par écrit.</li></ul><p>Tu peux aussi lire notre article sur <a href=\"/blog/prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique\">prévenir les chutes des personnes âgées à domicile</a>, car les risques sont souvent cumulés chez les patients atteints de maladies chroniques.</p>",
-          "en": "<p>Let's talk about what home monitoring for chronic illness actually looks like in practice. Take Cécile Atangana, whose 74-year-old father lives in the Makepe neighbourhood in Douala. He had a mild stroke two years ago and now lives with hypertension and early-stage diabetes. Cécile returned from Paris for three months to care for him, but she can't stay forever — and she knows it.</p><p>A trained home caregiver — what we call a <em>garde-malade</em> — can step into that role with the right skills. Here's what proper chronic illness home care looks like:</p><ul><li><strong>Daily vital signs monitoring</strong>: blood pressure, blood sugar levels using a glucometer, and body temperature — recorded and reported to the family.</li><li><strong>Medication management</strong>: preparing weekly pill organisers, ensuring the right doses at the right times, and flagging any concerning symptoms to the attending physician.</li><li><strong>Diet support</strong>: adapting traditional Cameroonian meals to diabetic and cardiac dietary requirements — no small task, but entirely achievable with guidance.</li><li><strong>Medical escort</strong>: accompanying the patient to follow-up appointments at Hôpital Laquintinie or Polyclinique Bonanjo, and relaying the doctor's instructions back to the family.</li></ul><p>If you're thinking about returning home to set this up in person, our guide on <a href=\"/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot\">returning to Cameroon to care for a sick parent</a> will help you plan that transition step by step.</p>"
+          "fr": "<p>Prenons l'exemple d'Emmanuel Nkodo, qui vit à Lyon. Sa mère, 71 ans, habite à Nlongkak à Yaoundé. Elle est diabétique depuis dix ans et a fait un petit AVC il y a dix-huit mois. Depuis, elle marche avec difficultés, oublie parfois de prendre ses médicaments, et personne dans la famille n'est disponible sur place pour la surveiller au quotidien. Emmanuel appelle chaque soir, mais il ne peut pas voir si elle a bien mangé, si sa tension est stable, si elle ne présente pas de signes annonciateurs d'une nouvelle crise.</p><p>Je ne vais pas te mentir : cette situation, elle est vécue par des milliers de familles au Cameroun. Les enfants sont à l'étranger ou occupés avec leur propre vie à Douala. Les parents vieillissent, leurs pathologies s'aggravent, et le système de santé — même s'il s'améliore avec des initiatives comme la stratégie <strong>PEN-Plus</strong> déployée par le Ministère de la Santé avec l'appui de l'OMS — ne peut pas assurer un suivi quotidien à domicile.</p><p>Pour un parent diabétique, le suivi à domicile implique : contrôle de la glycémie, respect du régime alimentaire, administration de l'insuline si nécessaire, et surveillance des pieds pour prévenir les plaies. Pour un hypertendu, c'est la prise régulière du traitement, la mesure de la tension, et la reconnaissance des signes d'alerte. Après un AVC, les séquelles nécessitent souvent un accompagnement moteur et parfois cognitif.</p><p>Un <a href=\"/services#auxiliaire\">auxiliaire de vie à domicile</a> formé à ces pathologies peut gérer tout cela au quotidien, en lien avec le médecin traitant. C'est une présence rassurante, et surtout, une présence compétente.</p>",
+          "en": "<p>Emmanuel Nkodo lives in Lyon. His mother, 71, lives alone in Nlongkak, Yaoundé. She's been diabetic for a decade and had a mild stroke eighteen months ago. Since then, she struggles to walk unaided, sometimes forgets her medication, and there's no one in the immediate family available to check on her daily. Emmanuel calls every evening — but he can't see whether she's eaten properly, whether her blood pressure is stable, or whether she's showing early warning signs of another episode.</p><p>This is the reality for thousands of Cameroonian families. Adult children are abroad or overwhelmed with their own responsibilities in Douala or Yaoundé. Parents grow older, their conditions worsen, and while Cameroon's health system is improving — the government's <strong>PEN-Plus strategy</strong>, supported by the WHO, is expanding specialist chronic disease care to district hospitals across the country — daily home monitoring simply isn't something a clinic can provide.</p><p>For a diabetic parent, home care means blood sugar monitoring, dietary support, insulin management if needed, and foot care to prevent wounds from going unnoticed. For someone with hypertension, it means daily medication, regular blood pressure readings, and knowing the warning signs of a hypertensive crisis. After a stroke, there are often motor and cognitive challenges that require consistent, patient support.</p><p>A trained <a href=\"/services#auxiliaire\">home care assistant</a> who understands these conditions can handle all of this — staying in contact with the treating physician and alerting the family immediately if anything changes.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "AVC, diabète, hypertension : les signaux d'alarme que le garde-malade doit connaître",
-          "en": "Stroke, diabetes, hypertension: warning signs every caregiver must know"
+          "fr": "Maladies chroniques personnes âgées Cameroun : organiser le suivi à domicile étape par étape",
+          "en": "Chronic illness elderly care Cameroon: how to set up home care step by step"
         },
         "body": {
-          "fr": "<p>La famille, c'est sacré — mais les familles ne sont pas toutes formées pour reconnaître une crise hypertensive ou les premiers signes d'un AVC. C'est précisément là qu'un garde-malade formé fait toute la différence.</p><p>Pour un patient hypertendu, les signes qui doivent déclencher un appel immédiat au médecin (ou un déplacement aux urgences de l'Hôpital Général de Douala ou de l'Hôpital Central de Yaoundé) sont : des maux de tête violents et soudains, une vision trouble, des vertiges inhabituels, ou une tension systolique supérieure à 180 mmHg. Pour un diabétique, les signaux d'hypoglycémie — sueurs froides, tremblements, confusion — ou d'hyperglycémie — soif excessive, urines fréquentes, fatigue extrême — nécessitent une réaction rapide.</p><p>Concernant l'AVC, le principe FAST reste le guide universel : <strong>Face</strong> (visage qui s'affaisse d'un côté), <strong>Arms</strong> (bras qui ne peut pas rester levé), <strong>Speech</strong> (parole difficile ou incompréhensible), <strong>Time</strong> (appeler le SAMU ou se rendre aux urgences immédiatement). Chaque minute compte.</p><p>Tu sais, ici au Cameroun, il arrive souvent que les familles attendent trop longtemps avant de consulter — par peur des coûts, par manque d'information, ou tout simplement parce que personne n'était là pour reconnaître les signes. Un garde-malade présent 24h/24 évite ces situations. Les tarifs pour ce type de prise en charge varient généralement entre <strong>60 000 et 150 000 FCFA par mois</strong> selon les horaires, le niveau de qualification et la nature des soins requis. Pour une présence nocturne seule, comptez entre <strong>15 000 et 25 000 FCFA par nuit</strong>.</p><p>Avec la vie chère, il est possible de payer les prestations de GardeMalade Cameroun via <strong>Orange Money ou MTN MoMo</strong>, y compris depuis l'étranger — pratique pour les familles de la diaspora. Et si tu veux organiser cela dès maintenant, <a href=\"/contact\">contacte-nous</a> pour une évaluation gratuite des besoins de ton parent.</p>",
-          "en": "<p>One of the hardest parts of managing chronic illness in elderly parents remotely is knowing what to watch for — and having someone trustworthy on the ground to act when it matters. A trained caregiver isn't just company for your parent; they're your eyes and ears.</p><p>For hypertensive patients, red-flag symptoms that require immediate medical attention include sudden severe headaches, blurred vision, chest pain or a systolic blood pressure reading above 180 mmHg. For diabetics, the signs of hypoglycaemia — cold sweats, trembling, confusion — or hyperglycaemia — extreme thirst, frequent urination, fatigue — demand a fast response. Left unaddressed, these episodes can spiral into life-threatening emergencies.</p><p>For stroke, the universal FAST guide applies: <strong>Face drooping, Arm weakness, Speech difficulty, Time to call for help</strong>. The nearest emergency room — whether at Hôpital Général de Douala or Hôpital Central de Yaoundé — should be reached without delay.</p><p>Having a qualified caregiver on-site, day or night, dramatically reduces the response time in these situations. Home care costs in Cameroon typically range from <strong>60,000 to 150,000 FCFA per month</strong> for daytime or live-in care, and between <strong>15,000 and 25,000 FCFA per night</strong> for overnight monitoring. Payment can be arranged via <strong>Orange Money or MTN MoMo</strong> directly from abroad — no bank transfer complications, no delays. Ready to get started? <a href=\"/contact\">Contact us</a> for a free needs assessment.</p>"
+          "fr": "<p>Mettre en place un suivi sérieux à domicile pour un parent âgé atteint de maladies chroniques, ça demande un peu d'organisation — surtout depuis la diaspora. Voici comment procéder concrètement :</p><ul><li><strong>Évaluation médicale préalable :</strong> obtenez un compte-rendu médical récent de votre parent (CHU de Yaoundé, Hôpital Laquintinie ou Polyclinique Bonanjo selon la ville). Ce document permet au garde-malade de connaître exactement les traitements en cours.</li><li><strong>Choisir le bon profil de soignant :</strong> pour un diabétique ou un patient post-AVC, il faut un aide-soignant ou une infirmière ayant une expérience en maladies chroniques — pas simplement quelqu'un de bonne volonté.</li><li><strong>Mettre en place un cahier de suivi :</strong> tension, glycémie, prise des médicaments, appétit, humeur — tout est noté et partagé avec vous via WhatsApp ou par appel.</li></ul><p>Avec la vie chère et les dépenses de santé qui s'accumulent, le coût est souvent la première question. Un garde-malade qualifié à Douala ou Yaoundé coûte généralement <strong>entre 80 000 et 150 000 FCFA par mois</strong> pour une présence quotidienne, selon le profil et les actes requis. C'est un investissement que beaucoup de familles financent depuis l'étranger via <strong>Orange Money ou MTN MoMo</strong> — la solution la plus rapide et la plus fiable pour envoyer l'argent directement au soignant ou à la famille sur place.</p><p>Pour en savoir plus sur la gestion des paiements depuis l'étranger, notre article sur <a href=\"/blog/payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon\">le paiement des soins à domicile depuis la diaspora</a> vous donnera toutes les clés. Et si vous souhaitez discuter de la situation de votre parent avec notre équipe, vous pouvez <a href=\"/contact\">nous contacter directement</a> — l'évaluation initiale est gratuite.</p>",
+          "en": "<p>Setting up proper home care for an elderly parent with chronic illness — especially from abroad — takes some planning. Here's a practical approach that works in the Cameroonian context:</p><ul><li><strong>Get an up-to-date medical report:</strong> ask a family member to request a summary from your parent's current doctor, whether at the Yaoundé Central Hospital, Hôpital Laquintinie, or another facility. This document is essential so a caregiver knows exactly what conditions and medications are involved.</li><li><strong>Match the caregiver to the condition:</strong> a parent managing diabetes, hypertension, or post-stroke recovery needs someone with real clinical experience — not just a willing family friend. Ask specifically about experience with chronic disease monitoring.</li><li><strong>Set up a daily log:</strong> blood pressure readings, blood sugar levels, medication intake, appetite, mobility — all recorded and shared with you via WhatsApp or phone call.</li></ul><p>On the question of cost: a qualified live-in or daily caregiver in Douala or Yaoundé typically runs <strong>between 80,000 and 150,000 CFA francs per month</strong>, depending on the level of care required. Many diaspora families manage this via <strong>Orange Money or MTN MoMo</strong> — fast, reliable, and no bank transfer fees.</p><p>If you're thinking about returning home to help set things up, our guide on <a href=\"/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot\">returning to Cameroon to care for a sick parent</a> covers everything you need to prepare. And when you're ready to take the next step, <a href=\"/contact\">reach out to our team</a> — the initial assessment is free and there's no commitment required.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Trouver un garde-malade formé aux maladies chroniques à Douala ou Yaoundé",
-          "en": "Finding a caregiver trained in chronic illness care in Douala or Yaoundé"
+          "fr": "Ce que peut faire un garde-malade qualifié face aux maladies chroniques",
+          "en": "What a qualified caregiver can actually do for chronic illness management"
         },
         "body": {
-          "fr": "<p>Je ne vais pas te mentir : trouver un garde-malade vraiment qualifié pour le suivi des maladies chroniques des personnes âgées au Cameroun, ce n'est pas simple. Beaucoup de profils proposent leurs services de bouche à oreille, sans formation vérifiable, sans expérience documentée dans la gestion du diabète ou de l'hypertension.</p><p>Ce qu'il faut chercher concrètement, c'est un profil qui combine :</p><ul><li>Une formation en soins infirmiers ou en aide-soignance (diplôme d'État ou équivalent reconnu)</li><li>Une expérience pratique avec des patients atteints de maladies chroniques — idéalement, quelqu'un qui a déjà travaillé dans un service de médecine interne ou qui a suivi des formations en diabétologie et en cardiologie</li><li>La capacité à communiquer régulièrement avec la famille, même à distance — un compte-rendu quotidien via WhatsApp, par exemple</li></ul><p>GardeMalade Cameroun vérifie ces critères pour chaque auxiliaire de vie mis en relation avec les familles. Nos auxiliaires interviennent à Douala (Bonapriso, Akwa, Logbessou, Makepe) et à Yaoundé (Nlongkak, Biyem-Assi, Ngousso, Melen). Pour choisir le bon profil pour ton parent, consulte <a href=\"/services#auxiliaire\">notre service d'auxiliaire de vie</a> — ou <a href=\"/contact\">contacte-nous directement</a> pour qu'on t'oriente selon la pathologie et les besoins spécifiques.</p><p>Le Gouvernement camerounais travaille par ailleurs à rapprocher les soins spécialisés des communautés grâce à l'approche PEN-Plus, avec l'appui de l'OMS, pour renforcer les hôpitaux de district dans le suivi des maladies chroniques graves (Source : OMS/AFRO 2024). C'est une avancée encourageante — mais en attendant que ces services soient disponibles partout, le maintien à domicile reste la solution la plus accessible pour de nombreuses familles.</p>",
-          "en": "<p>Finding a genuinely qualified caregiver for chronic illness elderly care in Cameroon takes more than a word-of-mouth recommendation. The right person needs a verifiable background — not just goodwill.</p><p>When evaluating candidates, look for someone with formal nursing or care assistant training, hands-on experience managing patients with diabetes or hypertension, and the communication skills to give you regular updates even when you're thousands of miles away. A daily WhatsApp report with blood pressure readings and medication logs is not an unreasonable ask — it's the standard we set at GardeMalade Cameroun.</p><p>Our caregivers are active across Douala (Bonapriso, Akwa, Makepe, Logbessou) and Yaoundé (Nlongkak, Biyem-Assi, Ngousso, Melen). We screen for chronic illness experience specifically — because managing a post-stroke patient at home is not the same as general elderly companionship care.</p><p>It's also worth knowing that Cameroon's government, with WHO support, is progressively expanding the PEN-Plus approach to bring specialist chronic disease care closer to district-level communities (Source: WHO/AFRO). That's a promising development — but for families who need reliable support today, professional home care remains the most practical answer. Visit our <a href=\"/services#auxiliaire\">auxiliaire de vie service</a> to see the full range of what we offer, or reach out through our <a href=\"/contact\">contact page</a> to discuss your parent's specific situation.</p>"
+          "fr": "<p>La famille, c'est sacré au Cameroun — mais les proches ne peuvent pas toujours tout assurer, surtout quand la maladie devient technique. Un garde-malade ou une infirmière à domicile formée aux maladies chroniques ne remplace pas le médecin. Elle est son prolongement quotidien.</p><p>Concrètement, voici ce qu'une auxiliaire comme Blandine Ngassa, 5 ans d'expérience à Makepe (Douala), fait chaque jour pour ses patients :</p><ul><li>Prise et enregistrement de la tension artérielle matin et soir</li><li>Contrôle de la glycémie pour les patients diabétiques</li><li>Préparation et administration des médicaments selon l'ordonnance</li><li>Préparation des repas adaptés (régime hyposodé, contrôle des sucres)</li><li>Alerte immédiate de la famille ou du médecin en cas de signe anormal</li></ul><p>En cas d'urgence, elle sait appeler un taxi-moto pour une évacuation rapide ou contacter directement le médecin de famille. Pour les patients en récupération post-AVC, l'auxiliaire peut également accompagner les exercices de rééducation prescrits par le kinésithérapeute.</p><p>Le Cameroun déploie aujourd'hui la stratégie <strong>PEN-Plus</strong> avec l'appui de l'OMS pour rapprocher le suivi spécialisé des communautés. Mais entre deux consultations à l'hôpital de district, c'est à domicile que se jouent 90 % du suivi. C'est là qu'un professionnel fait toute la différence. <strong>On est ensemble</strong> — et c'est avec cet esprit que nos équipes accompagnent chaque famille.</p>",
+          "en": "<p>A trained caregiver doesn't replace the doctor — they extend the doctor's reach into the home, every single day. That's especially valuable for chronic conditions where consistent monitoring is the difference between stability and a crisis.</p><p>Take Blandine Ngassa, a certified home care aide with five years of experience in Makepe, Douala. On a typical day with a chronic patient, she handles blood pressure monitoring, medication preparation, blood sugar checks, meal preparation adapted to the patient's dietary needs, and immediate family notification if anything looks off.</p><p>If the situation escalates, she knows how to arrange rapid transport — whether by taxi-moto for a quick clinic visit or coordinating with the family for a full hospital trip to Hôpital Laquintinie or the Hôpital Général de Douala. For post-stroke patients, she can also support prescribed physiotherapy exercises between specialist appointments.</p><p>Cameroon is making real progress on chronic disease care at the system level — the government's PEN-Plus strategy, backed by the WHO, is expanding specialist services to district hospitals across the country. But between clinic appointments, home is where most of the management happens. That's where a skilled caregiver makes all the difference.</p>"
         },
         "image": null
       }
@@ -132,68 +132,68 @@
     "faq": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade pour maladies chroniques au Cameroun ?",
-          "en": "How much does a caregiver for chronic illness cost in Cameroon?"
+          "fr": "Combien coûte un garde-malade pour diabétique ou hypertendu à Douala ou Yaoundé ?",
+          "en": "How much does a caregiver for a diabetic or hypertensive patient cost in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Le coût d'un garde-malade spécialisé dans les maladies chroniques varie généralement entre 60 000 et 150 000 FCFA par mois pour une présence de jour, selon le niveau de qualification et les soins requis. Pour une présence nocturne uniquement, comptez entre 15 000 et 25 000 FCFA par nuit. Ces tarifs peuvent être réglés via Orange Money ou MTN MoMo, y compris depuis l'étranger.",
-          "en": "A caregiver specialised in chronic illness management in Cameroon typically costs between 60,000 and 150,000 CFA francs per month for daytime care, depending on qualifications and care intensity. Night shifts alone run between 15,000 and 25,000 CFA francs per night. Payment can be arranged via Orange Money or MTN MoMo from abroad, making it accessible for diaspora families."
+          "fr": "Un garde-malade qualifié avec expérience en maladies chroniques coûte généralement entre 80 000 et 150 000 FCFA par mois pour une présence quotidienne à Douala ou Yaoundé. Le tarif varie selon le nombre d'heures, le niveau de qualification (aide-soignant vs infirmier diplômé) et les actes requis (injections, contrôle glycémique, etc.). Pour une présence de nuit uniquement, comptez entre 20 000 et 35 000 FCFA par nuit.",
+          "en": "A qualified caregiver experienced in chronic disease management in Douala or Yaoundé typically costs between 80,000 and 150,000 CFA francs per month for daily care. The rate varies based on hours, qualifications (certified nurse aide vs. registered nurse), and specific tasks required. For overnight-only care, expect to pay between 20,000 and 35,000 CFA francs per night."
         }
       },
       {
         "question": {
-          "fr": "Comment trouver un garde-malade qualifié en diabétologie à Douala ou Yaoundé ?",
-          "en": "How do I find a caregiver trained in diabetes care in Douala or Yaoundé?"
+          "fr": "Comment trouver un garde-malade fiable pour un parent diabétique à Douala ou Yaoundé ?",
+          "en": "How do I find a reliable caregiver for a diabetic elderly parent in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Pour trouver un garde-malade qualifié dans la gestion du diabète à Douala ou Yaoundé, il faut vérifier trois éléments : un diplôme en soins infirmiers ou aide-soignance, une expérience pratique avec des patients diabétiques, et la capacité à communiquer les constantes quotidiennes à la famille. GardeMalade Cameroun sélectionne ses auxiliaires selon ces critères et les déploie dans les quartiers de Bonapriso, Makepe, Nlongkak et Biyem-Assi.",
-          "en": "To find a qualified diabetes care caregiver in Douala or Yaoundé, check for three things: a formal nursing or care assistant diploma, hands-on experience with diabetic patients, and the ability to report daily vitals to the family remotely. GardeMalade Cameroun screens all caregivers specifically for chronic illness experience and covers neighbourhoods across both cities."
+          "fr": "Le meilleur moyen est de passer par un service structuré comme GardeMalade Cameroun, qui vérifie les diplômes, l'expérience et les références de chaque soignant avant de le proposer. Évitez les recrutements uniquement par bouche-à-oreille sans vérification. Demandez toujours un document prouvant une expérience avec les maladies chroniques (diabète, HTA) et posez des questions sur la gestion des urgences.",
+          "en": "The safest approach is to use a structured service like GardeMalade Cameroun, which screens caregivers for qualifications, experience, and references before placement. Avoid unverified word-of-mouth referrals. Always ask for proof of experience with chronic conditions like diabetes and hypertension, and ask how the caregiver handles medical emergencies."
         }
       },
       {
         "question": {
           "fr": "Quelle est la différence entre un garde-malade et une infirmière à domicile pour maladies chroniques ?",
-          "en": "What is the difference between a garde-malade and a home nurse for chronic illness?"
+          "en": "What is the difference between a caregiver and a home nurse for chronic illness?"
         },
         "answer": {
-          "fr": "Un garde-malade assure la présence, la surveillance quotidienne, la gestion du traitement et l'aide aux actes de la vie courante. Une infirmière à domicile réalise des actes médicaux techniques (prise de sang, pansements, injections). Pour un patient diabétique ou hypertendu stable, un garde-malade qualifié est souvent suffisant au quotidien, en complément de consultations régulières chez le médecin. Les deux peuvent être coordonnés selon les besoins.",
-          "en": "A garde-malade provides daily presence, vital signs monitoring, medication management and help with daily living. A home nurse performs clinical procedures such as blood draws, wound care or injections. For a stable diabetic or hypertensive patient, a trained caregiver is often sufficient day-to-day, alongside regular doctor consultations. Both roles can be combined depending on the patient's needs."
+          "fr": "Un garde-malade assure la présence quotidienne, surveille l'état général, gère les médicaments et accompagne le patient. Une infirmière à domicile peut réaliser des actes médicaux techniques : injections, soins de plaies, perfusions. Pour un diabétique stable ou un hypertendu bien équilibré, un aide-soignant qualifié suffit souvent. Pour un patient post-AVC avec complications ou nécessitant des soins techniques, une infirmière est recommandée.",
+          "en": "A caregiver provides daily presence, general monitoring, medication management, and companionship. A home nurse can perform clinical procedures: injections, wound care, IV administration. For a stable diabetic or well-controlled hypertensive patient, a qualified care aide is often sufficient. For post-stroke patients with complications or those requiring clinical procedures, a registered nurse is recommended."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser un suivi de maladies chroniques depuis la France ou le Canada ?",
-          "en": "Can I arrange chronic illness home care in Cameroon from France, Canada or the UK?"
+          "fr": "Est-ce possible d'organiser des soins à domicile pour un parent malade au Cameroun depuis la France ou le Canada ?",
+          "en": "Can I arrange home care for an elderly parent in Cameroon from France, Canada or the UK?"
         },
         "answer": {
-          "fr": "Oui, tout à fait. De nombreuses familles de la diaspora organisent le suivi de leur parent âgé au Cameroun depuis l'étranger. Il est possible de passer contrat à distance, de recevoir des rapports quotidiens via WhatsApp, et de régler les prestations par Orange Money ou MTN MoMo depuis la France, le Canada ou la Belgique. GardeMalade Cameroun accompagne régulièrement des familles dans cette situation.",
-          "en": "Absolutely. Many diaspora families manage the chronic illness care of their elderly parents in Cameroon entirely from abroad. You can sign a care agreement remotely, receive daily monitoring reports via WhatsApp, and pay via Orange Money or MTN MoMo from France, Canada or the UK. GardeMalade Cameroun regularly supports families in this exact situation — contact us to discuss your parent's needs."
+          "fr": "Oui, tout à fait. De nombreuses familles de la diaspora organisent les soins à distance via WhatsApp et paient via Orange Money ou MTN MoMo. GardeMalade Cameroun propose une évaluation par téléphone ou vidéo, le recrutement du soignant adapté, et des rapports réguliers envoyés à la famille à l'étranger. Vous pouvez nous contacter directement pour démarrer le processus sans avoir à rentrer au Cameroun.",
+          "en": "Yes, absolutely. Many diaspora families coordinate care entirely remotely using WhatsApp and pay via Orange Money or MTN MoMo. GardeMalade Cameroun offers phone and video consultations, caregiver matching, and regular updates sent directly to family members abroad. You can contact us to start the process without needing to travel to Cameroon first."
         }
       },
       {
         "question": {
-          "fr": "Quels sont les premiers signes d'AVC à surveiller chez une personne âgée à domicile ?",
-          "en": "What are the first stroke warning signs to watch for in an elderly person at home?"
+          "fr": "Quels signes d'alerte surveiller chez un parent âgé hypertendu ou diabétique à domicile ?",
+          "en": "What warning signs should a caregiver watch for in an elderly patient with hypertension or diabetes?"
         },
         "answer": {
-          "fr": "Les premiers signes d'AVC se résument par le principe FAST : visage qui s'affaisse d'un côté, bras qui ne peut pas rester levé, parole difficile ou incompréhensible, et nécessité d'agir immédiatement. En cas de suspicion d'AVC, il faut appeler le SAMU ou se rendre aux urgences de l'Hôpital Général de Douala ou de l'Hôpital Central de Yaoundé sans perdre de temps. Un garde-malade formé sait reconnaître ces signes.",
-          "en": "The key stroke warning signs follow the FAST principle: Face drooping on one side, Arm weakness (unable to raise both arms), Speech difficulty or slurred words, and Time to call for emergency help immediately. In Cameroon, head straight to the emergency room at Hôpital Général de Douala or Hôpital Central de Yaoundé. A trained garde-malade will recognise these signs and act without hesitation."
+          "fr": "Pour l'hypertension : maux de tête soudains et intenses, vision floue, confusion, douleur thoracique. Pour le diabète : transpiration excessive, tremblements, confusion (hypoglycémie) ou soif intense, urines fréquentes, fatigue inhabituelle (hyperglycémie). Après un AVC : perte soudaine de force d'un côté, troubles de la parole ou de la vision. Tout signe anormal doit conduire à contacter immédiatement le médecin ou à se rendre à l'hôpital.",
+          "en": "For hypertension: sudden severe headache, blurred vision, chest pain, confusion. For diabetes: excessive sweating, trembling, confusion (low blood sugar) or intense thirst, frequent urination, unusual fatigue (high blood sugar). After a stroke: sudden weakness on one side, speech or vision disturbances. Any abnormal sign should trigger an immediate call to the doctor or a trip to the nearest hospital."
         }
       },
       {
         "question": {
-          "fr": "Est-ce qu'un garde-malade peut préparer des repas adaptés au diabète au Cameroun ?",
-          "en": "Can a caregiver prepare diabetic-friendly meals for an elderly patient in Cameroon?"
+          "fr": "Est-ce que le suivi des maladies chroniques à domicile peut remplacer les consultations à l'hôpital ?",
+          "en": "Can home-based chronic disease monitoring replace hospital consultations?"
         },
         "answer": {
-          "fr": "Oui. Un garde-malade qualifié peut adapter les repas traditionnels camerounais aux exigences d'un régime diabétique : réduire le riz blanc, le bâton de manioc et les sucres rapides, et privilégier les légumes, les légumineuses et les protéines. Cette adaptation culinaire fait partie du suivi global et est possible avec les recommandations du médecin traitant ou d'une diététicienne. C'est un élément clé de la prise en charge à domicile.",
-          "en": "Yes. A well-trained caregiver can adapt traditional Cameroonian meals to diabetic dietary requirements — reducing white rice, starchy staples and fast sugars while increasing vegetables, legumes and protein. This dietary support is part of the overall home care package and is guided by the treating physician or nutritionist. It's one of the most impactful things a caregiver can do for a diabetic patient's day-to-day wellbeing."
+          "fr": "Non. Le suivi à domicile complète les consultations médicales, il ne les remplace pas. Un garde-malade ou une infirmière à domicile assure la surveillance quotidienne et l'observance du traitement. Mais les bilans biologiques, les ajustements de traitement et les consultations spécialisées restent indispensables à l'Hôpital Général de Douala, au CHU de Yaoundé ou dans une clinique agréée. Les deux approches sont complémentaires.",
+          "en": "No. Home monitoring complements medical consultations — it doesn't replace them. A caregiver handles daily monitoring and medication adherence. But blood tests, treatment adjustments, and specialist reviews still need to happen at a facility like the Hôpital Général de Douala or CHU de Yaoundé. Both approaches work best together."
         }
       }
     ],
     "conclusion": {
-      "fr": "<p>Prendre en charge les maladies chroniques d'un parent âgé au Cameroun — diabète, hypertension, séquelles d'AVC — est un marathon, pas un sprint. On est ensemble dans cette démarche. Que tu sois à Douala, à Yaoundé, ou que tu gères tout depuis la France ou le Canada, l'essentiel est d'avoir le bon dispositif en place : un garde-malade formé, un suivi médical régulier, et une communication fluide avec toute la famille.</p><p>GardeMalade Cameroun accompagne des dizaines de familles dans cette situation chaque mois. Nos auxiliaires de vie interviennent à domicile à Douala et à Yaoundé, avec une expertise spécifique dans le suivi des maladies chroniques des personnes âgées. Les frais sont transparents, les paiements possibles via Orange Money ou MTN MoMo, et l'organisation peut se faire entièrement à distance.</p><p>Ne laisse pas la distance ou le manque d'information te freiner. <a href=\"/contact\">Contacte-nous dès aujourd'hui</a> pour une évaluation gratuite des besoins de ton parent — nous te proposerons un profil adapté à sa situation, à ses pathologies et à votre budget.</p>",
-      "en": "<p>Managing chronic illness in elderly parents in Cameroon is a long-term commitment — and it's one that no family should have to navigate alone. Whether your parent is living with diabetes, hypertension, or recovering from a stroke, having the right support system in place makes an enormous difference to their safety, their quality of life, and your peace of mind.</p><p>GardeMalade Cameroun works with families across Douala and Yaoundé — and with many more in the diaspora — to put that support in place. Our caregivers are screened for chronic illness experience, deployed where you need them, and set up to communicate with you regularly from day one. Payments via Orange Money or MTN MoMo keep things simple, wherever you are in the world.</p><p>You don't have to figure this out alone. <a href=\"/contact\">Reach out to us today</a> for a free assessment — we'll match your parent with the right caregiver based on their specific medical needs and your family's situation.</p>"
+      "fr": "<p>Prendre en charge les <strong>maladies chroniques d'un parent âgé au Cameroun</strong> — diabète, hypertension, séquelles d'AVC — c'est un engagement qui ne s'improvise pas. Entre les consultations à l'Hôpital Général de Douala ou au CHU de Yaoundé, les médicaments à gérer, et la surveillance quotidienne à assurer, les familles ont besoin d'un appui concret et fiable. Un garde-malade ou une infirmière à domicile qualifiée, c'est ce soutien professionnel qui fait la différence entre une situation maîtrisée et une complication évitable.</p><p>Que vous soyez sur place ou à l'étranger, vous n'avez pas à gérer ça seul. <strong>On est ensemble.</strong> Notre équipe est disponible pour évaluer la situation de votre parent, vous proposer le profil de soignant adapté, et mettre en place un suivi régulier avec des comptes-rendus partagés avec vous. <a href=\"/contact\">Contactez-nous dès aujourd'hui</a> pour une évaluation gratuite — sans engagement, et avec toute la bienveillance que cette situation mérite.</p>",
+      "en": "<p>Managing <strong>chronic illness in an elderly parent in Cameroon</strong> — diabetes, hypertension, post-stroke recovery — is not something a family should have to navigate alone. Between hospital appointments at the Hôpital Général de Douala or Yaoundé Central Hospital, daily medication management, and round-the-clock monitoring, the demands are real and relentless.</p><p>Whether you're based in Cameroon or coordinating care from abroad, a trained, vetted caregiver makes an enormous difference — not just for your parent's health, but for your own peace of mind. Our team can assess your parent's situation, match them with the right caregiver profile, and ensure you receive regular updates no matter where you are. <a href=\"/contact\">Get in touch today</a> for a free, no-obligation assessment. We're here to help.</p>"
     },
     "cta": {
       "text": {
@@ -207,89 +207,94 @@
     {
       "title": "Profil sanitaire analytique 2016 Cameroun",
       "url": "https://www.afro.who.int/sites/default/files/2017-07/Profil%20sanitaire_Cameroun_2016_%20FRENCH.pdf",
-      "org": "OMS / Bureau régional pour l'Afrique"
+      "org": "OMS / Bureau régional Afrique"
     },
     {
-      "title": "Assessment of healthcare financing by older adults during routine consultations in Cameroon",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13108730",
-      "org": "PubMed Central (PMC)"
+      "title": "Geriatric syndromes in an urban elderly population in Cameroon: a focus on disability, sarcopenia and cognitive impairment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7821796",
+      "org": "PubMed Central / Hôpital Central de Yaoundé"
     },
     {
       "title": "Des soins de santé spécialisés plus proches des populations au Cameroun",
       "url": "https://www.afro.who.int/fr/countries/cameroon/news/des-soins-de-sante-specialises-plus-proches-des-populations-au-cameroun",
-      "org": "OMS / Bureau régional pour l'Afrique"
+      "org": "OMS / Bureau régional Afrique"
     },
     {
-      "title": "Specialized services for severe chronic diseases now closer to communities in Cameroon",
-      "url": "https://www.afro.who.int/countries/cameroon/news/specialized-services-severe-chronic-diseases-now-closer-communities-cameroon",
-      "org": "WHO / Regional Office for Africa"
+      "title": "Santé publique : Le Cameroun déploie la stratégie PEN-Plus pour contrer les maladies chroniques",
+      "url": "https://www.minsante.cm/site?q=en%2Fnode%2F5326",
+      "org": "Ministère de la Santé Publique du Cameroun (MINSANTE)"
+    },
+    {
+      "title": "Novartis Access et le gouvernement du Cameroun signent un accord-cadre pour combattre les maladies chroniques",
+      "url": "https://www.minsante.cm/site?q=fr%2Fcontent%2Fnovartis-access-et-le-gouvernement-du-cameroun-signent-un-accord-cadre-pour-combattre-les",
+      "org": "Ministère de la Santé Publique du Cameroun (MINSANTE)"
     }
   ],
   "related": [
     "prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique",
     "rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot",
-    "assurance-maladie-et-couverture-sante-au-cameroun-tout-comprendre-pour-votre-fam"
+    "payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon"
   ],
   "schema": {
     "faq_items": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade pour maladies chroniques au Cameroun ?",
-          "en": "How much does a caregiver for chronic illness cost in Cameroon?"
+          "fr": "Combien coûte un garde-malade pour diabétique ou hypertendu à Douala ou Yaoundé ?",
+          "en": "How much does a caregiver for a diabetic or hypertensive patient cost in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Le coût d'un garde-malade spécialisé dans les maladies chroniques varie généralement entre 60 000 et 150 000 FCFA par mois pour une présence de jour, selon le niveau de qualification et les soins requis. Pour une présence nocturne uniquement, comptez entre 15 000 et 25 000 FCFA par nuit. Ces tarifs peuvent être réglés via Orange Money ou MTN MoMo, y compris depuis l'étranger.",
-          "en": "A caregiver specialised in chronic illness management in Cameroon typically costs between 60,000 and 150,000 CFA francs per month for daytime care, depending on qualifications and care intensity. Night shifts alone run between 15,000 and 25,000 CFA francs per night. Payment can be arranged via Orange Money or MTN MoMo from abroad, making it accessible for diaspora families."
+          "fr": "Un garde-malade qualifié avec expérience en maladies chroniques coûte généralement entre 80 000 et 150 000 FCFA par mois pour une présence quotidienne à Douala ou Yaoundé. Le tarif varie selon le nombre d'heures, le niveau de qualification (aide-soignant vs infirmier diplômé) et les actes requis (injections, contrôle glycémique, etc.). Pour une présence de nuit uniquement, comptez entre 20 000 et 35 000 FCFA par nuit.",
+          "en": "A qualified caregiver experienced in chronic disease management in Douala or Yaoundé typically costs between 80,000 and 150,000 CFA francs per month for daily care. The rate varies based on hours, qualifications (certified nurse aide vs. registered nurse), and specific tasks required. For overnight-only care, expect to pay between 20,000 and 35,000 CFA francs per night."
         }
       },
       {
         "question": {
-          "fr": "Comment trouver un garde-malade qualifié en diabétologie à Douala ou Yaoundé ?",
-          "en": "How do I find a caregiver trained in diabetes care in Douala or Yaoundé?"
+          "fr": "Comment trouver un garde-malade fiable pour un parent diabétique à Douala ou Yaoundé ?",
+          "en": "How do I find a reliable caregiver for a diabetic elderly parent in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Pour trouver un garde-malade qualifié dans la gestion du diabète à Douala ou Yaoundé, il faut vérifier trois éléments : un diplôme en soins infirmiers ou aide-soignance, une expérience pratique avec des patients diabétiques, et la capacité à communiquer les constantes quotidiennes à la famille. GardeMalade Cameroun sélectionne ses auxiliaires selon ces critères et les déploie dans les quartiers de Bonapriso, Makepe, Nlongkak et Biyem-Assi.",
-          "en": "To find a qualified diabetes care caregiver in Douala or Yaoundé, check for three things: a formal nursing or care assistant diploma, hands-on experience with diabetic patients, and the ability to report daily vitals to the family remotely. GardeMalade Cameroun screens all caregivers specifically for chronic illness experience and covers neighbourhoods across both cities."
+          "fr": "Le meilleur moyen est de passer par un service structuré comme GardeMalade Cameroun, qui vérifie les diplômes, l'expérience et les références de chaque soignant avant de le proposer. Évitez les recrutements uniquement par bouche-à-oreille sans vérification. Demandez toujours un document prouvant une expérience avec les maladies chroniques (diabète, HTA) et posez des questions sur la gestion des urgences.",
+          "en": "The safest approach is to use a structured service like GardeMalade Cameroun, which screens caregivers for qualifications, experience, and references before placement. Avoid unverified word-of-mouth referrals. Always ask for proof of experience with chronic conditions like diabetes and hypertension, and ask how the caregiver handles medical emergencies."
         }
       },
       {
         "question": {
           "fr": "Quelle est la différence entre un garde-malade et une infirmière à domicile pour maladies chroniques ?",
-          "en": "What is the difference between a garde-malade and a home nurse for chronic illness?"
+          "en": "What is the difference between a caregiver and a home nurse for chronic illness?"
         },
         "answer": {
-          "fr": "Un garde-malade assure la présence, la surveillance quotidienne, la gestion du traitement et l'aide aux actes de la vie courante. Une infirmière à domicile réalise des actes médicaux techniques (prise de sang, pansements, injections). Pour un patient diabétique ou hypertendu stable, un garde-malade qualifié est souvent suffisant au quotidien, en complément de consultations régulières chez le médecin. Les deux peuvent être coordonnés selon les besoins.",
-          "en": "A garde-malade provides daily presence, vital signs monitoring, medication management and help with daily living. A home nurse performs clinical procedures such as blood draws, wound care or injections. For a stable diabetic or hypertensive patient, a trained caregiver is often sufficient day-to-day, alongside regular doctor consultations. Both roles can be combined depending on the patient's needs."
+          "fr": "Un garde-malade assure la présence quotidienne, surveille l'état général, gère les médicaments et accompagne le patient. Une infirmière à domicile peut réaliser des actes médicaux techniques : injections, soins de plaies, perfusions. Pour un diabétique stable ou un hypertendu bien équilibré, un aide-soignant qualifié suffit souvent. Pour un patient post-AVC avec complications ou nécessitant des soins techniques, une infirmière est recommandée.",
+          "en": "A caregiver provides daily presence, general monitoring, medication management, and companionship. A home nurse can perform clinical procedures: injections, wound care, IV administration. For a stable diabetic or well-controlled hypertensive patient, a qualified care aide is often sufficient. For post-stroke patients with complications or those requiring clinical procedures, a registered nurse is recommended."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser un suivi de maladies chroniques depuis la France ou le Canada ?",
-          "en": "Can I arrange chronic illness home care in Cameroon from France, Canada or the UK?"
+          "fr": "Est-ce possible d'organiser des soins à domicile pour un parent malade au Cameroun depuis la France ou le Canada ?",
+          "en": "Can I arrange home care for an elderly parent in Cameroon from France, Canada or the UK?"
         },
         "answer": {
-          "fr": "Oui, tout à fait. De nombreuses familles de la diaspora organisent le suivi de leur parent âgé au Cameroun depuis l'étranger. Il est possible de passer contrat à distance, de recevoir des rapports quotidiens via WhatsApp, et de régler les prestations par Orange Money ou MTN MoMo depuis la France, le Canada ou la Belgique. GardeMalade Cameroun accompagne régulièrement des familles dans cette situation.",
-          "en": "Absolutely. Many diaspora families manage the chronic illness care of their elderly parents in Cameroon entirely from abroad. You can sign a care agreement remotely, receive daily monitoring reports via WhatsApp, and pay via Orange Money or MTN MoMo from France, Canada or the UK. GardeMalade Cameroun regularly supports families in this exact situation — contact us to discuss your parent's needs."
+          "fr": "Oui, tout à fait. De nombreuses familles de la diaspora organisent les soins à distance via WhatsApp et paient via Orange Money ou MTN MoMo. GardeMalade Cameroun propose une évaluation par téléphone ou vidéo, le recrutement du soignant adapté, et des rapports réguliers envoyés à la famille à l'étranger. Vous pouvez nous contacter directement pour démarrer le processus sans avoir à rentrer au Cameroun.",
+          "en": "Yes, absolutely. Many diaspora families coordinate care entirely remotely using WhatsApp and pay via Orange Money or MTN MoMo. GardeMalade Cameroun offers phone and video consultations, caregiver matching, and regular updates sent directly to family members abroad. You can contact us to start the process without needing to travel to Cameroon first."
         }
       },
       {
         "question": {
-          "fr": "Quels sont les premiers signes d'AVC à surveiller chez une personne âgée à domicile ?",
-          "en": "What are the first stroke warning signs to watch for in an elderly person at home?"
+          "fr": "Quels signes d'alerte surveiller chez un parent âgé hypertendu ou diabétique à domicile ?",
+          "en": "What warning signs should a caregiver watch for in an elderly patient with hypertension or diabetes?"
         },
         "answer": {
-          "fr": "Les premiers signes d'AVC se résument par le principe FAST : visage qui s'affaisse d'un côté, bras qui ne peut pas rester levé, parole difficile ou incompréhensible, et nécessité d'agir immédiatement. En cas de suspicion d'AVC, il faut appeler le SAMU ou se rendre aux urgences de l'Hôpital Général de Douala ou de l'Hôpital Central de Yaoundé sans perdre de temps. Un garde-malade formé sait reconnaître ces signes.",
-          "en": "The key stroke warning signs follow the FAST principle: Face drooping on one side, Arm weakness (unable to raise both arms), Speech difficulty or slurred words, and Time to call for emergency help immediately. In Cameroon, head straight to the emergency room at Hôpital Général de Douala or Hôpital Central de Yaoundé. A trained garde-malade will recognise these signs and act without hesitation."
+          "fr": "Pour l'hypertension : maux de tête soudains et intenses, vision floue, confusion, douleur thoracique. Pour le diabète : transpiration excessive, tremblements, confusion (hypoglycémie) ou soif intense, urines fréquentes, fatigue inhabituelle (hyperglycémie). Après un AVC : perte soudaine de force d'un côté, troubles de la parole ou de la vision. Tout signe anormal doit conduire à contacter immédiatement le médecin ou à se rendre à l'hôpital.",
+          "en": "For hypertension: sudden severe headache, blurred vision, chest pain, confusion. For diabetes: excessive sweating, trembling, confusion (low blood sugar) or intense thirst, frequent urination, unusual fatigue (high blood sugar). After a stroke: sudden weakness on one side, speech or vision disturbances. Any abnormal sign should trigger an immediate call to the doctor or a trip to the nearest hospital."
         }
       },
       {
         "question": {
-          "fr": "Est-ce qu'un garde-malade peut préparer des repas adaptés au diabète au Cameroun ?",
-          "en": "Can a caregiver prepare diabetic-friendly meals for an elderly patient in Cameroon?"
+          "fr": "Est-ce que le suivi des maladies chroniques à domicile peut remplacer les consultations à l'hôpital ?",
+          "en": "Can home-based chronic disease monitoring replace hospital consultations?"
         },
         "answer": {
-          "fr": "Oui. Un garde-malade qualifié peut adapter les repas traditionnels camerounais aux exigences d'un régime diabétique : réduire le riz blanc, le bâton de manioc et les sucres rapides, et privilégier les légumes, les légumineuses et les protéines. Cette adaptation culinaire fait partie du suivi global et est possible avec les recommandations du médecin traitant ou d'une diététicienne. C'est un élément clé de la prise en charge à domicile.",
-          "en": "Yes. A well-trained caregiver can adapt traditional Cameroonian meals to diabetic dietary requirements — reducing white rice, starchy staples and fast sugars while increasing vegetables, legumes and protein. This dietary support is part of the overall home care package and is guided by the treating physician or nutritionist. It's one of the most impactful things a caregiver can do for a diabetic patient's day-to-day wellbeing."
+          "fr": "Non. Le suivi à domicile complète les consultations médicales, il ne les remplace pas. Un garde-malade ou une infirmière à domicile assure la surveillance quotidienne et l'observance du traitement. Mais les bilans biologiques, les ajustements de traitement et les consultations spécialisées restent indispensables à l'Hôpital Général de Douala, au CHU de Yaoundé ou dans une clinique agréée. Les deux approches sont complémentaires.",
+          "en": "No. Home monitoring complements medical consultations — it doesn't replace them. A caregiver handles daily monitoring and medication adherence. But blood tests, treatment adjustments, and specialist reviews still need to happen at a facility like the Hôpital Général de Douala or CHU de Yaoundé. Both approaches work best together."
         }
       }
     ]
