@@ -1,14 +1,14 @@
 {
   "meta": {
     "slug": "soins-post-operatoires-a-domicile-au-cameroun-ce-que-votre-garde-malade-doit-sav",
-    "date": "2026-09-15",
+    "date": "2026-11-13",
     "title": {
       "fr": "Soins post-opératoires domicile Cameroun : guide garde-malade",
-      "en": "Post-operative home care Cameroon: what your caregiver must know"
+      "en": "Post-operative home care Cameroon: your caregiver guide"
     },
     "description": {
-      "fr": "Soins post-opératoires domicile Cameroun : découvrez les compétences indispensables d'un bon garde-malade après une opération. Nos conseils.",
-      "en": "Post-operative home care Cameroon: discover the essential skills your caregiver must have after surgery. Everything you need to know."
+      "fr": "Soins post-opératoires domicile Cameroun : découvrez ce que votre garde-malade doit savoir faire pour une convalescence sûre. Nos conseils.",
+      "en": "Post-operative home care Cameroon: know exactly what your caregiver must do for a safe recovery at home. Everything you need to know."
     },
     "focus_keyword": {
       "fr": "soins post-opératoires domicile Cameroun",
@@ -16,28 +16,28 @@
     },
     "secondary_keywords": {
       "fr": [
-        "garde-malade après opération",
-        "infirmier à domicile Douala Yaoundé"
+        "garde-malade post-opératoire",
+        "convalescence à domicile Cameroun"
       ],
       "en": [
-        "caregiver after surgery Cameroon",
-        "home nurse Douala Yaoundé"
+        "home caregiver after surgery",
+        "post-surgery recovery Cameroon"
       ]
     },
-    "reading_time": 14,
+    "reading_time": 16,
     "category": "guide_pratique",
     "tags": [
       "garde-malade",
       "cameroun",
       "soins post-opératoires",
-      "infirmier domicile",
-      "convalescence"
+      "convalescence",
+      "domicile"
     ],
     "internal_links": [
       {
         "href": "/services#garde",
         "text": {
-          "fr": "notre service garde-malade",
+          "fr": "notre service de garde-malade",
           "en": "our caregiver service"
         }
       },
@@ -49,10 +49,17 @@
         }
       },
       {
-        "href": "/blog/comment-choisir-un-garde-malade-fiable-au-cameroun-7-criteres-essentiels",
+        "href": "/blog/contrat-de-garde-malade-au-cameroun-pourquoi-c-est-important-et-que-doit-il-cont",
         "text": {
-          "fr": "comment choisir un garde-malade fiable",
-          "en": "how to choose a reliable caregiver"
+          "fr": "contrat de garde-malade",
+          "en": "caregiver contract"
+        }
+      },
+      {
+        "href": "/blog/payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon",
+        "text": {
+          "fr": "payer les soins à domicile depuis l'étranger",
+          "en": "paying for home care from abroad"
         }
       }
     ]
@@ -60,62 +67,62 @@
   "hero": {
     "src": "/blog/images/soins-post-operatoires-a-domicile-au-cameroun-ce-que-votre-garde-malade-doit-sav.jpg",
     "alt": {
-      "fr": "Infirmier garde-malade effectuant des soins post-opératoires à domicile au Cameroun, à Douala",
-      "en": "Home nurse providing post-operative home care in Cameroon, Douala residence"
+      "fr": "Garde-malade effectuant des soins post-opératoires à domicile au Cameroun auprès d'un patient convalescent",
+      "en": "Caregiver providing post-operative home care in Cameroon to a recovering patient at home"
     },
     "photographer": "Nappy",
     "photographer_url": "https://unsplash.com/@nappystudio?utm_source=gardemalade&utm_medium=referral",
-    "photo_url": "https://unsplash.com/photos/a-person-with-a-watch-L49EurN59S8?utm_source=gardemalade&utm_medium=referral",
-    "unsplash_id": "L49EurN59S8"
+    "photo_url": "https://unsplash.com/photos/a-persons-hand-on-a-piece-of-paper-with-a-watch-on-it-AOSw0zLjtQA?utm_source=gardemalade&utm_medium=referral",
+    "unsplash_id": "AOSw0zLjtQA"
   },
   "body_images": [],
   "content": {
     "chapeau": {
-      "fr": "Les soins post-opératoires à domicile au Cameroun, ce n'est pas quelque chose qu'on improvise — surtout quand votre proche rentre de l'Hôpital Général de Douala ou du CHU de Yaoundé après une intervention chirurgicale. Trouver un garde-malade après opération qui sait vraiment ce qu'il fait, c'est la différence entre une convalescence sereine et des complications évitables. Ce guide vous dit exactement ce que votre garde-malade doit maîtriser.",
-      "en": "When a family member comes home after surgery at a Cameroonian hospital, the real work begins. Post-operative home care in Cameroon is not something you leave to chance — especially if you're managing things from abroad. Knowing exactly what skills your caregiver must have can mean the difference between a smooth recovery and a dangerous setback. Here is what you need to know."
+      "fr": "Votre proche vient de se faire opérer à l'Hôpital Général de Douala ou au CHU de Yaoundé, et il rentre à la maison dans 24 ou 48 heures — les soins post-opératoires à domicile au Cameroun commencent dès ce moment-là. Trouver un garde-malade compétent pour assurer la convalescence à domicile, ce n'est pas chose facile, surtout quand on ne sait pas exactement ce qu'il doit savoir faire. Cet article vous donne les clés concrètes pour choisir le bon professionnel et éviter les complications après une opération.",
+      "en": "Your loved one has just had surgery at the Hôpital Général de Douala or the CHU de Yaoundé, and they're heading home within a day or two — post-operative home care in Cameroon starts the moment they walk through that door. Whether you're in Cameroon or managing things from the UK, the USA, or Canada, knowing what your caregiver must actually be able to do is what stands between a smooth recovery and a dangerous complication. This guide gives you exactly that: the practical knowledge to hire right and care well."
     },
     "sections": [
       {
         "heading": {
-          "fr": "Pourquoi les soins post-opératoires à domicile au Cameroun exigent des compétences précises",
-          "en": "Why post-operative home care in Cameroon demands specific skills"
+          "fr": "Soins post-opératoires domicile Cameroun : pourquoi c'est différent de la garde ordinaire",
+          "en": "Post-operative home care Cameroon: why it's different from regular caregiving"
         },
         "body": {
-          "fr": "<p>Je ne vais pas te mentir : après une opération, les premières 48 à 72 heures à la maison sont souvent les plus délicates. Les hôpitaux comme l'Hôpital Laquintinie de Douala ou l'Hôpital Central de Yaoundé sortent les patients assez rapidement, et c'est là que la famille se retrouve seule face à des pansements à changer, des médicaments à gérer et des signes d'alerte à surveiller.</p><p>Un bon garde-malade après opération n'est pas simplement quelqu'un qui tient compagnie. Il doit connaître les bases des <strong>soins de plaie opératoire</strong> : reconnaître une cicatrice qui s'infecte (rougeur anormale, écoulement, mauvaise odeur, fièvre supérieure à 38 °C), effectuer un pansement propre selon les consignes du chirurgien, et surveiller les signes vitaux — pouls, température, pression artérielle — au minimum deux fois par jour.</p><p>Il doit aussi être capable de gérer les médicaments prescrits : respecter les horaires, identifier les effets indésirables courants comme les nausées post-anesthésie ou la constipation liée aux antidouleurs, et ne jamais modifier une dose de sa propre initiative. C'est pour cela que <a href=\"/services#garde\">notre service garde-malade</a> sélectionne uniquement des personnels formés à ces protocoles essentiels.</p><p>Une étude publiée sur PMC portant sur des patients chirurgicaux camerounais a documenté un taux de complications post-opératoires non négligeable, confirmant que la surveillance à domicile après une opération n'est pas optionnelle — elle est critique.</p>",
-          "en": "<p>Here is the reality: in Cameroon, hospitals discharge patients relatively quickly after surgery. Whether your loved one has been operated on at the Hôpital Général de Douala or the CHU de Yaoundé, they are often sent home within days — sometimes with a wound still healing, drainage tubes still in place, or a complex medication schedule to follow.</p><p>A caregiver who simply sits by the bedside is not enough. <strong>Post-operative home care in Cameroon</strong> requires someone who can perform proper wound dressing changes, spot early signs of infection (unusual redness, discharge, fever above 38°C), and monitor vital signs at least twice a day — pulse, temperature, and blood pressure.</p><p>Medication management is equally critical. Your caregiver must follow the surgeon's prescription to the letter: the right dose, at the right time, watching for side effects like post-anaesthesia nausea or pain-medication-induced constipation. They should never adjust dosages on their own initiative. That is why <a href=\"/services#garde\">our caregiver service</a> only places staff who have been specifically trained in these protocols.</p><p>A PMC-published study on post-operative complications in Cameroonian hospitals confirmed that complication rates are a documented reality in the local context, making rigorous home monitoring after surgery not a luxury but a necessity.</p>"
+          "fr": "<p>Un patient qui sort du bloc opératoire n'est pas simplement un malade qui a besoin de compagnie. Il a une plaie chirurgicale, souvent un drainage, parfois une sonde, et son corps est encore sous l'effet de l'anesthésie et des antibiotiques. Les <strong>soins post-opératoires à domicile au Cameroun</strong> exigent donc un garde-malade qui possède des compétences techniques réelles — pas seulement de la bonne volonté.</p><p>Tu sais, ici au Cameroun, beaucoup de familles font appel à un voisin ou à un membre de la famille éloignée pour s'occuper du convalescent. Cette solidarité est belle, mais elle peut devenir dangereuse si personne ne sait reconnaître les signes d'infection d'une plaie ou gérer correctement une perfusion. Les risques les plus fréquents après une opération à domicile sont : l'infection du site opératoire, les escarres liées à l'immobilité, la thrombose veineuse profonde et la déshydratation.</p><p>Via <a href=\"/services#garde\">notre service de garde-malade</a>, nous sélectionnons uniquement des professionnels formés aux soins post-opératoires — infirmiers diplômés ou auxiliaires de vie avec expérience clinique. Ce n'est pas le même profil qu'une simple dame de compagnie. La différence peut littéralement sauver une vie. Que votre proche rentre de la Polyclinique Bonanjo à Douala ou de l'Hôpital Central de Yaoundé, le niveau d'exigence doit être identique.</p><p>Côté durée, une convalescence post-opératoire surveillée à domicile dure généralement entre <strong>7 et 21 jours</strong> selon le type d'intervention. Pendant cette période, la présence d'un garde-malade qualifié est souvent indispensable, en particulier les 72 premières heures qui suivent la sortie du bloc.</p>",
+          "en": "<p>A patient leaving the operating theatre isn't simply someone who needs company. They have a surgical wound, often a drain, sometimes a catheter, and their body is still metabolising anaesthesia and antibiotics. <strong>Post-operative home care in Cameroon</strong> therefore requires a caregiver with genuine technical skills — not just goodwill and availability.</p><p>Many families in Cameroon rely on a neighbour or a distant relative to look after a recovering patient. That instinct for solidarity is admirable, but it can become dangerous when nobody knows how to spot a wound infection or manage a drip correctly. The most common post-operative risks at home include surgical site infection, pressure sores from immobility, deep vein thrombosis, and dehydration.</p><p>Through <a href=\"/services#garde\">our caregiver service</a>, we only place professionals trained in post-operative care — qualified nurses or experienced auxiliary caregivers with clinical backgrounds. This is a different profile entirely from a companion or house helper. That distinction can literally save a life, whether your loved one is recovering in Bonapriso, Douala, or Nlongkak, Yaoundé.</p><p>In terms of duration, a supervised post-operative convalescence at home typically runs between <strong>7 and 21 days</strong> depending on the type of surgery. During this window, a qualified caregiver is often essential, particularly in the first 72 hours after discharge.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Les soins post-opératoires domicile Cameroun : compétences concrètes à exiger de votre garde-malade",
-          "en": "Post-operative home care Cameroon: the concrete skills to demand from your caregiver"
+          "fr": "Ce que votre garde-malade doit savoir faire concrètement pour les soins post-opératoires à domicile",
+          "en": "What your caregiver must concretely know how to do for post-operative home care"
         },
         "body": {
-          "fr": "<p>Prenons l'exemple de Hervé Tchamba, 68 ans, qui habite à Akwa, à Douala. Il vient de subir une opération de la prostate à la Polyclinique Bonanjo. Sa fille Cécile est rentrée du mboa depuis Paris pour l'aider, mais elle repart dans trois semaines. La question qui se pose : qui va prendre le relais avec les compétences nécessaires ?</p><p>Ce que Cécile a exigé du garde-malade embauché via GardeMalade Cameroun, c'est une liste précise de savoir-faire :</p><ul><li><strong>Soins de plaie et pansements</strong> : technique propre, utilisation de matériel stérile, respect des consignes post-opératoires écrites par le chirurgien</li><li><strong>Mobilisation douce</strong> : aider le patient à se lever, marcher les premiers jours sans forcer la cicatrice, prévenir les escarres si la mobilité est réduite</li><li><strong>Gestion de la douleur et des médicaments</strong> : respecter les horaires, noter les prises dans un carnet, alerter si la douleur s'intensifie malgré le traitement</li><li><strong>Surveillance nutritionnelle</strong> : s'assurer que le patient mange correctement — certains régimes post-opératoires sont spécifiques (aliments mous, hydratation suffisante)</li><li><strong>Communication avec l'équipe médicale</strong> : savoir quand appeler le médecin traitant ou retourner à l'hôpital en urgence</li></ul><p>La famille, c'est sacré — mais tout le monde ne peut pas être présent 24h/24. Un garde-malade qualifié, c'est l'extension de votre présence auprès du patient. Pour savoir comment évaluer ces compétences avant l'embauche, lisez notre article sur <a href=\"/blog/comment-choisir-un-garde-malade-fiable-au-cameroun-7-criteres-essentiels\">comment choisir un garde-malade fiable au Cameroun</a>.</p>",
-          "en": "<p>Take Hervé Tchamba, 68, from Akwa in Douala. He recently underwent prostate surgery at Polyclinique Bonanjo. His daughter Cécile flew back from Paris to help, but she can only stay three weeks. The real question is: who takes over with the right skills when she leaves?</p><p>What Cécile required from the caregiver placed by GardeMalade Cameroun was a concrete set of competencies — not vague promises of \"good care.\" Here is what she insisted on:</p><ul><li><strong>Wound care and dressing changes</strong>: clean technique, sterile materials, strict adherence to the surgeon's written instructions</li><li><strong>Gentle mobilisation</strong>: helping the patient stand and walk in the early days without straining the incision site, preventing pressure sores if mobility is limited</li><li><strong>Medication management</strong>: following the prescription schedule precisely, keeping a written log of doses taken, and alerting the family if pain increases despite treatment</li><li><strong>Nutritional support</strong>: ensuring the patient follows any dietary restrictions — soft foods, adequate hydration — that are common in the post-operative period</li></ul><p>A skilled caregiver is not a replacement for family — they are an extension of your care when you cannot be physically present. If you are managing this from abroad, read our guide on <a href=\"/blog/comment-choisir-un-garde-malade-fiable-au-cameroun-7-criteres-essentiels\">how to choose a reliable caregiver in Cameroon</a> to know exactly what questions to ask before hiring.</p>"
+          "fr": "<p>Didier Kamga, infirmier à domicile basé à Ngousso (Yaoundé) avec une spécialisation dans les soins post-opératoires, le dit souvent à ses patients : <em>«&nbsp;Le vrai travail commence quand vous quittez l'hôpital.&nbsp;»</em> Et il a raison. Voici ce qu'un garde-malade compétent doit maîtriser après une opération :</p><ul><li><strong>La surveillance de la plaie opératoire</strong> : observer quotidiennement les signes d'infection — rougeur, chaleur, écoulement, fièvre — et changer les pansements selon le protocole remis par le chirurgien.</li><li><strong>La gestion de la douleur</strong> : administrer les médicaments prescrits aux horaires exacts, noter les effets indésirables et alerter le médecin si nécessaire.</li><li><strong>La mobilisation précoce</strong> : aider le patient à se lever progressivement pour éviter les complications de décubitus, en respectant les restrictions de mouvement post-chirurgicales.</li><li><strong>L'alimentation et l'hydratation</strong> : adapter les repas aux prescriptions post-opératoires (régime mou, sans sel, avec ou sans certains aliments selon l'opération).</li><li><strong>La surveillance des constantes</strong> : prise de tension artérielle, de température et de fréquence cardiaque avec les appareils appropriés.</li></ul><p>Prenons le cas d'Hervé Tchamba, 68 ans, opéré d'une hernie inguinale à l'Hôpital Laquintinie. Il rentrait chez lui à Akwa deux jours après l'opération. Sa fille, basée à Paris, avait tout organisé à distance : elle avait fait appel à GardeMalade Cameroun, réglé les premiers jours via <strong>Orange Money</strong>, et son garde-malade était présent dès le lendemain matin de la sortie. Le chirurgien avait laissé un protocole de soins écrit — le garde-malade l'a suivi à la lettre. La cicatrisation s'est passée sans aucune complication.</p><p>Pour en savoir plus sur la formalisation de cette relation professionnelle, lisez notre article sur le <a href=\"/blog/contrat-de-garde-malade-au-cameroun-pourquoi-c-est-important-et-que-doit-il-cont\">contrat de garde-malade au Cameroun</a> — c'est un document qui protège à la fois la famille et le soignant.</p>",
+          "en": "<p>Didier Kamga, a home nurse based in Ngousso, Yaoundé, who specialises in post-operative care, often tells his patients: <em>«&nbsp;The real work starts when you leave the hospital.&nbsp;»</em> He's right. Here is what a competent caregiver must know how to do after surgery:</p><ul><li><strong>Wound monitoring</strong>: checking daily for signs of infection — redness, warmth, discharge, fever — and changing dressings according to the surgeon's protocol.</li><li><strong>Pain management</strong>: administering prescribed medications at the correct times, logging any side effects, and alerting the doctor when needed.</li><li><strong>Early mobilisation</strong>: helping the patient get up gradually to prevent complications from prolonged bed rest, while respecting any post-surgical movement restrictions.</li><li><strong>Nutrition and hydration</strong>: adapting meals to post-operative prescriptions — soft diet, low-sodium, with or without specific foods depending on the surgery performed.</li><li><strong>Vital signs monitoring</strong>: taking blood pressure, temperature, and pulse with appropriate equipment at regular intervals.</li></ul><p>Take the real-world example of Hervé Tchamba, 68, who had an inguinal hernia repair at Hôpital Laquintinie and went home to Akwa, Douala, two days later. His daughter in Paris organised everything remotely — she contacted GardeMalade Cameroun, paid for the first few days via <strong>Orange Money</strong>, and a trained caregiver was at her father's door the morning after discharge. The surgeon had left a written care protocol. The caregiver followed it precisely. Healing was uneventful.</p><p>If you're coordinating care from overseas, our detailed guide on <a href=\"/blog/payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon\">paying for home care in Cameroon from abroad</a> walks you through every step of the process.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Organisation pratique et tarifs : comment mettre en place les soins à domicile après une opération",
-          "en": "Practical setup and costs: how to arrange home care after surgery in Cameroon"
+          "fr": "Soins post-opératoires domicile Cameroun : comment organiser et combien ça coûte",
+          "en": "Post-operative home care Cameroon: how to organise it and what it costs"
         },
         "body": {
-          "fr": "<p>Tu sais, ici au Cameroun, organiser les soins post-opératoires à domicile demande un peu de méthode. Voici comment procéder concrètement, que vous soyez sur place à Yaoundé ou que vous gériez tout depuis l'étranger.</p><p>En termes de <strong>tarifs</strong>, un garde-malade qualifié pour des soins post-opératoires à domicile se situe généralement entre <strong>20 000 et 45 000 FCFA par jour</strong> selon le niveau de compétence requis, la durée de présence (jour uniquement ou nuit incluse) et la complexité des soins. Un infirmier à domicile spécialisé en soins post-opératoires peut coûter davantage, entre <strong>35 000 et 60 000 FCFA par intervention</strong> si les soins sont ponctuels. Ces fourchettes sont réalistes pour Douala et Yaoundé en 2026.</p><p>Pour le paiement, la plupart des familles utilisent <strong>Orange Money ou MTN MoMo</strong> — pratique si vous coordonnez depuis la France, le Canada ou le Royaume-Uni. Vous transférez, et nous gérons le reste.</p><p>Voici les étapes recommandées pour une mise en place rapide :</p><ul><li>Contacter GardeMalade Cameroun dès que la date d'opération est connue (idéalement 5 à 7 jours à l'avance)</li><li>Transmettre le compte-rendu opératoire et les consignes du chirurgien dès la sortie de l'hôpital</li><li>Définir les horaires de présence : jour uniquement (7h-19h), nuit (19h-7h) ou 24h/24</li></ul><p>Pour organiser rapidement la prise en charge de votre proche, <a href=\"/contact\">contactez-nous directement</a> — on vous répond dans la journée et on s'adapte à votre situation.</p>",
-          "en": "<p>Whether you are in Yaoundé managing everything hands-on, or organising care remotely from London or Toronto, setting up post-operative home care in Cameroon follows the same practical steps — and it is more accessible than many families realise.</p><p>In terms of <strong>costs</strong>, a qualified caregiver for post-operative home care in Cameroon typically ranges from <strong>20,000 to 45,000 CFA francs per day</strong>, depending on the level of skill required, the hours of presence (daytime only or overnight), and the complexity of the care involved. A specialised home nurse for wound care and vital sign monitoring may cost between <strong>35,000 and 60,000 CFA francs per visit</strong> if care is provided on a scheduled-visit basis. These figures reflect Douala and Yaoundé market rates in 2026.</p><p>For families in the diaspora, payment is straightforward: <strong>Orange Money and MTN MoMo</strong> are both accepted, making it easy to transfer funds from abroad without the delays of international bank transfers.</p><p>The process is simple: contact us as soon as you know the surgery date — ideally five to seven days in advance. Share the surgeon's post-operative instructions when your loved one is discharged, and tell us the hours of coverage you need. We will match you with the right caregiver for the situation. To get started, <a href=\"/contact\">reach out to us directly</a> — we respond the same day and work around your schedule and your loved one's needs.</p>"
+          "fr": "<p>Je ne vais pas te mentir, l'organisation des soins post-opératoires à domicile demande de l'anticipation. Idéalement, vous prenez contact avec l'agence ou l'infirmier <strong>avant</strong> la date d'opération, pas le soir de la sortie du bloc quand tout le monde est épuisé et stressé.</p><h3>Les étapes pour bien organiser</h3><p>Commencez par obtenir du chirurgien un document écrit précisant : le type de pansement à faire, la fréquence des changements, les médicaments et leurs horaires, les signes d'alarme qui nécessitent de rappeler l'hôpital. Ce document, remettez-le à votre garde-malade dès le premier jour.</p><p>Ensuite, préparez l'espace de vie : un lit accessible, une chaise pour faciliter les transferts, une bonne ventilation (surtout dans les quartiers chauds comme Makepe ou Logbessou à Douala), et les fournitures de base — compresses stériles, antiseptiques, thermomètre, tensiomètre.</p><h3>Côté budget, à quoi s'attendre ?</h3><p>Pour un garde-malade infirmier qualifié spécialisé en soins post-opératoires, les tarifs à Douala et Yaoundé se situent généralement entre <strong>15 000 et 35 000 FCFA par jour</strong>, selon l'expérience du professionnel, la complexité des soins requis et si la présence est partielle (8 heures) ou de 24h/24. Avec la vie chère qui ne baisse pas, les familles cherchent souvent à négocier à la baisse — mais sur la compétence médicale, ce n'est pas là où il faut économiser.</p><p>Pour les familles de la diaspora qui gèrent tout à distance, le paiement se fait très facilement via <strong>MTN MoMo</strong> ou <strong>Orange Money</strong>. Vous pouvez aussi utiliser un virement bancaire international. Pour tous les détails pratiques, <a href=\"/contact\">contactez-nous directement</a> — nous vous accompagnons étape par étape, depuis la mise en place du profil de soins jusqu'à la sélection du bon professionnel.</p>",
+          "en": "<p>Organising post-operative home care in Cameroon requires planning — ideally before the operation date, not the evening your loved one is discharged and everyone is exhausted. Here's how to do it properly.</p><h3>Steps to get organised</h3><p>Start by getting a written care plan from the surgeon: type of dressing required, how often to change it, medications and schedules, and the warning signs that mean you need to call the hospital immediately. Hand this document to your caregiver on day one — it is their operating manual.</p><p>Then prepare the living space: an accessible bed, a chair to assist with transfers, good ventilation (especially important in warmer neighbourhoods), and basic supplies — sterile gauze, antiseptic solution, a thermometer, and a blood pressure monitor.</p><h3>What to budget for</h3><p>For a qualified nurse-caregiver specialising in post-operative care in Douala or Yaoundé, fees typically range from <strong>15,000 to 35,000 CFA francs per day</strong>, depending on the professional's experience, the complexity of the care needed, and whether cover is for 8 hours or around the clock. It's not the place to cut corners — skilled clinical care is what prevents a costly return to hospital.</p><p>For families in the diaspora managing things remotely, payment is straightforward via <strong>MTN MoMo</strong> or <strong>Orange Money</strong>, or international bank transfer. <a href=\"/contact\">Contact us directly</a> and we'll walk you through the entire process — from building a care profile to selecting the right professional for your loved one's specific situation.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Quand faire appel à un infirmier spécialisé plutôt qu'à un garde-malade classique",
-          "en": "When to choose a specialised nurse over a standard caregiver after surgery"
+          "fr": "Quand appeler le médecin en urgence pendant la convalescence à domicile",
+          "en": "When to call a doctor urgently during home convalescence"
         },
         "body": {
-          "fr": "<p>Tous les soins post-opératoires ne nécessitent pas le même profil de soignant. C'est une question que les familles posent souvent, et c'est une bonne question. Voici comment trancher.</p><p>Un <strong>garde-malade classique</strong> suffit lorsque l'opération était simple (hernie, appendicite sans complications, chirurgie ortho légère), que le patient est autonome pour les gestes du quotidien, et que les soins de plaie sont minimes. Son rôle est alors d'assurer la présence, la surveillance générale, l'aide à la mobilité et la gestion des médicaments.</p><p>En revanche, un <strong>infirmier à domicile spécialisé</strong> est indispensable si le patient rentre avec une sonde (urinaire ou nasogastrique), des drains, une plaie profonde ou une stomie. De même après une chirurgie abdominale lourde, cardiaque ou orthopédique complexe — comme une prothèse de hanche — réalisée au CHU de Yaoundé ou à l'Hôpital Général de Douala. Didier Kamga, infirmier à domicile basé à Ngousso (Yaoundé) et spécialisé en soins post-opératoires, intervient régulièrement dans ces situations : <em>«&nbsp;Ce qui fait la différence, c'est de savoir lire le dossier médical et d'anticiper les complications avant qu'elles ne s'installent.&nbsp;»</em></p><p>On est ensemble dans cette démarche : notre équipe évalue avec vous le bon profil selon la situation médicale de votre proche. Découvrez les différentes options disponibles sur <a href=\"/services#medecin\">notre page de services médicaux à domicile</a>.</p>",
-          "en": "<p>Not every post-operative situation requires the same type of caregiver. This is one of the most common questions families ask — and it is an important one to get right.</p><p>A <strong>standard caregiver</strong> is well-suited when the surgery was relatively straightforward — a hernia repair, an uncomplicated appendectomy, or a minor orthopaedic procedure — and the patient retains significant independence. In this case, the caregiver's role is presence, general monitoring, help with mobility, and medication management.</p><p>A <strong>specialised home nurse</strong>, however, is non-negotiable when the patient comes home with a urinary catheter, a drainage tube, a deep wound, or a stoma. The same applies after major abdominal, cardiac, or complex orthopaedic surgery — such as a hip replacement — performed at the Hôpital Général de Douala or the CHU de Yaoundé. Didier Kamga, a home nurse based in Ngousso, Yaoundé, who specialises in post-operative care, puts it plainly: <em>«&nbsp;The difference is in reading the medical file and anticipating complications before they develop into crises.&nbsp;»</em></p><p>Our team will help you identify the right profile based on your loved one's medical situation. You do not have to figure this out alone. Explore all available options on <a href=\"/services#medecin\">our medical home care services page</a>.</p>"
+          "fr": "<p>La famille, c'est sacré — et c'est souvent elle qui détecte en premier que quelque chose ne va pas. Votre garde-malade doit être formé pour reconnaître les signaux d'alarme post-opératoires et ne jamais hésiter à contacter le médecin traitant ou à organiser un retour aux urgences si nécessaire. Les plateformes de télémédecine comme <strong>Clinic Home</strong>, lancée par des médecins camerounais travaillant en hôpitaux publics et privés du pays, permettent désormais des consultations médicales à domicile et des soins infirmiers à domicile — une option précieuse pour des suivis rapides sans déplacer un patient encore fragile.</p><h3>Les signaux qui ne trompent pas</h3><ul><li>Fièvre au-dessus de 38,5 °C persistante depuis plus de 24 heures</li><li>Rougeur ou gonflement important autour de la cicatrice, avec écoulement purulent</li><li>Douleur soudainement plus intense, non soulagée par les antalgiques prescrits</li><li>Jambe enflée, rouge et douloureuse (signe possible de phlébite)</li><li>Confusion, agitation ou difficulté respiratoire soudaine</li></ul><p>En présence de ces signes, le garde-malade doit alerter immédiatement la famille ET contacter le médecin. Si le patient est à Douala, l'Hôpital Général de Douala dispose d'un service d'urgences disponible. À Yaoundé, le CHU de Yaoundé ou l'Hôpital Central restent les références. Dans les cas moins urgents mais préoccupants, une téléconsultation peut suffire pour obtenir un avis médical rapide sans stresser davantage le convalescent.</p><p>On est ensemble dans cette démarche : un bon garde-malade, un bon protocole, et une famille bien informée — c'est la meilleure combinaison pour une convalescence sans mauvaise surprise. Consultez aussi notre article sur la <a href=\"/blog/prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique\">prévention des chutes à domicile</a>, particulièrement pertinent pour les patients âgés en phase de rééducation post-opératoire.</p>",
+          "en": "<p>Your caregiver needs to be trained to recognise post-operative warning signs and never hesitate to contact the treating doctor or arrange an emergency return to hospital. Digital health platforms like <strong>Clinic Home</strong>, developed by Cameroonian doctors working across public and private hospitals in the country, now offer home medical consultations and home nursing — a valuable option for quick follow-ups without moving a still-fragile patient across town.</p><h3>Warning signs that cannot wait</h3><ul><li>Persistent fever above 38.5°C lasting more than 24 hours</li><li>Significant redness or swelling around the scar, with discharge</li><li>Sudden sharp increase in pain not relieved by prescribed painkillers</li><li>Swollen, red, painful leg — possible sign of deep vein thrombosis</li><li>Sudden confusion, agitation, or breathing difficulty</li></ul><p>If any of these appear, the caregiver must alert the family immediately AND contact the doctor. In Douala, the Hôpital Général de Douala has an emergency department available around the clock. In Yaoundé, the CHU de Yaoundé and the Hôpital Central de Yaoundé are the reference points. For less urgent but concerning situations, a teleconsultation can get a medical opinion quickly without adding unnecessary stress to the patient.</p><p>For older patients in post-operative rehabilitation, our article on <a href=\"/blog/prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique\">preventing falls at home in Cameroon</a> is essential reading — mobility is both the goal and the main risk during recovery.</p>"
         },
         "image": null
       }
@@ -123,12 +130,12 @@
     "faq": [
       {
         "question": {
-          "fr": "Combien coûtent les soins post-opératoires à domicile au Cameroun ?",
-          "en": "How much does post-operative home care cost in Cameroon?"
+          "fr": "Combien coûte un garde-malade post-opératoire à domicile à Douala ou Yaoundé ?",
+          "en": "How much does a post-operative home caregiver cost in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Les tarifs varient selon le profil du soignant et les heures de présence. Comptez entre 20 000 et 45 000 FCFA par jour pour un garde-malade qualifié, et entre 35 000 et 60 000 FCFA par visite pour un infirmier spécialisé en soins post-opératoires à Douala ou Yaoundé. Le paiement est possible via Orange Money ou MTN MoMo, pratique pour les familles de la diaspora.",
-          "en": "Costs vary depending on the caregiver's qualifications and the hours of coverage needed. Expect between 20,000 and 45,000 CFA francs per day for a qualified caregiver, and between 35,000 and 60,000 CFA francs per visit for a specialised home nurse in Douala or Yaoundé. Payment via Orange Money or MTN MoMo is available, which is convenient for families based abroad."
+          "fr": "Le tarif d'un garde-malade infirmier qualifié pour des soins post-opératoires à domicile au Cameroun se situe généralement entre 15 000 et 35 000 FCFA par jour. Ce tarif varie selon l'expérience du professionnel, la complexité des soins (pansements simples, drainage, perfusion) et les horaires de présence : 8 heures de jour, nuit seule, ou 24h/24. Les familles de la diaspora peuvent régler via Orange Money ou MTN MoMo.",
+          "en": "A qualified nurse-caregiver for post-operative home care in Cameroon typically costs between 15,000 and 35,000 CFA francs per day. The rate depends on the professional's experience, the complexity of care required (simple dressings, drain management, IV), and the hours covered — daytime only, nights, or round-the-clock. Diaspora families can pay easily via Orange Money or MTN MoMo."
         }
       },
       {
@@ -137,54 +144,54 @@
           "en": "How do I find a reliable caregiver for post-operative care in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Passez par un service spécialisé comme GardeMalade Cameroun, qui vérifie les formations et références de chaque soignant. Exigez toujours : une expérience documentée en soins post-opératoires, la capacité à lire et appliquer un compte-rendu opératoire, et une disponibilité selon vos horaires. Évitez de recruter via les réseaux sociaux sans vérification préalable des compétences.",
-          "en": "Use a specialist placement service like GardeMalade Cameroun, which verifies each caregiver's training and references before placement. Always ask for documented experience in post-operative care, the ability to read and apply a surgeon's discharge instructions, and availability matching your schedule. Avoid recruiting through social media without proper skills verification."
+          "fr": "Passez par une agence spécialisée comme GardeMalade Cameroun, qui vérifie les diplômes, les références et l'expérience clinique de chaque professionnel. Évitez les recrutements informels sur les réseaux sociaux pour ce type de soins techniques. Exigez toujours que le garde-malade soit briefé sur le protocole chirurgical écrit remis par le chirurgien avant de prendre son poste.",
+          "en": "Use a specialist agency like GardeMalade Cameroun, which verifies the credentials, references, and clinical experience of every professional. Avoid informal social media recruitment for this type of technical care. Always ensure the caregiver is briefed on the written surgical protocol provided by the surgeon before they start."
         }
       },
       {
         "question": {
           "fr": "Quelle est la différence entre un garde-malade et un infirmier à domicile pour soins post-opératoires ?",
-          "en": "What is the difference between a caregiver and a home nurse for post-operative care in Cameroon?"
+          "en": "What is the difference between a garde-malade and a home nurse for post-operative care?"
         },
         "answer": {
-          "fr": "Un garde-malade assure la présence, la surveillance générale et l'aide au quotidien (mobilité, repas, médicaments). Un infirmier à domicile est un professionnel de santé diplômé qui peut réaliser des actes techniques : pansements complexes, ablation de drains, soins de sonde, surveillance post-anesthésique. Pour les chirurgies légères, un garde-malade suffit. Pour les chirurgies lourdes, l'infirmier spécialisé est indispensable.",
-          "en": "A caregiver provides presence, general monitoring, and daily assistance — mobility help, meals, medication management. A home nurse is a qualified healthcare professional who can perform clinical tasks: complex wound dressings, drain care, catheter management, and post-anaesthesia monitoring. For minor surgeries, a caregiver is sufficient. For major procedures, a specialised home nurse is essential."
+          "fr": "Un infirmier diplômé d'État peut réaliser des actes techniques prescrits : injections, perfusions, soins de plaie complexes. Un garde-malade sans diplôme infirmier assure la présence, le confort, la surveillance basique et peut gérer des soins simples sous supervision médicale. Pour une sortie d'hospitalisation post-opératoire, les premières 72 heures nécessitent idéalement un infirmier qualifié ; ensuite, un auxiliaire de vie expérimenté peut prendre le relais.",
+          "en": "A registered nurse can perform prescribed technical procedures: injections, IV management, complex wound care. A garde-malade without nursing qualifications provides presence, comfort, basic monitoring, and simple care under medical supervision. For the first 72 hours after discharge, a qualified nurse is strongly recommended; after that, an experienced auxiliary caregiver can often take over."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser des soins post-opératoires à domicile au Cameroun depuis la France ou le Canada ?",
-          "en": "Can I arrange post-operative home care in Cameroon from France, Canada or the UK?"
+          "fr": "Est-ce que je peux organiser les soins post-opératoires depuis la France, le Canada ou les États-Unis ?",
+          "en": "Can I arrange post-operative home care in Cameroon from France, Canada, or the United States?"
         },
         "answer": {
-          "fr": "Oui, tout à fait. GardeMalade Cameroun est habitué à travailler avec les familles de la diaspora. Vous nous contactez par téléphone ou WhatsApp, transmettez les documents médicaux par message, et le paiement se fait via Orange Money ou MTN MoMo depuis l'étranger. Nous gérons le placement et assurons des rapports réguliers à la famille. La distance n'est plus un obstacle.",
-          "en": "Yes, absolutely. GardeMalade Cameroun regularly works with diaspora families managing care from Europe or North America. You contact us via phone or WhatsApp, share the medical documents digitally, and pay through Orange Money or MTN MoMo from abroad. We handle the caregiver placement and provide regular updates to the family. Distance is no longer a barrier to quality care."
+          "fr": "Oui, tout à fait. GardeMalade Cameroun travaille régulièrement avec des familles de la diaspora qui organisent les soins à distance. Vous nous contactez par WhatsApp ou formulaire, vous décrivez la situation médicale de votre proche, et nous prenons en charge la sélection et la mise en place du professionnel. Le paiement se fait par Orange Money, MTN MoMo ou virement international. La seule chose que vous devez nous envoyer, c'est le protocole de soins signé par le chirurgien.",
+          "en": "Yes, absolutely. GardeMalade Cameroun regularly works with diaspora families coordinating care remotely. You contact us via WhatsApp or our online form, describe your loved one's medical situation, and we handle professional selection and placement. Payment is via Orange Money, MTN MoMo, or international bank transfer. The one thing you need to send us is the signed post-operative care protocol from the surgeon."
         }
       },
       {
         "question": {
-          "fr": "Quels signes d'alerte le garde-malade doit-il surveiller après une opération ?",
-          "en": "What warning signs should a caregiver watch for after surgery?"
+          "fr": "Combien de temps dure la surveillance post-opératoire à domicile au Cameroun ?",
+          "en": "How long does post-operative monitoring at home in Cameroon typically last?"
         },
         "answer": {
-          "fr": "Votre garde-malade doit immédiatement alerter la famille et le médecin en cas de : fièvre supérieure à 38,5 °C, rougeur ou écoulement anormal de la plaie, douleur soudainement plus intense, essoufflement, jambe douloureuse et gonflée (signe possible de phlébite), ou confusion soudaine. Ces signes peuvent indiquer une complication post-opératoire qui nécessite une prise en charge médicale rapide.",
-          "en": "Your caregiver should immediately alert the family and doctor if they observe: fever above 38.5°C, unusual redness or discharge from the wound, a sudden increase in pain, shortness of breath, a painful and swollen leg (possible sign of deep vein thrombosis), or sudden confusion. These signs may indicate a post-operative complication requiring prompt medical attention."
+          "fr": "La durée dépend du type d'opération. Pour une intervention courante (hernie, appendicite, césarienne), une surveillance à domicile de 7 à 14 jours est généralement recommandée. Pour des chirurgies plus lourdes (abdominales, orthopédiques, cardiaques), la présence d'un professionnel peut s'étendre jusqu'à 21 jours ou plus. Les 72 premières heures après la sortie sont les plus critiques dans tous les cas.",
+          "en": "Duration depends on the type of surgery. For common procedures — hernia repair, appendectomy, caesarean — home monitoring for 7 to 14 days is generally recommended. For more complex surgeries (abdominal, orthopaedic, cardiac), professional care at home may extend to 21 days or more. The first 72 hours after discharge are the most critical in every case."
         }
       },
       {
         "question": {
-          "fr": "Combien de temps faut-il un garde-malade après une opération au Cameroun ?",
-          "en": "How long do you need a caregiver after surgery in Cameroon?"
+          "fr": "Est-ce qu'une plateforme de télémédecine peut remplacer le garde-malade post-opératoire ?",
+          "en": "Can a telemedicine platform replace a post-operative home caregiver?"
         },
         "answer": {
-          "fr": "Cela dépend du type d'opération. Pour une chirurgie mineure, une assistance à domicile de 5 à 10 jours est souvent suffisante. Pour une chirurgie abdominale lourde ou orthopédique, comptez entre 3 et 6 semaines selon la récupération du patient. L'avis du chirurgien est la référence principale. GardeMalade Cameroun propose des contrats flexibles à la semaine, adaptés à l'évolution de l'état de santé.",
-          "en": "It depends on the type of surgery. For minor procedures, 5 to 10 days of home assistance is often enough. For major abdominal or orthopaedic surgery, plan for 3 to 6 weeks depending on the patient's recovery progress. Your surgeon's guidance is the primary reference. GardeMalade Cameroun offers flexible weekly contracts that can be adjusted as the patient's condition evolves."
+          "fr": "Non. Des plateformes comme Clinic Home, créée par des médecins camerounais, offrent des consultations médicales à distance et des soins infirmiers à domicile très utiles pour le suivi. Mais elles ne remplacent pas la présence physique d'un garde-malade qualifié pour les soins quotidiens : surveillance de la plaie, aide à la mobilisation, administration des médicaments. Les deux approches sont complémentaires.",
+          "en": "No. Platforms like Clinic Home, developed by Cameroonian doctors, offer valuable remote medical consultations and home nursing visits for follow-up. But they don't replace the physical presence of a qualified caregiver for daily care: wound monitoring, mobility assistance, medication administration. Both approaches work best together, not as alternatives to each other."
         }
       }
     ],
     "conclusion": {
-      "fr": "<p>Les soins post-opératoires à domicile au Cameroun, c'est une question sérieuse — et ce n'est pas chose facile de trouver le bon profil au bon moment, surtout quand on est bousculé par la situation. Mais avec la bonne organisation, votre proche peut récupérer chez lui dans les meilleures conditions possibles, entouré d'un soignant compétent qui sait quoi faire et quand alerter.</p><p>Que vous soyez à Douala, à Yaoundé ou que vous gériez tout depuis Paris ou Toronto, GardeMalade Cameroun est là pour vous accompagner. Nous sélectionnons chaque garde-malade et infirmier à domicile sur la base de leurs compétences réelles — pas juste leur bonne volonté. La famille, c'est sacré, et votre proche mérite des soins à la hauteur de ce qu'il traverse.</p><p>Prenez contact avec nous dès aujourd'hui via <a href=\"/contact\">notre formulaire de contact</a> — on est ensemble pour traverser ça.</p>",
-      "en": "<p>Post-operative home care in Cameroon does not have to be a source of anxiety. With the right caregiver in place — someone who genuinely knows wound care, medication management, and when to call for help — your loved one can recover safely and comfortably at home.</p><p>Whether you are on the ground in Douala or Yaoundé, or coordinating from the UK, the US, or Canada, GardeMalade Cameroun is here to make this process as straightforward as possible. We vet every caregiver for real clinical skills — not just willingness — and we stay in close contact with the family throughout the recovery period.</p><p>Do not wait until the day of discharge to start organising care. Reach out to us through <a href=\"/contact\">our contact page</a> and let us help you put the right person in place before your loved one comes home.</p>"
+      "fr": "<p>Les soins post-opératoires à domicile au Cameroun, c'est un moment délicat qui demande de la préparation, du sérieux et les bonnes personnes. Que votre proche rentre de l'Hôpital Général de Douala, de l'Hôpital Laquintinie ou du CHU de Yaoundé, il mérite une convalescence encadrée par un professionnel qui sait vraiment ce qu'il fait — pas juste quelqu'un de bonne volonté. La bonne nouvelle, c'est que ça s'organise, même depuis l'étranger, et souvent plus facilement qu'on ne le pense.</p><p>Chez GardeMalade Cameroun, nous sélectionnons des infirmiers et auxiliaires de vie formés aux soins post-opératoires, et nous accompagnons les familles depuis la définition du profil de soins jusqu'au suivi quotidien. On est ensemble dans cette démarche. Pour mettre en place un dispositif de soins adapté à la situation de votre proche, <a href=\"/contact\">contactez-nous dès aujourd'hui</a> — nous vous répondons sous 24 heures.</p>",
+      "en": "<p>Post-operative home care in Cameroon is a critical period that calls for preparation, professionalism, and the right people around your loved one. Whether they're recovering from surgery at the Hôpital Général de Douala or the CHU de Yaoundé, they deserve a convalescence guided by someone with genuine clinical skills — not just good intentions. The reassuring news is that this is entirely manageable to organise, even from thousands of kilometres away.</p><p>At GardeMalade Cameroun, we match families with nurses and trained caregivers who understand post-operative care inside out. We work with families in Cameroon and across the diaspora — in the UK, the USA, Canada, and France. If you're ready to put a care plan in place, <a href=\"/contact\">reach out to us today</a>. We respond within 24 hours, and we'll guide you through every step of the process.</p>"
     },
     "cta": {
       "text": {
@@ -196,36 +203,27 @@
   },
   "sources": [
     {
-      "title": "Incidence of Post-Operative Complications and Factors Influencing Their Occurrence in Patients with Sickle Cell Disease in a Low-Income Country: A Case Study of Cameroon",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8836843",
-      "org": "PubMed Central (PMC) / NCBI"
-    },
-    {
-      "title": "Home - Leo Beri's Home Health Care Agency",
-      "url": "https://leoberihomehealth.com",
-      "org": "Leo Beri's Home Health Care Agency"
-    },
-    {
       "title": "La start-up E-santé lance Clinic Home, un hôpital virtuel visant à démocratiser la médecine à domicile au Cameroun",
       "url": "https://www.investiraucameroun.com/sante/1209-18417-la-start-up-e-sante-lance-clinic-home-un-hopital-virtuel-visant-a-democratiser-la-medecine-a-domicile-au-cameroun",
       "org": "Investir au Cameroun"
     }
   ],
   "related": [
-    "comment-choisir-un-garde-malade-fiable-au-cameroun-7-criteres-essentiels",
-    "diaspora-africaine-comment-veiller-sur-vos-parents-malades-au-cameroun-depuis-l-",
-    "tarifs-d-une-auxiliaire-de-vie-a-yaounde-guide-complet-pour-les-familles"
+    "contrat-de-garde-malade-au-cameroun-pourquoi-c-est-important-et-que-doit-il-cont",
+    "payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon",
+    "prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique",
+    "rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot"
   ],
   "schema": {
     "faq_items": [
       {
         "question": {
-          "fr": "Combien coûtent les soins post-opératoires à domicile au Cameroun ?",
-          "en": "How much does post-operative home care cost in Cameroon?"
+          "fr": "Combien coûte un garde-malade post-opératoire à domicile à Douala ou Yaoundé ?",
+          "en": "How much does a post-operative home caregiver cost in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Les tarifs varient selon le profil du soignant et les heures de présence. Comptez entre 20 000 et 45 000 FCFA par jour pour un garde-malade qualifié, et entre 35 000 et 60 000 FCFA par visite pour un infirmier spécialisé en soins post-opératoires à Douala ou Yaoundé. Le paiement est possible via Orange Money ou MTN MoMo, pratique pour les familles de la diaspora.",
-          "en": "Costs vary depending on the caregiver's qualifications and the hours of coverage needed. Expect between 20,000 and 45,000 CFA francs per day for a qualified caregiver, and between 35,000 and 60,000 CFA francs per visit for a specialised home nurse in Douala or Yaoundé. Payment via Orange Money or MTN MoMo is available, which is convenient for families based abroad."
+          "fr": "Le tarif d'un garde-malade infirmier qualifié pour des soins post-opératoires à domicile au Cameroun se situe généralement entre 15 000 et 35 000 FCFA par jour. Ce tarif varie selon l'expérience du professionnel, la complexité des soins (pansements simples, drainage, perfusion) et les horaires de présence : 8 heures de jour, nuit seule, ou 24h/24. Les familles de la diaspora peuvent régler via Orange Money ou MTN MoMo.",
+          "en": "A qualified nurse-caregiver for post-operative home care in Cameroon typically costs between 15,000 and 35,000 CFA francs per day. The rate depends on the professional's experience, the complexity of care required (simple dressings, drain management, IV), and the hours covered — daytime only, nights, or round-the-clock. Diaspora families can pay easily via Orange Money or MTN MoMo."
         }
       },
       {
@@ -234,48 +232,48 @@
           "en": "How do I find a reliable caregiver for post-operative care in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Passez par un service spécialisé comme GardeMalade Cameroun, qui vérifie les formations et références de chaque soignant. Exigez toujours : une expérience documentée en soins post-opératoires, la capacité à lire et appliquer un compte-rendu opératoire, et une disponibilité selon vos horaires. Évitez de recruter via les réseaux sociaux sans vérification préalable des compétences.",
-          "en": "Use a specialist placement service like GardeMalade Cameroun, which verifies each caregiver's training and references before placement. Always ask for documented experience in post-operative care, the ability to read and apply a surgeon's discharge instructions, and availability matching your schedule. Avoid recruiting through social media without proper skills verification."
+          "fr": "Passez par une agence spécialisée comme GardeMalade Cameroun, qui vérifie les diplômes, les références et l'expérience clinique de chaque professionnel. Évitez les recrutements informels sur les réseaux sociaux pour ce type de soins techniques. Exigez toujours que le garde-malade soit briefé sur le protocole chirurgical écrit remis par le chirurgien avant de prendre son poste.",
+          "en": "Use a specialist agency like GardeMalade Cameroun, which verifies the credentials, references, and clinical experience of every professional. Avoid informal social media recruitment for this type of technical care. Always ensure the caregiver is briefed on the written surgical protocol provided by the surgeon before they start."
         }
       },
       {
         "question": {
           "fr": "Quelle est la différence entre un garde-malade et un infirmier à domicile pour soins post-opératoires ?",
-          "en": "What is the difference between a caregiver and a home nurse for post-operative care in Cameroon?"
+          "en": "What is the difference between a garde-malade and a home nurse for post-operative care?"
         },
         "answer": {
-          "fr": "Un garde-malade assure la présence, la surveillance générale et l'aide au quotidien (mobilité, repas, médicaments). Un infirmier à domicile est un professionnel de santé diplômé qui peut réaliser des actes techniques : pansements complexes, ablation de drains, soins de sonde, surveillance post-anesthésique. Pour les chirurgies légères, un garde-malade suffit. Pour les chirurgies lourdes, l'infirmier spécialisé est indispensable.",
-          "en": "A caregiver provides presence, general monitoring, and daily assistance — mobility help, meals, medication management. A home nurse is a qualified healthcare professional who can perform clinical tasks: complex wound dressings, drain care, catheter management, and post-anaesthesia monitoring. For minor surgeries, a caregiver is sufficient. For major procedures, a specialised home nurse is essential."
+          "fr": "Un infirmier diplômé d'État peut réaliser des actes techniques prescrits : injections, perfusions, soins de plaie complexes. Un garde-malade sans diplôme infirmier assure la présence, le confort, la surveillance basique et peut gérer des soins simples sous supervision médicale. Pour une sortie d'hospitalisation post-opératoire, les premières 72 heures nécessitent idéalement un infirmier qualifié ; ensuite, un auxiliaire de vie expérimenté peut prendre le relais.",
+          "en": "A registered nurse can perform prescribed technical procedures: injections, IV management, complex wound care. A garde-malade without nursing qualifications provides presence, comfort, basic monitoring, and simple care under medical supervision. For the first 72 hours after discharge, a qualified nurse is strongly recommended; after that, an experienced auxiliary caregiver can often take over."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser des soins post-opératoires à domicile au Cameroun depuis la France ou le Canada ?",
-          "en": "Can I arrange post-operative home care in Cameroon from France, Canada or the UK?"
+          "fr": "Est-ce que je peux organiser les soins post-opératoires depuis la France, le Canada ou les États-Unis ?",
+          "en": "Can I arrange post-operative home care in Cameroon from France, Canada, or the United States?"
         },
         "answer": {
-          "fr": "Oui, tout à fait. GardeMalade Cameroun est habitué à travailler avec les familles de la diaspora. Vous nous contactez par téléphone ou WhatsApp, transmettez les documents médicaux par message, et le paiement se fait via Orange Money ou MTN MoMo depuis l'étranger. Nous gérons le placement et assurons des rapports réguliers à la famille. La distance n'est plus un obstacle.",
-          "en": "Yes, absolutely. GardeMalade Cameroun regularly works with diaspora families managing care from Europe or North America. You contact us via phone or WhatsApp, share the medical documents digitally, and pay through Orange Money or MTN MoMo from abroad. We handle the caregiver placement and provide regular updates to the family. Distance is no longer a barrier to quality care."
+          "fr": "Oui, tout à fait. GardeMalade Cameroun travaille régulièrement avec des familles de la diaspora qui organisent les soins à distance. Vous nous contactez par WhatsApp ou formulaire, vous décrivez la situation médicale de votre proche, et nous prenons en charge la sélection et la mise en place du professionnel. Le paiement se fait par Orange Money, MTN MoMo ou virement international. La seule chose que vous devez nous envoyer, c'est le protocole de soins signé par le chirurgien.",
+          "en": "Yes, absolutely. GardeMalade Cameroun regularly works with diaspora families coordinating care remotely. You contact us via WhatsApp or our online form, describe your loved one's medical situation, and we handle professional selection and placement. Payment is via Orange Money, MTN MoMo, or international bank transfer. The one thing you need to send us is the signed post-operative care protocol from the surgeon."
         }
       },
       {
         "question": {
-          "fr": "Quels signes d'alerte le garde-malade doit-il surveiller après une opération ?",
-          "en": "What warning signs should a caregiver watch for after surgery?"
+          "fr": "Combien de temps dure la surveillance post-opératoire à domicile au Cameroun ?",
+          "en": "How long does post-operative monitoring at home in Cameroon typically last?"
         },
         "answer": {
-          "fr": "Votre garde-malade doit immédiatement alerter la famille et le médecin en cas de : fièvre supérieure à 38,5 °C, rougeur ou écoulement anormal de la plaie, douleur soudainement plus intense, essoufflement, jambe douloureuse et gonflée (signe possible de phlébite), ou confusion soudaine. Ces signes peuvent indiquer une complication post-opératoire qui nécessite une prise en charge médicale rapide.",
-          "en": "Your caregiver should immediately alert the family and doctor if they observe: fever above 38.5°C, unusual redness or discharge from the wound, a sudden increase in pain, shortness of breath, a painful and swollen leg (possible sign of deep vein thrombosis), or sudden confusion. These signs may indicate a post-operative complication requiring prompt medical attention."
+          "fr": "La durée dépend du type d'opération. Pour une intervention courante (hernie, appendicite, césarienne), une surveillance à domicile de 7 à 14 jours est généralement recommandée. Pour des chirurgies plus lourdes (abdominales, orthopédiques, cardiaques), la présence d'un professionnel peut s'étendre jusqu'à 21 jours ou plus. Les 72 premières heures après la sortie sont les plus critiques dans tous les cas.",
+          "en": "Duration depends on the type of surgery. For common procedures — hernia repair, appendectomy, caesarean — home monitoring for 7 to 14 days is generally recommended. For more complex surgeries (abdominal, orthopaedic, cardiac), professional care at home may extend to 21 days or more. The first 72 hours after discharge are the most critical in every case."
         }
       },
       {
         "question": {
-          "fr": "Combien de temps faut-il un garde-malade après une opération au Cameroun ?",
-          "en": "How long do you need a caregiver after surgery in Cameroon?"
+          "fr": "Est-ce qu'une plateforme de télémédecine peut remplacer le garde-malade post-opératoire ?",
+          "en": "Can a telemedicine platform replace a post-operative home caregiver?"
         },
         "answer": {
-          "fr": "Cela dépend du type d'opération. Pour une chirurgie mineure, une assistance à domicile de 5 à 10 jours est souvent suffisante. Pour une chirurgie abdominale lourde ou orthopédique, comptez entre 3 et 6 semaines selon la récupération du patient. L'avis du chirurgien est la référence principale. GardeMalade Cameroun propose des contrats flexibles à la semaine, adaptés à l'évolution de l'état de santé.",
-          "en": "It depends on the type of surgery. For minor procedures, 5 to 10 days of home assistance is often enough. For major abdominal or orthopaedic surgery, plan for 3 to 6 weeks depending on the patient's recovery progress. Your surgeon's guidance is the primary reference. GardeMalade Cameroun offers flexible weekly contracts that can be adjusted as the patient's condition evolves."
+          "fr": "Non. Des plateformes comme Clinic Home, créée par des médecins camerounais, offrent des consultations médicales à distance et des soins infirmiers à domicile très utiles pour le suivi. Mais elles ne remplacent pas la présence physique d'un garde-malade qualifié pour les soins quotidiens : surveillance de la plaie, aide à la mobilisation, administration des médicaments. Les deux approches sont complémentaires.",
+          "en": "No. Platforms like Clinic Home, developed by Cameroonian doctors, offer valuable remote medical consultations and home nursing visits for follow-up. But they don't replace the physical presence of a qualified caregiver for daily care: wound monitoring, mobility assistance, medication administration. Both approaches work best together, not as alternatives to each other."
         }
       }
     ]
