@@ -1,14 +1,14 @@
 {
   "meta": {
     "slug": "accompagner-un-parent-atteint-de-demence-a-domicile-au-cameroun-role-du-garde-ma",
-    "date": "2026-11-23",
+    "date": "2026-11-27",
     "title": {
-      "fr": "Démence alzheimer accompagnement domicile Cameroun : le rôle du garde-malade",
+      "fr": "Démence alzheimer accompagnement domicile Cameroun : le garde-malade",
       "en": "Dementia alzheimer home care Cameroon: the caregiver's role"
     },
     "description": {
-      "fr": "Démence alzheimer accompagnement domicile Cameroun : découvrez le rôle concret du garde-malade, les coûts réels et comment organiser les soins. Nos conseils.",
-      "en": "Dementia alzheimer home care Cameroon: learn the caregiver's real role, actual costs and how to arrange care from abroad. Everything you need to know."
+      "fr": "Démence alzheimer accompagnement domicile Cameroun : découvrez le rôle clé du garde-malade, les soins quotidiens et comment organiser la prise en charge. Nos conseils.",
+      "en": "Dementia alzheimer home care Cameroon: learn the caregiver's key role, daily care routines and how to arrange support for your parent. Everything you need to know."
     },
     "focus_keyword": {
       "fr": "démence alzheimer accompagnement domicile Cameroun",
@@ -17,11 +17,11 @@
     "secondary_keywords": {
       "fr": [
         "garde-malade personne âgée Cameroun",
-        "soins à domicile démence Douala Yaoundé"
+        "soins aidant familial démence"
       ],
       "en": [
         "home caregiver elderly Cameroon",
-        "dementia care Douala Yaoundé"
+        "family caregiver dementia support"
       ]
     },
     "reading_time": 15,
@@ -52,15 +52,8 @@
       {
         "href": "/blog/diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a",
         "text": {
-          "fr": "maladies chroniques chez les personnes âgées au Cameroun",
-          "en": "chronic illness care for elderly parents in Cameroon"
-        }
-      },
-      {
-        "href": "/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot",
-        "text": {
-          "fr": "retour au Cameroun pour s'occuper d'un parent malade",
-          "en": "returning to Cameroon to care for a sick parent"
+          "fr": "maladies chroniques chez les personnes âgées",
+          "en": "chronic illness care for elderly parents"
         }
       }
     ]
@@ -68,62 +61,62 @@
   "hero": {
     "src": "/blog/images/accompagner-un-parent-atteint-de-demence-a-domicile-au-cameroun-role-du-garde-ma.jpg",
     "alt": {
-      "fr": "Garde-malade aidant une personne âgée atteinte de démence alzheimer à domicile à Yaoundé Cameroun",
-      "en": "Caregiver supporting an elderly person with dementia alzheimer home care Cameroon in Yaoundé"
+      "fr": "Garde-malade aidant une personne âgée atteinte de démence alzheimer à domicile au Cameroun",
+      "en": "Caregiver supporting an elderly person with dementia alzheimer home care Cameroon"
     },
-    "photographer": "Stuart Isaac Harrier",
-    "photographer_url": "https://unsplash.com/@stuartisaacharrier?utm_source=gardemalade&utm_medium=referral",
-    "photo_url": "https://unsplash.com/photos/two-men-sitting-on-ground-lV4aWw3ujpA?utm_source=gardemalade&utm_medium=referral",
-    "unsplash_id": "lV4aWw3ujpA"
+    "photographer": "Oscar Omondi",
+    "photographer_url": "https://unsplash.com/@xodusdigitals?utm_source=gardemalade&utm_medium=referral",
+    "photo_url": "https://unsplash.com/photos/a-couple-of-men-standing-next-to-each-other-SX9-Q0bVsrY?utm_source=gardemalade&utm_medium=referral",
+    "unsplash_id": "SX9-Q0bVsrY"
   },
   "body_images": [],
   "content": {
     "chapeau": {
-      "fr": "La démence alzheimer, l'accompagnement à domicile au Cameroun — ce sont des sujets dont on parle encore trop peu, mais qui touchent de plus en plus de familles à Douala, à Yaoundé et partout au pays. Si ton parent commence à oublier les visages, à se perdre dans la maison, à répéter les mêmes questions, tu sais déjà que quelque chose a changé — et que les soins à domicile par un garde-malade qualifié peuvent faire toute la différence. Cet article est là pour t'expliquer concrètement ce que ça implique, ce que ça coûte, et comment t'organiser.",
-      "en": "Dementia and alzheimer home care in Cameroon is a subject that too many families face alone — whether you live in Douala, Yaoundé, or you're watching from thousands of miles away in London or Toronto. If your parent has started forgetting names, wandering at night, or becoming confused in their own home, you need real answers, not vague reassurances. This guide explains what a professional home caregiver can do, what it costs, and how you can arrange proper care even from abroad."
+      "fr": "La démence alzheimer, accompagnement domicile Cameroun : c'est un sujet que peu de familles osent aborder ouvertement, mais qui touche de plus en plus de foyers à Douala, à Yaoundé et partout au pays. Quand un parent commence à oublier les visages, à se perdre dans la cour familiale, à ne plus reconnaître ses propres enfants — la douleur est immense, et l'organisation des soins, une vraie épreuve. Ce guide est fait pour toi, que tu sois sur place ou que tu gères la situation depuis l'étranger.",
+      "en": "If you're trying to figure out dementia alzheimer home care in Cameroon for a parent back home, you're not alone — and you're not powerless. Whether you're based in London, Montreal or right there in Douala, understanding how a professional caregiver can support your loved one is the first step toward peace of mind. This guide walks you through everything you need to know."
     },
     "sections": [
       {
         "heading": {
-          "fr": "Démence alzheimer, accompagnement domicile Cameroun : pourquoi c'est si difficile sans aide professionnelle",
-          "en": "Dementia alzheimer home care Cameroon: why families can't do it alone"
+          "fr": "Démence alzheimer accompagnement domicile Cameroun : comprendre la réalité locale",
+          "en": "Dementia alzheimer home care Cameroon: understanding the local reality"
         },
         "body": {
-          "fr": "<p>La famille, c'est sacré au Cameroun — tout le monde le sait. Quand papa ou maman commence à montrer des signes de démence, le premier réflexe, c'est de tout gérer en interne : les enfants, les belles-sœurs, les voisins. Mais la réalité, c'est que <strong>accompagner une personne atteinte de démence ou d'alzheimer à domicile</strong> demande des compétences très particulières que la bonne volonté seule ne suffit pas à remplacer.</p><p>Une étude publiée en 2026 dans une revue médicale internationale (Njohjam et al., PMC) a identifié la démence comme un problème de santé publique croissant au Cameroun, avec une prévalence mesurée dans des communautés rurales. En ville, à Douala ou à Yaoundé, le diagnostic reste rare parce que les familles attribuent souvent les premiers symptômes — oublis répétés, désorientation, changements de comportement — à la vieillesse normale ou à des causes spirituelles. Ce retard de prise en charge aggrave les situations.</p><p>Ce n'est pas chose facile de gérer seul une personne qui ne reconnaît plus ses proches, qui se réveille à 3h du matin en criant, ou qui refuse de manger. Les soignants familiaux s'épuisent en quelques mois. C'est précisément là qu'intervient <a href=\"/services#garde\">notre service de garde-malade</a> : un professionnel formé, disponible en journée ou en nuit, qui connaît les techniques d'apaisement et de communication adaptées aux personnes atteintes de troubles cognitifs.</p><p>Pour les familles dont un parent souffre aussi de maladies associées — diabète, hypertension, antécédents d'AVC — nous vous invitons à consulter notre article sur la <a href=\"/blog/diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a\">prise en charge des maladies chroniques chez les personnes âgées au Cameroun</a>, qui aborde ces situations combinées.</p>",
-          "en": "<p>When a parent begins showing signs of dementia — forgetting your name, getting lost in the house, becoming aggressive at night — the natural instinct is to manage within the family. That's honourable. But the reality of <strong>dementia alzheimer home care in Cameroon</strong> is that it requires skills that love alone cannot provide.</p><p>A 2026 study (Njohjam et al., published in PMC) identified dementia as a growing public health concern in Cameroon, noting measurable prevalence in community settings. In urban centres like Douala and Yaoundé, diagnosis often comes late because families attribute early symptoms — forgetfulness, confusion, personality changes — to normal ageing. That delay makes everything harder.</p><p>Family caregivers — a daughter working full-time, a son managing a business, a spouse in their seventies — burn out within months. Night wandering, refusal to eat, sudden agitation: these are exhausting to manage without training. A professional caregiver brings structure, calm techniques, and consistency that transforms the daily experience for everyone in the household.</p><p>If your parent also has diabetes, hypertension, or a history of stroke alongside their cognitive decline, our article on <a href=\"/blog/diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a\">managing chronic illness in elderly parents in Cameroon</a> covers those combined situations in detail.</p>"
+          "fr": "<p>Tu sais, ici au Cameroun, quand quelqu'un dans la famille commence à « perdre la tête », on dit souvent que c'est la vieillesse ou même des histoires mystiques. La démence — qu'elle soit de type Alzheimer ou vasculaire — reste <strong>très peu diagnostiquée</strong>, en partie parce que les spécialistes sont rares. Une étude publiée dans <em>BMC Geriatrics</em> le confirme : en 2018, la population âgée était estimée à 1,2 million de personnes au Cameroun, et le pays ne comptait <strong>qu'une seule unité dédiée à la gériatrie et moins de trois gériatres</strong> sur l'ensemble du territoire.</p><p>Résultat : la prise en charge tombe presque entièrement sur les épaules de la famille. Et la famille fait ce qu'elle peut — entre le travail, les enfants, les allers-retours en taxi depuis Biyem-Assi ou Makepe — sans formation ni soutien. C'est là qu'un <a href=\"/services#garde\">garde-malade professionnel</a> change tout.</p><p>La bonne nouvelle, c'est que le domicile reste souvent le meilleur cadre pour une personne atteinte de démence. Les repères familiers — la cour, les odeurs de cuisine, les voix connues — aident à ralentir la désorientation. Une recherche internationale sur les soins de fin de vie cite d'ailleurs l'importance de <strong>modèles hybrides intégrant l'expertise hospitalière et les soins communautaires à domicile</strong>, une approche particulièrement adaptée au contexte camerounais où l'accès aux spécialistes reste limité, même à l'Hôpital Général de Douala ou au CHU de Yaoundé.</p>",
+          "en": "<p>Here's something important to understand if you're managing things from abroad: dementia is <strong>severely underdiagnosed in Cameroon</strong>. A study published in <em>BMC Geriatrics</em> found that as of 2018, Cameroon had only one geriatric unit and fewer than three geriatricians in the entire country, despite an elderly population estimated at 1.2 million. What this means in practice is that your parent may never have received a formal diagnosis — but their symptoms are very real.</p><p>Families fill the gap, as they always have. But caring for someone with dementia is different from caring for someone recovering from surgery. It's a 24/7 commitment that requires patience, specific knowledge, and genuine emotional resilience. Without proper support, family caregivers burn out fast.</p><p>Research on end-of-life care in Cameroon highlights that <strong>hybrid models — combining hospital expertise with home-based community care</strong> — offer the most promising solutions in a context where specialist services are scarce. That's exactly what a trained home caregiver provides: professional support, within the comfort and familiarity of your parent's own home. You can explore <a href=\"/services#garde\">our caregiver service</a> to understand what this looks like in practice.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Le rôle concret du garde-malade dans l'accompagnement alzheimer démence à domicile au Cameroun",
-          "en": "What a professional caregiver actually does for dementia alzheimer home care in Cameroon"
+          "fr": "Le rôle concret du garde-malade dans la démence alzheimer : accompagnement domicile Cameroun au quotidien",
+          "en": "What a professional caregiver actually does for dementia alzheimer home care Cameroon"
         },
         "body": {
-          "fr": "<p>Prenons l'exemple de Madeleine Fotso, 74 ans, qui vit à Nlongkak, à Yaoundé. Sa fille Cécile est rentrée de Paris il y a six mois pour s'occuper d'elle après le diagnostic. Très vite, Cécile a compris qu'elle ne pouvait pas tout porter seule : sa mère se levait la nuit, refusait le bain, et devenait violente verbalement sans raison apparente. C'est en faisant appel à une garde-malade professionnelle que la situation s'est stabilisée.</p><p>Concrètement, voici ce qu'une <strong>garde-malade spécialisée en démence</strong> assure au quotidien :</p><ul><li>Aide à la toilette, aux repas et à l'habillage, avec des techniques douces adaptées aux personnes désorientées</li><li>Surveillance des comportements à risque : errance nocturne, oubli de médicaments, risques de chutes — un sujet que nous détaillons dans notre article sur la <a href=\"/blog/prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique\">prévention des chutes des personnes âgées au Cameroun</a></li><li>Stimulation cognitive légère : conversation, jeux de mémoire simples, musique</li><li>Relais d'information vers la famille et le médecin traitant</li></ul><p>Je ne vais pas te mentir : tous les gardes-malades ne sont pas formés de la même façon. Chez GardeMalade Cameroun, nous sélectionnons des professionnels qui comprennent la réalité des familles camerounaises — la langue, les habitudes alimentaires, le respect des anciens. L'OMS rappelle d'ailleurs que <em>«&nbsp;des personnels qualifiés bien formés sont nécessaires&nbsp;»</em> pour l'accompagnement des personnes atteintes de démence, avec une continuité des soins entre aidants professionnels et familiaux. C'est exactement l'approche que nous défendons.</p>",
-          "en": "<p>Let's make this concrete. Imagine Madeleine, 74, living in the Nlongkak neighbourhood of Yaoundé. Her daughter flew back from Paris and quickly realised she couldn't manage alone — her mother was wandering at night, refusing baths, and becoming verbally aggressive without warning. Bringing in a trained professional caregiver changed everything within two weeks.</p><p>A skilled dementia caregiver in Cameroon handles the following on a daily basis:</p><ul><li>Personal hygiene, meals and dressing — using calm, reassuring techniques designed for people with cognitive impairment</li><li>Monitoring safety risks: night wandering, missed medication, fall prevention</li><li>Light cognitive stimulation: conversation, simple memory games, familiar music</li><li>Regular updates to family members and the treating physician</li></ul><p>The WHO has emphasised that <em>«&nbsp;well-trained qualified staff are necessary&nbsp;»</em> for dementia care, with continuity between paid and unpaid caregivers being essential from early symptoms through to end of life. That principle shapes how we work at GardeMalade Cameroun — matching families with caregivers who understand local culture, food habits, and language.</p><p>Not all caregivers are equal. That's the honest truth. When you're arranging <strong>dementia alzheimer home care in Cameroon</strong> — whether you're in Douala or coordinating from the UK — the quality of the person matters more than anything else.</p>"
+          "fr": "<p>Prenons l'exemple de Cécile Atangana. Cette femme d'une quarantaine d'années, rentrée de Paris pour s'occuper de son père de 79 ans à Nlongkak (Yaoundé), pensait pouvoir gérer seule. Son père, ancien fonctionnaire, avait commencé à se lever la nuit en croyant aller au bureau. Il refusait de manger, devenait agressif quand on le contrariait. En trois semaines, Cécile était épuisée. <em>«&nbsp;Je ne dormais plus, je pleurais tous les jours. Je culpabilisais même de penser que c'était trop lourd pour moi.&nbsp;»</em></p><p>Un garde-malade formé aux soins de la démence a rejoint le domicile familial. Concrètement, voilà ce qu'il assure au quotidien :</p><ul><li><strong>Surveillance et sécurité</strong> : empêcher les fugues, sécuriser les zones dangereuses (cuisine, escalier), intervenir lors des épisodes de confusion nocturne</li><li><strong>Aide aux actes de la vie quotidienne</strong> : toilette, habillage, repas, prise des médicaments prescrits après consultation à l'Hôpital Central de Yaoundé</li><li><strong>Stimulation cognitive douce</strong> : chansons, photos de famille, activités familières pour maintenir les repères</li><li><strong>Soutien émotionnel à la famille</strong> : écouter, rassurer, signaler toute évolution des symptômes au médecin référent</li></ul><p>La famille, c'est sacré — et personne ne remet ça en question. Mais confier certaines tâches à un professionnel, c'est aussi une façon d'<strong>être présent différemment</strong> : comme fils, comme fille, et non comme soignant épuisé.</p>",
+          "en": "<p>Let me paint a picture. Emmanuel Nkodo, based in Lyon, hadn't been back to Yaoundé in two years when his sister called to say their mother was no longer recognizing her grandchildren. She'd been wandering the compound at night, convinced she needed to cook for guests who weren't there. Emmanuel felt helpless — and guilty.</p><p>A trained caregiver placed through a home care service changed the dynamic completely. Here's what a skilled caregiver does on a daily basis for someone living with dementia:</p><ul><li><strong>Safety monitoring</strong>: preventing wandering, securing hazardous areas like kitchens or staircases, managing nighttime confusion episodes</li><li><strong>Personal care assistance</strong>: bathing, dressing, meals, and ensuring medications prescribed after a hospital visit are taken correctly and on time</li><li><strong>Gentle cognitive stimulation</strong>: familiar music, family photographs, simple routines that anchor the person in their environment</li><li><strong>Family liaison</strong>: reporting changes in condition, communicating clearly with both the family and any medical professional involved</li></ul><p>What Emmanuel told us captures it well: once a caregiver was in place, he could call his mother every evening and actually <em>talk</em> to her — instead of calling his sister every hour in a panic. That shift, from crisis management to genuine connection, is what professional home care makes possible. You can read more about how we support families managing <a href=\"/blog/diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a\">chronic illness care for elderly parents</a> in a similar situation.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Coûts, organisation et paiement : comment mettre en place l'accompagnement domicile démence au Cameroun",
-          "en": "Costs, logistics and payment: organising dementia home care in Cameroon"
+          "fr": "Barrières, perceptions et ressources : naviguer dans les soins de démence au Cameroun",
+          "en": "Breaking down the barriers: navigating dementia care resources in Cameroon"
         },
         "body": {
-          "fr": "<p>Avec la vie chère que l'on connaît, la question du coût est souvent la première chose que les familles posent — et c'est tout à fait légitime. Voici une fourchette réaliste pour Douala et Yaoundé :</p><ul><li><strong>Garde de jour (8h–18h) :</strong> entre 20 000 et 35 000 FCFA par jour selon le niveau d'expérience et la complexité des soins</li><li><strong>Garde de nuit (18h–8h) :</strong> entre 25 000 et 40 000 FCFA, les nuits étant souvent plus exigeantes avec les patients déments</li><li><strong>Garde en continu 24h/24 (alternance) :</strong> à partir de 350 000 FCFA par mois pour une prise en charge structurée</li></ul><p>Le paiement se fait facilement via <strong>Orange Money ou MTN MoMo</strong>, ce qui est une vraie commodité pour les familles de la diaspora qui gèrent tout depuis l'étranger. Si tu es dans ce cas, notre guide sur <a href=\"/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot\">comment préparer ton retour au Cameroun pour soigner un parent malade</a> peut t'aider à anticiper les démarches.</p><p>Pour l'organisation pratique : le proche malade n'a pas besoin d'être hospitalisé à l'Hôpital Central de Yaoundé ou à l'Hôpital Général de Douala pour bénéficier d'un suivi médical sérieux. Le garde-malade travaille en lien avec le médecin de famille, et peut faciliter les rendez-vous si un déplacement en taxi ou taxi-moto est nécessaire. Pour discuter de votre situation spécifique et obtenir un devis adapté, vous pouvez <a href=\"/contact\">nous contacter directement</a> — nous répondons dans les 24 heures.</p>",
-          "en": "<p>Cost is always the first question, and rightly so. Here are realistic figures for Douala and Yaoundé:</p><ul><li><strong>Daytime care (8am–6pm):</strong> between 20,000 and 35,000 FCFA per day, depending on experience and care complexity</li><li><strong>Night care (6pm–8am):</strong> between 25,000 and 40,000 FCFA — nights are often more demanding with dementia patients</li><li><strong>Round-the-clock care (rotating caregivers):</strong> from 350,000 FCFA per month for structured continuous support</li></ul><p>For families coordinating from abroad, payment via <strong>Orange Money or MTN MoMo</strong> is straightforward and reliable. If you're based in the UK, USA or Canada and trying to arrange everything remotely, our guide on <a href=\"/blog/rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot\">returning to Cameroon to care for a sick parent</a> walks you through the key steps to prepare.</p><p>Practically speaking, your parent doesn't need to be admitted to the Hôpital Général de Douala or the CHU de Yaoundé to receive quality monitoring. A professional caregiver works alongside the family doctor, keeps a daily log of behaviours and symptoms, and can accompany your parent to appointments when needed. To discuss your specific situation and get a tailored quote, <a href=\"/contact\">contact us directly</a> — we respond within 24 hours, including for requests from the diaspora.</p>"
+          "fr": "<p>Je ne vais pas te mentir, l'accompagnement d'un parent atteint de démence à domicile au Cameroun se heurte à des obstacles réels. Une étude qualitative menée dans des communautés rurales des régions du Nord-Ouest, de l'Ouest et de l'Adamaoua identifie plusieurs <strong>barrières à la prise en charge de la démence</strong> : croyances culturelles qui assimilent les symptômes à des causes surnaturelles, manque de formation des soignants de première ligne, et <strong>absence quasi-totale de services spécialisés</strong> en dehors des grandes villes. Même à Douala ou Yaoundé, trouver un neurologue disponible tient parfois du parcours du combattant.</p><p>Face à ça, les familles doivent construire une prise en charge pragmatique. Voici comment s'organiser :</p><ul><li><strong>Consultation médicale d'abord</strong> : l'Hôpital Général de Douala, l'Hôpital Laquintinie ou la Polyclinique Bonanjo peuvent orienter vers un neurologue ou un interniste pour un bilan cognitif</li><li><strong>Mettre en place un garde-malade</strong> avec une présence de jour (entre 35 000 et 60 000 FCFA par semaine selon les horaires) ou de nuit (entre 15 000 et 25 000 FCFA la nuit)</li><li><strong>Paiement simplifié</strong> : les familles de la diaspora règlent facilement via Orange Money ou MTN MoMo — pratique et rapide</li></ul><p>Pour les familles qui gèrent tout depuis l'étranger, notre article sur <a href=\"/blog/payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon\">le paiement des soins à domicile depuis l'étranger</a> explique chaque étape. Et pour démarrer rapidement, tu peux <a href=\"/contact\">nous contacter directement</a> — on évalue la situation avec toi sans engagement.</p>",
+          "en": "<p>It's worth being honest about what families are up against. A qualitative study conducted across rural communities in Cameroon's Northwest, West and Adamaoua regions found significant <strong>barriers to dementia care</strong>: cultural beliefs that attribute cognitive decline to supernatural causes, a lack of trained frontline carers, and an almost complete absence of specialist dementia services outside major cities. Even in Douala or Yaoundé, accessing a neurologist can take weeks.</p><p>This is why building a practical, home-centered care plan matters so much. Here's a sensible approach for families, whether on the ground or abroad:</p><ul><li><strong>Start with a medical assessment</strong>: Hôpital Général de Douala, CHU de Yaoundé or Hôpital Laquintinie can refer to an internist or neurologist for cognitive evaluation</li><li><strong>Arrange professional home care</strong>: daytime caregiver support typically costs between 35,000 and 60,000 FCFA per week; overnight shifts range from 15,000 to 25,000 FCFA per night</li><li><strong>Use mobile payment</strong>: families in the UK, US or Canada regularly pay via Orange Money or MTN MoMo — it's fast, secure and widely accepted</li></ul><p>When you're ready to take the next step, <a href=\"/contact\">reach out to our team</a> for a free, no-obligation assessment. We'll help you identify the right level of support and match your parent with a caregiver who understands both the clinical and cultural dimensions of dementia care in Cameroon.</p>"
         },
         "image": null
       },
       {
         "heading": {
-          "fr": "Soutenir le soignant familial : on est ensemble dans cette épreuve",
-          "en": "Supporting the family caregiver: you don't have to carry this alone"
+          "fr": "Prendre soin de l'aidant : ne pas oublier les familles dans l'accompagnement domicile",
+          "en": "Don't forget the family: caregiver burnout and emotional support"
         },
         "body": {
-          "fr": "<p>On parle souvent du patient, mais rarement de ceux qui s'en occupent. Cécile Atangana, rentrée de Paris pour veiller sur son père atteint de démence à Biyem-Assi, a confié que les six premiers mois avaient été les plus durs de sa vie. <em>«&nbsp;Je ne dormais plus, je ne sortais plus, je pensais que je devenais folle moi-même.&nbsp;»</em> C'est une réalité que beaucoup de familles vivent en silence.</p><p>L'épuisement du proche aidant — ce qu'on appelle le <strong>burnout de l'aidant</strong> — est un vrai risque médical. Un garde-malade professionnel ne remplace pas l'amour familial : il crée des plages de répit indispensables. Quand Blandine, auxiliaire de vie expérimentée de Makepe, prend le relais quelques heures par jour, Cécile peut dormir, manger correctement, voir ses amis — et revenir auprès de son père avec une énergie renouvelée.</p><p>La Haute Autorité de Santé française recommande d'ailleurs que l'accompagnement des maladies neurodégénératives comme l'alzheimer inclue un soutien aux aidants familiaux, pas seulement au patient. Chez GardeMalade Cameroun, nous partageons cette vision : nous accompagnons toute la famille, pas uniquement le proche malade.</p><p>Tu n'as pas à traverser ça seul. <strong>On est ensemble.</strong> Que tu sois à Douala, à Yaoundé, ou de l'autre côté du monde en train de tout gérer à distance, nous sommes là pour t'aider à trouver la solution qui correspond à ta situation réelle — pas un forfait standard, mais un accompagnement pensé pour ta famille.</p>",
-          "en": "<p>We talk a lot about the patient. We talk much less about the people caring for them. Emmanuel Nkodo, based in Lyon, has been coordinating his mother's care in Yaoundé for two years — from phone calls at midnight, to wiring money through MTN MoMo, to flying back when things got critical. The emotional weight of that is real, and it's rarely acknowledged.</p><p><strong>Caregiver burnout</strong> is a genuine medical risk. A professional caregiver doesn't replace a family's love — they create the breathing room that makes sustainable care possible. When a trained professional takes over for eight or twelve hours, family members can sleep, eat properly, and return with the energy the situation demands.</p><p>The French Health Authority (HAS) explicitly recommends that support for neurodegenerative diseases like alzheimer must include support for family caregivers, not just the patient. That's the approach we take at GardeMalade Cameroun. We're not just placing a carer in a home — we're supporting an entire family through one of the hardest experiences they'll face.</p><p>Whether you're physically present in Cameroon or coordinating from abroad, you don't have to figure this out alone. Reach out and we'll help you build a care plan that actually fits your family's situation and budget — not a one-size-fits-all solution.</p>"
+          "fr": "<p>On parle beaucoup de la personne malade. Mais ce n'est pas chose facile non plus pour ceux qui l'entourent. Les études sur le rôle des aidants familiaux en Afrique sub-saharienne montrent que les proches aidants — souvent des femmes, entre 18 et 60 ans — supportent une charge émotionnelle et physique considérable. Au Cameroun, une étude a inclus 126 aidants dont l'objectif principal était justement d'<strong>améliorer leurs connaissances et pratiques</strong> dans le soin aux personnes âgées.</p><p>Prendre soin de toi, c'est aussi prendre soin de ton parent. Quelques repères pratiques :</p><ul><li>Accepte le relais : un garde-malade présent quelques heures par jour te permet de souffler, de dormir, de travailler</li><li>Rejoins ou crée un réseau de soutien — même informel — entre familles qui vivent la même situation à Bonapriso, Akwa ou Ngousso</li><li>Consulte un professionnel de santé si tu ressens un épuisement persistant ou une tristesse profonde : ta santé mentale compte</li></ul><p>On est ensemble dans cette épreuve. GardeMalade Cameroun ne place pas seulement un soignant à domicile — nous accompagnons toute la famille. N'hésite pas à <a href=\"/contact\">nous contacter</a> pour qu'on réfléchisse ensemble à la meilleure organisation possible.</p>",
+          "en": "<p>Here's something the medical checklists rarely mention: caring for a parent with dementia takes a serious toll on the whole family. Research on family caregivers across sub-Saharan Africa consistently shows that relatives — often women, often juggling multiple responsibilities — carry an enormous emotional and physical burden. A study in Cameroon specifically focused on improving caregivers' knowledge and practices, recognising that the people doing the caring need support too.</p><p>If you're managing this from abroad, the guilt of not being there compounds everything. A few things worth remembering:</p><ul><li>Hiring a professional caregiver is not abandoning your parent — it's making sure they receive consistent, skilled support every single day</li><li>Stay connected: regular video calls are easier when your parent is calm and well-cared-for, rather than in distress</li><li>Be honest with yourself about your own limits: compassion fatigue is real, and it affects the quality of care you can coordinate from a distance</li></ul><p>GardeMalade Cameroun works with families both on the ground and overseas. When you <a href=\"/contact\">get in touch with us</a>, we don't just talk about your parent's needs — we talk about yours too. Because sustainable care starts with a supported family.</p>"
         },
         "image": null
       }
@@ -131,68 +124,68 @@
     "faq": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade pour personne atteinte de démence à Douala ou Yaoundé ?",
-          "en": "How much does a dementia caregiver cost in Douala or Yaoundé, Cameroon?"
+          "fr": "Combien coûte un garde-malade pour personne atteinte de démence au Cameroun ?",
+          "en": "How much does a dementia caregiver cost in Cameroon?"
         },
         "answer": {
-          "fr": "Les tarifs varient selon le type de garde et le niveau d'expérience du professionnel. À Douala et Yaoundé, comptez entre 20 000 et 35 000 FCFA pour une garde de jour (8h–18h), et entre 25 000 et 40 000 FCFA pour une garde de nuit. Pour une prise en charge continue 24h/24 avec alternance de professionnels, le coût mensuel part de 350 000 FCFA. Ces tarifs peuvent être réglés via Orange Money ou MTN MoMo.",
-          "en": "In Douala and Yaoundé, daytime care (8am–6pm) for a dementia patient typically costs between 20,000 and 35,000 FCFA per day. Night care (6pm–8am) ranges from 25,000 to 40,000 FCFA. For 24-hour continuous care with rotating caregivers, expect from 350,000 FCFA per month. Payment can be made conveniently via Orange Money or MTN MoMo, which is practical for families managing care from abroad."
+          "fr": "Le coût varie selon les horaires et le niveau de dépendance. Comptez entre 35 000 et 60 000 FCFA par semaine pour une présence de jour (quelques heures quotidiennes), et entre 15 000 et 25 000 FCFA par nuit pour une garde de nuit. Une présence 24h/24 peut atteindre 150 000 à 250 000 FCFA par semaine. Les familles de la diaspora peuvent régler via Orange Money ou MTN MoMo sans difficulté.",
+          "en": "Costs vary depending on the hours and level of dependency. Daytime support typically runs between 35,000 and 60,000 CFA francs per week. Overnight shifts cost between 15,000 and 25,000 CFA francs per night. Around-the-clock care can reach 150,000 to 250,000 CFA francs per week. Diaspora families can pay easily via Orange Money or MTN MoMo from anywhere in the world."
         }
       },
       {
         "question": {
-          "fr": "Comment trouver un garde-malade formé pour s'occuper d'une personne atteinte d'alzheimer au Cameroun ?",
-          "en": "How do I find a trained caregiver for an alzheimer patient in Cameroon?"
+          "fr": "Comment trouver un garde-malade formé à la démence à Douala ou Yaoundé ?",
+          "en": "How do I find a dementia-trained caregiver in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Le bouche-à-oreille reste courant, mais il ne garantit pas la formation spécifique nécessaire pour la démence. GardeMalade Cameroun sélectionne des professionnels formés à la prise en charge des troubles cognitifs, capables de gérer les comportements difficiles (agitation, errance, refus de soins) avec des techniques adaptées. Vous pouvez nous contacter pour une évaluation gratuite de la situation de votre proche à Douala ou Yaoundé.",
-          "en": "Word of mouth is common in Cameroon, but it doesn't guarantee the specific training needed for dementia care. GardeMalade Cameroun screens caregivers for experience with cognitive disorders — including managing agitation, night wandering and refusal of care. Contact us for a free assessment of your family member's situation, whether you're in Cameroon or coordinating from overseas."
+          "fr": "Il est difficile de trouver des soignants spécialisés en démence dans les annonces classiques. Le mieux est de passer par un service structuré comme GardeMalade Cameroun, qui sélectionne et forme ses équipes. Vous pouvez aussi vous rapprocher des services de neurologie de l'Hôpital Général de Douala ou du CHU de Yaoundé pour une orientation. Évitez les recrutements informels pour ce type de pathologie — la formation spécifique fait toute la différence.",
+          "en": "Finding specifically dementia-trained caregivers through informal channels in Cameroon is very difficult. Your best option is to use a structured home care service like GardeMalade Cameroun, which screens and trains its caregivers. The neurology departments at Hôpital Général de Douala or CHU de Yaoundé may also provide referrals. For dementia specifically, informal recruitment carries real risks — proper training is essential for safety and quality of care."
         }
       },
       {
         "question": {
-          "fr": "Quelle est la différence entre un garde-malade et un auxiliaire de vie pour un patient dément ?",
-          "en": "What is the difference between a garde-malade and an auxiliaire de vie for a dementia patient in Cameroon?"
+          "fr": "Quelle est la différence entre un garde-malade et un auxiliaire de vie pour personne âgée ?",
+          "en": "What is the difference between a garde-malade and an auxiliaire de vie for an elderly person with dementia?"
         },
         "answer": {
-          "fr": "Le garde-malade assure une présence de surveillance et d'assistance, souvent de nuit ou sur des plages horaires définies. L'auxiliaire de vie intervient sur des tâches quotidiennes plus larges : hygiène, repas, stimulation, accompagnement médical. Pour une personne atteinte de démence avancée, les deux profils peuvent être nécessaires à des moments différents de la journée. GardeMalade Cameroun peut vous aider à déterminer la combinaison adaptée à votre situation.",
-          "en": "A garde-malade primarily provides supervision and assistance, often overnight or during set shifts. An auxiliaire de vie (home aide) covers a broader range of daily tasks: hygiene, meals, cognitive stimulation, and medical accompaniment. For a person with advanced dementia, both roles may be needed at different times of day. GardeMalade Cameroun can help you determine the right combination for your parent's current stage."
+          "fr": "Le garde-malade assure principalement la surveillance, la sécurité et les soins de base (hygiène, médicaments, accompagnement médical). L'auxiliaire de vie intervient davantage sur le maintien de l'autonomie, la stimulation cognitive et le lien social. Pour une personne atteinte de démence modérée à sévère, les deux rôles sont souvent combinés par un même professionnel formé. GardeMalade Cameroun propose les deux profils selon le stade de la maladie.",
+          "en": "A garde-malade focuses primarily on safety, supervision and basic care — medications, hygiene, accompanying to medical appointments. An auxiliaire de vie works more on maintaining independence, cognitive stimulation and social engagement. For someone with moderate to severe dementia, the two roles are often combined in a single trained professional. GardeMalade Cameroun offers both profiles depending on the stage and severity of the condition."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser les soins à domicile pour un parent dément depuis la France ou le Canada ?",
+          "fr": "Est-ce possible d'organiser des soins de démence à domicile au Cameroun depuis la France ou le Canada ?",
           "en": "Can I arrange dementia home care in Cameroon from France, Canada or the UK?"
         },
         "answer": {
-          "fr": "Oui, tout à fait. Beaucoup de familles de la diaspora camerounaise organisent les soins de leurs proches à distance. Le processus commence par un appel ou un message via WhatsApp pour évaluer la situation. Le paiement se fait ensuite via Orange Money ou MTN MoMo. Nous assurons des rapports réguliers à la famille, par appel ou message, pour que vous restiez informé de l'état de votre proche même depuis l'étranger.",
-          "en": "Absolutely. Many diaspora families manage their parent's care in Cameroon from Europe or North America. The process starts with a WhatsApp call or message to assess the situation. Payment is handled via Orange Money or MTN MoMo. We provide regular updates to family members by call or message so you stay informed about your parent's condition and daily wellbeing, no matter where you are."
+          "fr": "Oui, c'est tout à fait possible et de plus en plus courant. GardeMalade Cameroun travaille régulièrement avec des familles basées en France, au Canada, en Belgique ou au Royaume-Uni. Vous contactez notre équipe en ligne, nous évaluons la situation par téléphone ou WhatsApp, nous proposons un profil de soignant adapté, et vous réglez via Orange Money ou MTN MoMo. Toute la coordination peut se faire à distance.",
+          "en": "Absolutely — and it's increasingly common. GardeMalade Cameroun regularly works with families based in France, Canada, the UK and Belgium. The process is straightforward: you contact our team online or via WhatsApp, we conduct a remote assessment, propose a suitable caregiver profile, and you pay securely via Orange Money or MTN MoMo. The entire setup can be coordinated from abroad without anyone needing to fly home."
         }
       },
       {
         "question": {
-          "fr": "Quels sont les premiers signes de démence chez une personne âgée au Cameroun à ne pas ignorer ?",
-          "en": "What are the early signs of dementia in an elderly parent that shouldn't be ignored?"
+          "fr": "Comment gérer les comportements difficiles (agressivité, fugues) d'un parent atteint de démence à domicile ?",
+          "en": "How do you handle difficult dementia behaviors like aggression or wandering at home?"
         },
         "answer": {
-          "fr": "Les premiers signes à surveiller incluent : des oublis répétés et inhabituels (noms de proches, rendez-vous récents), une désorientation dans des endroits familiers, des changements brusques de comportement ou d'humeur, des difficultés à gérer les tâches du quotidien comme cuisiner ou payer une facture. Si vous observez ces signes chez un parent à Douala ou Yaoundé, consultez rapidement un médecin — au CHU de Yaoundé ou à l'Hôpital Général de Douala — avant que la situation ne s'aggrave.",
-          "en": "Early warning signs include: unusual and repeated forgetfulness (forgetting family names, recent events), getting lost in familiar surroundings, sudden changes in mood or personality, and difficulty managing routine tasks like cooking or handling money. If you notice these signs in a parent in Cameroon, seek a medical assessment promptly — at the CHU de Yaoundé or Hôpital Général de Douala — rather than waiting for the situation to worsen."
+          "fr": "Les comportements perturbateurs — agressivité, agitation nocturne, fugues — sont des symptômes de la démence, pas des caprices. Un garde-malade formé sait désamorcer ces situations sans contention physique : en maintenant une routine stable, en adaptant l'environnement (sécuriser les sorties, réduire les stimulations), et en signalant tout changement au médecin. En cas d'escalade, il coordonne avec le médecin référent pour adapter le traitement médicamenteux.",
+          "en": "Difficult behaviors — aggression, nighttime agitation, wandering — are symptoms of dementia, not wilful defiance. A trained caregiver knows how to de-escalate without physical restraint: maintaining a consistent daily routine, adapting the home environment to reduce risks and overstimulation, and reporting any change in behavior to the supervising doctor. For situations that escalate despite these measures, the caregiver coordinates directly with the medical team to review the care plan."
         }
       },
       {
         "question": {
-          "fr": "Le garde-malade peut-il accompagner mon parent aux consultations médicales à Douala ou Yaoundé ?",
-          "en": "Can the caregiver accompany my parent to medical appointments in Douala or Yaoundé?"
+          "fr": "La famille doit-elle être présente en permanence quand un garde-malade s'occupe d'un parent atteint de démence ?",
+          "en": "Does a family member need to be home at all times when a caregiver is looking after a dementia patient?"
         },
         "answer": {
-          "fr": "Oui. L'accompagnement aux consultations médicales fait partie des missions du garde-malade, que ce soit à l'Hôpital Laquintinie, à la Polyclinique Bonanjo à Douala, ou à l'Hôpital Central de Yaoundé. Le garde-malade peut prendre un taxi ou un taxi-moto avec le patient, assister à la consultation pour relayer les observations du quotidien au médecin, et s'assurer que les prescriptions sont bien comprises et respectées à la maison.",
-          "en": "Yes. Accompanying patients to medical appointments is part of the caregiver's role. Whether it's at Hôpital Laquintinie or Polyclinique Bonanjo in Douala, or Hôpital Central de Yaoundé, the caregiver can travel with your parent by taxi, attend the consultation to relay daily observations to the doctor, and ensure that prescriptions are properly understood and followed at home."
+          "fr": "Non. L'un des avantages d'un garde-malade professionnel est précisément de permettre aux proches de souffler, de travailler ou de dormir. Le soignant est autonome et responsable pendant ses heures de présence. Il vous tient informé par téléphone ou WhatsApp de l'évolution de la journée. La famille reste bien sûr impliquée dans les décisions médicales et le bien-être général de leur parent.",
+          "en": "No. That's actually one of the main benefits of professional home care — it gives family members the freedom to work, sleep, or simply take a break without leaving their parent unattended. The caregiver operates independently and responsibly during their shift, keeping you updated via phone or WhatsApp. Family members remain involved in medical decisions and overall wellbeing, but they're no longer on call 24 hours a day."
         }
       }
     ],
     "conclusion": {
-      "fr": "<p>Accompagner un parent atteint de démence ou d'alzheimer à domicile au Cameroun, ce n'est pas une mission impossible — mais c'est une mission qui demande du soutien, de l'organisation, et les bonnes personnes à tes côtés. Que tu sois sur place à Douala ou à Yaoundé, ou que tu coordonnes tout depuis Paris, Bruxelles ou Montréal, tu mérites une aide concrète, pas des promesses vagues.</p><p>Chez GardeMalade Cameroun, nous sélectionnons des gardes-malades et des auxiliaires de vie qui comprennent la réalité de nos familles — la langue, les habitudes, le respect dû aux anciens. Nous travaillons avec toi, pas à ta place. Et si tu te demandes par où commencer, la réponse est simple : <a href=\"/contact\">contacte-nous pour une évaluation gratuite</a>. Nous t'aidons à construire un plan de soins adapté à ta situation et à ton budget, dès cette semaine. On est ensemble.</p>",
-      "en": "<p>Supporting a parent with dementia at home in Cameroon is not an impossible task — but it is one that requires the right people, the right structure, and honest support. Whether you're living through this day by day in Douala or Yaoundé, or carrying the weight of it from thousands of miles away, you deserve practical help, not empty reassurances.</p><p>GardeMalade Cameroun carefully selects caregivers who understand our families — the culture, the language, the deep respect owed to our elders. We work with you, not instead of you. If you're not sure where to start, start here: <a href=\"/contact\">contact us for a free assessment</a>. We'll help you build a care plan that fits your family's real situation and budget — and we'll get back to you within 24 hours.</p>"
+      "fr": "<p>Accompagner un parent atteint de démence à domicile au Cameroun est l'une des épreuves les plus lourdes qu'une famille puisse traverser. La maladie avance, les repères disparaissent, et on se retrouve souvent seul face à une situation pour laquelle personne ne nous a préparés. Avec la vie chère et le manque de spécialistes, trouver les bons appuis n'est pas chose facile — mais c'est possible.</p><p>Un garde-malade formé ne remplace pas l'amour familial. Il le protège. Il vous permet de rester proche de votre parent en tant que fils, fille ou conjoint — et non comme soignant épuisé qui n'en peut plus. Que vous soyez à Douala, à Yaoundé, ou que vous gériez la situation depuis Paris ou Toronto, GardeMalade Cameroun est là pour construire avec vous une prise en charge adaptée, digne et durable.</p><p>Faites le premier pas dès aujourd'hui : <a href=\"/contact\">contactez notre équipe</a> pour une évaluation gratuite et sans engagement. On est ensemble.</p>",
+      "en": "<p>Supporting a parent through dementia is one of the hardest things a family can face — and doing it across an ocean, from thousands of miles away, adds a layer of helplessness that's hard to put into words. But it doesn't have to mean going it alone, and it doesn't mean your parent has to manage with inadequate support just because specialist services in Cameroon are limited.</p><p>A well-matched, professionally trained caregiver makes an enormous difference — not just for your parent, but for the whole family. It shifts the dynamic from constant crisis to something more sustainable, more dignified, and ultimately more loving. When care is handled well, you get to be a son or daughter again, not just a long-distance care coordinator.</p><p>GardeMalade Cameroun works with families across Cameroon and around the world. <a href=\"/contact\">Reach out to our team</a> for a free, no-obligation assessment — we'll listen, ask the right questions, and help you build a plan that actually works for your family.</p>"
     },
     "cta": {
       "text": {
@@ -204,86 +197,91 @@
   },
   "sources": [
     {
+      "title": "Geriatric syndromes in an urban elderly population in Cameroon: a focus on disability, sarcopenia and cognitive impairment",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7821796",
+      "org": "BMC Geriatrics / PubMed Central"
+    },
+    {
+      "title": "A qualitative study of differences in palliative care in hospitals and traditional home-based care in Cameroon",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12502379",
+      "org": "PubMed Central"
+    },
+    {
       "title": "Community perceptions and barriers to brain health and dementia care in rural communities in Cameroon: a qualitative study",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12870733",
-      "org": "PubMed Central / NCBI"
+      "org": "PubMed Central"
     },
     {
-      "title": "Services d'aide et de soins à domicile : accompagnement des personnes atteintes de maladie neurodégénérative",
-      "url": "https://www.has-sante.fr/jcms/p_3193048/fr/services-d-aide-et-de-soins-a-domicile-accompagnement-des-personnes-atteintes-de-maladie-neurodegenerative",
-      "org": "Haute Autorité de Santé (HAS)"
-    },
-    {
-      "title": "Soixante-dixième Assemblée mondiale de la santé — Plan d'action mondial sur la réponse de santé publique à la démence",
-      "url": "https://apps.who.int/gb/ebwha/pdf_files/wha70-rec1/a70_2017_rec1-fr.pdf",
-      "org": "Organisation mondiale de la Santé (OMS)"
+      "title": "The role of family caregivers in supporting older adults in Africa: systematic review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12231671",
+      "org": "PubMed Central"
     }
   ],
   "related": [
     "diabete-hypertension-avc-prendre-en-charge-les-maladies-chroniques-d-un-parent-a",
     "prevenir-les-chutes-des-personnes-agees-a-domicile-au-cameroun-conseils-pratique",
-    "rentrer-au-cameroun-pour-s-occuper-d-un-parent-malade-conseils-pour-preparer-vot"
+    "payer-les-soins-a-domicile-au-cameroun-depuis-l-etranger-mobile-money-orange-mon"
   ],
   "schema": {
     "faq_items": [
       {
         "question": {
-          "fr": "Combien coûte un garde-malade pour personne atteinte de démence à Douala ou Yaoundé ?",
-          "en": "How much does a dementia caregiver cost in Douala or Yaoundé, Cameroon?"
+          "fr": "Combien coûte un garde-malade pour personne atteinte de démence au Cameroun ?",
+          "en": "How much does a dementia caregiver cost in Cameroon?"
         },
         "answer": {
-          "fr": "Les tarifs varient selon le type de garde et le niveau d'expérience du professionnel. À Douala et Yaoundé, comptez entre 20 000 et 35 000 FCFA pour une garde de jour (8h–18h), et entre 25 000 et 40 000 FCFA pour une garde de nuit. Pour une prise en charge continue 24h/24 avec alternance de professionnels, le coût mensuel part de 350 000 FCFA. Ces tarifs peuvent être réglés via Orange Money ou MTN MoMo.",
-          "en": "In Douala and Yaoundé, daytime care (8am–6pm) for a dementia patient typically costs between 20,000 and 35,000 FCFA per day. Night care (6pm–8am) ranges from 25,000 to 40,000 FCFA. For 24-hour continuous care with rotating caregivers, expect from 350,000 FCFA per month. Payment can be made conveniently via Orange Money or MTN MoMo, which is practical for families managing care from abroad."
+          "fr": "Le coût varie selon les horaires et le niveau de dépendance. Comptez entre 35 000 et 60 000 FCFA par semaine pour une présence de jour (quelques heures quotidiennes), et entre 15 000 et 25 000 FCFA par nuit pour une garde de nuit. Une présence 24h/24 peut atteindre 150 000 à 250 000 FCFA par semaine. Les familles de la diaspora peuvent régler via Orange Money ou MTN MoMo sans difficulté.",
+          "en": "Costs vary depending on the hours and level of dependency. Daytime support typically runs between 35,000 and 60,000 CFA francs per week. Overnight shifts cost between 15,000 and 25,000 CFA francs per night. Around-the-clock care can reach 150,000 to 250,000 CFA francs per week. Diaspora families can pay easily via Orange Money or MTN MoMo from anywhere in the world."
         }
       },
       {
         "question": {
-          "fr": "Comment trouver un garde-malade formé pour s'occuper d'une personne atteinte d'alzheimer au Cameroun ?",
-          "en": "How do I find a trained caregiver for an alzheimer patient in Cameroon?"
+          "fr": "Comment trouver un garde-malade formé à la démence à Douala ou Yaoundé ?",
+          "en": "How do I find a dementia-trained caregiver in Douala or Yaoundé?"
         },
         "answer": {
-          "fr": "Le bouche-à-oreille reste courant, mais il ne garantit pas la formation spécifique nécessaire pour la démence. GardeMalade Cameroun sélectionne des professionnels formés à la prise en charge des troubles cognitifs, capables de gérer les comportements difficiles (agitation, errance, refus de soins) avec des techniques adaptées. Vous pouvez nous contacter pour une évaluation gratuite de la situation de votre proche à Douala ou Yaoundé.",
-          "en": "Word of mouth is common in Cameroon, but it doesn't guarantee the specific training needed for dementia care. GardeMalade Cameroun screens caregivers for experience with cognitive disorders — including managing agitation, night wandering and refusal of care. Contact us for a free assessment of your family member's situation, whether you're in Cameroon or coordinating from overseas."
+          "fr": "Il est difficile de trouver des soignants spécialisés en démence dans les annonces classiques. Le mieux est de passer par un service structuré comme GardeMalade Cameroun, qui sélectionne et forme ses équipes. Vous pouvez aussi vous rapprocher des services de neurologie de l'Hôpital Général de Douala ou du CHU de Yaoundé pour une orientation. Évitez les recrutements informels pour ce type de pathologie — la formation spécifique fait toute la différence.",
+          "en": "Finding specifically dementia-trained caregivers through informal channels in Cameroon is very difficult. Your best option is to use a structured home care service like GardeMalade Cameroun, which screens and trains its caregivers. The neurology departments at Hôpital Général de Douala or CHU de Yaoundé may also provide referrals. For dementia specifically, informal recruitment carries real risks — proper training is essential for safety and quality of care."
         }
       },
       {
         "question": {
-          "fr": "Quelle est la différence entre un garde-malade et un auxiliaire de vie pour un patient dément ?",
-          "en": "What is the difference between a garde-malade and an auxiliaire de vie for a dementia patient in Cameroon?"
+          "fr": "Quelle est la différence entre un garde-malade et un auxiliaire de vie pour personne âgée ?",
+          "en": "What is the difference between a garde-malade and an auxiliaire de vie for an elderly person with dementia?"
         },
         "answer": {
-          "fr": "Le garde-malade assure une présence de surveillance et d'assistance, souvent de nuit ou sur des plages horaires définies. L'auxiliaire de vie intervient sur des tâches quotidiennes plus larges : hygiène, repas, stimulation, accompagnement médical. Pour une personne atteinte de démence avancée, les deux profils peuvent être nécessaires à des moments différents de la journée. GardeMalade Cameroun peut vous aider à déterminer la combinaison adaptée à votre situation.",
-          "en": "A garde-malade primarily provides supervision and assistance, often overnight or during set shifts. An auxiliaire de vie (home aide) covers a broader range of daily tasks: hygiene, meals, cognitive stimulation, and medical accompaniment. For a person with advanced dementia, both roles may be needed at different times of day. GardeMalade Cameroun can help you determine the right combination for your parent's current stage."
+          "fr": "Le garde-malade assure principalement la surveillance, la sécurité et les soins de base (hygiène, médicaments, accompagnement médical). L'auxiliaire de vie intervient davantage sur le maintien de l'autonomie, la stimulation cognitive et le lien social. Pour une personne atteinte de démence modérée à sévère, les deux rôles sont souvent combinés par un même professionnel formé. GardeMalade Cameroun propose les deux profils selon le stade de la maladie.",
+          "en": "A garde-malade focuses primarily on safety, supervision and basic care — medications, hygiene, accompanying to medical appointments. An auxiliaire de vie works more on maintaining independence, cognitive stimulation and social engagement. For someone with moderate to severe dementia, the two roles are often combined in a single trained professional. GardeMalade Cameroun offers both profiles depending on the stage and severity of the condition."
         }
       },
       {
         "question": {
-          "fr": "Est-ce possible d'organiser les soins à domicile pour un parent dément depuis la France ou le Canada ?",
+          "fr": "Est-ce possible d'organiser des soins de démence à domicile au Cameroun depuis la France ou le Canada ?",
           "en": "Can I arrange dementia home care in Cameroon from France, Canada or the UK?"
         },
         "answer": {
-          "fr": "Oui, tout à fait. Beaucoup de familles de la diaspora camerounaise organisent les soins de leurs proches à distance. Le processus commence par un appel ou un message via WhatsApp pour évaluer la situation. Le paiement se fait ensuite via Orange Money ou MTN MoMo. Nous assurons des rapports réguliers à la famille, par appel ou message, pour que vous restiez informé de l'état de votre proche même depuis l'étranger.",
-          "en": "Absolutely. Many diaspora families manage their parent's care in Cameroon from Europe or North America. The process starts with a WhatsApp call or message to assess the situation. Payment is handled via Orange Money or MTN MoMo. We provide regular updates to family members by call or message so you stay informed about your parent's condition and daily wellbeing, no matter where you are."
+          "fr": "Oui, c'est tout à fait possible et de plus en plus courant. GardeMalade Cameroun travaille régulièrement avec des familles basées en France, au Canada, en Belgique ou au Royaume-Uni. Vous contactez notre équipe en ligne, nous évaluons la situation par téléphone ou WhatsApp, nous proposons un profil de soignant adapté, et vous réglez via Orange Money ou MTN MoMo. Toute la coordination peut se faire à distance.",
+          "en": "Absolutely — and it's increasingly common. GardeMalade Cameroun regularly works with families based in France, Canada, the UK and Belgium. The process is straightforward: you contact our team online or via WhatsApp, we conduct a remote assessment, propose a suitable caregiver profile, and you pay securely via Orange Money or MTN MoMo. The entire setup can be coordinated from abroad without anyone needing to fly home."
         }
       },
       {
         "question": {
-          "fr": "Quels sont les premiers signes de démence chez une personne âgée au Cameroun à ne pas ignorer ?",
-          "en": "What are the early signs of dementia in an elderly parent that shouldn't be ignored?"
+          "fr": "Comment gérer les comportements difficiles (agressivité, fugues) d'un parent atteint de démence à domicile ?",
+          "en": "How do you handle difficult dementia behaviors like aggression or wandering at home?"
         },
         "answer": {
-          "fr": "Les premiers signes à surveiller incluent : des oublis répétés et inhabituels (noms de proches, rendez-vous récents), une désorientation dans des endroits familiers, des changements brusques de comportement ou d'humeur, des difficultés à gérer les tâches du quotidien comme cuisiner ou payer une facture. Si vous observez ces signes chez un parent à Douala ou Yaoundé, consultez rapidement un médecin — au CHU de Yaoundé ou à l'Hôpital Général de Douala — avant que la situation ne s'aggrave.",
-          "en": "Early warning signs include: unusual and repeated forgetfulness (forgetting family names, recent events), getting lost in familiar surroundings, sudden changes in mood or personality, and difficulty managing routine tasks like cooking or handling money. If you notice these signs in a parent in Cameroon, seek a medical assessment promptly — at the CHU de Yaoundé or Hôpital Général de Douala — rather than waiting for the situation to worsen."
+          "fr": "Les comportements perturbateurs — agressivité, agitation nocturne, fugues — sont des symptômes de la démence, pas des caprices. Un garde-malade formé sait désamorcer ces situations sans contention physique : en maintenant une routine stable, en adaptant l'environnement (sécuriser les sorties, réduire les stimulations), et en signalant tout changement au médecin. En cas d'escalade, il coordonne avec le médecin référent pour adapter le traitement médicamenteux.",
+          "en": "Difficult behaviors — aggression, nighttime agitation, wandering — are symptoms of dementia, not wilful defiance. A trained caregiver knows how to de-escalate without physical restraint: maintaining a consistent daily routine, adapting the home environment to reduce risks and overstimulation, and reporting any change in behavior to the supervising doctor. For situations that escalate despite these measures, the caregiver coordinates directly with the medical team to review the care plan."
         }
       },
       {
         "question": {
-          "fr": "Le garde-malade peut-il accompagner mon parent aux consultations médicales à Douala ou Yaoundé ?",
-          "en": "Can the caregiver accompany my parent to medical appointments in Douala or Yaoundé?"
+          "fr": "La famille doit-elle être présente en permanence quand un garde-malade s'occupe d'un parent atteint de démence ?",
+          "en": "Does a family member need to be home at all times when a caregiver is looking after a dementia patient?"
         },
         "answer": {
-          "fr": "Oui. L'accompagnement aux consultations médicales fait partie des missions du garde-malade, que ce soit à l'Hôpital Laquintinie, à la Polyclinique Bonanjo à Douala, ou à l'Hôpital Central de Yaoundé. Le garde-malade peut prendre un taxi ou un taxi-moto avec le patient, assister à la consultation pour relayer les observations du quotidien au médecin, et s'assurer que les prescriptions sont bien comprises et respectées à la maison.",
-          "en": "Yes. Accompanying patients to medical appointments is part of the caregiver's role. Whether it's at Hôpital Laquintinie or Polyclinique Bonanjo in Douala, or Hôpital Central de Yaoundé, the caregiver can travel with your parent by taxi, attend the consultation to relay daily observations to the doctor, and ensure that prescriptions are properly understood and followed at home."
+          "fr": "Non. L'un des avantages d'un garde-malade professionnel est précisément de permettre aux proches de souffler, de travailler ou de dormir. Le soignant est autonome et responsable pendant ses heures de présence. Il vous tient informé par téléphone ou WhatsApp de l'évolution de la journée. La famille reste bien sûr impliquée dans les décisions médicales et le bien-être général de leur parent.",
+          "en": "No. That's actually one of the main benefits of professional home care — it gives family members the freedom to work, sleep, or simply take a break without leaving their parent unattended. The caregiver operates independently and responsibly during their shift, keeping you updated via phone or WhatsApp. Family members remain involved in medical decisions and overall wellbeing, but they're no longer on call 24 hours a day."
         }
       }
     ]
